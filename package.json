@@ -1,8 +1,8 @@
 {
   "name": "sn-cms",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Project to house our CMS content block components and other related CMS utilities.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "format": "prettier --write .",
