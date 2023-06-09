@@ -1,11 +1,31 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const glob = require("glob");
+
+const scripts = {};
+const distNames = {};
+
+function getFileName(file) {
+  const start = file.lastIndexOf("/") + 1;
+  const end = file.lastIndexOf(".");
+  return {
+    name: file.substring(start, end),
+    ext: file.substring(end),
+  };
+}
+
+const entries = glob.sync(`./src/blocks/**/*.js*(x)`);
+entries.forEach((file) => {
+  const { name } = getFileName(file);
+  scripts[name] = `./${file}`;
+  distNames[name] = file.replace("src/", "");
+});
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: scripts,
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index.js",
+    filename: (pathData) => distNames[pathData.chunk.name],
     library: {
       type: "commonjs",
     },
