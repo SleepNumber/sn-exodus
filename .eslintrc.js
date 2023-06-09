@@ -12,6 +12,7 @@ module.exports = {
     browser: true,
     jest: true,
     jasmine: true, // Allow jasmine globals like 'fail()'
+    "cypress/globals": true,
   },
   extends: [
     "@remix-run/eslint-config",
@@ -20,31 +21,12 @@ module.exports = {
     "prettier",
   ],
 
-  env: {
-    "cypress/globals": true,
-  },
-
   globals: {
     ENV: "writable",
     vi: "readable",
   },
 
   plugins: ["import", "cypress"],
-
-  // we're using vitest which has a very similar API to jest
-  // (so the linting plugins work nicely), but it means we have to explicitly
-  // set the jest version.
-  settings: {
-    jest: {
-      version: 28,
-    },
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
-    },
-    "import/resolver": {
-      typescript: {},
-    },
-  },
 
   parserOptions: {
     tsconfigRootDir: __dirname,

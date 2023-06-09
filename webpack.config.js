@@ -1,21 +1,14 @@
 const path = require("path");
-const glob = require("glob");
-
-function getFileName(file) {
-  const start = file.lastIndexOf("/") + 1;
-  const end = file.lastIndexOf(".js");
-  return file.substring(start, end);
-}
-
-const scripts = {};
-const entries = glob.sync(`./src/blocks/**/*.js*(x)`);
-entries.forEach((file) => (scripts[getFileName(file)] = file));
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: scripts,
+  entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].js",
+    filename: "index.js",
+    library: {
+      type: "commonjs",
+    },
   },
   resolve: {
     modules: [
@@ -47,4 +40,9 @@ module.exports = {
       },
     ],
   },
+
+  plugins: [
+    // Clean public/dist before building
+    new CleanWebpackPlugin(),
+  ],
 };
