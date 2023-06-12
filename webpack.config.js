@@ -14,7 +14,9 @@ function getFileName(file) {
   };
 }
 
-const entries = glob.sync(`./src/blocks/**/*.js*(x)`);
+const blocks = glob.sync(`./src/blocks/**/*.js*(x)`);
+const utils = glob.sync(`./src/util/**/*.js*(x)`);
+const entries = [...blocks, ...utils];
 entries.forEach((file) => {
   const { name } = getFileName(file);
   scripts[name] = `./${file}`;
