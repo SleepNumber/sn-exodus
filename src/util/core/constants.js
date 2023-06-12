@@ -1,5 +1,5 @@
+import { isBrowser } from 'browser-or-node';
 import Cookies from 'js-cookie';
-
 
 import Cookie from './Cookie';
 import Enumify from './enumify';
@@ -13,7 +13,7 @@ export const prodUrl = 'https://www.sleepnumber.com';
 
 export const isJestEnv = global?.process?.env?.NODE_ENV === 'test';
 let windowObject = global || window;
-const isSSR = !BROWSER_ENV && !isJestEnv;
+const isSSR = !isBrowser && !isJestEnv;
 if (isSSR) {
   const hosts = {
     local: 'https://sleepnumber.test:8090',
@@ -47,7 +47,7 @@ export const isAdminPage =
 export const isTestEnv = sn_globals.config.env !== 'production';
 
 export function isDebug() {
-  if (!BROWSER_ENV) return false;
+  if (!isBrowser) return false;
   const cookieValue = Cookies.get(Cookie.debug.name);
   return cookieValue && cookieValue !== 'false';
 }
@@ -342,13 +342,13 @@ export class CheckoutSteps extends Enumify {
   }
 }
 
-const zindex_dropdown=1000;
-const zindex_fixed=1030;
-const zindex_modal=107159;
-const zindex_modal_backdrop=1040;
-const zindex_popover=1060;
-const zindex_sticky=1020;
-const zindex_tooltip=1070;
+const zindex_dropdown = 1000;
+const zindex_fixed = 1030;
+const zindex_modal = 107159;
+const zindex_modal_backdrop = 1040;
+const zindex_popover = 1060;
+const zindex_sticky = 1020;
+const zindex_tooltip = 1070;
 
 /** Global z-index values */
 export class ZIndex extends Enumify {
@@ -399,7 +399,8 @@ export const timer = isFunc(win, 'performance.now')
   : win?.Date;
 export const regex = {
   // https://emailregex.com
-  email: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}])|(([a-zA-Z\-\d]+\.)+[a-zA-Z]{2,}))$/,
+  email:
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}])|(([a-zA-Z\-\d]+\.)+[a-zA-Z]{2,}))$/,
 
   zip_partial: /^\d{1,5}$/,
   zip: /^\d{5}$/,

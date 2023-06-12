@@ -1,25 +1,20 @@
+import { isBrowser } from 'browser-or-node';
+
 import phVideo from '~/videos/placeholder-black-10s.mp4';
+import {
+  setCloudinaryTransforms,
+  updateCloudinaryTransforms,
+} from '~/util/vendor/cloudinary';
 
 import logger from './logger';
 import { getElement } from './element';
 import { includesAll, includesAny } from './array';
 import { isString } from './string';
 import { Breakpoint as BP } from './device';
-import { desktop, tablet } from '~/styles/breakpoints';
-import {
-  isDevelopment,
-  localUrl,
-  qaUrl,
-  stageUrl,
-  win,
-} from './constants';
+import { isDevelopment, localUrl, qaUrl, stageUrl, win } from './constants';
 import { isFunc, noop } from './function';
 import MediaSource from './MediaSource';
 import ProductAsset from './ProductAsset';
-import {
-  setCloudinaryTransforms,
-  updateCloudinaryTransforms,
-} from '../vendor/cloudinary';
 import { Tag } from './tags';
 
 /**
@@ -83,7 +78,7 @@ export function sslUrl(url) {
 /**
  * Remove the `f_auto` cloudinary transform so, we get back expected formats.
  * Useful when attempting to prefetch for caching
- * @param {string} assets - cloudinary url to modify
+ * @param {string} asset - cloudinary url to modify
  */
 export function retainFormat(asset) {
   return asset.replace(/\/f_auto,/, '/').replace(/,f_auto/, '');
@@ -166,7 +161,7 @@ export function getCloudinaryVersion() {
  */
 export function getCloudinaryUrl(url, type = 'image') {
   if (
-    !BROWSER_ENV ||
+    !isBrowser ||
     !url ||
     isDevelopment() ||
     url.includes('cloudinary.com') ||
@@ -595,24 +590,6 @@ export function buildSources(assets) {
     [BP.tb]: findAssetByTags(collection, Tag.tb),
     [BP.dt]: findAssetByTags(collection, Tag.dt),
   };
-}
-
-/**
- * Return emotion styles for background-image for each breakpoint.
- * @param {AssetData[]} assets - array of 3 images, one for each breakpoint
- * @return {SerializedStyles}
- */
-export function buildBgCss(assets) {
-  const srcs = buildSources({ images: assets });
-  return css`
-    background-image: url('${srcs[BP.mb].url}');
-    ${tablet} {
-      background-image: url('${srcs[BP.tb].url}');
-    }
-    ${desktop} {
-      background-image: url('${srcs[BP.dt].url}');
-    }
-  `;
 }
 
 /**

@@ -1,3 +1,4 @@
+import { isBrowser } from 'browser-or-node';
 import 'url-polyfill';
 import 'custom-event-polyfill';
 
@@ -20,7 +21,7 @@ if (!String.prototype.contains) {
  * Element.prototype.matches
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
  */
-if (BROWSER_ENV && !Element.prototype.matches) {
+if (isBrowser && !Element.prototype.matches) {
   Element.prototype.matches =
     Element.prototype.msMatchesSelector ||
     Element.prototype.webkitMatchesSelector;

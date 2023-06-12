@@ -1,13 +1,26 @@
-const path = require("path");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const glob = require("glob");
+const path = require('path');
+const glob = require('glob');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { getRemoteFetchUrl } = require('./webpack-utils.js');
+
+// Path for generated artifacts to go
+const public_path = '/dist/';
+
+const environments = {
+  local: 'local',
+  develop: 'develop',
+  staging: 'staging',
+  master: 'master',
+};
+const build_environment =
+  environments[process.env.BRANCH] || environments.local;
 
 const scripts = {};
 const distNames = {};
 
 function getFileName(file) {
-  const start = file.lastIndexOf("/") + 1;
-  const end = file.lastIndexOf(".");
+  const start = file.lastIndexOf('/') + 1;
+  const end = file.lastIndexOf('.');
   return {
     name: file.substring(start, end),
     ext: file.substring(end),
@@ -17,30 +30,30 @@ function getFileName(file) {
 const blocks = glob.sync(`./src/blocks/**/*.js*(x)`);
 const utils = glob.sync(`./src/util/**/*.js*(x)`);
 const entries = [...blocks, ...utils];
-entries.forEach((file) => {
+entries.forEach(file => {
   const { name } = getFileName(file);
   scripts[name] = `./${file}`;
-  distNames[name] = file.replace("src/", "");
+  distNames[name] = file.replace('src/', '');
 });
 
 module.exports = {
   entry: scripts,
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: (pathData) => distNames[pathData.chunk.name],
+    path: path.resolve(__dirname, 'dist'),
+    filename: pathData => distNames[pathData.chunk.name],
     library: {
-      type: "commonjs",
+      type: 'commonjs',
     },
   },
   resolve: {
     modules: [
-      path.resolve(__dirname, "src"),
-      path.join(__dirname, "public"),
-      "node_modules",
+      path.resolve(__dirname, 'src'),
+      path.join(__dirname, 'public'),
+      'node_modules',
     ],
-    extensions: [".js", ".jsx", ".json"],
+    extensions: ['.js', '.jsx', '.json'],
     alias: {
-      "~": path.resolve(__dirname, "src/"),
+      '~': path.resolve(__dirname, 'src/'),
     },
   },
 
@@ -53,12 +66,31 @@ module.exports = {
 
         use: [
           {
-            loader: "babel-loader",
+            loader: 'babel-loader',
             options: {
-              presets: [["@babel/preset-env", { targets: "defaults" }]],
+              presets: [['@babel/preset-env', { targets: 'defaults' }]],
             },
           },
         ],
+      },
+
+      // Videos
+      {
+        test: /\.(mp4|mov)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'videos/[name]-[contenthash][ext]',
+          publicPath:
+            build_environment === environments.local
+              ? public_path
+              : ({ filename }) =>
+                  getRemoteFetchUrl(
+                    filename,
+                    'video',
+                    build_environment,
+                    environments
+                  ),
+        },
       },
     ],
   },
@@ -69,6 +101,6 @@ module.exports = {
   ],
 
   externals: {
-    'react': 'React'
-  }
+    react: 'React',
+  },
 };

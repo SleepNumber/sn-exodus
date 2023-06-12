@@ -1,6 +1,6 @@
 {
   "name": "sn-exodus",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Project to house our CMS content block components and other related CMS utilities.",
   "main": "dist/index.js",
   "scripts": {
@@ -49,6 +49,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "browser-or-node": "^2.1.1",
     "custom-event-polyfill": "^1.0.7",
     "glob": "^10.2.7",
     "js-cookie": "^2.2.1",

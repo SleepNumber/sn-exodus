@@ -1,7 +1,7 @@
 import React from "react";
 
 import contentBlockType from "~/prop-types/contentBlock";
-import { dasherize } from "./string";
+import { dasherize } from "~/util/core/string";
 
 AnchorTarget.propTypes = {
   block: contentBlockType.isRequired,

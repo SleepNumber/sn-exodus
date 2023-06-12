@@ -1,5 +1,5 @@
-import { isSuperset } from 'sn-exodus/dist/util/core/set';
-import { isString } from '~/util/core/string';
+import { isSuperset } from './set';
+import { isString } from './string';
 
 /**
  * Tags used by storefront entities like products, images, and features

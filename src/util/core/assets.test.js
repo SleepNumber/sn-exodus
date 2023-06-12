@@ -1,4 +1,4 @@
-import { isDevelopment } from 'sn-exodus/dist/util/core/constants';
+import { isDevelopment } from './constants';
 import {
   getAssetCoverSize,
   getCloudinaryUrl,
@@ -19,7 +19,7 @@ const CLOUD_NAMES = {
   prod: 'sleepnumber',
 };
 
-jest.mock('sn-exodus/dist/util/core/constants');
+jest.mock('./constants');
 
 describe('getCloudinaryUrl generates proper URLs for each environment', () => {
   beforeEach(() => {
