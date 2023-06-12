@@ -1,10 +1,7 @@
 import React from "react";
 
 import contentBlockType from "~/prop-types/contentBlock";
-
-function dasherize(phrase = "") {
-  return phrase.toLowerCase().replace(/\s/g, "-");
-}
+import { dasherize } from "./string";
 
 AnchorTarget.propTypes = {
   block: contentBlockType.isRequired,
