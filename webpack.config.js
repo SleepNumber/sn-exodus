@@ -65,4 +65,8 @@ module.exports = {
     // Clean public/dist before building
     new CleanWebpackPlugin(),
   ],
+
+  externals: {
+    'react': 'React'
+  }
 };

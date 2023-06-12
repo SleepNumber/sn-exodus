@@ -1,6 +1,6 @@
 {
-  "name": "sn-cms",
-  "version": "0.1.2",
+  "name": "sn-exodus",
+  "version": "0.1.4",
   "description": "Project to house our CMS content block components and other related CMS utilities.",
   "main": "dist/index.js",
   "scripts": {
@@ -49,7 +49,9 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "glob": "^10.2.7",
-    "react": "^18.2.0"
+    "glob": "^10.2.7"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
   }
 }
