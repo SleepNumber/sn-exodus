@@ -1,0 +1,120 @@
+{
+  "choices": [
+    {
+      "id": 617955,
+      "name": "Example API Campaign",
+      "type": "DECISION",
+      "variations": [
+        {
+          "id": 26896936,
+          "payload": {
+            "type": "CUSTOM_JSON",
+            "data": {
+              "foo": "bar"
+            }
+          },
+          "analyticsMetadata": {
+            "campaignId": 617955,
+            "campaignName": "Example API Campaign",
+            "experienceId": 1196055,
+            "experienceName": "Experience 1",
+            "variationId": 26896936,
+            "variationName": "Variation 1"
+          }
+        }
+      ],
+      "decisionId": "l7QtMTg1MTgyMDM0ODQ2MTc2MTAwMc4AEnTzqDEwODM5ODE0AZCRzgGaaiilNTIzMDI="
+    },
+    {
+      "id": 620803,
+      "name": "Testing Product Page",
+      "type": "DECISION",
+      "variations": [],
+      "decisionId": null
+    },
+    {
+      "id": 623467,
+      "name": "devTest",
+      "type": "DECISION",
+      "variations": [
+        {
+          "id": 26937890,
+          "payload": {
+            "type": "CUSTOM_JSON",
+            "data": {
+              "devTest": "B"
+            }
+          },
+          "analyticsMetadata": {
+            "campaignId": 623467,
+            "campaignName": "Test campaign - Mary",
+            "experienceId": 1206438,
+            "experienceName": "Experience 1",
+            "variationId": 26937890,
+            "variationName": "Split B"
+          }
+        }
+      ],
+      "decisionId": "l7M3NzQwODgzNjYyOTE1NjA0OTYyzgASnX2oMTA4OTMxNzYBkJHOAZsKIqU1MjMwMg=="
+    },
+    {
+      "id": 623471,
+      "name": "testingControl",
+      "type": "DECISION",
+      "variations": [
+        {
+          "id": 26937917,
+          "payload": {
+            "type": "CUSTOM_JSON"
+          },
+          "analyticsMetadata": {
+            "campaignId": 623471,
+            "campaignName": "Test with 99% control",
+            "experienceId": 1206445,
+            "experienceName": "Experience 1",
+            "variationId": 26937917,
+            "variationName": "do_nothing_action"
+          }
+        }
+      ],
+      "decisionId": "l7QtNTIxNDMzNjY0NDQxODkxMjA2Nc4AEp2EqDEwODkyODE5wJECkc4Bmwo9pTUyMzAy"
+    },
+    {
+      "id": 623488,
+      "name": "smsTest",
+      "type": "DECISION",
+      "variations": [
+        {
+          "id": 26938042,
+          "payload": {
+            "type": "CUSTOM_JSON",
+            "data": {
+              "smsTest": true
+            }
+          },
+          "analyticsMetadata": {
+            "campaignId": 623488,
+            "campaignName": "Lead Modal SMS test",
+            "experienceId": 1206478,
+            "experienceName": "Experience 1",
+            "variationId": 26938042,
+            "variationName": "Variation B"
+          }
+        }
+      ],
+      "decisionId": "l7M3NTQxODExODEzNDY3MjExNDE4zgASnaWoMTA4OTYwNjgBkJHOAZsKuqU1MjMwMg=="
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_dyid_server",
+      "value": "-6503197572520664907",
+      "maxAge": "31556926"
+    },
+    {
+      "name": "_dyjsession",
+      "value": "3dd5f8377bda2ce826e763004dc7b813",
+      "maxAge": "1800"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": "8B13CD8A7C",
+  "url": "http://sleepnumber.test/api/storefront/orders/8B13CD8A7C",
+  "user_id": null,
+  "email": "bob.vila@gmail.com",
+  "placed_at": null,
+  "canceled_at": null,
+  "promo_codes": [],
+  "promo_code_data": [],
+  "requires_shipping": true,
+  "tax_rate": null,
+  "calculation_status": "ESTIMATED",
+  "items": [
+    {
+      "id": "5f2351e57c9f545f8c579194",
+      "product_id": "pillow-comfortfit",
+      "product_url": "http://sleepnumber.test/api/storefront/products/pillow-comfortfit?sku=423931",
+      "product": {
+        "id": "pillow-comfortfit",
+        "name": "ComfortFit™ Pillow",
+        "type": "bedding",
+        "description": "Everyone’s new favorite pillow is a wonder-filled combination of soft comfort and conforming support.\n",
+        "long_description": "<p>Conforming Support and Soft Comfort</p> <p>Experience a pillow that gently conforms to your head and neck. Unique fill blend of premium down alternative fibers and memory foam recovers its shape night after night. Cover features a Lyocell blend for superior softness and breathability. Hypoallergenic for allergen-sensitive sleepers.</p><p>Available in three shapes designed to fit the way you sleep.</p> <p><strong>Classic: </strong>Gently supports your head and neck. Best for stomach or back sleepers.</p> <p><strong>Curved: </strong>Fits your contours for enhanced comfort and support. Best for side or back sleepers.</p>  <p><strong>Ultimate:</strong> Three removable inserts let you individualize your support and height as your sleep needs change. Great for all sleeping positions. Recommend 1-2 inserts for stomach sleepers; 2-3 inserts for back or side sleepers.</p><p>Product care  instructions: Spot Clean Only - Curved and Classic <br>Ultimate – Remove cover and machine wash cover only</p> <p>Made in the  USA  of imported materials. </p> <p>5-Year Limited Warranty</p>",
+        "meta_description": "<p>Experience  the conforming support of memory foam with the soft comfort of down alternative  fiber&mdash;all in one pillow. Memory foam pieces blended with premium down  alternative fiber offer a unique fill that won&rsquo;t lose its shape.&nbsp; Luxurious lyocell blend cover provides the  ultimate in breathability.</p>",
+        "positioning_statement": "123",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": "* MOST POPULAR PRODUCT *",
+        "slug": "pillow-comfortfit",
+        "original_slug": "pillow-comfortfit",
+        "browser_title": "ComfortFit™ Pillow",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "filters": {
+          "Size": ["King", "Standard"],
+          "Color": [],
+          "Shape": ["Ultimate Regular", "Classic", "Curved"]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5f0db8a27c9f544acbb1da57",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<p>Conforming comfort and soft support for any sleeper. Unique blend of memory foam pieces and premium down alternative fibers. Gently conforms to your head and neck and recovers its shape night after night. Breathable Lyocell blend cover is luxurious and soothing. Hypoallergenic for allergy sensitive sleepers.</p> <p>Find the pillow that's just right for you. Take our&nbsp;<a href=\"https://www.sleepnumber.com/sn/en/find-best-pillow\">PillowFit<sup>®</sup> quiz</a>.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5f0db8a27c9f544acbb1da58",
+              "type": "html",
+              "area": "product_info",
+              "name": "Options",
+              "data": {
+                "html": "<p>Available in three shapes designed to fit the way you sleep.</p>\n<ul><li>Classic: Gently supports your head and neck. Best for stomach or back sleepers.</li>\n<li>Curved: Fits your contours for enhanced comfort and support. Best for side or back sleepers</li>\n<li>Ultimate: Three removable inserts let you individualize your support and height as your sleep needs change. Great for all sleeping positions. Recommend 1-2 inserts for stomach sleepers; 2-3 inserts for back or side sleepers.</li></ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5f0db8a27c9f544acbb1da59",
+              "type": "html",
+              "area": "product_info",
+              "name": "Care",
+              "data": {
+                "html": "<p>Curved and Classic shape: Spot Clean Only&nbsp;</p><p>Ultimate shape: Remove cover and machine wash the cover only.</p><p>Made in the USA of imported materials.</p><p><a href=\"/resources/pillows-guide#faqs\">Learn more</a>&nbsp;about how to care for your pillows.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f0db85d7c9f544acbb1d87b",
+            "options": {
+              "Shape": "Ultimate Regular"
+            },
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/ultimate",
+            "tags": []
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d87c",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/on-bed-with-plant",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d87d",
+            "options": {
+              "Shape": "Classic"
+            },
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/classic",
+            "tags": []
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d87e",
+            "options": {
+              "Shape": "Curved"
+            },
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/curved",
+            "tags": []
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d87f",
+            "options": {},
+            "position": 4,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/on-bed",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d880",
+            "options": {},
+            "position": 5,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/cotton",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f0db85d7c9f544acbb1d881",
+            "options": {},
+            "position": 6,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/pillow-comfortfit/upt",
+            "tags": ["gallery", "primary", "upt"]
+          }
+        ],
+        "videos": [
+          {
+            "id": "5f0db85e7c9f544acbb1d882",
+            "options": {},
+            "position": 0,
+            "thumbnail": "http://res.cloudinary.com/sleepnumber/video/upload/f_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/comfortfit_Product_Video.jpg",
+            "url": "http://res.cloudinary.com/sleepnumber/video/upload/vc_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/comfortfit_Product_Video",
+            "tags": [
+              "name => comfortfit_Product_Video.mp4",
+              "model_class => Workarea::Catalog::ProductVideo",
+              "model_attachment => video"
+            ]
+          },
+          {
+            "id": "5f0db85e7c9f544acbb1d883",
+            "options": {},
+            "position": 1,
+            "thumbnail": "http://res.cloudinary.com/sleepnumber/video/upload/f_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video.jpg",
+            "url": "http://res.cloudinary.com/sleepnumber/video/upload/vc_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video",
+            "tags": ["gallery"]
+          }
+        ],
+        "recommended": ["comfortfit-mattress-layer", "lyocell-ultra-sheets"],
+        "variants": [
+          {
+            "id": "5f0db7577c9f544acbb1d420",
+            "details": {
+              "Size": ["King"],
+              "Shape": ["Ultimate Regular"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 14999,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 14999,
+              "currency_iso": "USD"
+            },
+            "sku": "423931",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f0db7577c9f544acbb1d421",
+            "details": {
+              "Size": ["Standard"],
+              "Shape": ["Ultimate Regular"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "423930",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f0db7577c9f544acbb1d422",
+            "details": {
+              "Size": ["King"],
+              "Type": ["Classic"],
+              "Shape": ["Classic"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "423802",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f0db7577c9f544acbb1d423",
+            "details": {
+              "Size": ["Standard"],
+              "Type": ["Classic"],
+              "Shape": ["Classic"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "423801",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f0db7577c9f544acbb1d424",
+            "details": {
+              "Size": ["King"],
+              "Type": ["Curved"],
+              "Shape": ["Curved"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "423868",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f0db7577c9f544acbb1d425",
+            "details": {
+              "Size": ["Standard"],
+              "Shape": ["Curved"],
+              "Type": ["Curved"]
+            },
+            "name": "ComfortFit™ Pillow",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "423867",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "review_stats": {
+          "average_overall_rating": 4.5882,
+          "total_review_count": 17,
+          "distributions": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 5,
+            "5": 11
+          }
+        }
+      },
+      "sku": "423931",
+      "quantity": 1,
+      "options": {
+        "Size": "King",
+        "Shape": "Ultimate Regular"
+      },
+      "customizations": {},
+      "pricing": {
+        "price_adjustments": [
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "amount": {
+              "cents": 14999,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "customized": false,
+        "customizations_unit_price": {
+          "cents": 0,
+          "currency_iso": "USD"
+        },
+        "original_unit_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "total_regular_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        },
+        "total_price": {
+          "cents": 14999,
+          "currency_iso": "USD"
+        }
+      },
+      "promo_message": null
+    }
+  ],
+  "financing_options": [],
+  "estimated_location": {
+    "country": "US",
+    "state": "MN",
+    "city": "Rogers",
+    "localities": ["Otsego", "Rogers"],
+    "zipcode": "55374",
+    "longitude": -93.5912944,
+    "latitude": 45.1867927
+  },
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "tax_total": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "total_recycling_fee": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "subtotal_price": {
+      "cents": 42198,
+      "currency_iso": "USD"
+    },
+    "total_price": {
+      "cents": 42198,
+      "currency_iso": "USD"
+    },
+    "paid_amount": {
+      "cents": 42198,
+      "currency_iso": "USD"
+    }
+  },
+  "shipping_service": "UPS Shipping",
+  "shipping_groups": [
+    {
+      "id": "5f2351e07c9f545f8c579188",
+      "skus": ["424861", "423931"],
+      "shipping_services": [
+        {
+          "service_code": "ups-standard",
+          "type": "ups_standard",
+          "name": "UPS Shipping",
+          "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_address": {
+    "id": "5f2351f47c9f545f8c579217",
+    "first_name": null,
+    "last_name": null,
+    "company": null,
+    "street": null,
+    "street_2": null,
+    "city": null,
+    "country": "US",
+    "region": "MN",
+    "postal_code": "55374",
+    "phone_number": null,
+    "phone_extension": null
+  },
+  "tenders": []
+}

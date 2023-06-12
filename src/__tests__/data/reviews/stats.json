@@ -1,0 +1,60 @@
+{
+  "Id": "<set me>",
+  "TotalReviewCount": 57,
+  "ReviewStatistics": {
+    "AverageOverallRating": 4.614035087719298,
+    "TotalReviewCount": 57,
+    "RatingDistribution": [
+      {
+        "RatingValue": 5,
+        "Count": 45
+      },
+      {
+        "RatingValue": 4,
+        "Count": 6
+      },
+      {
+        "RatingValue": 3,
+        "Count": 3
+      },
+      {
+        "RatingValue": 2,
+        "Count": 2
+      },
+      {
+        "RatingValue": 1,
+        "Count": 1
+      }
+    ],
+    "SecondaryRatingsAveragesOrder": ["Comfort", "Quality", "Value"],
+    "SecondaryRatingsAverages": {
+      "Quality": {
+        "Id": "Quality",
+        "AverageRating": 4.7894736842105265,
+        "DisplayType": "NORMAL",
+        "MaxLabel": null,
+        "ValueRange": 5,
+        "MinLabel": null,
+        "Label": "Quality"
+      },
+      "Value": {
+        "Id": "Value",
+        "AverageRating": 4.491228070175438,
+        "DisplayType": "NORMAL",
+        "MaxLabel": null,
+        "ValueRange": 5,
+        "MinLabel": null,
+        "Label": "Value"
+      },
+      "Comfort": {
+        "Id": "Comfort",
+        "AverageRating": 4.684210526315789,
+        "DisplayType": "NORMAL",
+        "MaxLabel": null,
+        "ValueRange": 5,
+        "MinLabel": null,
+        "Label": "Comfort"
+      }
+    }
+  }
+}

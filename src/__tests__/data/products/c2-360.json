@@ -1,0 +1,230 @@
+{
+  "id": "c2-360",
+  "name": "c2",
+  "type": "mattress",
+  "description": "Comfortable. Adjustable. Affordable.™",
+  "long_description": "2\" gel-infused comfort layer is a great balance of comfort and proactive support.",
+  "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+  "slug": "c2",
+  "packaged_products": [],
+  "merchant_message": null,
+  "browser_title": "c2",
+  "meta_description": "Learn more about the adjustability and comfort that the c2 360 Smart Bed offers to give you a blissful night's sleep.",
+  "template": "generic",
+  "customizations": null,
+  "details": {
+    "Comfort Layer": ["2"],
+    "Mattress Height": ["8"]
+  },
+  "digital": false,
+  "filters": {
+    "Size": [
+      "Twin",
+      "Twin Long",
+      "Full",
+      "Queen",
+      "King",
+      "Split King",
+      "FlexTop King",
+      "California King",
+      "FlexTop California King"
+    ]
+  },
+  "purchasable": true,
+  "inventory_status": "",
+  "comfort_guide_details": {
+    "Comfort Layer": ["2"],
+    "Mattress Height": ["8"]
+  },
+  "features": [],
+  "variants": [
+    {
+      "id": "5e7a89587c9f546e0ed3605e",
+      "active": true,
+      "details": {
+        "Size": ["Twin"]
+      },
+      "name": "c2 360 Bed Twin",
+      "on_sale": false,
+      "regular": {
+        "cents": 59900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 49900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "TZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed3605f",
+      "active": true,
+      "details": {
+        "Size": ["Twin Long"]
+      },
+      "name": "c2 360 Bed Twin XL",
+      "on_sale": false,
+      "regular": {
+        "cents": 69900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 59900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "XZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36060",
+      "active": true,
+      "details": {
+        "Size": ["Full"]
+      },
+      "name": "c2 360 Bed Full",
+      "on_sale": false,
+      "regular": {
+        "cents": 79900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 69900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "FZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36061",
+      "active": true,
+      "details": {
+        "Size": ["Queen"]
+      },
+      "name": "c2 360 Bed Queen",
+      "on_sale": false,
+      "regular": {
+        "cents": 99900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 89900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "QZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36062",
+      "active": true,
+      "details": {
+        "Size": ["King"]
+      },
+      "name": "c2 360 Bed King",
+      "on_sale": false,
+      "regular": {
+        "cents": 149900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 139900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "KZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36063",
+      "active": true,
+      "details": {
+        "Size": ["Split King"]
+      },
+      "name": "c2 360 Bed Split King",
+      "on_sale": false,
+      "regular": {
+        "cents": 169900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 159900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "SZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36064",
+      "active": true,
+      "details": {
+        "Size": ["FlexTop King"]
+      },
+      "name": "c2 360 Bed FlexTop King",
+      "on_sale": false,
+      "regular": {
+        "cents": 169900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 159900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "AZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36065",
+      "active": true,
+      "details": {
+        "Size": ["California King"]
+      },
+      "name": "c2 360 Bed California King",
+      "on_sale": false,
+      "regular": {
+        "cents": 149900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 139900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "CZC2"
+    },
+    {
+      "id": "5e7a89587c9f546e0ed36066",
+      "active": true,
+      "details": {
+        "Size": ["FlexTop California King"]
+      },
+      "name": "c2 360 Bed FlexTop California King",
+      "on_sale": false,
+      "regular": {
+        "cents": 169900.0,
+        "currency_iso": "USD"
+      },
+      "sale": {
+        "cents": 159900.0,
+        "currency_iso": "USD"
+      },
+      "sku": "BZC2"
+    }
+  ],
+  "on_sale": false,
+  "original_max_price": {
+    "cents": 169900.0,
+    "currency_iso": "USD"
+  },
+  "original_min_price": {
+    "cents": 59900.0,
+    "currency_iso": "USD"
+  },
+  "sell_max_price": {
+    "cents": 169900.0,
+    "currency_iso": "USD"
+  },
+  "sell_min_price": {
+    "cents": 59900.0,
+    "currency_iso": "USD"
+  },
+  "images": [],
+  "content_blocks": {
+    "top": [],
+    "bottom": [],
+    "faq": [],
+    "store_finder": [],
+    "upsell": [],
+    "product_info": []
+  }
+}

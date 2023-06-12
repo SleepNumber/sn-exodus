@@ -1,0 +1,9 @@
+{
+  "country": "US",
+  "state": "PA",
+  "city": "Philadelphia",
+  "localities": ["Philadelphia"],
+  "zipcode": "19145",
+  "longitude": "-75.18260",
+  "latitude": "39.92060"
+}

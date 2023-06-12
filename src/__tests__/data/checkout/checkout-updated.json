@@ -1,0 +1,534 @@
+{
+  "order": {
+    "id": "55FFD5EDF8",
+    "hashed_id": "114669",
+    "fusion_number": null,
+    "service_request_number": null,
+    "url": "https://qa.sleepnumber.com/api/storefront/orders/55FFD5EDF8",
+    "share_url": "https://qa.sleepnumber.com/shared_cart/Tadd9PDLEji8dPDNq43XEV6r",
+    "user_id": "60dcd652d3c5e30019bcc297",
+    "email": "rachael.west@sn.com",
+    "placed_at": null,
+    "canceled_at": null,
+    "submitted_at": null,
+    "booked_at": null,
+    "status": "Checkout",
+    "promo_codes": [],
+    "promo_code_data": [],
+    "reward_codes": [],
+    "reward_forfeiture": 0,
+    "requires_shipping": true,
+    "tax_rate": 1,
+    "vertex_flag": true,
+    "calculation_status": "ACTUAL",
+    "segment_ids": ["returning_customer", "5f35b5a6c6a2ba00a1c18422"],
+    "nonstackable_product_ids": [],
+    "items": [
+      {
+        "id": "6182bb5c2b95900019b218b0",
+        "product_id": "ruched-stripe-duvet-set",
+        "product_url": "https://qa.sleepnumber.com/api/storefront/products/ruched-stripe-duvet-set?sku=424937",
+        "product": {
+          "id": "ruched-stripe-duvet-set",
+          "bazaar_voice_id": "ruched-stripe-duvet-set",
+          "name": "Ruched Stripe Duvet Set",
+          "bundle_name": null,
+          "type": "bedding",
+          "description": null,
+          "long_description": null,
+          "reference_description": null,
+          "meta_description": null,
+          "positioning_statement": null,
+          "disclaimer": null,
+          "content_badge_message": null,
+          "merchant_message": "Relaxed texture, easy elegance",
+          "slug": "ruched-stripe-duvet-set",
+          "original_slug": "ruched-stripe-duvet-set",
+          "browser_title": "Ruched Stripe Duvet Set",
+          "template": "generic",
+          "digital": false,
+          "shipping_type": 4,
+          "shipping_type_name": "ups_standard",
+          "upsell_text": null,
+          "category_slug": "duvet-covers",
+          "filters": {
+            "Size": ["California King", "Queen", "King"],
+            "Color": ["Soft Blue", "White", "Gray"],
+            "Shape": []
+          },
+          "details": {},
+          "comfort_guide_details": {},
+          "features": [],
+          "customizations": null,
+          "content_blocks": {
+            "top": [],
+            "middle": [],
+            "bottom": [],
+            "product_info": [],
+            "price_block": [],
+            "storytelling_top": [],
+            "storytelling_middle": [],
+            "storytelling_bottom": []
+          },
+          "swatches": {
+            "Gray": {
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/ruched-stripe-duvet-set_Swatch_gray1",
+              "alt_text": ""
+            },
+            "White": {
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/ruched-stripe-duvet-set_Swatch_white1",
+              "alt_text": ""
+            }
+          },
+          "images": [
+            {
+              "id": "6176be5775e393011415a0b3",
+              "alt_text": null,
+              "options": {},
+              "position": 0,
+              "primary": true,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_1",
+              "tags": [
+                "model_attachment => image",
+                "model_class => Workarea::Catalog::ProductImage",
+                "name => ruched-stripe-duvet-set_PDP_Postcard_Gallery_1.jpg"
+              ]
+            },
+            {
+              "id": "5f34618892fc7500013e038b",
+              "alt_text": null,
+              "options": { "Size": "", "Color": "" },
+              "position": 0,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_4c",
+              "tags": [
+                "name => testing.jpg",
+                "model_class => Workarea::Catalog::ProductImage",
+                "model_attachment => image"
+              ]
+            },
+            {
+              "id": "5f34618892fc7500013e038c",
+              "alt_text": null,
+              "options": {},
+              "position": 1,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_3",
+              "tags": [
+                "name => ruched-stripe-duvet-set_PDP_Postcard_Gallery_3.jpg",
+                "model_class => Workarea::Catalog::ProductImage",
+                "model_attachment => image"
+              ]
+            },
+            {
+              "id": "6176be5775e393011415a0b5",
+              "alt_text": null,
+              "options": {},
+              "position": 2,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_2",
+              "tags": [
+                "model_attachment => image",
+                "model_class => Workarea::Catalog::ProductImage",
+                "name => ruched-stripe-duvet-set_PDP_Postcard_Gallery_2.jpg"
+              ]
+            },
+            {
+              "id": "5f34618992fc7500013e038d",
+              "alt_text": null,
+              "options": {},
+              "position": 2,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_2a",
+              "tags": [
+                "name => ruched-stripe-duvet-set_PDP_Postcard_Gallery_2a.jpg",
+                "model_class => Workarea::Catalog::ProductImage",
+                "model_attachment => image"
+              ]
+            },
+            {
+              "id": "5f34618992fc7500013e038e",
+              "alt_text": null,
+              "options": { "Size": "", "Color": "" },
+              "position": 3,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_1b",
+              "tags": [
+                "name => test111.jpg",
+                "model_class => Workarea::Catalog::ProductImage",
+                "model_attachment => image"
+              ]
+            },
+            {
+              "id": "5f402e1f200746001842a5b7",
+              "alt_text": null,
+              "options": { "Size": "", "Color": "" },
+              "position": 4,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/test%20white",
+              "tags": []
+            },
+            {
+              "id": "6176be5775e393011415a0b7",
+              "alt_text": null,
+              "options": {},
+              "position": 5,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_PDP_Postcard_Gallery_4",
+              "tags": [
+                "model_attachment => image",
+                "model_class => Workarea::Catalog::ProductImage",
+                "name => ruched-stripe-duvet-set_PDP_Postcard_Gallery_4.jpg"
+              ]
+            },
+            {
+              "id": "6176be5775e393011415a0b9",
+              "alt_text": null,
+              "options": {},
+              "position": 7,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_Variant_Graya",
+              "tags": [
+                "model_attachment => image",
+                "model_class => Workarea::Catalog::ProductImage",
+                "name => ruched-stripe-duvet-set_Variant_Graya.jpg"
+              ]
+            },
+            {
+              "id": "6176be5775e393011415a0bb",
+              "alt_text": null,
+              "options": {},
+              "position": 8,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/ruched-stripe-duvet-set_Variant_Whitea",
+              "tags": [
+                "model_attachment => image",
+                "model_class => Workarea::Catalog::ProductImage",
+                "name => ruched-stripe-duvet-set_Variant_Whitea.jpg"
+              ]
+            },
+            {
+              "id": "6176be5775e393011415a0bd",
+              "alt_text": null,
+              "options": {},
+              "position": 9,
+              "primary": false,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_images/ruched-stripe-duvet-set/test%20white",
+              "tags": []
+            }
+          ],
+          "videos": [],
+          "renders": [
+            {
+              "id": "6176be5775e393011415a0bf",
+              "options": {},
+              "position": 0,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/duvets_ruchedstripe_gray",
+              "tags": ["duvet"]
+            },
+            {
+              "id": "6176be5775e393011415a0c1",
+              "options": {},
+              "position": 1,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/duvets_ruchedstripe_white",
+              "tags": ["duvet"]
+            },
+            {
+              "id": "6176be5775e393011415a0c3",
+              "options": {},
+              "position": 2,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/shams_ruchedstripe_gray",
+              "tags": ["sham"]
+            },
+            {
+              "id": "6176be5775e393011415a0c5",
+              "options": {},
+              "position": 3,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/shams_ruchedstripe_white",
+              "tags": ["sham"]
+            },
+            {
+              "id": "600edcbced64ba0018203ff0",
+              "options": { "Color": "White", "Size": "" },
+              "position": null,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/duvets_ruchedstripe_white",
+              "tags": ["duvet"]
+            },
+            {
+              "id": "600edcab35b9880018f0b11a",
+              "options": { "Color": "Gray", "Size": "" },
+              "position": null,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/duvets_ruchedstripe_gray",
+              "tags": ["duvet"]
+            },
+            {
+              "id": "600edc324854e60017b14608",
+              "options": { "Color": "White", "Size": "" },
+              "position": null,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/shams_ruchedstripe_white",
+              "tags": ["sham"]
+            },
+            {
+              "id": "600edbeb8b0a2b0018d07fb0",
+              "options": { "Color": "Gray", "Size": "" },
+              "position": null,
+              "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1635957596/workarea/catalog/product_renders/ruched-stripe-duvet-set/shams_ruchedstripe_gray",
+              "tags": ["sham"]
+            }
+          ],
+          "recommended": [],
+          "variants": [
+            {
+              "id": "5f3460eb92fc7500013dfe6e",
+              "active": true,
+              "details": { "Color": ["White"], "Size": ["Queen"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 0, "currency_iso": "USD" },
+              "sale": { "cents": 0, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424932",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            },
+            {
+              "id": "5f3460eb92fc7500013dfe75",
+              "active": true,
+              "details": { "Color": ["White"], "Size": ["King"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 0, "currency_iso": "USD" },
+              "sale": { "cents": 0, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424933",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            },
+            {
+              "id": "5f3460eb92fc7500013dfe70",
+              "active": true,
+              "details": { "Color": ["White"], "Size": ["California King"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 0, "currency_iso": "USD" },
+              "sale": { "cents": 0, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424934",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            },
+            {
+              "id": "5f3460eb92fc7500013dfe73",
+              "active": true,
+              "details": { "Color": ["Gray"], "Size": ["Queen"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 0, "currency_iso": "USD" },
+              "sale": { "cents": 0, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424935",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            },
+            {
+              "id": "5f3460eb92fc7500013dfe71",
+              "active": true,
+              "details": { "Color": ["Gray"], "Size": ["King"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 0, "currency_iso": "USD" },
+              "sale": { "cents": 0, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424936",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            },
+            {
+              "id": "5f3460eb92fc7500013dfe74",
+              "active": true,
+              "details": { "Color": ["Gray"], "Size": ["California King"] },
+              "name": "Ruched Stripe Duvet Set",
+              "regular": { "cents": 14999, "currency_iso": "USD" },
+              "sale": { "cents": 14999, "currency_iso": "USD" },
+              "on_clearance": false,
+              "sku": "424937",
+              "promo_badge_message": null,
+              "merchant_message": null,
+              "alternate_promo_badge_message": null,
+              "promo_long_message": null,
+              "promo_expiry_date": null,
+              "promo_id": null,
+              "financing": null,
+              "inventory_message": "In Stock",
+              "inventory_count": 99999
+            }
+          ],
+          "packaged_products": [],
+          "purchasable": true,
+          "inventory_status": "In Stock",
+          "original_max_price": { "cents": 14999, "currency_iso": "USD" },
+          "original_min_price": { "cents": 14999, "currency_iso": "USD" },
+          "sell_max_price": { "cents": 14999, "currency_iso": "USD" },
+          "sell_min_price": { "cents": 14999, "currency_iso": "USD" },
+          "review_stats": {},
+          "featured_reviews": []
+        },
+        "sku": "424937",
+        "quantity": 1,
+        "options": { "Color": "Gray", "Size": "California King" },
+        "customizations": {},
+        "pricing": {
+          "price_adjustments": [
+            {
+              "description": "Item Subtotal",
+              "discount": false,
+              "fee": false,
+              "amount": { "cents": 14999, "currency_iso": "USD" },
+              "list_id": null
+            },
+            {
+              "description": "PERM - $30 Off Duvets and Comforters",
+              "discount": true,
+              "fee": false,
+              "amount": { "cents": -3000, "currency_iso": "USD" },
+              "list_id": null
+            }
+          ],
+          "customized": false,
+          "customizations_unit_price": { "cents": 0, "currency_iso": "USD" },
+          "original_unit_price": { "cents": 14999, "currency_iso": "USD" },
+          "total_regular_price": { "cents": 14999, "currency_iso": "USD" },
+          "total_price": { "cents": 11999, "currency_iso": "USD" }
+        },
+        "promo_message": {
+          "discount_id": "5f63a9c6c7e7f80018ee709b",
+          "segmented": false,
+          "segments": [],
+          "strong": "$30.00 OFF",
+          "subtle": "Line item message"
+        },
+        "bundle": false,
+        "family_product_id": null,
+        "bundle_index": null,
+        "sku_list": ["424937"]
+      }
+    ],
+    "financing_options": [
+      {
+        "description": "12 Months No Interest if Paid in Full",
+        "name": "12 Months All Day Every Day",
+        "id": "5f7e29925f188f00704ba12b",
+        "months": 12,
+        "value": 11,
+        "non_stackable": false,
+        "segmented": false,
+        "segments": [],
+        "default": true,
+        "deferred": true,
+        "end_date": null,
+        "promo_code": "212",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+      }
+    ],
+    "estimated_location": {
+      "country": "US",
+      "state": "MN",
+      "city": "Minneapolis",
+      "localities": ["Minneapolis"],
+      "zipcode": "55406",
+      "longitude": -93.224,
+      "latitude": 44.9764
+    },
+    "pricing": {
+      "price_adjustments": [],
+      "shipping_total": { "cents": 0, "currency_iso": "USD" },
+      "tax_total": { "cents": 963, "currency_iso": "USD" },
+      "total_recycling_fee": { "cents": 0, "currency_iso": "USD" },
+      "subtotal_price": { "cents": 11999, "currency_iso": "USD" },
+      "total_price": { "cents": 12962, "currency_iso": "USD" },
+      "total_price_minus_rewards": { "cents": 12962, "currency_iso": "USD" },
+      "paid_amount": { "cents": 12962, "currency_iso": "USD" }
+    },
+    "shipping_service": "UPS Shipping",
+    "shipping_groups": [
+      {
+        "id": "6182bb5c2b95900019b218b1",
+        "items": ["6182bb5c2b95900019b218b0"],
+        "skus": ["424937"],
+        "shipping_services": [
+          {
+            "service_code": "ups-standard",
+            "type": "ups_standard",
+            "name": "UPS Shipping",
+            "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+            "price": { "cents": 0, "currency_iso": "USD" },
+            "selected": true
+          }
+        ]
+      }
+    ],
+    "shipping_group_selections": [
+      {
+        "id": "6182bb5c2b95900019b218b1",
+        "items": ["6182bb5c2b95900019b218b0"],
+        "skus": ["424937"],
+        "shipping_services": [
+          {
+            "service_code": "ups-standard",
+            "type": "ups_standard",
+            "name": "UPS Shipping",
+            "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+            "price": { "cents": 0, "currency_iso": "USD" },
+            "selected": true
+          }
+        ]
+      }
+    ],
+    "shipping_address": {
+      "id": "5f57970e67be5a6f0c7ea67c",
+      "first_name": "Bob",
+      "last_name": "Vila",
+      "company": null,
+      "street": "1001 3rd Avenue South",
+      "street_2": "",
+      "city": "Philadelphia",
+      "country": "US",
+      "region": "PA",
+      "postal_code": "19145",
+      "phone_number": "6512453333",
+      "phone_extension": null
+    },
+    "tenders": []
+  },
+  "errors": { "total": 0, "global": [], "fields": null }
+}

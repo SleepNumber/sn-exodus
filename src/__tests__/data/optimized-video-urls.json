@@ -1,0 +1,90 @@
+{
+  "desktop": [
+    [
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/v1/workarea/content/assets/l3tu9r0otltkseoechnp.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ],
+    [
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ],
+    [
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ]
+  ],
+  "mobile": [
+    [
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/v1/workarea/content/assets/l3tu9r0otltkseoechnp.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ],
+    [
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ],
+    [
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.webm",
+        "type": "video/webm;codecs=vp9"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4",
+        "type": "video/mp4;codecs=hvc1"
+      },
+      {
+        "src": "https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4",
+        "type": "video/mp4;codecs=avc1"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "id": "c2-360",
+  "bazaar_voice_id": "c2-360",
+  "name": "c2",
+  "type": "mattress",
+  "description": "Comfortable. Adjustable. Affordable.™",
+  "long_description": "2\" gel-infused comfort layer is a great balance of comfort and proactive support.",
+  "reference_description": null,
+  "meta_description": "Learn more about the adjustability and comfort that the c2 360 Smart Bed offers to give you a blissful night's sleep.",
+  "positioning_statement": "Comfortable. Adjustable. Affordable.™",
+  "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+  "content_badge_message": null,
+  "merchant_message": null,
+  "tags": [],
+  "slug": "c2",
+  "original_slug": "c2-360",
+  "browser_title": "c2",
+  "template": "generic",
+  "digital": false,
+  "shipping_type": 1,
+  "shipping_type_name": "home_delivery",
+  "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+  "filters": {
+    "Size": [
+      "Twin",
+      "Twin Long",
+      "Full",
+      "Queen",
+      "King",
+      "Split King",
+      "FlexTop King",
+      "California King",
+      "FlexTop California King"
+    ]
+  },
+  "details": { "Support": ["2"], "Comfort Layer": ["2"] },
+  "comfort_guide_details": { "Support": ["2"], "Comfort Layer": ["2"] },
+  "features": [
+    {
+      "id": "49E3C96BC3",
+      "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1603981428/workarea/catalog/features/feature-dual-air.svg",
+      "name": "Dual Adjustability",
+      "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+      "comparable": true,
+      "specification": false,
+      "show_plus_text": false
+    },
+    {
+      "id": "3D1EA859A3",
+      "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1603981428/workarea/catalog/features/feature-responsive-air.svg",
+      "name": "Responsive Air<sup>®</sup> technology",
+      "text": "Effortlessly responds and automatically adjusts firmness on each side",
+      "comparable": true,
+      "specification": false,
+      "show_plus_text": false
+    },
+    {
+      "id": "3C0DDD3766",
+      "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1603981428/workarea/catalog/features/feature-sleep-iq.svg",
+      "name": "SleepIQ<sup>®</sup> technology",
+      "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+      "comparable": true,
+      "specification": false,
+      "show_plus_text": false
+    },
+    {
+      "id": "2C221653EE",
+      "image_url": null,
+      "name": "8\" Profile",
+      "text": "Plush-style bed is measured from the base to the top of the mattress.",
+      "comparable": true,
+      "specification": true,
+      "show_plus_text": false
+    },
+    {
+      "id": "0C7E3EDDD4",
+      "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1603981428/workarea/catalog/features/comfort-layer.svg",
+      "name": "2\" Comfort layer",
+      "text": "2” gel-infused comfort layer is a great balance of comfort and proactive support.",
+      "comparable": true,
+      "specification": true,
+      "show_plus_text": false
+    }
+  ],
+  "customizations": "",
+  "content_blocks": {
+    "top": [],
+    "middle": [],
+    "bottom": [],
+    "product_info": [],
+    "price_block": []
+  },
+  "swatches": {},
+  "images": [
+    {
+      "id": "5f774bae67be5a7205a69b5a",
+      "alt_text": null,
+      "options": {},
+      "position": 0,
+      "primary": true,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_desktop",
+      "tags": ["desktop", "postcard"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b5b",
+      "alt_text": null,
+      "options": {},
+      "position": 1,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_desktop_split",
+      "tags": ["desktop", "postcard", "split"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b5c",
+      "alt_text": null,
+      "options": {},
+      "position": 2,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_desktop_flextop",
+      "tags": ["desktop", "flextop", "postcard"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b5d",
+      "alt_text": null,
+      "options": {},
+      "position": 3,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_mobile_flextop",
+      "tags": ["flextop", "mobile", "postcard"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b5e",
+      "alt_text": null,
+      "options": {},
+      "position": 4,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_tablet_flextop",
+      "tags": ["Flextop", "Postcard", "tablet"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b5f",
+      "alt_text": null,
+      "options": {},
+      "position": 5,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_tablet",
+      "tags": ["Postcard", "tablet"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b60",
+      "alt_text": null,
+      "options": {},
+      "position": 6,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_mobile",
+      "tags": ["mobile", "postcard"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b61",
+      "alt_text": null,
+      "options": {},
+      "position": 7,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_tablet_split",
+      "tags": ["Postcard", "Split", "tablet"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b62",
+      "alt_text": null,
+      "options": {},
+      "position": 8,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/postcard_mobile_split",
+      "tags": ["mobile", "postcard", "split"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b63",
+      "alt_text": null,
+      "options": {},
+      "position": 9,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/straight_on_wide_mobile",
+      "tags": ["Gallery", "mobile"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b64",
+      "alt_text": null,
+      "options": {},
+      "position": 10,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/45_wide_mobile",
+      "tags": ["Gallery", "mobile"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b65",
+      "alt_text": null,
+      "options": {},
+      "position": 11,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/45_wide",
+      "tags": ["desktop", "Gallery"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b66",
+      "alt_text": null,
+      "options": {},
+      "position": 12,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/straight_on_wide",
+      "tags": ["desktop", "Gallery"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b67",
+      "alt_text": null,
+      "options": {},
+      "position": 13,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/zoom_1",
+      "tags": ["desktop", "Gallery"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b68",
+      "alt_text": null,
+      "options": {},
+      "position": 14,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/zoom_2_mobile",
+      "tags": ["Gallery", "mobile"]
+    },
+    {
+      "id": "5f774bae67be5a7205a69b69",
+      "alt_text": null,
+      "options": {},
+      "position": 15,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/zoom_1_mobile",
+      "tags": ["Gallery", "mobile"]
+    },
+    {
+      "id": "5f774baf67be5a7205a69b6a",
+      "alt_text": null,
+      "options": {},
+      "position": 16,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/zoom_2",
+      "tags": ["desktop", "Gallery"]
+    },
+    {
+      "id": "5f774baf67be5a7205a69b6b",
+      "alt_text": null,
+      "options": {},
+      "position": 17,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/upt_flextop_2x",
+      "tags": ["2x", "flextop", "upt"]
+    },
+    {
+      "id": "5f774baf67be5a7205a69b6c",
+      "alt_text": null,
+      "options": {},
+      "position": 18,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/upt_split",
+      "tags": ["split", "upt"]
+    },
+    {
+      "id": "5f774baf67be5a7205a69b6d",
+      "alt_text": null,
+      "options": {},
+      "position": 19,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/upt_flextop",
+      "tags": ["flextop", "upt"]
+    },
+    {
+      "id": "5f774baf67be5a7205a69b6e",
+      "alt_text": null,
+      "options": {},
+      "position": 20,
+      "primary": false,
+      "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1603981428/workarea/catalog/product_images/c2-360/upt",
+      "tags": ["upt"]
+    }
+  ],
+  "videos": [],
+  "renders": [],
+  "recommended": [],
+  "variants": [
+    {
+      "id": "5f774b2167be5a7205a698e9",
+      "active": true,
+      "details": { "Size": ["Twin"] },
+      "name": "c2 360 Bed Twin",
+      "regular": { "cents": 59900, "currency_iso": "USD" },
+      "sale": { "cents": 59900, "currency_iso": "USD" },
+      "sku": "TZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698ea",
+      "active": true,
+      "details": { "Size": ["Twin Long"] },
+      "name": "c2 360 Bed Twin XL",
+      "regular": { "cents": 69900, "currency_iso": "USD" },
+      "sale": { "cents": 69900, "currency_iso": "USD" },
+      "sku": "XZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698eb",
+      "active": true,
+      "details": { "Size": ["Full"] },
+      "name": "c2 360 Bed Full",
+      "regular": { "cents": 79900, "currency_iso": "USD" },
+      "sale": { "cents": 79900, "currency_iso": "USD" },
+      "sku": "FZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698ec",
+      "active": true,
+      "details": { "Size": ["Queen"] },
+      "name": "c2 360 Bed Queen",
+      "regular": { "cents": 99900, "currency_iso": "USD" },
+      "sale": { "cents": 99900, "currency_iso": "USD" },
+      "sku": "QZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698ed",
+      "active": true,
+      "details": { "Size": ["King"] },
+      "name": "c2 360 Bed King",
+      "regular": { "cents": 149900, "currency_iso": "USD" },
+      "sale": { "cents": 149900, "currency_iso": "USD" },
+      "sku": "KZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698ee",
+      "active": true,
+      "details": { "Size": ["Split King"] },
+      "name": "c2 360 Bed Split King",
+      "regular": { "cents": 169900, "currency_iso": "USD" },
+      "sale": { "cents": 169900, "currency_iso": "USD" },
+      "sku": "SZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698ef",
+      "active": true,
+      "details": { "Size": ["FlexTop King"] },
+      "name": "c2 360 Bed FlexTop King",
+      "regular": { "cents": 169900, "currency_iso": "USD" },
+      "sale": { "cents": 169900, "currency_iso": "USD" },
+      "sku": "AZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698f0",
+      "active": true,
+      "details": { "Size": ["California King"] },
+      "name": "c2 360 Bed California King",
+      "regular": { "cents": 149900, "currency_iso": "USD" },
+      "sale": { "cents": 149900, "currency_iso": "USD" },
+      "sku": "CZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    },
+    {
+      "id": "5f774b2167be5a7205a698f1",
+      "active": true,
+      "details": { "Size": ["FlexTop California King"] },
+      "name": "c2 360 Bed FlexTop California King",
+      "regular": { "cents": 169900, "currency_iso": "USD" },
+      "sale": { "cents": 169900, "currency_iso": "USD" },
+      "sku": "BZC2",
+      "promo_badge_message": null,
+      "promo_long_message": null,
+      "promo_expiry_date": null,
+      "financing": null
+    }
+  ],
+  "packaged_products": [],
+  "purchasable": true,
+  "inventory_status": "",
+  "original_max_price": { "cents": 169900, "currency_iso": "USD" },
+  "original_min_price": { "cents": 59900, "currency_iso": "USD" },
+  "sell_max_price": { "cents": 169900, "currency_iso": "USD" },
+  "sell_min_price": { "cents": 59900, "currency_iso": "USD" },
+  "review_stats": {
+    "average_overall_rating": 4.1613,
+    "total_review_count": 31,
+    "distributions": { "1": 2, "2": 2, "3": 3, "4": 6, "5": 18 }
+  }
+}

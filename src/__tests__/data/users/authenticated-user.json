@@ -1,0 +1,10 @@
+{
+  "logged_in": true,
+  "cart_quantity": 0,
+  "admin": false,
+  "impersonating": false,
+  "browsing_as_guest": false,
+  "csrf_param": "authenticity_token",
+  "csrf_token": "SIHvl8GxOlvNA0o55sXLEEIqR8TODhtTrFfEdEIfRYkpRjikJR/SSpQ7qruAiZGbsginVRYoPhX2/JwJfsSRQw==",
+  "geolocation": null
+}

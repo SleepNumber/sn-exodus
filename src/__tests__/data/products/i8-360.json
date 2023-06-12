@@ -1,0 +1,289 @@
+{
+  "id": "i8-360",
+  "bazaar_voice_id": "i8-360",
+  "name": "i8",
+  "branded_name": "i8 smart bed",
+  "type": "mattress",
+  "description": "You have to feel the luxurious, soothing comfort and pressure relief",
+  "long_description": "A wonderful 6\" combination of pressure-relieving comfort layers with a temperature balancing sleep surface for comforting, soothing sleep.",
+  "positioning_statement": "You have to feel the luxurious, soothing comfort and pressure relief",
+  "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+  "slug": "i8",
+  "content_badge_message": "New",
+  "packaged_products": [],
+  "merchant_message": null,
+  "browser_title": "i8",
+  "meta_description": "The i8 360 Smart Bed has maximum pressure relief and soothing comfort to ensure that you sleep comfortably all night long. Discover the difference of a Sleep Number Mattress today.",
+  "recommended": [],
+  "template": "generic",
+  "customizations": null,
+  "tags": [],
+  "details": {
+    "Comfort Layer": ["6"],
+    "Mattress Height": ["12"],
+    "Pressure Relief": ["10"],
+    "Support": ["8"],
+    "Cooling": ["8"],
+    "Brand": ["Sleep Number"]
+  },
+  "digital": false,
+  "swatches": {},
+  "filters": {
+    "Size": [
+      "Twin Long",
+      "Full",
+      "Queen",
+      "King",
+      "Split King",
+      "FlexTop King",
+      "California King",
+      "Split California King",
+      "FlexTop California King"
+    ]
+  },
+  "purchasable": true,
+  "inventory_status": "",
+  "comfort_guide_details": {
+    "Comfort Layer": ["6"],
+    "Mattress Height": ["12"],
+    "Pressure Relief": ["10"],
+    "Support": ["8"],
+    "Cooling": ["8"]
+  },
+  "features": [],
+  "variants": [
+    {
+      "id": "5eaad5ec67be5a22c4885636",
+      "active": true,
+      "details": { "Size": ["Twin Long"] },
+      "name": "i8 360 Bed Twin XL",
+      "regular": { "cents": 314900.0, "currency_iso": "USD" },
+      "sale": { "cents": 314900.0, "currency_iso": "USD" },
+      "sku": "XZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c4885637",
+      "active": true,
+      "details": { "Size": ["Full"] },
+      "name": "i8 360 Bed Full",
+      "regular": { "cents": 342400.0, "currency_iso": "USD" },
+      "sale": { "cents": 342400.0, "currency_iso": "USD" },
+      "sku": "FZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c4885638",
+      "active": true,
+      "details": { "Size": ["Queen"] },
+      "name": "i8 360 Bed Queen",
+      "regular": { "cents": 359900.0, "currency_iso": "USD" },
+      "sale": { "cents": 359900.0, "currency_iso": "USD" },
+      "sku": "QZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c4885639",
+      "active": true,
+      "details": { "Size": ["King"] },
+      "name": "i8 360 Bed King",
+      "regular": { "cents": 429900.0, "currency_iso": "USD" },
+      "sale": { "cents": 429900.0, "currency_iso": "USD" },
+      "sku": "KZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c488563a",
+      "active": true,
+      "details": { "Size": ["Split King"] },
+      "name": "i8 360 Bed Split King",
+      "regular": { "cents": 489900.0, "currency_iso": "USD" },
+      "sale": { "cents": 489900.0, "currency_iso": "USD" },
+      "sku": "SZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c488563b",
+      "active": true,
+      "details": { "Size": ["FlexTop King"] },
+      "name": "i8 360 Bed FlexTop King",
+      "regular": { "cents": 489900.0, "currency_iso": "USD" },
+      "sale": { "cents": 489900.0, "currency_iso": "USD" },
+      "sku": "AZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c488563c",
+      "active": true,
+      "details": { "Size": ["California King"] },
+      "name": "i8 360 Bed California King",
+      "regular": { "cents": 429900.0, "currency_iso": "USD" },
+      "sale": { "cents": 429900.0, "currency_iso": "USD" },
+      "sku": "CZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c488563d",
+      "active": true,
+      "details": { "Size": ["Split California King"] },
+      "name": "i8 360 Bed Split California King",
+      "regular": { "cents": 489900.0, "currency_iso": "USD" },
+      "sale": { "cents": 489900.0, "currency_iso": "USD" },
+      "sku": "PZI8",
+      "promo_badge_message": "50% OFF"
+    },
+    {
+      "id": "5eaad5ec67be5a22c488563e",
+      "active": true,
+      "details": { "Size": ["FlexTop California King"] },
+      "name": "i8 360 Bed FlexTop California King",
+      "regular": { "cents": 489900.0, "currency_iso": "USD" },
+      "sale": { "cents": 314900.0, "currency_iso": "USD" },
+      "sku": "BZI8",
+      "promo_badge_message": "50% OFF"
+    }
+  ],
+  "original_max_price": { "cents": 489900.0, "currency_iso": "USD" },
+  "original_min_price": { "cents": 314900.0, "currency_iso": "USD" },
+  "sell_max_price": { "cents": 489900.0, "currency_iso": "USD" },
+  "sell_min_price": { "cents": 314900.0, "currency_iso": "USD" },
+  "images": [
+    {
+      "id": "5eaad61667be5a22c4885784",
+      "options": {},
+      "position": 0,
+      "primary": true,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt_2x",
+      "tags": ["upt", "2x"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885785",
+      "options": {},
+      "position": 1,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt_split_2x",
+      "tags": ["2x", "split", "upt"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885786",
+      "options": {},
+      "position": 2,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt_flextop_2x",
+      "tags": ["2x", "flextop", "upt"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885787",
+      "options": {},
+      "position": 3,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt_flextop",
+      "tags": ["upt", "flextop"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885788",
+      "options": {},
+      "position": 4,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt",
+      "tags": ["upt"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885789",
+      "options": {},
+      "position": 5,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/upt_split",
+      "tags": ["split", "upt"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578a",
+      "options": {},
+      "position": 6,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/zoom-2-mobile",
+      "tags": ["gallery", "mobile"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578b",
+      "options": {},
+      "position": 7,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/zoom-2",
+      "tags": ["gallery", "desktop"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578c",
+      "options": {},
+      "position": 8,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/postcard-tablet",
+      "tags": ["postcard", "tablet"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578d",
+      "options": {},
+      "position": 9,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/45-wide",
+      "tags": ["desktop", "gallery"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578e",
+      "options": {},
+      "position": 10,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/zoom-1",
+      "tags": ["desktop", "gallery"]
+    },
+    {
+      "id": "5eaad61667be5a22c488578f",
+      "options": {},
+      "position": 11,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/straight-on-wide-mobile",
+      "tags": ["gallery", "mobile"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885790",
+      "options": {},
+      "position": 12,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/zoom-1-mobile",
+      "tags": ["mobile", "gallery"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885791",
+      "options": {},
+      "position": 13,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/straight-on-wide",
+      "tags": ["desktop", "gallery"]
+    },
+    {
+      "id": "5eaad61667be5a22c4885792",
+      "options": {},
+      "position": 14,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/postcard-mobile",
+      "tags": ["postcard", "mobile"]
+    },
+    {
+      "id": "5eaad61767be5a22c4885793",
+      "options": {},
+      "position": 15,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/postcard-desktop",
+      "tags": ["postcard", "desktop"]
+    },
+    {
+      "id": "5eaad61767be5a22c4885794",
+      "options": {},
+      "position": 16,
+      "primary": false,
+      "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/i8/45-wide-mobile",
+      "tags": ["gallery", "mobile"]
+    }
+  ],
+  "content_blocks": { "top": [], "bottom": [], "product_info": [] }
+}

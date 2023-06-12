@@ -1,0 +1,377 @@
+{
+  "calculation_status": "ACTUAL",
+  "created": "2019-05-01T11:29:01",
+  "customer_name": "DONALD JOHNSON",
+  "customer_number": "10829642",
+  "estimated_location": null,
+  "order_number": "95006436350",
+  "tax_rate": 1,
+  "hd_items": [],
+  "other_items": [],
+  "ups_items": [
+    {
+      "id": "1-UWJZE7F",
+      "parent_id": "1-UWJZE7F",
+      "name": "King 2\" Inset Foam Topper, 7-Zone",
+      "sku": "122867",
+      "product_id": "122867",
+      "quantity": 1,
+      "options": null,
+      "product": {
+        "id": "ff-remotes-360",
+        "bazaar_voice_id": "ff-remotes-360",
+        "name": "Remote - Smart Bed",
+        "type": "remote",
+        "description": "Control your smart bed and base without your smart device.",
+        "long_description": "<p>The Sleep Number 360™ smart bed remote is available as an optional purchase for making quick, easy adjustments to your Sleep Number 360™ smart bed. The remote allows for easy access to functions like selecting a Sleep Number® setting, adjusting the head/foot position on selected bases, and accessing timers on selected bases. </p> <p>The Sleep Number 360™ smart bed is powered by SleepIQ® technology for smart, effortless sleep. </p> <p>SleepIQ® technology provides easy adjustability, sleep tracking and connectivity. Intelligent biometrics track your heart rate, breathing rate and movement to give you a SleepIQ® score each morning. </p>",
+        "reference_description": null,
+        "meta_description": "Choose the right remote for your Sleep Number 360™ smart bed sleep experience.",
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "flexfit-360-remotes",
+        "original_slug": "flexfit-360-remotes",
+        "browser_title": "Remote - Smart Bed",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "filters": {
+          "Size": [],
+          "Color": [],
+          "Shape": []
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5fcf8a93a0d3178fb53c299c",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<strong>Control your smart bed and base without your smart device</strong><p>The 360 smart bed Remote control is available as an optional purchase for further individualization of your sleep experience.</p> <p>Allows for easy access to functions like selecting a Sleep Number, adjusting the height of the head/foot on select bases, and access to timers on select bases.</p><p>The Sleep Number 360 smart bed is powered by SleepIQ technology for smart, effortless sleep. SleepIQ technology provides easy adjustability, sleep tracking, and connectivity.</p> <p>Intelligent biometrics track your heart rate, breathing rate, and movement to give you a SleepIQ score each morning.</p><p>The FlexFit Remotes 360 comes in three styles: 5-Button Remote, 10-Button, and 12-Button Remote.&nbsp; See the <strong>REMOTE OPTIONS</strong> tab for specific remote details.</p><p>Should you need additional assistance choosing the right remote, call 1-888-411-2188 or chat for assistance. Visit <a href=\"https://www.sleepnumber.com/support/categories/204141568-Set-Up-or-Move-Your-Bed/articles/360003538113-Set-Up-My-Remote\">sleepnumber.com/support</a> for details on setting up your remote.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5fcf8a93a0d3178fb53c299d",
+              "type": "html",
+              "area": "product_info",
+              "name": "Remote Options",
+              "data": {
+                "html": "<p>Choose the right remote for your Sleep Number 360 smart bed sleep experience.</p><p><strong>5-Button Remote: Operates Sleep Number 360 smart bed mattress only</strong>:</p><ul><li>Easily change your Sleep Number setting during the night</li> <li>View your SleepIQ score</li> <li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer</li></ul> <p><strong>10-Button Remote: Operates Sleep Number 360 smart mattress used with a FlexFit</strong><b>&trade;</b><strong>&nbsp;1 smart adjustable base </strong>(on back order)</p><ul><li>Easily change your Sleep Number setting during the night</li><li>View your SleepIQ score</li><li>Access Partner Snore technology</li><li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer.</li></ul> <p><strong>12-Button Remote: Operates Sleep Number 360 smart mattress used with FlexFit</strong><b>&trade;</b><strong>&nbsp;2 or FlexFit</strong><b>&trade;</b><strong>&nbsp;3 smart adjustable base</strong>:</p><ul><li>Everything offered in the 10-Button Remote, plus - Set a timer for foot warming feature (FlexFit&trade; 3 only)</li></ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5fcf8a93a0d3178fb53c299e",
+              "type": "html",
+              "area": "product_info",
+              "name": "Care",
+              "data": {
+                "html": "<p>With the exception of the battery compartment, do not open the remote. Doing so will void the limited warranty.</p><p>Keep the remote away from heat sources such as radiators, heat registers, etc.</p><p>The remote is not water resistant. Do not immerse in, use or store near water, for example, in a wet basement, near an open window, etc.</p><p>Be sure to use only the batteries specified and always handle the batteries with care. Improper use may result in battery explosion, cracking or leakage, which could result in personal injury and/or property damage.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5fcf89f5a0d3178fb53c2795",
+            "alt_text": null,
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Gallery_1",
+            "tags": ["gallery", "upt"]
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2796",
+            "alt_text": null,
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_5_button",
+            "tags": []
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2797",
+            "alt_text": null,
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_10_button",
+            "tags": []
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2798",
+            "alt_text": null,
+            "options": {},
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_12_button",
+            "tags": []
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5fcf88e6a0d3178fb53c21fb",
+            "active": true,
+            "details": {
+              "Remote": [
+                "5-Button Remote for use with Mattress + Integrated Base"
+              ]
+            },
+            "name": "5-Button Smart Bed Remote for Mattress + Integrated Base",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "122599",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf88e6a0d3178fb53c21fc",
+            "active": true,
+            "details": {
+              "Remote": ["10-Button Remote for use with FlexFit™ 1"]
+            },
+            "name": "10-Button Smart Bed Remote for FlexFit™ 1",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "122600",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf88e6a0d3178fb53c21fd",
+            "active": true,
+            "details": {
+              "Remote": ["12-Button Remote for all 360 FlexFit Bases"]
+            },
+            "name": "12-Button Smart Bed Remote for use with FlexFit™ 2 & 3",
+            "regular": {
+              "cents": 3900,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 3900,
+              "currency_iso": "USD"
+            },
+            "sku": "122601",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "review_stats": {
+          "average_overall_rating": 5,
+          "total_review_count": 1,
+          "distributions": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          }
+        }
+      },
+      "pricing": {
+        "price_adjustments": [
+          {
+            "discount": true,
+            "amount": {
+              "cents": 6243,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "total_price": {
+          "cents": 24971
+        },
+        "total_regular_price": {
+          "cents": 31214
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": "UPS Ground"
+        }
+      ],
+      "boxes_count": 1,
+      "delivery_schedule_end_date": "",
+      "delivery_schedule_start_date": "",
+      "delivery_schedule_status": "",
+      "delivers_via": "UPS",
+      "ups_tracking_id": "1ZE86W800374012172"
+    }
+  ],
+  "billing_address": {
+    "city": "ELIZABETH",
+    "country": "USA",
+    "first_name": "DONALD",
+    "last_name": "JOHNSON",
+    "postal_code": "80107-8315",
+    "region": "CO",
+    "street": "1535 LEGACY TRL",
+    "street_2": ""
+  },
+  "shipping_address": {
+    "city": "ELIZABETH",
+    "country": "USA",
+    "first_name": "DONALD",
+    "last_name": "JOHNSON",
+    "postal_code": "80107-8315",
+    "region": "CO",
+    "street": "1535 LEGACY TRL",
+    "street_2": ""
+  },
+  "shipping_groups": [
+    {
+      "id": "FREIGHT TO CUSTOMER",
+      "skus": [],
+      "shipping_services": [
+        {
+          "service_code": null,
+          "type": null,
+          "name": null,
+          "description": null,
+          "price": {
+            "cents": 1995,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "id": "5fcf88cea0d3178fb53c2010",
+      "skus": ["INSTALL"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": null,
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    }
+  ],
+  "shipping_group_selections": [
+    {
+      "id": "FREIGHT TO CUSTOMER",
+      "skus": [],
+      "shipping_services": [
+        {
+          "service_code": null,
+          "type": null,
+          "name": null,
+          "description": null,
+          "price": {
+            "cents": 1995,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "id": "5fcf88cea0d3178fb53c2010",
+      "skus": ["INSTALL"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": null,
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    }
+  ],
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": {
+      "cents": 1995,
+      "currency_iso": "USD"
+    },
+    "tax_total": {
+      "cents": 1042,
+      "currency_iso": "USD"
+    },
+    "total_fee": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "subtotal_price": {
+      "cents": 33927,
+      "currency_iso": "USD"
+    },
+    "total_price": {
+      "cents": 36964,
+      "currency_iso": "USD"
+    },
+    "paid_amount": null
+  }
+}

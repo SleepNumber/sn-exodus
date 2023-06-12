@@ -1,0 +1,685 @@
+[
+  {
+    "type": "line_item_cross_sell",
+    "source_sku": "QZI8",
+    "reference": {
+      "sku": "423926",
+      "quantity": 1,
+      "total": {
+        "cents": 21999,
+        "currency_iso": "USD"
+      },
+      "product": {
+        "id": "total-protection-mattress-pad",
+        "name": "Total Protection Mattress Pad",
+        "type": "bedding",
+        "description": "Get a 10-year limited warranty to protect your mattress from almost any stain.",
+        "long_description": "<p>Waterproof, stain-resistant, and  offers a 10-year limited warranty on your Sleep Number<sup>&reg;</sup> bed.</p> <p>Helps move heat away so you stay  cooler. Now featuring Nano-Cool Knit fabric that moves heat rapidly away from  your body for a cooler, more comfortable sleep surface. When you buy our Total Protection  mattress pad at the same time as your new SLEEP NUMBER<sup>&reg;</sup> bed, you'll receive a  10-year limited warranty to guarantee your mattress is protected from almost  any stain life can throw at it. The ultimate in mattress protection is  waterproof, stain resistant and hypoallergenic. Fits mattresses up to 16  inches. Logic&trade; Label takes the guesswork out of where to start making your bed.</p> <table width=\"100%\" border=\"0\">   <tbody>     <tr>       <td width=\"33%\">Twin: 38 x 75&nbsp;&nbsp;</td>       <td width=\"33%\">Twin  Extra-Long: 38 x 80&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>       <td width=\"34%\">Full:  54 x 75</td>     </tr>     <tr>       <td>Queen: 60 x 80&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>       <td>Eastern King:  76 x 80&nbsp;&nbsp;</td>       <td>California  King: 72 x 84&nbsp;&nbsp; </td>     </tr>     <tr>       <td>California Twin XL: 36 x 84&nbsp;</td>       <td>FlexTop<sup>&reg;</sup>  King: 76 x 80</td>       <td>FlexTop<sup>&reg;</sup>  California King: 72 x 84</td>     </tr>   </tbody> </table> <p>Made in USA</p> <p>Warranty: 10-Year Limited Warranty</p> <p> Product care instructions: Machine wash cold with mild  detergent. Tumble dry low gentle. Do not bleach, iron or dry clean. Waterproof,  stain resistant and hypoallergenic.</p>",
+        "reference_description": "10-year limited warranty with purchase.",
+        "meta_description": "Waterproof, stain-resistant, and  offers a 10-year limited warranty on your Sleep Number<sup>&reg;</sup> bed.</p> <p>Helps move heat away so you stay  cooler. Now featuring Nano-Cool Knit fabric that moves heat rapidly away from  your body for a cooler, more comfortable sleep surface. When you buy our Total Protection  mattress pad at the same time as your new SLEEP NUMBER<sup>&reg;</sup> bed, you'll receive a  10-year limited warranty to guarantee your mattress is protected from almost  any stain life can throw at it. The ultimate in mattress protection is  waterproof, stain resistant and hypoallergenic. Fits mattresses up to 16  inches. Logic&trade; Label takes the guesswork out of where to start making your bed.",
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": "Waterproof and stain protective",
+        "slug": "total-protection-mattress-pad",
+        "original_slug": "total-protection-mattress-pad",
+        "browser_title": "Total Protection Mattress Pad",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "filters": {
+          "Size": [
+            "Queen",
+            "Full",
+            "Twin Extra Long",
+            "Twin",
+            "FlexTop California King",
+            "California King",
+            "King",
+            "FlexTop King",
+            "California Twin Extra Long"
+          ],
+          "Color": [],
+          "Shape": []
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5f451ddb67be5a72b188b333",
+              "type": "html",
+              "area": "product_info",
+              "name": "Warranty",
+              "data": {
+                "html": "<p>Receive a <a href=\"/sn/en/warranty\">10-year limited warranty</a> to guarantee your mattress is protected from almost any stain when you buy our Total Protection Mattress Pad with your new Sleep Number<sup>&reg;</sup> bed.</p> <p>Must be purchased at same time and on same receipt as mattress.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5f451ddb67be5a72b188b334",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<p>Waterproof, stain resistant and hypoallergenic. Features Nano-Cool Knit fabric that moves heat rapidly away from your body for a cooler sleep surface.</p><p>Standard size fits mattresses up to 16 inches.  Low profile size fits mattresses up to 10 inches.</p><p>STANDARD 100 by OEKO-TEX<sup>&reg;</sup> certification keeps you and your family safe from harmful substances. Label ID and test institute: 18.HUS.57195 HOHENSTEIN HTTI</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5f451ddb67be5a72b188b335",
+              "type": "html",
+              "area": "product_info",
+              "name": "Size Guide",
+              "data": {
+                "html": "<p>Twin&nbsp; &nbsp;39\" W X 75\" L</p><p>Twin XL&nbsp; &nbsp;39\" W X 80\" L</p><p>California Twin&nbsp;XL&nbsp; &nbsp;36\" W X 84\" L</p><p>Full&nbsp; &nbsp;54\"W X x 75\" L</p><p>Queen&nbsp; &nbsp;60\" W X 80\" L</p><p>King&nbsp; &nbsp;76\" W X 80\" L</p><p>California King&nbsp;&nbsp;&nbsp; 72\" W X 84\" L</p><p>FlexTop King&nbsp;&nbsp;76\" W X 80\"L</p><p>FlexTop California King&nbsp;&nbsp; 72\" W X 84\" L</p><p>Note:&nbsp;A Split King mattress would need 2 Twin XL mattress pads.</p><p>A Split California King mattress&nbsp;would need 2 California Twin XL mattress pads.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            },
+            {
+              "id": "5f451ddb67be5a72b188b336",
+              "type": "html",
+              "area": "product_info",
+              "name": "Fabric Care",
+              "data": {
+                "html": "<p>Top Fabric: 70% polyester, 30% nylon.  Skirt: 92% polyester, 8% spandex.</p><p>Machine wash cold with mild detergent. Tumble dry low gentle. Do not bleach, iron or dry clean. Waterproof, stain resistant and hypoallergenic.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 3
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f451d7467be5a72b188b14e",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/total-protection-mattress-pad/total-protection-mattress-pad_PDP_Postcard_Gallery_3",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f451d7467be5a72b188b14f",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/total-protection-mattress-pad/total-protection-mattress-pad_PDP_Postcard_Gallery_2",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f451d7467be5a72b188b150",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/total-protection-mattress-pad/total-protection-mattress-pad_PDP_Postcard_Gallery_1",
+            "tags": ["gallery", "upt"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": ["pillow-comfortfit"],
+        "variants": [
+          {
+            "id": "5f451c2367be5a72b188abc7",
+            "details": { "Size": ["Queen"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423926",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abc8",
+            "details": { "Size": ["Full"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423925",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abc9",
+            "details": { "Size": ["Twin Extra Long"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 11999, "currency_iso": "USD" },
+            "sale": { "cents": 11999, "currency_iso": "USD" },
+            "sku": "423924",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abca",
+            "details": { "Size": ["Twin"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 11999, "currency_iso": "USD" },
+            "sale": { "cents": 11999, "currency_iso": "USD" },
+            "sku": "423923",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abcb",
+            "details": { "Size": ["Queen"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423812",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abcc",
+            "details": {
+              "Size": ["FlexTop California King"],
+              "Type": ["Standard"]
+            },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423817",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abcd",
+            "details": { "Size": ["California King"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423928",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abce",
+            "details": { "Size": ["King"], "Type": ["Low Profile"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423927",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abcf",
+            "details": { "Size": ["King"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423813",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd0",
+            "details": { "Size": ["Full"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423811",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd1",
+            "details": { "Size": ["Twin Extra Long"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 11999, "currency_iso": "USD" },
+            "sale": { "cents": 11999, "currency_iso": "USD" },
+            "sku": "423810",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd2",
+            "details": { "Size": ["Twin"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 11999, "currency_iso": "USD" },
+            "sale": { "cents": 11999, "currency_iso": "USD" },
+            "sku": "423809",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd3",
+            "details": { "Size": ["FlexTop King"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423816",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd4",
+            "details": { "Size": ["California King"], "Type": ["Standard"] },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 21999, "currency_iso": "USD" },
+            "sale": { "cents": 21999, "currency_iso": "USD" },
+            "sku": "423814",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f451c2367be5a72b188abd5",
+            "details": {
+              "Size": ["California Twin Extra Long"],
+              "Type": ["Standard"]
+            },
+            "name": "Total Protection Mattress Pad",
+            "regular": { "cents": 11999, "currency_iso": "USD" },
+            "sale": { "cents": 11999, "currency_iso": "USD" },
+            "sku": "423815",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 21999, "currency_iso": "USD" },
+        "original_min_price": { "cents": 11999, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 21999, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 11999, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4.1633,
+          "total_review_count": 49,
+          "distributions": { "1": 5, "2": 2, "3": 3, "4": 9, "5": 30 }
+        }
+      }
+    }
+  },
+  {
+    "type": "line_item_cross_sell",
+    "source_sku": "QZI8",
+    "reference": {
+      "sku": "424800",
+      "quantity": 1,
+      "total": {
+        "cents": 21999.0,
+        "currency_iso": "USD"
+      },
+      "product": {
+        "id": "lyocell-ultra-sheets",
+        "name": "Lyocell Ultra Sheet Set",
+        "type": "bedding",
+        "description": "Exercitation pariatur ex minim pariatur sunt est consequat commodo ullamco elit amet.",
+        "long_description": null,
+        "reference_description": "Exercitation pariatur ex minim pariatur sunt est consequat commodo ullamco elit amet.",
+        "meta_description": null,
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "lyocell-ultra-sheets-set",
+        "browser_title": "Lyocell Ultra Sheet Set",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": null,
+        "filters": {
+          "Size": ["Queen", "King"],
+          "Color": ["White", "Ivory"]
+        },
+        "details": {
+          "Material": ["Cotton"],
+          "Style": ["12345"]
+        },
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5f451ddb67be5a72b188b338",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<p>Soft, breathable lyocell blend offers conforming comfort all night long. Now with ExactFit sheet design for a flexible fit that moves with you. 300-thread-count sateen weave for luxurious softness. Fits any mattress up to 15 inches.</p><p>Designed and crafted in the USA.</p><p>Our Lyocell Ultra sheets are proudly designed at Sleep Number headquarters in Minneapolis, MN. Made from imported materials, they&rsquo;re then cut and sewn in the USA by a family-owned company with more than 30 years of expertise.</p><p><strong>Includes</strong></p><p>Sheet set includes one flat sheet, one fitted sheet and two pillowcases. Split King contains two Twin Extra-Long fitted sheets.&nbsp;</p><p>Learn more. See our&nbsp;<a href=\"https://www.sleepnumber.com/resources/sheets-guide#how-to\" target=\"_blank\">How-to videos.</a></p><p>Find the ideal bedding combination. Mix and match colors using <a href=\"https://www.sleepnumber.com/sn/en/find-best-bedding\">Bedding Planner</a>.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5f451ddb67be5a72b188b339",
+              "type": "html",
+              "area": "product_info",
+              "name": "Fabric",
+              "data": {
+                "html": "<p>Fitted sheet: 68% lyocell, 27% cotton, 5% elastane</p><p>Flat sheet and pillowcases: 70% lyocell, 30% cotton</p><p>Made in the USA of fabric imported from China.</p><p>Machine wash gentle cycle in cold water with mild detergent. Do not use chlorine bleach. Tumble dry on low heat or line dry.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5f451ddb67be5a72b188b33a",
+              "type": "html",
+              "area": "product_info",
+              "name": "General Care",
+              "data": {
+                "html": "<p>Do not pour detergent directly on sheets and avoid chlorine bleach or detergents with added bleach or whiteners.</p><p>Do not use fabric softener, overload washing machine, or wash with non-bedding items. These increase friction, which can break down fabrics or cause pilling.</p><p><strong>Drying </strong><br />Remove from dryer while slightly damp to prevent wrinkles. Do not use dryer sheets, as they may weaken and break down the yarns.</p><p><strong>Storage </strong><br />Store sheets in a cool, dry, well-ventilated area. Do not store in plastic containers as this may cause fabric to discolor.</p><p><strong>FYI </strong><br />Certain hair and skincare products may discolor sheets and pillowcases or cause pilling.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            },
+            {
+              "id": "5f451ddb67be5a72b188b33b",
+              "type": "html",
+              "area": "product_info",
+              "name": "Certifications",
+              "data": {
+                "html": "<p>STANDARD 100 by OEKO-TEX<sup>®</sup> certification keeps you and your family safe from harmful substances.\r\nLabel ID and test institute: 18.HUS.47931 HOHENSTEIN HTTI </p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 3
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [],
+        "videos": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5efcc5d87c9f5462994cb57e",
+            "details": {
+              "Size": ["Queen"],
+              "Color": ["White"]
+            },
+            "name": "424800",
+            "regular": {
+              "cents": 21999.0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 21999.0,
+              "currency_iso": "USD"
+            },
+            "sku": "424800",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5efcc5d87c9f5462994cb57f",
+            "details": {
+              "Size": ["King"],
+              "Color": ["White"]
+            },
+            "name": "424801",
+            "regular": {
+              "cents": 25999.0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 25999.0,
+              "currency_iso": "USD"
+            },
+            "sku": "424801",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5efcc5d87c9f5462994cb580",
+            "details": {
+              "Size": ["Queen"],
+              "Color": ["Ivory"]
+            },
+            "name": "424811",
+            "regular": {
+              "cents": 21999.0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 21999.0,
+              "currency_iso": "USD"
+            },
+            "sku": "424811",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5efcc5d87c9f5462994cb581",
+            "details": {
+              "Size": ["King"],
+              "Color": ["Ivory"]
+            },
+            "name": "424812",
+            "regular": {
+              "cents": 25999.0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 25999.0,
+              "currency_iso": "USD"
+            },
+            "sku": "424812",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": {
+          "cents": 25999.0,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 21999.0,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 25999.0,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 21999.0,
+          "currency_iso": "USD"
+        }
+      }
+    }
+  },
+  {
+    "type": "line_item_cross_sell",
+    "source_sku": "QFA40",
+    "reference": {
+      "sku": "122600",
+      "quantity": 1,
+      "total": {
+        "cents": 3900,
+        "currency_iso": "USD"
+      },
+      "product": {
+        "id": "ff-remotes-360",
+        "name": "Remote - Smart Bed",
+        "type": "bedding",
+        "description": "Control your smart bed and base without your smart device.",
+        "long_description": "<p>The Sleep Number 360™ smart bed remote is available as an optional purchase for making quick, easy adjustments to your Sleep Number 360™ smart bed. The remote allows for easy access to functions like selecting a Sleep Number® setting, adjusting the head/foot position on selected bases, and accessing timers on selected bases. </p> <p>The Sleep Number 360™ smart bed is powered by SleepIQ® technology for smart, effortless sleep. </p> <p>SleepIQ® technology provides easy adjustability, sleep tracking and connectivity. Intelligent biometrics track your heart rate, breathing rate and movement to give you a SleepIQ® score each morning. </p>",
+        "reference_description": null,
+        "meta_description": "Choose the right remote for your Sleep Number 360™ smart bed sleep experience.",
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "flexfit-360-remotes",
+        "original_slug": "flexfit-360-remotes",
+        "browser_title": "Remote - Smart Bed",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "filters": { "Size": [], "Color": [], "Shape": [] },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5f34619f92fc7500013e0518",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<strong>Control your smart bed and base without your smart device</strong><p>The 360 smart bed Remote control is available as an optional purchase for further individualization of your sleep experience.</p> <p>Allows for easy access to functions like selecting a Sleep Number, adjusting the height of the head/foot on select bases, and access to timers on select bases.</p><p>The Sleep Number 360 smart bed is powered by SleepIQ technology for smart, effortless sleep. SleepIQ technology provides easy adjustability, sleep tracking, and connectivity.</p> <p>Intelligent biometrics track your heart rate, breathing rate, and movement to give you a SleepIQ score each morning.</p><p>The FlexFit Remotes 360 comes in three styles: 5-Button Remote, 10-Button, and 12-Button Remote.&nbsp; See the <strong>REMOTE OPTIONS</strong> tab for specific remote details.</p><p>Should you need additional assistance choosing the right remote, call 1-888-411-2188 or chat for assistance. Visit <a href=\"https://www.sleepnumber.com/support/categories/204141568-Set-Up-or-Move-Your-Bed/articles/360003538113-Set-Up-My-Remote\">sleepnumber.com/support</a> for details on setting up your remote.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5f34619f92fc7500013e0519",
+              "type": "html",
+              "area": "product_info",
+              "name": "Remote Options",
+              "data": {
+                "html": "<p>Choose the right remote for your Sleep Number 360 smart bed sleep experience.</p><p><strong>5-Button Remote: Operates Sleep Number 360 smart bed mattress only</strong>:</p><ul><li>Easily change your Sleep Number setting during the night</li> <li>View your SleepIQ score</li> <li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer</li></ul> <p><strong>10-Button Remote: Operates Sleep Number 360 smart mattress used with a FlexFit</strong><b>&trade;</b><strong>&nbsp;1 smart adjustable base </strong>(on back order)</p><ul><li>Easily change your Sleep Number setting during the night</li><li>View your SleepIQ score</li><li>Access Partner Snore technology</li><li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer.</li></ul> <p><strong>12-Button Remote: Operates Sleep Number 360 smart mattress used with FlexFit</strong><b>&trade;</b><strong>&nbsp;2 or FlexFit</strong><b>&trade;</b><strong>&nbsp;3 smart adjustable base</strong>:</p><ul><li>Everything offered in the 10-Button Remote, plus - Set a timer for foot warming feature (FlexFit&trade; 3 only)</li></ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5f34619f92fc7500013e051a",
+              "type": "html",
+              "area": "product_info",
+              "name": "Care",
+              "data": {
+                "html": "<p>With the exception of the battery compartment, do not open the remote. Doing so will void the limited warranty.</p><p>Keep the remote away from heat sources such as radiators, heat registers, etc.</p><p>The remote is not water resistant. Do not immerse in, use or store near water, for example, in a wet basement, near an open window, etc.</p><p>Be sure to use only the batteries specified and always handle the batteries with care. Improper use may result in battery explosion, cracking or leakage, which could result in personal injury and/or property damage.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f3460e492fc7500013dfdca",
+            "details": {
+              "Remote": [
+                "5-Button Remote for use with Mattress + Integrated Base"
+              ]
+            },
+            "name": "5-Button Smart Bed Remote for Mattress + Integrated Base",
+            "regular": { "cents": 3900, "currency_iso": "USD" },
+            "sale": { "cents": 3900, "currency_iso": "USD" },
+            "sku": "122599",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": {
+              "description": "Permanent 12 Month",
+              "id": "5f4d078925a504001c8b3bfc",
+              "months": 12,
+              "value": 4,
+              "default": true,
+              "deferred": true,
+              "end_date": null,
+              "promo_code": "212",
+              "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+            }
+          },
+          {
+            "id": "5f3460e492fc7500013dfdcb",
+            "details": {
+              "Remote": ["10-Button Remote for use with FlexFit™ 1"]
+            },
+            "name": "10-Button Smart Bed Remote for FlexFit™ 1",
+            "regular": { "cents": 3900, "currency_iso": "USD" },
+            "sale": { "cents": 3900, "currency_iso": "USD" },
+            "sku": "122600",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": {
+              "description": "Permanent 12 Month",
+              "id": "5f4d078925a504001c8b3bfc",
+              "months": 12,
+              "value": 4,
+              "default": true,
+              "deferred": true,
+              "end_date": null,
+              "promo_code": "212",
+              "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+            }
+          },
+          {
+            "id": "5f3460e492fc7500013dfdcc",
+            "details": {
+              "Remote": ["12-Button Remote for all 360 FlexFit Bases"]
+            },
+            "name": "12-Button Smart Bed Remote for use with FlexFit™ 2 & 3",
+            "regular": { "cents": 3900, "currency_iso": "USD" },
+            "sale": { "cents": 3900, "currency_iso": "USD" },
+            "sku": "122601",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": {
+              "description": "Permanent 12 Month",
+              "id": "5f4d078925a504001c8b3bfc",
+              "months": 12,
+              "value": 4,
+              "default": true,
+              "deferred": true,
+              "end_date": null,
+              "promo_code": "212",
+              "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+            }
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 3900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 3900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 3900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 3900, "currency_iso": "USD" },
+        "review_stats": null
+      }
+    }
+  }
+]

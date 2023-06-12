@@ -1,0 +1,20 @@
+{
+  "logged_in": false,
+  "cart_quantity": 0,
+  "admin": false,
+  "impersonating": false,
+  "browsing_as_guest": false,
+  "csrf_param": "authenticity_token",
+  "csrf_token": "7ynRgJjC6Su+CR8ZBcEp9ThWr4+UnzKZxuoGhxMOQWLlA4iaJou9QxMJgy1IdqM64wgc0ksdcb1NOa+3mxDp9w==",
+  "geolocation": {
+    "country": "US",
+    "state": "MN",
+    "city": "Osseo",
+    "localities": ["Osseo"],
+    "zipcode": "55311",
+    "longitude": -93.5814,
+    "latitude": 45.1715
+  },
+  "segments": ["First Time Visitor"],
+  "price_lists": []
+}

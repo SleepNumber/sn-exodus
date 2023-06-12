@@ -1,0 +1,2727 @@
+{
+  "id": "FB705CC368",
+  "hashed_id": "472475",
+  "fusion_number": null,
+  "service_request_number": null,
+  "url": "https://sleepnumber.test/orders/FB705CC368",
+  "share_url": "https://sleepnumber.test/shared_cart/YnSAg9uZj12fhU6mVxhDo93d",
+  "user_id": null,
+  "email": "atsolberg@gmail.com",
+  "placed_at": "2022-09-29T14:55:49.008-05:00",
+  "canceled_at": null,
+  "submitted_at": null,
+  "booked_at": null,
+  "status": "Placed",
+  "promo_codes": [],
+  "promo_code_data": [],
+  "reward_codes": [],
+  "reward_forfeiture": 0,
+  "requires_shipping": true,
+  "tax_rate": 0.071,
+  "vertex_flag": false,
+  "calculation_status": "ACTUAL",
+  "segment_ids": ["first_time_visitor"],
+  "nonstackable_product_ids": [],
+  "items": [
+    {
+      "id": "63334e9f341dcb090f5d4001",
+      "product_id": "p5-360",
+      "product_url": "https://sleepnumber.test/products/p5-ff2-360?sku=Q1P5",
+      "product": {
+        "id": "FBACE3E87F",
+        "bazaar_voice_id": "p5-ff2-360",
+        "name": "p5 WITH FLEXFIT™ 2",
+        "bundle_name": "SLEEP NUMBER 360<sup>®</sup> p5 SMART BED WITH FLEXFIT™ 2",
+        "type": "other",
+        "tags": [],
+        "description": null,
+        "long_description": null,
+        "reference_description": null,
+        "meta_description": null,
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "render_content_badge_on_product": false,
+        "render_content_badge_on_category": false,
+        "merchant_message": null,
+        "slug": "p5-ff2-360",
+        "original_slug": "p5-ff2-360",
+        "browser_title": "p5 WITH FLEXFIT™ 2",
+        "template": "family",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "category_slug": null,
+        "category_slugs": [],
+        "filters": {},
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "1B76FE545C",
+            "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Snoring_68.svg",
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "pdpcompare": false,
+            "specification": false,
+            "show_plus_text": false,
+            "tags": ["comparable"]
+          },
+          {
+            "id": "7E71DC0D24",
+            "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Lighting_68.svg",
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "pdpcompare": false,
+            "specification": false,
+            "show_plus_text": false,
+            "tags": ["comparable"]
+          },
+          {
+            "id": "EFF85BBF37",
+            "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Head_Positions_68.svg",
+            "name": "Head Adjust",
+            "text": "Endless head positions",
+            "comparable": true,
+            "pdpcompare": false,
+            "specification": false,
+            "show_plus_text": false,
+            "tags": ["comparable"]
+          },
+          {
+            "id": "C4F417DE56",
+            "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Foot_Positions_68.svg",
+            "name": "Zero Gravity",
+            "text": "Endless head/foot positions and favorites like zero-G",
+            "comparable": true,
+            "pdpcompare": false,
+            "specification": false,
+            "show_plus_text": false,
+            "tags": ["comparable"]
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": [],
+          "pdp_explore": [],
+          "buy_confidence": [],
+          "storytelling_top": [],
+          "storytelling_middle": [],
+          "storytelling_bottom": []
+        },
+        "swatches": {},
+        "allow_swatch_requests": false,
+        "images": [
+          {
+            "id": "632c87e6341dcb945ee1b654",
+            "alt_text": null,
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-ff2-360/FX2_p5_FXT_1704_01",
+            "tags": ["flextop2", "thumbnail"]
+          },
+          {
+            "id": "632c87e6341dcb945ee1b656",
+            "alt_text": null,
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-ff2-360/FX2_p5_SPK_1704_01",
+            "tags": ["split", "thumbnail"]
+          },
+          {
+            "id": "632c87e6341dcb945ee1b657",
+            "alt_text": null,
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-ff2-360/p5-FF2",
+            "tags": ["flextop", "thumbnail"]
+          }
+        ],
+        "videos": [
+          {
+            "id": "632c87e6341dcb945ee1b655",
+            "options": {},
+            "position": 0,
+            "thumbnail": "http://res.cloudinary.com/snbr-local/video/upload/f_auto/v1/workarea/catalog/product_videos/p5-ff2-360/SLEEP_NUMBER_360_p5_SMART_BED_with_FlexFit_2_Smart_Adjustable_Base.jpg",
+            "url": "http://res.cloudinary.com/snbr-local/video/upload/q_auto:eco,vc_auto/v1/workarea/catalog/product_videos/p5-ff2-360/SLEEP_NUMBER_360_p5_SMART_BED_with_FlexFit_2_Smart_Adjustable_Base",
+            "tags": ["standard"],
+            "poster_enabled": false,
+            "poster_time": 0
+          },
+          {
+            "id": "632c87e7341dcb945ee1b658",
+            "options": {},
+            "position": 1,
+            "thumbnail": "http://res.cloudinary.com/snbr-local/video/upload/f_auto/v1/workarea/catalog/product_videos/p5-ff2-360/SLEEP_NUMBER_360_p5_SMART_BED_with_FlexFit_2_Smart_Adjustable_Base_SPLIT.jpg",
+            "url": "http://res.cloudinary.com/snbr-local/video/upload/q_auto:eco,vc_auto/v1/workarea/catalog/product_videos/p5-ff2-360/SLEEP_NUMBER_360_p5_SMART_BED_with_FlexFit_2_Smart_Adjustable_Base_SPLIT",
+            "tags": ["split"],
+            "poster_enabled": false,
+            "poster_time": 0
+          }
+        ],
+        "renders": [],
+        "recommended": [],
+        "variants": [],
+        "packaged_products": [
+          {
+            "id": "p5-360",
+            "bazaar_voice_id": "p5-360",
+            "name": "p5",
+            "bundle_name": null,
+            "type": "mattress",
+            "tags": ["mattress", "performance_series"],
+            "description": "Plush performance, pressure-relieving comfort",
+            "long_description": "You’ll love plush, cushioned pressure relief with this 4\" combination of comfort layers that contour to you.",
+            "reference_description": null,
+            "meta_description": "The Sleep Number 360 p5 Smart Bed maximizes pressure relieving comfort while tracking how you're sleeping, adjusting to your personalized sleeping habits.",
+            "positioning_statement": "Plush performance, pressure-relieving comfort",
+            "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+            "content_badge_message": null,
+            "render_content_badge_on_product": false,
+            "render_content_badge_on_category": false,
+            "merchant_message": null,
+            "slug": "p5",
+            "original_slug": "p5-360",
+            "browser_title": "p5",
+            "template": "generic",
+            "digital": false,
+            "shipping_type": 1,
+            "shipping_type_name": "home_delivery",
+            "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+            "category_slug": "mattresses-performance-series",
+            "category_slugs": ["mattresses-performance-series", "sale-beds"],
+            "filters": {
+              "Size": [
+                "Twin",
+                "Twin XL",
+                "Full",
+                "Queen",
+                "King",
+                "Split King",
+                "FlexTop King",
+                "California King",
+                "FlexTop California King"
+              ]
+            },
+            "details": {
+              "Comfort Layer": ["4"],
+              "Mattress Height": ["10"],
+              "Pressure Relief": ["8"],
+              "Support": ["5"]
+            },
+            "comfort_guide_details": {
+              "Comfort Layer": ["4"],
+              "Mattress Height": ["10"],
+              "Pressure Relief": ["8"],
+              "Support": ["5"]
+            },
+            "features": [
+              {
+                "id": "C94BFE812C",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Dual_Adjustable_68.svg",
+                "name": "Dual Adjustability",
+                "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "833CA07A6D",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Responsive_Air_68.svg",
+                "name": "Responsive Air<sup>®</sup> technology",
+                "text": "Responds to your movements and automatically adjusts firmness on each side",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              }
+            ],
+            "customizations": null,
+            "content_blocks": {
+              "top": [],
+              "middle": [],
+              "bottom": [],
+              "product_info": [],
+              "price_block": [],
+              "pdp_explore": [],
+              "buy_confidence": [],
+              "storytelling_top": [],
+              "storytelling_middle": [],
+              "storytelling_bottom": []
+            },
+            "swatches": {},
+            "allow_swatch_requests": false,
+            "images": [
+              {
+                "id": "632c8878341dcb945ee1bc13",
+                "alt_text": null,
+                "options": {},
+                "position": 0,
+                "primary": true,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5-360",
+                "tags": ["upt"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc14",
+                "alt_text": null,
+                "options": {},
+                "position": 1,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5-360-FT-FF1",
+                "tags": ["upt", "flextop"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc15",
+                "alt_text": null,
+                "options": {},
+                "position": 2,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5-360-SPLIT-FF1",
+                "tags": ["upt", "split"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc16",
+                "alt_text": null,
+                "options": {},
+                "position": 3,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148556/workarea/catalog/product_images/p5-360/p5_gallery1",
+                "tags": ["gallery"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc17",
+                "alt_text": null,
+                "options": {},
+                "position": 4,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5_gallery2",
+                "tags": ["gallery", "postcard", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc18",
+                "alt_text": null,
+                "options": {},
+                "position": 5,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148559/workarea/catalog/product_images/p5-360/p5_gallery3",
+                "tags": ["desktop", "gallery", "tablet", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc19",
+                "alt_text": null,
+                "options": {},
+                "position": 6,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5_gallery4",
+                "tags": ["desktop", "gallery", "tablet", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1a",
+                "alt_text": null,
+                "options": {},
+                "position": 7,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5_matt_only",
+                "tags": ["matt-only"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1b",
+                "alt_text": null,
+                "options": {},
+                "position": 8,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575124/workarea/catalog/product_images/p5-360/p5new_flat_mlp_720x720",
+                "tags": ["upt", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1c",
+                "alt_text": null,
+                "options": {},
+                "position": 9,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575149/workarea/catalog/product_images/p5-360/p5new_flex_mlp_720x720",
+                "tags": ["upt", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1d",
+                "alt_text": null,
+                "options": {},
+                "position": 10,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636663622/workarea/catalog/product_images/p5-360/p5new_matt_only_ghost%20%283%29",
+                "tags": ["ghosted-base"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1e",
+                "alt_text": null,
+                "options": {},
+                "position": 11,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575175/workarea/catalog/product_images/p5-360/p5new_split_mlp_720x720",
+                "tags": ["upt", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1f",
+                "alt_text": null,
+                "options": {},
+                "position": 12,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_desktop",
+                "tags": ["postcard", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc20",
+                "alt_text": null,
+                "options": {},
+                "position": 13,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_desktop_flextop",
+                "tags": ["desktop", "postcard", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc21",
+                "alt_text": null,
+                "options": {},
+                "position": 14,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148567/workarea/catalog/product_images/p5-360/postcard_desktop_split",
+                "tags": ["desktop", "postcard", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc22",
+                "alt_text": null,
+                "options": {},
+                "position": 15,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_mobile",
+                "tags": ["postcard", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc23",
+                "alt_text": null,
+                "options": {},
+                "position": 16,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_mobile_flextop",
+                "tags": ["mobile", "postcard", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc24",
+                "alt_text": null,
+                "options": {},
+                "position": 17,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_mobile_split",
+                "tags": ["mobile", "postcard", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc25",
+                "alt_text": null,
+                "options": {},
+                "position": 18,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148569/workarea/catalog/product_images/p5-360/postcard_tablet",
+                "tags": ["postcard", "tablet"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc26",
+                "alt_text": null,
+                "options": {},
+                "position": 19,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148568/workarea/catalog/product_images/p5-360/postcard_tablet_flextop",
+                "tags": ["postcard", "tablet", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc27",
+                "alt_text": null,
+                "options": {},
+                "position": 20,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_tablet_split",
+                "tags": ["postcard", "tablet", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc28",
+                "alt_text": null,
+                "options": {},
+                "position": 21,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148567/workarea/catalog/product_images/p5-360/thumbnail",
+                "tags": ["thumbnail"]
+              }
+            ],
+            "videos": [
+              {
+                "id": "632c8879341dcb945ee1bc29",
+                "options": {},
+                "position": 0,
+                "thumbnail": "http://res.cloudinary.com/snbr-local/video/upload/f_auto/v1/workarea/catalog/product_videos/p5-360/p5-360_Product_Video.jpg",
+                "url": "http://res.cloudinary.com/snbr-local/video/upload/q_auto:eco,vc_auto/v1617295723/workarea/catalog/product_videos/p5-360/p5-360_Product_Video",
+                "tags": ["gallery"],
+                "poster_enabled": false,
+                "poster_time": 0
+              }
+            ],
+            "renders": [],
+            "recommended": [],
+            "variants": [
+              {
+                "id": "632c876a341dcb945ee1b2e8",
+                "active": true,
+                "details": {
+                  "Size": ["Twin"]
+                },
+                "name": "p5 360 Bed Twin",
+                "regular": {
+                  "cents": 184900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 134900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "T1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881b341dcb945ee1b6f1",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2e9",
+                "active": true,
+                "details": {
+                  "Size": ["Twin XL"]
+                },
+                "name": "p5 360 Bed Twin XL",
+                "regular": {
+                  "cents": 199900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 149900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "X1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f2",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ea",
+                "active": true,
+                "details": {
+                  "Size": ["Full"]
+                },
+                "name": "p5 360 Bed Full",
+                "regular": {
+                  "cents": 227400,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 177400,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "F1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f3",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2eb",
+                "active": true,
+                "details": {
+                  "Size": ["Queen"]
+                },
+                "name": "p5 360 Bed Queen",
+                "regular": {
+                  "cents": 239900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "Q1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f4",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ec",
+                "active": true,
+                "details": {
+                  "Size": ["King"]
+                },
+                "name": "p5 360 Bed King",
+                "regular": {
+                  "cents": 35000,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "K1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f5",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ed",
+                "active": true,
+                "details": {
+                  "Size": ["Split King"]
+                },
+                "name": "p5 360 Bed Split King",
+                "regular": {
+                  "cents": 329900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 279900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "S1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f6",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2ee",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop King"]
+                },
+                "name": "p5 360 Bed FlexTop King",
+                "regular": {
+                  "cents": 329900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 279900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "A1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f7",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2ef",
+                "active": true,
+                "details": {
+                  "Size": ["California King"]
+                },
+                "name": "p5 360 Bed California King",
+                "regular": {
+                  "cents": 289900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 239900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "C1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f8",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2f0",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop California King"]
+                },
+                "name": "p5 360 Bed FlexTop California King",
+                "regular": {
+                  "cents": 329900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 279900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "B1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f9",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              }
+            ],
+            "packaged_products": [],
+            "purchasable": true,
+            "inventory_status": "",
+            "original_max_price": {
+              "cents": 329900,
+              "currency_iso": "USD"
+            },
+            "original_min_price": {
+              "cents": 35000,
+              "currency_iso": "USD"
+            },
+            "sell_max_price": {
+              "cents": 279900,
+              "currency_iso": "USD"
+            },
+            "sell_min_price": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "review_stats": {
+              "average_overall_rating": 4,
+              "total_review_count": 20,
+              "distributions": {
+                "1": 2,
+                "2": 3,
+                "3": 0,
+                "4": 3,
+                "5": 12
+              }
+            },
+            "featured_reviews": [
+              {
+                "headline": "Sint sapiente a quaerat aut.",
+                "body": "Doloremque amet minima cumque a ea. Debitis maxime dolores. Animi optio non natus quibusdam maiores. Eveniet reprehenderit dolores mollitia.",
+                "rating": 3,
+                "reviewer_name": "dewayne_harvey",
+                "reviewer_location": "Brakusborough, VA"
+              },
+              {
+                "headline": "Molestiae placeat quam sit maiores omnis ad ipsum omnis.",
+                "body": "Perspiciatis veritatis unde. At laboriosam aut. Provident ut iusto quisquam velit dicta. Quis tenetur expedita non adipisci voluptate.",
+                "rating": 2,
+                "reviewer_name": "vickie.wiza",
+                "reviewer_location": "East Elianborough, OH"
+              },
+              {
+                "headline": "Nesciunt nobis occaecati et id unde repellat.",
+                "body": "Assumenda velit aut esse quis ut suscipit. Non beatae eveniet animi voluptatum. Voluptas dolore aspernatur beatae est eveniet.",
+                "rating": 1,
+                "reviewer_name": "estella",
+                "reviewer_location": "North Tremainestad, OK"
+              }
+            ]
+          },
+          {
+            "id": "ff2-360",
+            "bazaar_voice_id": "ff2-360",
+            "name": "Flexfit™ 2 Base",
+            "bundle_name": null,
+            "type": "adjustable_base",
+            "tags": ["base"],
+            "description": "Designed for enhanced comfort and wellbeing. Provides soothing, relaxing support for tired muscles.",
+            "long_description": null,
+            "reference_description": null,
+            "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+            "positioning_statement": "Endless head and foot positions",
+            "disclaimer": null,
+            "content_badge_message": null,
+            "render_content_badge_on_product": false,
+            "render_content_badge_on_category": false,
+            "merchant_message": null,
+            "slug": "ff2",
+            "original_slug": "ff2",
+            "browser_title": "Flexfit™ 2 Base",
+            "template": "generic",
+            "digital": false,
+            "shipping_type": 4,
+            "shipping_type_name": "ups_standard",
+            "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head and foot control) options available in shopping cart.",
+            "category_slug": null,
+            "category_slugs": [],
+            "filters": {
+              "Size": [
+                "Twin XL",
+                "Full",
+                "Queen",
+                "King",
+                "Split King",
+                "FlexTop King",
+                "California King",
+                "Split California King",
+                "FlexTop California King"
+              ]
+            },
+            "details": {},
+            "comfort_guide_details": {},
+            "features": [
+              {
+                "id": "BBB612BB7A",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_head_foot_adjust.svg",
+                "name": "Zero Gravity",
+                "text": "Endless head/foot positions and Zero Gravity",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "2816C24D63",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_partner_snore.svg",
+                "name": "Partner Snore",
+                "text": "Raise your partner’s head to help alleviate snoring*",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "898D550071",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_light_control.svg",
+                "name": "Lighting",
+                "text": "Find your way at night with under bed lighting",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              }
+            ],
+            "customizations": null,
+            "content_blocks": {
+              "top": [],
+              "middle": [],
+              "bottom": [],
+              "product_info": [],
+              "price_block": [],
+              "pdp_explore": [],
+              "buy_confidence": [],
+              "storytelling_top": [],
+              "storytelling_middle": [],
+              "storytelling_bottom": []
+            },
+            "swatches": {},
+            "allow_swatch_requests": false,
+            "images": [
+              {
+                "id": "632c891d341dcb945ee1bee9",
+                "alt_text": null,
+                "options": {},
+                "position": 0,
+                "primary": true,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF1_FX1_768x768",
+                "tags": ["thumbnail", "standard"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beea",
+                "alt_text": null,
+                "options": {},
+                "position": 1,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF1_FX2_768x768",
+                "tags": ["thumbnail", "standard"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beeb",
+                "alt_text": null,
+                "options": {},
+                "position": 2,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF2_FXT_FX2_768x768",
+                "tags": ["thumbnail", "flextop"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beec",
+                "alt_text": null,
+                "options": {},
+                "position": 3,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF3_SPK_FX2_768x768",
+                "tags": ["thumbnail", "split"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beed",
+                "alt_text": null,
+                "options": {},
+                "position": 4,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860646/workarea/catalog/product_images/ff2/flextop",
+                "tags": ["flextop", "upt"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beee",
+                "alt_text": null,
+                "options": {},
+                "position": 5,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860647/workarea/catalog/product_images/ff2/split",
+                "tags": ["split", "upt"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beef",
+                "alt_text": null,
+                "options": {},
+                "position": 6,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860646/workarea/catalog/product_images/ff2/standard",
+                "tags": ["standard", "thumbnail", "upt"]
+              }
+            ],
+            "videos": [],
+            "renders": [],
+            "recommended": [],
+            "variants": [
+              {
+                "id": "632c87f5341dcb945ee1b6ac",
+                "active": true,
+                "details": {
+                  "Size": ["Twin XL"]
+                },
+                "name": "FlexFit 2 360 Twin XL",
+                "regular": {
+                  "cents": 169900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 169900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "XFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6ad",
+                "active": true,
+                "details": {
+                  "Size": ["Full"]
+                },
+                "name": "FlexFit 2 360 Full",
+                "regular": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "FFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6ae",
+                "active": true,
+                "details": {
+                  "Size": ["Queen"]
+                },
+                "name": "FlexFit 2 360 Queen",
+                "regular": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "QFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6af",
+                "active": true,
+                "details": {
+                  "Size": ["King"]
+                },
+                "name": "FlexFit 2 360 King",
+                "regular": {
+                  "cents": 309900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 309900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "KFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b0",
+                "active": true,
+                "details": {
+                  "Size": ["Split King"]
+                },
+                "name": "FlexFit 2 360 Split King",
+                "regular": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "SFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b1",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop King"]
+                },
+                "name": "FlexFit 2 360 FlexTop King",
+                "regular": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "AFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b2",
+                "active": true,
+                "details": {
+                  "Size": ["California King"]
+                },
+                "name": "FlexFit 2 360 California King",
+                "regular": {
+                  "cents": 2500,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 2500,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "CFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f6341dcb945ee1b6b3",
+                "active": true,
+                "details": {
+                  "Size": ["Split California King"]
+                },
+                "name": "FlexFit 2 360 Split California King",
+                "regular": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "PFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f6341dcb945ee1b6b4",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop California King"]
+                },
+                "name": "FlexFit 2 360 FlexTop California King",
+                "regular": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 319900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "BFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              }
+            ],
+            "packaged_products": [],
+            "purchasable": true,
+            "inventory_status": "",
+            "original_max_price": {
+              "cents": 319900,
+              "currency_iso": "USD"
+            },
+            "original_min_price": {
+              "cents": 2500,
+              "currency_iso": "USD"
+            },
+            "sell_max_price": {
+              "cents": 319900,
+              "currency_iso": "USD"
+            },
+            "sell_min_price": {
+              "cents": 2500,
+              "currency_iso": "USD"
+            },
+            "review_stats": {},
+            "featured_reviews": []
+          }
+        ],
+        "purchasable": false,
+        "inventory_status": "",
+        "original_max_price": {
+          "cents": 329900,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 319900,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 0,
+          "currency_iso": "USD"
+        },
+        "review_stats": {},
+        "featured_reviews": []
+      },
+      "sku": "Q1P5",
+      "quantity": 1,
+      "options": {
+        "Size": "Queen"
+      },
+      "customizations": {},
+      "pricing": {
+        "price_adjustments": [
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "fee": false,
+            "amount": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "list_id": null,
+            "sku": null
+          },
+          {
+            "description": "Item Markdown",
+            "discount": true,
+            "fee": false,
+            "amount": {
+              "cents": -50000,
+              "currency_iso": "USD"
+            },
+            "list_id": null,
+            "sku": null
+          },
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "fee": false,
+            "amount": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "list_id": null,
+            "sku": null
+          },
+          {
+            "description": "$400 off FlexFit 2 with Core Mattress",
+            "discount": true,
+            "fee": false,
+            "amount": {
+              "cents": -40000,
+              "currency_iso": "USD"
+            },
+            "list_id": null,
+            "sku": null
+          },
+          {
+            "description": "Mattress Disposal Fee",
+            "discount": false,
+            "fee": true,
+            "amount": {
+              "cents": 4999,
+              "currency_iso": "USD"
+            },
+            "list_id": null,
+            "sku": "DISPOSAL"
+          }
+        ],
+        "customized": false,
+        "customizations_unit_price": {
+          "cents": 0,
+          "currency_iso": "USD"
+        },
+        "original_unit_price": {
+          "cents": 429800,
+          "currency_iso": "USD"
+        },
+        "total_regular_price": {
+          "cents": 429800,
+          "currency_iso": "USD"
+        },
+        "total_price": {
+          "cents": 339800,
+          "currency_iso": "USD"
+        }
+      },
+      "promo_message": {
+        "subtle": "You saved $900.00"
+      },
+      "bundle": true,
+      "family_product_id": "FBACE3E87F",
+      "bundle_index": 1,
+      "sku_list": ["Q1P5", "QFA50"],
+      "bundle_items": [
+        {
+          "id": "63334e9f341dcb090f5d4001",
+          "product_id": "p5-360",
+          "product_url": "https://sleepnumber.test/products/p5-360?sku=Q1P5",
+          "product": {
+            "id": "p5-360",
+            "bazaar_voice_id": "p5-360",
+            "name": "p5",
+            "bundle_name": null,
+            "type": "mattress",
+            "tags": ["mattress", "performance_series"],
+            "description": "Plush performance, pressure-relieving comfort",
+            "long_description": "You’ll love plush, cushioned pressure relief with this 4\" combination of comfort layers that contour to you.",
+            "reference_description": null,
+            "meta_description": "The Sleep Number 360 p5 Smart Bed maximizes pressure relieving comfort while tracking how you're sleeping, adjusting to your personalized sleeping habits.",
+            "positioning_statement": "Plush performance, pressure-relieving comfort",
+            "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+            "content_badge_message": null,
+            "render_content_badge_on_product": false,
+            "render_content_badge_on_category": false,
+            "merchant_message": null,
+            "slug": "p5",
+            "original_slug": "p5-360",
+            "browser_title": "p5",
+            "template": "generic",
+            "digital": false,
+            "shipping_type": 1,
+            "shipping_type_name": "home_delivery",
+            "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+            "category_slug": "mattresses-performance-series",
+            "category_slugs": ["mattresses-performance-series", "sale-beds"],
+            "filters": {
+              "Size": [
+                "Twin",
+                "Twin XL",
+                "Full",
+                "Queen",
+                "King",
+                "Split King",
+                "FlexTop King",
+                "California King",
+                "FlexTop California King"
+              ]
+            },
+            "details": {
+              "Comfort Layer": ["4"],
+              "Mattress Height": ["10"],
+              "Pressure Relief": ["8"],
+              "Support": ["5"]
+            },
+            "comfort_guide_details": {
+              "Comfort Layer": ["4"],
+              "Mattress Height": ["10"],
+              "Pressure Relief": ["8"],
+              "Support": ["5"]
+            },
+            "features": [
+              {
+                "id": "C94BFE812C",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Dual_Adjustable_68.svg",
+                "name": "Dual Adjustability",
+                "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "833CA07A6D",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/Responsive_Air_68.svg",
+                "name": "Responsive Air<sup>®</sup> technology",
+                "text": "Responds to your movements and automatically adjusts firmness on each side",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              }
+            ],
+            "customizations": null,
+            "content_blocks": {
+              "top": [],
+              "middle": [],
+              "bottom": [],
+              "product_info": [],
+              "price_block": [],
+              "pdp_explore": [],
+              "buy_confidence": [],
+              "storytelling_top": [],
+              "storytelling_middle": [],
+              "storytelling_bottom": []
+            },
+            "swatches": {},
+            "allow_swatch_requests": false,
+            "images": [
+              {
+                "id": "632c8878341dcb945ee1bc13",
+                "alt_text": null,
+                "options": {},
+                "position": 0,
+                "primary": true,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5-360",
+                "tags": ["upt"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc14",
+                "alt_text": null,
+                "options": {},
+                "position": 1,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5-360-FT-FF1",
+                "tags": ["upt", "flextop"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc15",
+                "alt_text": null,
+                "options": {},
+                "position": 2,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5-360-SPLIT-FF1",
+                "tags": ["upt", "split"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc16",
+                "alt_text": null,
+                "options": {},
+                "position": 3,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148556/workarea/catalog/product_images/p5-360/p5_gallery1",
+                "tags": ["gallery"]
+              },
+              {
+                "id": "632c8878341dcb945ee1bc17",
+                "alt_text": null,
+                "options": {},
+                "position": 4,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5_gallery2",
+                "tags": ["gallery", "postcard", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc18",
+                "alt_text": null,
+                "options": {},
+                "position": 5,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148559/workarea/catalog/product_images/p5-360/p5_gallery3",
+                "tags": ["desktop", "gallery", "tablet", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc19",
+                "alt_text": null,
+                "options": {},
+                "position": 6,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148558/workarea/catalog/product_images/p5-360/p5_gallery4",
+                "tags": ["desktop", "gallery", "tablet", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1a",
+                "alt_text": null,
+                "options": {},
+                "position": 7,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148557/workarea/catalog/product_images/p5-360/p5_matt_only",
+                "tags": ["matt-only"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1b",
+                "alt_text": null,
+                "options": {},
+                "position": 8,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575124/workarea/catalog/product_images/p5-360/p5new_flat_mlp_720x720",
+                "tags": ["upt", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1c",
+                "alt_text": null,
+                "options": {},
+                "position": 9,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575149/workarea/catalog/product_images/p5-360/p5new_flex_mlp_720x720",
+                "tags": ["upt", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1d",
+                "alt_text": null,
+                "options": {},
+                "position": 10,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636663622/workarea/catalog/product_images/p5-360/p5new_matt_only_ghost%20%283%29",
+                "tags": ["ghosted-base"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1e",
+                "alt_text": null,
+                "options": {},
+                "position": 11,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1636575175/workarea/catalog/product_images/p5-360/p5new_split_mlp_720x720",
+                "tags": ["upt", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc1f",
+                "alt_text": null,
+                "options": {},
+                "position": 12,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_desktop",
+                "tags": ["postcard", "desktop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc20",
+                "alt_text": null,
+                "options": {},
+                "position": 13,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_desktop_flextop",
+                "tags": ["desktop", "postcard", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc21",
+                "alt_text": null,
+                "options": {},
+                "position": 14,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148567/workarea/catalog/product_images/p5-360/postcard_desktop_split",
+                "tags": ["desktop", "postcard", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc22",
+                "alt_text": null,
+                "options": {},
+                "position": 15,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_mobile",
+                "tags": ["postcard", "mobile"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc23",
+                "alt_text": null,
+                "options": {},
+                "position": 16,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148563/workarea/catalog/product_images/p5-360/postcard_mobile_flextop",
+                "tags": ["mobile", "postcard", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc24",
+                "alt_text": null,
+                "options": {},
+                "position": 17,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_mobile_split",
+                "tags": ["mobile", "postcard", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc25",
+                "alt_text": null,
+                "options": {},
+                "position": 18,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148569/workarea/catalog/product_images/p5-360/postcard_tablet",
+                "tags": ["postcard", "tablet"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc26",
+                "alt_text": null,
+                "options": {},
+                "position": 19,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148568/workarea/catalog/product_images/p5-360/postcard_tablet_flextop",
+                "tags": ["postcard", "tablet", "flextop"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc27",
+                "alt_text": null,
+                "options": {},
+                "position": 20,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148566/workarea/catalog/product_images/p5-360/postcard_tablet_split",
+                "tags": ["postcard", "tablet", "split"]
+              },
+              {
+                "id": "632c8879341dcb945ee1bc28",
+                "alt_text": null,
+                "options": {},
+                "position": 21,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1608148567/workarea/catalog/product_images/p5-360/thumbnail",
+                "tags": ["thumbnail"]
+              }
+            ],
+            "videos": [
+              {
+                "id": "632c8879341dcb945ee1bc29",
+                "options": {},
+                "position": 0,
+                "thumbnail": "http://res.cloudinary.com/snbr-local/video/upload/f_auto/v1/workarea/catalog/product_videos/p5-360/p5-360_Product_Video.jpg",
+                "url": "http://res.cloudinary.com/snbr-local/video/upload/q_auto:eco,vc_auto/v1617295723/workarea/catalog/product_videos/p5-360/p5-360_Product_Video",
+                "tags": ["gallery"],
+                "poster_enabled": false,
+                "poster_time": 0
+              }
+            ],
+            "renders": [],
+            "recommended": [],
+            "variants": [
+              {
+                "id": "632c876a341dcb945ee1b2e8",
+                "active": true,
+                "details": {
+                  "Size": ["Twin"]
+                },
+                "name": "p5 360 Bed Twin",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "T1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2e9",
+                "active": true,
+                "details": {
+                  "Size": ["Twin XL"]
+                },
+                "name": "p5 360 Bed Twin XL",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "X1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ea",
+                "active": true,
+                "details": {
+                  "Size": ["Full"]
+                },
+                "name": "p5 360 Bed Full",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "F1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2eb",
+                "active": true,
+                "details": {
+                  "Size": ["Queen"]
+                },
+                "name": "p5 360 Bed Queen",
+                "regular": {
+                  "cents": 239900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "Q1P5",
+                "promo_badge_message": "$500 Off",
+                "merchant_message": null,
+                "alternate_promo_badge_message": "$500 Off Mattress",
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": "632c881c341dcb945ee1b6f4",
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ec",
+                "active": true,
+                "details": {
+                  "Size": ["King"]
+                },
+                "name": "p5 360 Bed King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "K1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876a341dcb945ee1b2ed",
+                "active": true,
+                "details": {
+                  "Size": ["Split King"]
+                },
+                "name": "p5 360 Bed Split King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "S1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2ee",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop King"]
+                },
+                "name": "p5 360 Bed FlexTop King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "A1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2ef",
+                "active": true,
+                "details": {
+                  "Size": ["California King"]
+                },
+                "name": "p5 360 Bed California King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "C1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c876b341dcb945ee1b2f0",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop California King"]
+                },
+                "name": "p5 360 Bed FlexTop California King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "B1P5",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              }
+            ],
+            "packaged_products": [],
+            "purchasable": true,
+            "inventory_status": "In Stock",
+            "original_max_price": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "original_min_price": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "sell_max_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "sell_min_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "review_stats": {
+              "average_overall_rating": 4,
+              "total_review_count": 20,
+              "distributions": {
+                "1": 2,
+                "2": 3,
+                "3": 0,
+                "4": 3,
+                "5": 12
+              }
+            },
+            "featured_reviews": [
+              {
+                "headline": "Sint sapiente a quaerat aut.",
+                "body": "Doloremque amet minima cumque a ea. Debitis maxime dolores. Animi optio non natus quibusdam maiores. Eveniet reprehenderit dolores mollitia.",
+                "rating": 3,
+                "reviewer_name": "dewayne_harvey",
+                "reviewer_location": "Brakusborough, VA"
+              },
+              {
+                "headline": "Molestiae placeat quam sit maiores omnis ad ipsum omnis.",
+                "body": "Perspiciatis veritatis unde. At laboriosam aut. Provident ut iusto quisquam velit dicta. Quis tenetur expedita non adipisci voluptate.",
+                "rating": 2,
+                "reviewer_name": "vickie.wiza",
+                "reviewer_location": "East Elianborough, OH"
+              },
+              {
+                "headline": "Nesciunt nobis occaecati et id unde repellat.",
+                "body": "Assumenda velit aut esse quis ut suscipit. Non beatae eveniet animi voluptatum. Voluptas dolore aspernatur beatae est eveniet.",
+                "rating": 1,
+                "reviewer_name": "estella",
+                "reviewer_location": "North Tremainestad, OK"
+              }
+            ]
+          },
+          "sku": "Q1P5",
+          "quantity": 1,
+          "options": {
+            "Size": "Queen"
+          },
+          "customizations": {},
+          "pricing": {
+            "price_adjustments": [
+              {
+                "description": "Item Subtotal",
+                "discount": false,
+                "fee": false,
+                "amount": {
+                  "cents": 239900,
+                  "currency_iso": "USD"
+                },
+                "list_id": null,
+                "sku": null
+              },
+              {
+                "description": "Item Markdown",
+                "discount": true,
+                "fee": false,
+                "amount": {
+                  "cents": -50000,
+                  "currency_iso": "USD"
+                },
+                "list_id": null,
+                "sku": null
+              },
+              {
+                "description": "Mattress Disposal Fee",
+                "discount": false,
+                "fee": true,
+                "amount": {
+                  "cents": 4999,
+                  "currency_iso": "USD"
+                },
+                "list_id": null,
+                "sku": "DISPOSAL"
+              }
+            ],
+            "customized": false,
+            "customizations_unit_price": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "original_unit_price": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "total_regular_price": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "total_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            }
+          },
+          "promo_message": {
+            "price_id": "632c881c341dcb945ee1b6f4",
+            "segmented": false,
+            "segments": [],
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "bundle": true,
+          "family_product_id": "FBACE3E87F",
+          "bundle_index": 1,
+          "sku_list": ["Q1P5"]
+        },
+        {
+          "id": "63334e9f341dcb090f5d4002",
+          "product_id": "ff2-360",
+          "product_url": "https://sleepnumber.test/products/ff2?sku=QFA50",
+          "product": {
+            "id": "ff2-360",
+            "bazaar_voice_id": "ff2-360",
+            "name": "Flexfit™ 2 Base",
+            "bundle_name": null,
+            "type": "adjustable_base",
+            "tags": ["base"],
+            "description": "Designed for enhanced comfort and wellbeing. Provides soothing, relaxing support for tired muscles.",
+            "long_description": null,
+            "reference_description": null,
+            "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+            "positioning_statement": "Endless head and foot positions",
+            "disclaimer": null,
+            "content_badge_message": null,
+            "render_content_badge_on_product": false,
+            "render_content_badge_on_category": false,
+            "merchant_message": null,
+            "slug": "ff2",
+            "original_slug": "ff2",
+            "browser_title": "Flexfit™ 2 Base",
+            "template": "generic",
+            "digital": false,
+            "shipping_type": 4,
+            "shipping_type_name": "ups_standard",
+            "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head and foot control) options available in shopping cart.",
+            "category_slug": null,
+            "category_slugs": [],
+            "filters": {
+              "Size": [
+                "Twin XL",
+                "Full",
+                "Queen",
+                "King",
+                "Split King",
+                "FlexTop King",
+                "California King",
+                "Split California King",
+                "FlexTop California King"
+              ]
+            },
+            "details": {},
+            "comfort_guide_details": {},
+            "features": [
+              {
+                "id": "BBB612BB7A",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_head_foot_adjust.svg",
+                "name": "Zero Gravity",
+                "text": "Endless head/foot positions and Zero Gravity",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "2816C24D63",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_partner_snore.svg",
+                "name": "Partner Snore",
+                "text": "Raise your partner’s head to help alleviate snoring*",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              },
+              {
+                "id": "898D550071",
+                "image_url": "http://res.cloudinary.com/snbr-local/image/upload/v1664481511/workarea/catalog/features/icons_button_light_control.svg",
+                "name": "Lighting",
+                "text": "Find your way at night with under bed lighting",
+                "comparable": true,
+                "pdpcompare": false,
+                "specification": false,
+                "show_plus_text": false,
+                "tags": ["comparable"]
+              }
+            ],
+            "customizations": null,
+            "content_blocks": {
+              "top": [],
+              "middle": [],
+              "bottom": [],
+              "product_info": [],
+              "price_block": [],
+              "pdp_explore": [],
+              "buy_confidence": [],
+              "storytelling_top": [],
+              "storytelling_middle": [],
+              "storytelling_bottom": []
+            },
+            "swatches": {},
+            "allow_swatch_requests": false,
+            "images": [
+              {
+                "id": "632c891d341dcb945ee1bee9",
+                "alt_text": null,
+                "options": {},
+                "position": 0,
+                "primary": true,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF1_FX1_768x768",
+                "tags": ["thumbnail", "standard"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beea",
+                "alt_text": null,
+                "options": {},
+                "position": 1,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF1_FX2_768x768",
+                "tags": ["thumbnail", "standard"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beeb",
+                "alt_text": null,
+                "options": {},
+                "position": 2,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF2_FXT_FX2_768x768",
+                "tags": ["thumbnail", "flextop"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beec",
+                "alt_text": null,
+                "options": {},
+                "position": 3,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1634840111/workarea/catalog/product_images/ff2/FF3_SPK_FX2_768x768",
+                "tags": ["thumbnail", "split"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beed",
+                "alt_text": null,
+                "options": {},
+                "position": 4,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860646/workarea/catalog/product_images/ff2/flextop",
+                "tags": ["flextop", "upt"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beee",
+                "alt_text": null,
+                "options": {},
+                "position": 5,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860647/workarea/catalog/product_images/ff2/split",
+                "tags": ["split", "upt"]
+              },
+              {
+                "id": "632c891d341dcb945ee1beef",
+                "alt_text": null,
+                "options": {},
+                "position": 6,
+                "primary": false,
+                "url": "http://res.cloudinary.com/snbr-local/image/upload/f_auto,q_auto:eco/v1602860646/workarea/catalog/product_images/ff2/standard",
+                "tags": ["standard", "thumbnail", "upt"]
+              }
+            ],
+            "videos": [],
+            "renders": [],
+            "recommended": [],
+            "variants": [
+              {
+                "id": "632c87f5341dcb945ee1b6ac",
+                "active": true,
+                "details": {
+                  "Size": ["Twin XL"]
+                },
+                "name": "FlexFit 2 360 Twin XL",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "XFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6ad",
+                "active": true,
+                "details": {
+                  "Size": ["Full"]
+                },
+                "name": "FlexFit 2 360 Full",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "FFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6ae",
+                "active": true,
+                "details": {
+                  "Size": ["Queen"]
+                },
+                "name": "FlexFit 2 360 Queen",
+                "regular": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "QFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6af",
+                "active": true,
+                "details": {
+                  "Size": ["King"]
+                },
+                "name": "FlexFit 2 360 King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "KFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b0",
+                "active": true,
+                "details": {
+                  "Size": ["Split King"]
+                },
+                "name": "FlexFit 2 360 Split King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "SFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b1",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop King"]
+                },
+                "name": "FlexFit 2 360 FlexTop King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "AFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f5341dcb945ee1b6b2",
+                "active": true,
+                "details": {
+                  "Size": ["California King"]
+                },
+                "name": "FlexFit 2 360 California King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "CFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f6341dcb945ee1b6b3",
+                "active": true,
+                "details": {
+                  "Size": ["Split California King"]
+                },
+                "name": "FlexFit 2 360 Split California King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "PFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              },
+              {
+                "id": "632c87f6341dcb945ee1b6b4",
+                "active": true,
+                "details": {
+                  "Size": ["FlexTop California King"]
+                },
+                "name": "FlexFit 2 360 FlexTop California King",
+                "regular": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "sale": {
+                  "cents": 0,
+                  "currency_iso": "USD"
+                },
+                "on_clearance": false,
+                "sku": "BFA50",
+                "promo_badge_message": null,
+                "merchant_message": null,
+                "alternate_promo_badge_message": null,
+                "promo_long_message": null,
+                "promo_expiry_date": null,
+                "promo_id": null,
+                "list_id": null,
+                "financing": null,
+                "inventory_message": "In Stock",
+                "inventory_count": 99999
+              }
+            ],
+            "packaged_products": [],
+            "purchasable": true,
+            "inventory_status": "In Stock",
+            "original_max_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "original_min_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "sell_max_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "sell_min_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "review_stats": {},
+            "featured_reviews": []
+          },
+          "sku": "QFA50",
+          "quantity": 1,
+          "options": {
+            "Size": "Queen"
+          },
+          "customizations": {},
+          "pricing": {
+            "price_adjustments": [
+              {
+                "description": "Item Subtotal",
+                "discount": false,
+                "fee": false,
+                "amount": {
+                  "cents": 189900,
+                  "currency_iso": "USD"
+                },
+                "list_id": null,
+                "sku": null
+              },
+              {
+                "description": "$400 off FlexFit 2 with Core Mattress",
+                "discount": true,
+                "fee": false,
+                "amount": {
+                  "cents": -40000,
+                  "currency_iso": "USD"
+                },
+                "list_id": null,
+                "sku": null
+              }
+            ],
+            "customized": false,
+            "customizations_unit_price": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "original_unit_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "total_regular_price": {
+              "cents": 189900,
+              "currency_iso": "USD"
+            },
+            "total_price": {
+              "cents": 149900,
+              "currency_iso": "USD"
+            }
+          },
+          "promo_message": {
+            "discount_id": "632c8930341dcb945ee1c087",
+            "segmented": false,
+            "segments": [],
+            "strong": "$400.00 OFF",
+            "subtle": "with FlexFit 2"
+          },
+          "bundle": true,
+          "family_product_id": "FBACE3E87F",
+          "bundle_index": 1,
+          "sku_list": ["QFA50"]
+        }
+      ]
+    }
+  ],
+  "financing_options": [
+    {
+      "description": null,
+      "name": "36 Month Financing or orders over 2999",
+      "id": "632c87fa341dcb945ee1b6ca",
+      "months": 36,
+      "value": 109,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "show_in_shopping_path": true,
+      "end_date": 1666455208000,
+      "promo_code": "436",
+      "disclaimer_message": "<p>\n       No Interest For 36 Months*\n     </p>\n     <p>\n       On purchases with a Sleep Number<sup>®</sup> credit card through 10/22/2022. 36 equal monthly payments required.\n     </p>",
+      "legal_disclaimer_message": "<p>\n       *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments\n       are required on promo purchase until it is paid in full. These payments equal the total promo purchase\n       amount divided by the number of months in the promo period and rounded up to the next whole dollar.\n       These payments may be higher than the payments that would be required if this purchase was a non-promo purchase.\n       Any monthly payments shown in connection with this promotional offer exclude taxes and delivery\n       and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments\n       by the due date each month and (2) this is the only balance on your account during the promo period.\n       If you have other balances on your account, this monthly payment will be added to the minimum payment\n       applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR\n       is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms.\n       Subject to credit approval.\n     </p>"
+    },
+    {
+      "description": null,
+      "name": "12 Months with Payments/Deferred Interest",
+      "id": "632c87fb341dcb945ee1b6ce",
+      "months": 12,
+      "value": 326,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": true,
+      "deferred": true,
+      "show_in_shopping_path": true,
+      "end_date": 1666455208000,
+      "promo_code": "212",
+      "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>",
+      "legal_disclaimer_message": "<p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+    }
+  ],
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": {
+      "cents": 19900,
+      "currency_iso": "USD"
+    },
+    "tax_total": {
+      "cents": 25893,
+      "currency_iso": "USD"
+    },
+    "total_recycling_fee": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "subtotal_price": {
+      "cents": 339800,
+      "currency_iso": "USD"
+    },
+    "total_price": {
+      "cents": 390592,
+      "currency_iso": "USD"
+    },
+    "total_price_minus_rewards": {
+      "cents": 390592,
+      "currency_iso": "USD"
+    },
+    "paid_amount": {
+      "cents": 390592,
+      "currency_iso": "USD"
+    }
+  },
+  "shipping_service": "UPS Shipping",
+  "shipping_groups": [
+    {
+      "id": "63334eb8341dcb090f5d4232",
+      "items": ["63334e9f341dcb090f5d4001"],
+      "skus": ["Q1P5"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": {
+            "cents": 19900,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "63334ecb341dcb090f5d42e8",
+      "items": ["63334e9f341dcb090f5d4002"],
+      "skus": ["QFA50"],
+      "shipping_services": [
+        {
+          "service_code": "ups-standard",
+          "type": "ups_standard",
+          "name": "UPS Shipping",
+          "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "fee_selection_options": [
+    {
+      "id": "632c8999341dcb945ee1c5b0",
+      "name": "Disposal Fee",
+      "checkout_label": "Optional Mattress Disposal",
+      "max_quantity": 1,
+      "selected": true,
+      "selected_quantity": 1,
+      "sku": "DISPOSAL",
+      "price": 49.99
+    }
+  ],
+  "shipping_group_selections": [
+    {
+      "id": "63334eb8341dcb090f5d4232",
+      "items": ["63334e9f341dcb090f5d4001"],
+      "skus": ["Q1P5"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": {
+            "cents": 19900,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "63334ecb341dcb090f5d42e8",
+      "items": ["63334e9f341dcb090f5d4002"],
+      "skus": ["QFA50"],
+      "shipping_services": [
+        {
+          "service_code": "ups-standard",
+          "type": "ups_standard",
+          "name": "UPS Shipping",
+          "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_address": {
+    "id": "63334ecb341dcb090f5d42e9",
+    "first_name": "Aaron",
+    "last_name": "Solberg",
+    "company": null,
+    "street": "12365 Breanna Court",
+    "street_2": "",
+    "city": "Rogers",
+    "country": "US",
+    "region": "MN",
+    "postal_code": "55374",
+    "phone_number": "7633505049",
+    "phone_extension": null
+  },
+  "billing_address": {
+    "id": "6335f83a341dcb45b6072f44",
+    "first_name": "Aaron",
+    "last_name": "Solberg",
+    "company": null,
+    "street": "12365 Breanna Court",
+    "street_2": "",
+    "city": "Rogers",
+    "country": "US",
+    "region": "MN",
+    "postal_code": "55374",
+    "phone_number": "7633505049",
+    "phone_extension": null
+  },
+  "tenders": [
+    {
+      "type": "credit_card",
+      "amount": {
+        "cents": 390592,
+        "currency_iso": "USD"
+      },
+      "issuer": "visa",
+      "display_number": "XXXX-XXXX-XXXX-1119",
+      "month": 2,
+      "year": 2024
+    }
+  ]
+}

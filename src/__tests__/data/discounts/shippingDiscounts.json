@@ -1,0 +1,112 @@
+{
+  "c2-360": [],
+  "c4-360": [],
+  "p5-360": [],
+  "pSE-360": [],
+  "p6-360": [],
+  "i8-360": [],
+  "iLE-360": [],
+  "i10-360": [],
+  "m7-360": [],
+  "ff1-360": [
+    {
+      "name": "Free Home Delivery",
+      "product_ids": ["ff1-360", "ib-360", "ibf-360"],
+      "badge_message": "Free Premium Delivery & Setup",
+      "line_item_message": "",
+      "promo_codes": ["freeshipping"],
+      "shipping_services": [
+        "Premium Delivery & Setup",
+        "Premium Delivery & Setup"
+      ],
+      "discount_amount": 100,
+      "discount_amount_type": "percent",
+      "shipping_service_data": [
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        },
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        }
+      ]
+    }
+  ],
+  "ff2-360": [],
+  "ff3-360": [],
+  "ib-360": [
+    {
+      "name": "Free Home Delivery",
+      "product_ids": ["ff1-360", "ib-360", "ibf-360"],
+      "badge_message": "Free Premium Delivery & Setup",
+      "line_item_message": "",
+      "promo_codes": ["freeshipping"],
+      "shipping_services": [
+        "Premium Delivery & Setup",
+        "Premium Delivery & Setup"
+      ],
+      "discount_amount": 100,
+      "discount_amount_type": "percent",
+      "shipping_service_data": [
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        },
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        }
+      ]
+    }
+  ],
+  "ibf-360": [
+    {
+      "name": "Free Home Delivery",
+      "product_ids": ["ff1-360", "ib-360", "ibf-360"],
+      "badge_message": "Free Premium Delivery & Setup",
+      "line_item_message": "",
+      "promo_codes": ["freeshipping"],
+      "shipping_services": [
+        "Premium Delivery & Setup",
+        "Premium Delivery & Setup"
+      ],
+      "discount_amount": 100,
+      "discount_amount_type": "percent",
+      "shipping_service_data": [
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        },
+        {
+          "name": "Premium Delivery & Setup",
+          "shipping_types": ["1", "2"],
+          "service_code": "homeDelivery",
+          "level": "standard",
+          "ship_via": "F",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes."
+        }
+      ]
+    }
+  ]
+}

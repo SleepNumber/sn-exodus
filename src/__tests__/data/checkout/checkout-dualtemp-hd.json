@@ -1,0 +1,1144 @@
+{
+  "id": "EE2F03604B",
+  "hashed_id": "847604",
+  "fusion_number": null,
+  "service_request_number": null,
+  "url": "https://staging.sleepnumber.com/api/storefront/orders/EE2F03604B",
+  "share_url": "https://staging.sleepnumber.com/shared_cart/BWrJJfv9zT7ypsw9RrjArAms",
+  "user_id": null,
+  "email": "mary.k.quint@gmail.com",
+  "placed_at": null,
+  "canceled_at": null,
+  "submitted_at": null,
+  "booked_at": null,
+  "status": "Checkout",
+  "promo_codes": [],
+  "promo_code_data": [],
+  "reward_codes": [],
+  "reward_forfeiture": 0,
+  "requires_shipping": true,
+  "tax_rate": 1,
+  "vertex_flag": true,
+  "calculation_status": "ACTUAL",
+  "segment_ids": ["first_time_visitor"],
+  "nonstackable_product_ids": [],
+  "items": [
+    {
+      "id": "6181493ab5b6ac0019a03a71",
+      "product_id": "pillow-comfortfit",
+      "product_url": "https://staging.sleepnumber.com/api/storefront/products/pillow-comfortfit?sku=423801",
+      "product": {
+        "id": "pillow-comfortfit",
+        "bazaar_voice_id": "pillow-comfortfit",
+        "name": "ComfortFit™ Pillow",
+        "bundle_name": null,
+        "type": "bedding",
+        "description": "Everyone’s new favorite pillow is a wonder-filled combination of soft comfort and conforming support.",
+        "long_description": "",
+        "reference_description": "",
+        "meta_description": "<p>Experience  the conforming support of memory foam with the soft comfort of down alternative  fiber&mdash;all in one pillow. Memory foam pieces blended with premium down  alternative fiber offer a unique fill that won&rsquo;t lose its shape.&nbsp; Luxurious lyocell blend cover provides the  ultimate in breathability.</p>",
+        "positioning_statement": "123",
+        "disclaimer": "",
+        "content_badge_message": null,
+        "merchant_message": "Conforming Support and Soft Comfort",
+        "slug": "pillow-comfortfit",
+        "original_slug": "pillow-comfortfit",
+        "browser_title": "ComfortFit™ Pillow",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": "",
+        "category_slug": "all-pillows",
+        "filters": {
+          "Size": ["standard", "king"],
+          "Shape": ["Curved", "Ultimate", "Classic"]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": "",
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [
+            {
+              "id": "5f4eb57d9867c0001778066c",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "Text Block",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "Light Gray",
+                "layout": "Center",
+                "text": "[{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"c5ec040b-c021-4aad-98d4-03068ab55a7b\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"lg\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"More REASONS TO LOVE OUR BEDDING\"}],\"id\":\"a3e2016d-9ab0-4339-b0f0-1f8225fc4354\"}]"
+              },
+              "hidden_breakpoints": [],
+              "position": 0,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f4eb546850dc60018509db6",
+              "type": "confidence_builder",
+              "area": "bottom",
+              "name": "Confidence Builder",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "Light Gray",
+                "show_cta": false,
+                "cta_style": "Primary",
+                "href": "",
+                "link_text": "",
+                "confidence_module_1": "[{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"image\",\"id\":\"0f99f511-a832-419f-b274-a5839ac65721\",\"url\":\"https://cdn.sleepnumber.com/image/upload/f_auto,q_auto:good/medias/ic_1yr-warranty@2x.png\",\"size\":\"medium\",\"leftMargin\":\"0\",\"rightMargin\":\"0\",\"altText\":\"\"}],\"id\":\"a9926d72-8509-4905-a8eb-1b7e4c12fdaa\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"977597ed-3d6b-4701-902a-2ac26c4322e5\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"black\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"REST EASY\"}],\"id\":\"a4832b6d-b740-491c-ac4c-7ceabe29af13\"},{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"33da415b-f802-468d-970a-676e862873e3\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"We stand behind our ComfortFit™ Pillow with a\"},{\"type\":\"link\",\"id\":\"69d40865-7475-4b07-9391-c7618245a81f\",\"text\":\"1-year limited warranty\",\"linkTheme\":\"secondary\",\"color\":\"default\",\"href\":\"/legal-notices/warranty\"}],\"id\":\"774d5848-6b2e-4fb8-8ecb-4dd4faa43170\"}]",
+                "confidence_module_2": "[{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"image\",\"id\":\"44d032dd-d799-4ca8-8700-45b69961546e\",\"url\":\"https://cdn.sleepnumber.com/image/upload/f_auto,q_auto:good/medias/ic_returns.png\",\"size\":\"medium\",\"leftMargin\":\"0\",\"rightMargin\":\"0\",\"altText\":\"\"}],\"id\":\"7ef254d7-fb2c-47cd-a556-b28b82175cb6\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"ce7c7dd4-5c96-4e4a-991f-eb18d060f4cd\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"black\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"LOVE IT OR EXCHANGE IT\"}],\"id\":\"bd3a709c-ee89-4fb6-8217-f1347f4fc44e\"},{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"fe224568-d9fe-4278-84cf-48622a42a49f\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Try our bedding for up to 30 nights and if you do not love it, exchange it.\"}],\"id\":\"116819ee-d62a-421c-9b73-b226f4d2cc16\"}]",
+                "confidence_module_3": "[{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"image\",\"id\":\"364a94ed-2852-4059-847c-87aa48175a52\",\"url\":\"https://cdn.sleepnumber.com/image/upload/f_auto,q_auto:good/medias/ic_free-shipping.png\",\"size\":\"medium\",\"leftMargin\":\"0\",\"rightMargin\":\"0\",\"altText\":\"\"}],\"id\":\"882539ef-3ea1-4ca3-9831-87f369b49b62\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"3c95b229-0d45-4917-a909-e66311eef612\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"black\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"FREE SHIPPING\"}],\"id\":\"21243236-8e2e-4185-b575-e400f3751eea\"},{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"a7a54110-ad89-4b24-93c1-5a483ac63aa4\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Most bedding ships fast and free everyday.\"}],\"id\":\"0e4d4b0a-19e5-4ce1-be1c-28cfc379c0c4\"}]",
+                "confidence_module_4": "[]"
+              },
+              "hidden_breakpoints": [],
+              "position": 1,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f4eb594850dc60018509dd6",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "Spacer",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "White",
+                "layout": "Center",
+                "text": "[]"
+              },
+              "hidden_breakpoints": [],
+              "position": 2,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            }
+          ],
+          "product_info": [
+            {
+              "id": "5f481cde642ef90018d4254c",
+              "type": "html",
+              "area": "product_info",
+              "name": "DETAILS",
+              "data": {
+                "html": "<p>Conforming comfort and soft support for any sleeper. Unique blend of memory foam pieces and premium down alternative fibers. Gently conforms to your head and neck and recovers its shape night after night.</p><p>Breathable Lyocell blend cover is luxurious and soothing. Hypoallergenic for allergy sensitive sleepers.</p><p>Find the pillow that's just right for you. Take our <a href=\"/find-best-pillow\">PillowFit&reg; quiz</a>.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f481d1b642ef90018d4255c",
+              "type": "html",
+              "area": "product_info",
+              "name": "OPTIONS",
+              "data": {
+                "html": "<p>Available in three shapes designed to fit the way you sleep.</p> <ul><li>Classic: Gently supports your head and neck. Best for stomach or back sleepers.</li> <li>Curved: Fits your contours for enhanced comfort and support. Best for side or back sleepers</li> <li>Ultimate: Three removable inserts let you individualize your support and height as your sleep needs change. Great for all sleeping positions. Recommend 1-2 inserts for stomach sleepers; 2-3 inserts for back or side sleepers.</li><p>&nbsp;</p></ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f481d433d10510018219896",
+              "type": "html",
+              "area": "product_info",
+              "name": "CARE",
+              "data": {
+                "html": "<p>Curved and Classic shape pillows: Spot Clean Only  <br /> Ultimate shape pillow: Remove cover and machine wash cover only.  <br /> Made in the USA of imported materials.<br /><a href=\"/resources/pillows-guide#faqs\">Learn more</a> about how to care for your pillows.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f481d72642ef90018d4257a",
+              "type": "html",
+              "area": "product_info",
+              "name": "DIMENSIONS",
+              "data": {
+                "html": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"425\"><tbody><tr><td class=\"xl67\" width=\"61\" height=\"35\" style=\"height: 26.4pt; width: 46pt;\"><strong>Shape</strong></td> <td class=\"xl68\" width=\"136\" style=\"width: 102pt;\"><strong>Standard</strong><br /></td> <td class=\"xl69\" width=\"154\" style=\"width: 116pt;\"><strong>King</strong><br /></td></tr> <tr height=\"18\" style=\"height: 13.2pt;\"><td class=\"xl70\" width=\"61\" height=\"18\" style=\"height: 13.2pt; border-top: none; width: 46pt;\">Classic</td> <td class=\"xl71\" width=\"136\" style=\"border-top: none; width: 102pt;\">26\"W x 20\"D</td> <td class=\"xl72\" width=\"154\" style=\"border-top: none; width: 116pt;\">36\"W x 20\"D</td></tr> <tr height=\"19\" style=\"mso-height-source: userset; height: 14.4pt;\"><td class=\"xl70\" width=\"61\" height=\"19\" style=\"height: 14.4pt; border-top: none; width: 46pt;\">Curved</td> <td class=\"xl71\" width=\"136\" style=\"border-top: none; width: 102pt;\">25\"W x 19\"D</td> <td class=\"xl72\" width=\"154\" style=\"border-top: none; width: 116pt;\">35\"W&nbsp;x 19\"D</td></tr> <tr height=\"18\" style=\"height: 13.2pt;\"><td class=\"xl70\" width=\"61\" height=\"18\" style=\"height: 13.2pt; border-top: none; width: 46pt;\">Ultimate</td> <td class=\"xl71\" width=\"136\" style=\"border-top: none; width: 102pt;\">24\"W x 18\"D</td> <td class=\"xl72\" width=\"154\" style=\"border-top: none; width: 116pt;\">34\"W x 18\"D</td></tr></tbody></table>"
+              },
+              "hidden_breakpoints": [],
+              "position": 3,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            }
+          ],
+          "price_block": [],
+          "storytelling_top": [],
+          "storytelling_middle": [],
+          "storytelling_bottom": []
+        },
+        "swatches": {
+          "Ultimate": {
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/v1/workarea/catalog/swatches/Ultimate.svg",
+            "alt_text": ""
+          },
+          "Curved": {
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/v1/workarea/catalog/swatches/Curved.svg",
+            "alt_text": ""
+          },
+          "Classic": {
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/v1/workarea/catalog/swatches/Classic.svg",
+            "alt_text": ""
+          }
+        },
+        "images": [
+          {
+            "id": "5f481a513d10510018219742",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "" },
+            "position": 0,
+            "primary": true,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Gallery_1a",
+            "tags": ["gallery", "upt"]
+          },
+          {
+            "id": "5f481a70642ef90018d423fd",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "" },
+            "position": 1,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Gallery_2",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f481a87642ef90018d42434",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "" },
+            "position": 2,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Gallery_3",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f481aa43d1051001821978e",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "" },
+            "position": 3,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Gallery_4",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f481b79642ef90018d42493",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "Classic" },
+            "position": 4,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Variant_classic",
+            "tags": []
+          },
+          {
+            "id": "5f481b8f3d105100182197e1",
+            "alt_text": null,
+            "options": { "Size": "", "Shape": "Curved" },
+            "position": 5,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Variant_curved",
+            "tags": []
+          },
+          {
+            "id": "606f322102c3990018d3b3e1",
+            "alt_text": "",
+            "options": { "Shape": "Ultimate", "Size": "" },
+            "position": 6,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Variant_ultimate",
+            "tags": []
+          }
+        ],
+        "videos": [
+          {
+            "id": "5f0fc5592a23a252659e382e",
+            "options": { "Shape": "", "Size": "" },
+            "position": 1,
+            "thumbnail": "https://res.cloudinary.com/snbr-stg/video/upload/f_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video.jpg",
+            "url": "https://res.cloudinary.com/snbr-stg/video/upload/vc_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video",
+            "tags": ["gallery", "video"]
+          }
+        ],
+        "renders": [
+          {
+            "id": "5f92ebe121e3bc0018c25a77",
+            "options": { "Shape": "Ultimate", "Size": "" },
+            "position": null,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Ultimate",
+            "tags": []
+          },
+          {
+            "id": "5f92ebc3bd403611093db1a8",
+            "options": { "Shape": "Curved", "Size": "" },
+            "position": null,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Curved",
+            "tags": []
+          },
+          {
+            "id": "5f92ebb01784be001886c3c2",
+            "options": { "Shape": "Classic", "Size": "" },
+            "position": null,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862727/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Classic",
+            "tags": []
+          }
+        ],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5e9d02464b51ee05529d1140",
+            "active": true,
+            "details": { "Shape": ["Classic"], "Size": ["Standard"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 8999, "currency_iso": "USD" },
+            "sale": { "cents": 6999, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423801",
+            "promo_badge_message": "$20 OFF",
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": 1666155600000,
+            "promo_id": "6109f22b151454001831bcb2",
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e9d02464b51ee05529d1146",
+            "active": true,
+            "details": { "Shape": ["Curved"], "Size": ["Standard"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423867",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e9d02464b51ee05529d113a",
+            "active": true,
+            "details": { "Shape": ["Ultimate"], "Size": ["Standard"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423930",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e9d02464b51ee05529d113d",
+            "active": true,
+            "details": { "Shape": ["Classic"], "Size": ["King"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423802",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e9d02464b51ee05529d1143",
+            "active": true,
+            "details": { "Shape": ["Curved"], "Size": ["King"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423868",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e9d02464b51ee05529d1137",
+            "active": true,
+            "details": { "Shape": ["Ultimate"], "Size": ["King"] },
+            "name": "ComfortFit™ Pillow",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "423931",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": { "cents": 8999, "currency_iso": "USD" },
+        "original_min_price": { "cents": 8999, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 6999, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 6999, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4.5556,
+          "total_review_count": 18,
+          "distributions": { "1": 0, "2": 0, "3": 1, "4": 6, "5": 11 }
+        },
+        "featured_reviews": []
+      },
+      "sku": "423801",
+      "quantity": 1,
+      "options": { "Shape": "Classic", "Size": "Standard" },
+      "customizations": {},
+      "pricing": {
+        "price_adjustments": [
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "fee": false,
+            "amount": { "cents": 8999, "currency_iso": "USD" }
+          },
+          {
+            "description": "Item Markdown",
+            "discount": true,
+            "fee": false,
+            "amount": { "cents": -2000, "currency_iso": "USD" }
+          }
+        ],
+        "customized": false,
+        "customizations_unit_price": { "cents": 0, "currency_iso": "USD" },
+        "original_unit_price": { "cents": 8999, "currency_iso": "USD" },
+        "total_regular_price": { "cents": 8999, "currency_iso": "USD" },
+        "total_price": { "cents": 6999, "currency_iso": "USD" }
+      },
+      "promo_message": {
+        "price_id": "6109f22b151454001831bcb2",
+        "segmented": false,
+        "segments": [],
+        "strong": "$20.00 OFF",
+        "subtle": "$20 OFF"
+      },
+      "bundle": false,
+      "family_product_id": null,
+      "bundle_index": null,
+      "sku_list": ["423801"]
+    },
+    {
+      "id": "618149198131a10019aab7c6",
+      "product_id": "dualtemp3",
+      "product_url": "https://staging.sleepnumber.com/api/storefront/products/dualtemp-layer?sku=123732",
+      "product": {
+        "id": "dualtemp3",
+        "bazaar_voice_id": "dualtemp3",
+        "name": "DualTemp™ Individual Layer",
+        "bundle_name": null,
+        "type": "other",
+        "description": "",
+        "long_description": "",
+        "reference_description": "",
+        "meta_description": "Sleep Number's DualTemp Individual layer helps adjust your sides temperature allowing for the blissful night's sleep you deserve.",
+        "positioning_statement": "",
+        "disclaimer": "",
+        "content_badge_message": "<b>FREE SHIPPING</b>",
+        "merchant_message": "",
+        "slug": "dualtemp-layer",
+        "original_slug": "dualtemp-layer",
+        "browser_title": "DualTemp™ Individual Mattress Layer",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 3,
+        "shipping_type_name": "ups_freight_dualtemp",
+        "upsell_text": "<p>You may also like</p>",
+        "category_slug": "dualtemp-category",
+        "filters": {
+          "Size": [
+            "Half Queen",
+            "Half-King",
+            "Half California King",
+            "Half King",
+            "Half-California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": "",
+        "content_blocks": {
+          "top": [
+            {
+              "id": "60412c2ae76731001843f9f4",
+              "type": "promo_banner",
+              "area": "top",
+              "name": "Free Shipping Promo Banner",
+              "data": {
+                "container_width": "Full-bleed",
+                "one_line": false,
+                "theme": "Promo Red",
+                "sticky": false,
+                "icon": "5f43e1481780db00170250a9",
+                "icon_alt_text": "",
+                "headline": "<p>WEEKEND SPECIAL <strong>FREE SHIPPING ON DUALTEMP<sup>TM</sup> LAYER</strong></p>",
+                "body": "",
+                "link_style": "Secondary",
+                "href": "",
+                "link_text": "",
+                "icon_url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/content/assets/ph_24x24_1x",
+                "icon_type": "image",
+                "icon_default_alt_text": ""
+              },
+              "hidden_breakpoints": [],
+              "position": 0,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            }
+          ],
+          "middle": [],
+          "bottom": [
+            {
+              "id": "604b5e5c00495300174ef510",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "extra space",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "White",
+                "layout": "Center",
+                "text": "[]",
+                "padding": "24",
+                "tablet_text_width": "12",
+                "desktop_text_width": "12"
+              },
+              "hidden_breakpoints": [],
+              "position": 0,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f57dcd6e5cfee7e86bf8521",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "WHY YOU'LL LOVE IT -dual",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "White",
+                "layout": "Center",
+                "text": "[{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"c5ec040b-c021-4aad-98d4-03068ab55a7b\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"lg\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"why you'll love it\"}],\"id\":\"a3e2016d-9ab0-4339-b0f0-1f8225fc4354\"}]"
+              },
+              "hidden_breakpoints": [],
+              "position": 1,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f57d8ff9064ae01ed63f8ca",
+              "type": "river",
+              "area": "bottom",
+              "name": "River - daultemp",
+              "data": {
+                "container_width": "1170",
+                "background_color": "White",
+                "mobile_asset": "5f57d87cf7e48b26d420c59a",
+                "tablet_asset": "",
+                "desktop_asset": "",
+                "alt_text": "Cooler or Warmer. You decide. ",
+                "poster": "",
+                "layout": "Right",
+                "copy_block": "[{\"attributes\":{\"margin\":\"8\"},\"parts\":[{\"type\":\"text\",\"id\":\"829bf37b-6925-4ac5-a19b-99e593c531ef\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"COOLER OR WARMER. YOU DECIDE. \"}],\"id\":\"92482bb3-9774-4ae5-ab72-3496109fea35\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"7b8db562-1af1-4d29-815b-8a0f8fc0c0cf\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"sm\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Sleep up to 35% cooler or warmer with the new DualTemp™ individual layer.\"}],\"id\":\"f567ef97-bf00-43d1-b98b-dbde54701869\"}]",
+                "mobile_asset_url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/content/assets/j5yhviimi3kuy6ssiyg0.jpg",
+                "mobile_asset_type": "image",
+                "mobile_asset_default_alt_text": "Couple sleeping on dualtemp layers"
+              },
+              "hidden_breakpoints": [],
+              "position": 2,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f57da0f9064ae01ed63f918",
+              "type": "river",
+              "area": "bottom",
+              "name": "River - SmartFit_Desktop_1110x624",
+              "data": {
+                "container_width": "1170",
+                "background_color": "White",
+                "mobile_asset": "5f57d88354b446311ff5a81b",
+                "tablet_asset": "",
+                "desktop_asset": "",
+                "alt_text": "Any bed. Any Side. Add to any mattress brand. ",
+                "poster": "",
+                "layout": "Left",
+                "copy_block": "[{\"attributes\":{\"margin\":\"8\"},\"parts\":[{\"type\":\"text\",\"id\":\"829bf37b-6925-4ac5-a19b-99e593c531ef\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"ANY BED. ANY SIDE.\"}],\"id\":\"92482bb3-9774-4ae5-ab72-3496109fea35\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"7b8db562-1af1-4d29-815b-8a0f8fc0c0cf\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"sm\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Add to any mattress brand. Half sizes allow each sleeper to individualize their side.\"}],\"id\":\"f567ef97-bf00-43d1-b98b-dbde54701869\"}]",
+                "mobile_asset_url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/content/assets/kwzmwltiqpje4pil8zns.jpg",
+                "mobile_asset_type": "image",
+                "mobile_asset_default_alt_text": "Couple sleeping on a dualtemp layer "
+              },
+              "hidden_breakpoints": [],
+              "position": 3,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f57da84e5cfee7e86bf847f",
+              "type": "river",
+              "area": "bottom",
+              "name": "River - dualtemp1",
+              "data": {
+                "container_width": "1170",
+                "background_color": "White",
+                "mobile_asset": "5f57daaeded3680018d665b7",
+                "tablet_asset": "",
+                "desktop_asset": "",
+                "alt_text": "You're in control of better sleep. ",
+                "poster": "",
+                "layout": "Right",
+                "copy_block": "[{\"attributes\":{\"margin\":\"8\"},\"parts\":[{\"type\":\"text\",\"id\":\"829bf37b-6925-4ac5-a19b-99e593c531ef\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"md\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"YOU'RE IN CONTROL OF BETTER SLEEP \"}],\"id\":\"92482bb3-9774-4ae5-ab72-3496109fea35\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"7b8db562-1af1-4d29-815b-8a0f8fc0c0cf\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"sm\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Active air technology lets you choose from cool to warm at the touch of a button.\"}],\"id\":\"f567ef97-bf00-43d1-b98b-dbde54701869\"}]",
+                "mobile_asset_url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/content/assets/k9jtoaqcjqsganspedkq.jpg",
+                "mobile_asset_type": "image",
+                "mobile_asset_default_alt_text": "Dual temp layer on a Sleep Number mattress"
+              },
+              "hidden_breakpoints": [],
+              "position": 4,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f4e80239867c0001777d3d6",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "Text Block",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "Light Gray",
+                "layout": "Center",
+                "text": "[{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"c5ec040b-c021-4aad-98d4-03068ab55a7b\",\"textColor\":\"black\",\"typeramp\":\"headline\",\"textSize\":\"lg\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"MORE REASONS TO LOVE OUR BEDDING\"}],\"id\":\"a3e2016d-9ab0-4339-b0f0-1f8225fc4354\"}]"
+              },
+              "hidden_breakpoints": [],
+              "position": 5,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f5f6f079064ae41a262e144",
+              "type": "confidence_builder",
+              "area": "bottom",
+              "name": "Confidence Builder 1",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "Light Gray",
+                "show_cta": false,
+                "cta_style": "Primary",
+                "href": "",
+                "link_text": "",
+                "confidence_module_1": "[{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"image\",\"id\":\"0f99f511-a832-419f-b274-a5839ac65721\",\"url\":\"https://cdn.sleepnumber.com/image/upload/f_auto,q_auto:good/medias/ic_1yr-warranty@2x.png\",\"size\":\"medium\",\"leftMargin\":\"0\",\"rightMargin\":\"0\",\"altText\":\"\"}],\"id\":\"a9926d72-8509-4905-a8eb-1b7e4c12fdaa\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"977597ed-3d6b-4701-902a-2ac26c4322e5\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"black\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"REST EASY\"}],\"id\":\"a4832b6d-b740-491c-ac4c-7ceabe29af13\"},{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"33da415b-f802-468d-970a-676e862873e3\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"sm\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"We stand behind our DualTemp™ Layer with a\"},{\"type\":\"link\",\"id\":\"69d40865-7475-4b07-9391-c7618245a81f\",\"text\":\"1-year limited warranty\",\"linkTheme\":\"secondary\",\"color\":\"default\",\"href\":\"/legal-notices/warranty\"}],\"id\":\"774d5848-6b2e-4fb8-8ecb-4dd4faa43170\"}]",
+                "confidence_module_2": "[{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"image\",\"id\":\"44d032dd-d799-4ca8-8700-45b69961546e\",\"url\":\"https://cdn.sleepnumber.com/image/upload/f_auto,q_auto:good/medias/ic_returns.png\",\"size\":\"medium\",\"leftMargin\":\"0\",\"rightMargin\":\"0\",\"altText\":\"\"}],\"id\":\"7ef254d7-fb2c-47cd-a556-b28b82175cb6\"},{\"attributes\":{\"margin\":\"16\"},\"parts\":[{\"type\":\"text\",\"id\":\"ce7c7dd4-5c96-4e4a-991f-eb18d060f4cd\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"md\",\"textWeight\":\"black\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"LOVE IT OR EXCHANGE IT\"}],\"id\":\"bd3a709c-ee89-4fb6-8217-f1347f4fc44e\"},{\"attributes\":{},\"parts\":[{\"type\":\"text\",\"id\":\"fe224568-d9fe-4278-84cf-48622a42a49f\",\"textColor\":\"black\",\"typeramp\":\"body\",\"textSize\":\"sm\",\"textWeight\":\"book\",\"textTransform\":\"none\",\"textWrap\":\"wrap\",\"text\":\"Try our bedding for up to 30 nights and if you do not love it, exchange it.\"}],\"id\":\"116819ee-d62a-421c-9b73-b226f4d2cc16\"}]",
+                "confidence_module_3": "[]",
+                "confidence_module_4": "[]"
+              },
+              "hidden_breakpoints": [],
+              "position": 6,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f4e80a49867c0001777d409",
+              "type": "text_block",
+              "area": "bottom",
+              "name": "Spacer",
+              "data": {
+                "container_width": "Full-bleed",
+                "background_color": "White",
+                "layout": "Center",
+                "text": "[]"
+              },
+              "hidden_breakpoints": [],
+              "position": 7,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            }
+          ],
+          "product_info": [
+            {
+              "id": "5f32f04be2392f0018581e58",
+              "type": "html",
+              "area": "product_info",
+              "name": "DETAILS",
+              "data": {
+                "html": "<P>Cooler or warmer, you decide. Any bed, any side. Add the DualTemp™ individual layer to any bed and sleep up to 35% cooler or warmer. Finally, the blissful cooling sleep you deserve—comfortably priced.</P>\r\nHalf Queen: 78.5\" x 29.5\"<br>\r\nHalf King: 78.5\" x 37.5\"<br>\r\nHalf Cal King: 82.5\" x 32.5\" <br>\r\n"
+              },
+              "hidden_breakpoints": [],
+              "position": 0,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f32f28c4800eb0018a48826",
+              "type": "html",
+              "area": "product_info",
+              "name": "FEATURES",
+              "data": {
+                "html": "<ul>\r\n<li>Active air technology delivers enhanced airflow performance and ultimate comfort</li>\r\n<li>Choose from multiple temperature settings--from cool to warm--at the touch of a button\r\n<li>Universal design works on either side of the bed, left or right\r\n<li>Timer allows for automatic shutoff whenever you choose, in one hour increments, up to nine hours\r\n</ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f32f444e2392f0018581f30",
+              "type": "html",
+              "area": "product_info",
+              "name": "INCLUDES",
+              "data": {
+                "html": "<li>One individual size DualTemp™ Individual layer\r\n\r\n<li>One heating and cooling system\r\n\r\n<li>One DualTemp™ remote control\r\n\r\n<li>Power Cord\r\n<li> DualTemp&trade; Individual Layer user guide available&nbsp;<span style=\\\"text-decoration: underline;\\\"><strong><a href=\\\"https://www.sleepnumber.com/medias/207975-C-DualTemp-User-Guide-V8.pdf?context=bWFzdGVyfGltYWdlc3wyMTAyNTE4fGFwcGxpY2F0aW9uL3BkZnxpbWFnZXMvaDBhL2hiZC84ODQ4ODA3MDAyMTQyLnBkZnw4MzJiZjU1YjJhZjI3NmRjMTdmODM3YTZhNzU0NGM1ZTMzZjRlYzFiMzg5NDAyOWY0NjA3NGYyNDE3YmQyOWFj&#10;\\\">HERE</a></strong></span>.</p></li> </ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            },
+            {
+              "id": "5f32f6cc4800eb0018a48921",
+              "type": "html",
+              "area": "product_info",
+              "name": "CARE",
+              "data": {
+                "html": "<li>Spot clean layer with a warm, mild soap and water solution. Follow the cleaning instructions on the care label.</li>\r\n<li>Clean the heating and cooling source with a light vacuum over the surface of the unit once every 3-6 months.</li></ul>\r\n<p>DualTemp™ Layer replacement filters are available for purchase. Contact Live Chat to order.</p>\r\n"
+              },
+              "hidden_breakpoints": [],
+              "position": 3,
+              "ab_test": false,
+              "ab_test_id": null,
+              "ab_test_split": "A",
+              "segments": [],
+              "excluded_segments": []
+            }
+          ],
+          "price_block": [],
+          "storytelling_top": [],
+          "storytelling_middle": [],
+          "storytelling_bottom": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f455ae0642ef90018d36c1d",
+            "alt_text": null,
+            "options": { "Size": "" },
+            "position": 0,
+            "primary": true,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/DualTemp",
+            "tags": ["gallery", "upt"]
+          },
+          {
+            "id": "5f455abb5969a500187be13d",
+            "alt_text": "",
+            "options": { "Size": "" },
+            "position": 1,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_gallery2",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f455b255969a500187be162",
+            "alt_text": null,
+            "options": { "Size": "" },
+            "position": 3,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_PDP_Postcard_Gallery_3",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "5f455b335969a500187be18d",
+            "alt_text": null,
+            "options": { "Size": "" },
+            "position": 4,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_PDP_Gallery_4",
+            "tags": ["gallery"]
+          },
+          {
+            "id": "6053bedd8b05b500180e9b29",
+            "alt_text": "",
+            "options": { "Size": "Half-King" },
+            "position": 5,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_variant",
+            "tags": []
+          },
+          {
+            "id": "5f455c135969a500187be1d6",
+            "alt_text": null,
+            "options": { "Size": "Half Queen" },
+            "position": 5,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_variant",
+            "tags": []
+          },
+          {
+            "id": "6053bee88b05b500180e9b62",
+            "alt_text": "",
+            "options": { "Size": "Half-California King" },
+            "position": 6,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-stg/image/upload/f_auto,q_auto:eco/v1635862778/workarea/catalog/product_images/dualtemp-layer/dualtemp3_variant",
+            "tags": []
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": ["6DB0E88010", "true-temp-sheets"],
+        "variants": [
+          {
+            "id": "5e57bfee05656a21fe35b514",
+            "active": true,
+            "details": { "Size": ["Half Queen"] },
+            "name": "DualTemp™ Individual Layer",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "123733",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e57bfee05656a21fe35b511",
+            "active": true,
+            "details": { "Size": ["Half-King"] },
+            "name": "DualTemp™ Individual Layer",
+            "regular": { "cents": 99999, "currency_iso": "USD" },
+            "sale": { "cents": 89999, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "123732",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": "6109f5a3151454010a8ffb67",
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5e57bfee05656a21fe35b51d",
+            "active": true,
+            "details": { "Size": ["Half-California King"] },
+            "name": "DualTemp™ Individual Layer",
+            "regular": { "cents": 0, "currency_iso": "USD" },
+            "sale": { "cents": 0, "currency_iso": "USD" },
+            "on_clearance": false,
+            "sku": "123731",
+            "promo_badge_message": null,
+            "merchant_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": { "cents": 99999, "currency_iso": "USD" },
+        "original_min_price": { "cents": 99999, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 89999, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 89999, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4.8,
+          "total_review_count": 5,
+          "distributions": { "1": 0, "2": 0, "3": 0, "4": 1, "5": 4 }
+        },
+        "featured_reviews": []
+      },
+      "sku": "123732",
+      "quantity": 1,
+      "options": { "Size": "Half-King" },
+      "customizations": {},
+      "pricing": {
+        "price_adjustments": [
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "fee": false,
+            "amount": { "cents": 99999, "currency_iso": "USD" }
+          },
+          {
+            "description": "Item Markdown",
+            "discount": true,
+            "fee": false,
+            "amount": { "cents": -10000, "currency_iso": "USD" }
+          }
+        ],
+        "customized": false,
+        "customizations_unit_price": { "cents": 0, "currency_iso": "USD" },
+        "original_unit_price": { "cents": 99999, "currency_iso": "USD" },
+        "total_regular_price": { "cents": 99999, "currency_iso": "USD" },
+        "total_price": { "cents": 89999, "currency_iso": "USD" }
+      },
+      "promo_message": {
+        "price_id": "6109f5a3151454010a8ffb67",
+        "segmented": false,
+        "segments": [],
+        "strong": "$100.00 OFF",
+        "subtle": null
+      },
+      "bundle": false,
+      "family_product_id": null,
+      "bundle_index": null,
+      "sku_list": ["123732"]
+    }
+  ],
+  "financing_options": [
+    {
+      "description": "No Interest with 48 Equal Monthly Payments",
+      "name": "DualTemp 24 month financing",
+      "id": "5ff730e4a8ea800017d56b58",
+      "months": 24,
+      "value": 48,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "end_date": null,
+      "promo_code": "424",
+      "disclaimer_message": "<p>\r\n      No Interest For 24 Months*\r\n    </p>\r\n    <p>\r\n      On purchases with a Sleep Number<sup>®</sup> credit card through \r\n\r\n{end_date}. 24 equal monthly payments required.\r\n    </p>\r\n    <p>\r\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \r\n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \r\n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \r\n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \r\n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \r\n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \r\n      by the due date each month and (2) this is the only balance on your account during the promo period. \r\n      If you have other balances on your account, this monthly payment will be added to the minimum payment \r\n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \r\n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \r\n      Subject to credit approval.\r\n    </p>"
+    },
+    {
+      "description": "12 Months No Interest if Paid in Full",
+      "name": "12 months All Day Every Day",
+      "id": "5f513da8b4adc50018085dfb",
+      "months": 12,
+      "value": 96,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": true,
+      "deferred": true,
+      "end_date": null,
+      "promo_code": "212",
+      "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+    }
+  ],
+  "estimated_location": {
+    "country": "US",
+    "state": "MN",
+    "city": "Minneapolis",
+    "localities": ["Minneapolis"],
+    "zipcode": "55406",
+    "longitude": -93.224,
+    "latitude": 44.9764
+  },
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": { "cents": 9900, "currency_iso": "USD" },
+    "tax_total": { "cents": 7616, "currency_iso": "USD" },
+    "total_recycling_fee": { "cents": 0, "currency_iso": "USD" },
+    "subtotal_price": { "cents": 96998, "currency_iso": "USD" },
+    "total_price": { "cents": 114514, "currency_iso": "USD" },
+    "total_price_minus_rewards": { "cents": 114514, "currency_iso": "USD" },
+    "paid_amount": { "cents": 114514, "currency_iso": "USD" }
+  },
+  "shipping_service": "UPS Shipping - Standard",
+  "shipping_groups": [
+    {
+      "id": "618149198131a10019aab7c7",
+      "items": ["618149198131a10019aab7c6"],
+      "skus": ["123732"],
+      "shipping_services": [
+        {
+          "service_code": "ups-freight-dualTemp",
+          "type": "ups_freight_dualtemp",
+          "name": "UPS Shipping - DualTemp layer",
+          "description": "Standard UPS ground shipping. The DualTemp layer comes fully assembled and setup is an easy six-step process.",
+          "price": { "cents": 3999, "currency_iso": "USD" },
+          "selected": false
+        },
+        {
+          "service_code": "homeDeliveryLite",
+          "type": "ups_freight_dualtemp",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": { "cents": 9900, "currency_iso": "USD" },
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "6181493cb5b6ac0019a03a90",
+      "items": ["6181493ab5b6ac0019a03a71"],
+      "skus": ["423801"],
+      "shipping_services": [
+        {
+          "service_code": "ups-standard",
+          "type": "ups_standard",
+          "name": "UPS Shipping - Standard",
+          "description": "Items will arrive as a single shipment when possible.",
+          "price": { "cents": 0, "currency_iso": "USD" },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_group_selections": [
+    {
+      "id": "618149198131a10019aab7c7",
+      "items": ["618149198131a10019aab7c6"],
+      "skus": ["123732"],
+      "shipping_services": [
+        {
+          "service_code": "homeDeliveryLite",
+          "type": "ups_freight_dualtemp",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": { "cents": 9900, "currency_iso": "USD" },
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "6181493cb5b6ac0019a03a90",
+      "items": ["6181493ab5b6ac0019a03a71"],
+      "skus": ["423801"],
+      "shipping_services": [
+        {
+          "service_code": "ups-standard",
+          "type": "ups_standard",
+          "name": "UPS Shipping - Standard",
+          "description": "Items will arrive as a single shipment when possible.",
+          "price": { "cents": 0, "currency_iso": "USD" },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_address": {
+    "id": "6181493cb5b6ac0019a03a91",
+    "first_name": "Mary",
+    "last_name": "Quint",
+    "company": null,
+    "street": "3165 LEXINGTON AVE S",
+    "street_2": "",
+    "city": "EAGAN",
+    "country": "US",
+    "region": "MN",
+    "postal_code": "55121-2540",
+    "phone_number": "7634127518",
+    "phone_extension": null
+  },
+  "billing_address": {
+    "id": "618149d5ff275a0019990f0e",
+    "first_name": "Mary",
+    "last_name": "Quint",
+    "company": null,
+    "street": "3165 LEXINGTON AVE S",
+    "street_2": "",
+    "city": "EAGAN",
+    "country": "US",
+    "region": "MN",
+    "postal_code": "55121-2540",
+    "phone_number": "7634127518",
+    "phone_extension": null
+  },
+  "tenders": []
+}

@@ -1,0 +1,2171 @@
+[
+  {
+    "id": "BF8F1DFF94",
+    "name": "p5 WITH FLEXFIT™ 1",
+    "type": "other",
+    "description": null,
+    "long_description": null,
+    "meta_description": null,
+    "positioning_statement": null,
+    "disclaimer": null,
+    "content_badge_message": null,
+    "merchant_message": null,
+    "slug": "p5-ff1-360",
+    "original_slug": "p5-ff1-360",
+    "browser_title": "p5 WITH FLEXFIT™ 1",
+    "template": "family",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": null,
+    "filters": {},
+    "details": {},
+    "comfort_guide_details": {},
+    "features": [
+      {
+        "id": "FD9AAF8832",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-partner-snore",
+        "name": "Partner Snore",
+        "text": "Gently raise your partner’s head to help alleviate snoring*",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "146EFB15B0",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-light-control",
+        "name": "Lighting",
+        "text": "Find your way at night with under bed lighting",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "A998B392F1",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-head-adjust",
+        "name": "Head Adjust",
+        "text": "Endless head positions",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": null,
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": [
+        {
+          "id": "5f358a2867be5ac4a1cc2426",
+          "type": "html",
+          "area": "price_block",
+          "name": "HTML",
+          "data": {
+            "html": "<div class=\"mt-2\"><img src=\"/images/15-year-warranty.svg\"/>&nbsp;15-year Limited Warranty</div>"
+          },
+          "hidden_breakpoints": [],
+          "position": 0
+        }
+      ]
+    },
+    "swatches": {},
+    "images": [
+      {
+        "id": "5f358a8967be5ac4a1cc2673",
+        "options": {},
+        "position": 0,
+        "primary": true,
+        "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-ff1-360/thumbnail",
+        "tags": ["thumbnail"]
+      }
+    ],
+    "videos": [],
+    "renders": [],
+    "recommended": [],
+    "variants": [],
+    "packaged_products": [
+      {
+        "id": "p5-360",
+        "name": "p5",
+        "type": "mattress",
+        "description": "Plush performance, pressure-relieving comfort",
+        "long_description": "You’ll love plush, cushioned pressure relief with this 4\" combination of comfort layers that contour to you.",
+        "meta_description": "The Sleep Number 360 p5 Smart Bed maximizes pressure relieving comfort while tracking how you're sleeping, adjusting to your personalized sleeping habits.",
+        "positioning_statement": "Plush performance, pressure-relieving comfort",
+        "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "p5",
+        "original_slug": "p5-360",
+        "browser_title": "p5",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin",
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {
+          "Comfort Layer": ["4"],
+          "Mattress Height": ["10"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"]
+        },
+        "comfort_guide_details": {
+          "Comfort Layer": ["4"],
+          "Mattress Height": ["10"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"]
+        },
+        "features": [
+          {
+            "id": "F3A87841D6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-dual-air",
+            "name": "Dual Adjustability",
+            "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "758B63AEE6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-responsive-air",
+            "name": "Responsive Air<sup>®</sup> technology",
+            "text": "Effortlessly responds and automatically adjusts firmness on each side",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "3B21E1016C",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-sleep-iq-color",
+            "name": "SleepIQ<sup>®</sup> technology",
+            "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "7E63699ED6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-temp-balance",
+            "name": "Temperature balancing sleep surface",
+            "text": "Absorbs excess heat and releases it as you cool, so you sleep just right.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a6c67be5ac4a1cc2586",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/45_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2587",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/matt_only",
+            "tags": ["matt-only"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2588",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/thumbnail",
+            "tags": ["thumbnail"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2589",
+            "options": {},
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/matt_only_ghost",
+            "tags": ["ghosted-base"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258a",
+            "options": {},
+            "position": 4,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_tablet_split",
+            "tags": ["postcard", "tablet", "split"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258b",
+            "options": {},
+            "position": 5,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_mobile",
+            "tags": ["postcard", "mobile"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258c",
+            "options": {},
+            "position": 6,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_mobile_flextop",
+            "tags": ["mobile", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258d",
+            "options": {},
+            "position": 7,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_tablet_flextop",
+            "tags": ["postcard", "tablet", "flextop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258e",
+            "options": {},
+            "position": 8,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_mobile_split",
+            "tags": ["mobile", "postcard", "split"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc258f",
+            "options": {},
+            "position": 9,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_tablet",
+            "tags": ["postcard", "tablet"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2590",
+            "options": {},
+            "position": 10,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_desktop_split",
+            "tags": ["desktop", "postcard", "split"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2591",
+            "options": {},
+            "position": 11,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_desktop",
+            "tags": ["postcard", "desktop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2592",
+            "options": {},
+            "position": 12,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/postcard_desktop_flextop",
+            "tags": ["desktop", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2593",
+            "options": {},
+            "position": 13,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/45_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2594",
+            "options": {},
+            "position": 14,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/straight_on_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2595",
+            "options": {},
+            "position": 15,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt_2x",
+            "tags": ["2x", "upt"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2596",
+            "options": {},
+            "position": 16,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/zoom_2",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2597",
+            "options": {},
+            "position": 17,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/zoom_1",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2598",
+            "options": {},
+            "position": 18,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt_flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc2599",
+            "options": {},
+            "position": 19,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt",
+            "tags": ["upt"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259a",
+            "options": {},
+            "position": 20,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt_split_2x",
+            "tags": ["2x", "split", "upt"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259b",
+            "options": {},
+            "position": 21,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt_flextop_2x",
+            "tags": ["2x", "flextop", "upt"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259c",
+            "options": {},
+            "position": 22,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/straight_on_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259d",
+            "options": {},
+            "position": 23,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/zoom_2_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259e",
+            "options": {},
+            "position": 24,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/zoom_1_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a6c67be5ac4a1cc259f",
+            "options": {},
+            "position": 25,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p5-360/upt_split",
+            "tags": ["split", "upt"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1667be5ac4a1cc2337",
+            "details": { "Size": ["Twin"] },
+            "name": "p5 360 Bed Twin",
+            "regular": { "cents": 184900, "currency_iso": "USD" },
+            "sale": { "cents": 184900, "currency_iso": "USD" },
+            "sku": "TZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc2338",
+            "details": { "Size": ["Twin Long"] },
+            "name": "p5 360 Bed Twin XL",
+            "regular": { "cents": 199900, "currency_iso": "USD" },
+            "sale": { "cents": 199900, "currency_iso": "USD" },
+            "sku": "XZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc2339",
+            "details": { "Size": ["Full"] },
+            "name": "p5 360 Bed Full",
+            "regular": { "cents": 227400, "currency_iso": "USD" },
+            "sale": { "cents": 227400, "currency_iso": "USD" },
+            "sku": "FZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233a",
+            "details": { "Size": ["Queen"] },
+            "name": "p5 360 Bed Queen",
+            "regular": { "cents": 239900, "currency_iso": "USD" },
+            "sale": { "cents": 239900, "currency_iso": "USD" },
+            "sku": "QZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233b",
+            "details": { "Size": ["King"] },
+            "name": "p5 360 Bed King",
+            "regular": { "cents": 289900, "currency_iso": "USD" },
+            "sale": { "cents": 289900, "currency_iso": "USD" },
+            "sku": "KZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233c",
+            "details": { "Size": ["Split King"] },
+            "name": "p5 360 Bed Split King",
+            "regular": { "cents": 329900, "currency_iso": "USD" },
+            "sale": { "cents": 329900, "currency_iso": "USD" },
+            "sku": "SZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233d",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "p5 360 Bed FlexTop King",
+            "regular": { "cents": 329900, "currency_iso": "USD" },
+            "sale": { "cents": 329900, "currency_iso": "USD" },
+            "sku": "AZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233e",
+            "details": { "Size": ["California King"] },
+            "name": "p5 360 Bed California King",
+            "regular": { "cents": 289900, "currency_iso": "USD" },
+            "sale": { "cents": 289900, "currency_iso": "USD" },
+            "sku": "CZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1667be5ac4a1cc233f",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "p5 360 Bed FlexTop California King",
+            "regular": { "cents": 329900, "currency_iso": "USD" },
+            "sale": { "cents": 329900, "currency_iso": "USD" },
+            "sku": "BZP5",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 329900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 184900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 329900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 184900, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4,
+          "total_review_count": 20,
+          "distributions": { "1": 2, "2": 3, "3": 0, "4": 3, "5": 12 }
+        }
+      },
+      {
+        "id": "ff1-360",
+        "name": "Flexfit™ 1 Base",
+        "type": "adjustable_base",
+        "description": "Gently raise your partner's side to help prevent snoring.* It's smart adjustability, comfortably priced.",
+        "long_description": null,
+        "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+        "positioning_statement": "Take the roar out of snore™",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ff1",
+        "original_slug": "ff1",
+        "browser_title": "Flexfit™ 1 Base",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head control) options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "6091CFB58C",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_head_adjust",
+            "name": "Head Adjust",
+            "text": "Perfect for reading and watching TV",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "EBD09715E5",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_partner_snore",
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "D87F4F0FA4",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_light_control",
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a7767be5ac4a1cc263a",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff1/standard",
+            "tags": ["standard", "upt", "thumbnail"]
+          },
+          {
+            "id": "5f358a7767be5ac4a1cc263b",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff1/flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a7767be5ac4a1cc263c",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff1/split",
+            "tags": ["upt", "split"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1967be5ac4a1cc2374",
+            "details": { "Size": ["Twin Long"] },
+            "name": "FlexFit 1 360 Twin XL",
+            "regular": { "cents": 99900, "currency_iso": "USD" },
+            "sale": { "cents": 99900, "currency_iso": "USD" },
+            "sku": "XFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc2375",
+            "details": { "Size": ["Full"] },
+            "name": "FlexFit 1 360 Full",
+            "regular": { "cents": 119900, "currency_iso": "USD" },
+            "sale": { "cents": 119900, "currency_iso": "USD" },
+            "sku": "FFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc2376",
+            "details": { "Size": ["Queen"] },
+            "name": "FlexFit 1 360 Queen",
+            "regular": { "cents": 119900, "currency_iso": "USD" },
+            "sale": { "cents": 119900, "currency_iso": "USD" },
+            "sku": "QFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc2377",
+            "details": { "Size": ["King"] },
+            "name": "FlexFit 1 360 King",
+            "regular": { "cents": 199900, "currency_iso": "USD" },
+            "sale": { "cents": 199900, "currency_iso": "USD" },
+            "sku": "KFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc2378",
+            "details": { "Size": ["Split King"] },
+            "name": "FlexFit 1 360 Split King",
+            "regular": { "cents": 209900, "currency_iso": "USD" },
+            "sale": { "cents": 209900, "currency_iso": "USD" },
+            "sku": "SFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc2379",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "FlexFit 1 360 FlexTop King",
+            "regular": { "cents": 209900, "currency_iso": "USD" },
+            "sale": { "cents": 209900, "currency_iso": "USD" },
+            "sku": "AFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc237a",
+            "details": { "Size": ["California King"] },
+            "name": "FlexFit 1 360 California King",
+            "regular": { "cents": 199900, "currency_iso": "USD" },
+            "sale": { "cents": 199900, "currency_iso": "USD" },
+            "sku": "CFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc237b",
+            "details": { "Size": ["Split California King"] },
+            "name": "FlexFit 1 360 Split California King",
+            "regular": { "cents": 209900, "currency_iso": "USD" },
+            "sale": { "cents": 209900, "currency_iso": "USD" },
+            "sku": "PFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1967be5ac4a1cc237c",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "FlexFit 1 360 FlexTop California King",
+            "regular": { "cents": 209900, "currency_iso": "USD" },
+            "sale": { "cents": 209900, "currency_iso": "USD" },
+            "sku": "BFA40",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 209900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 99900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 209900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 99900, "currency_iso": "USD" },
+        "review_stats": null
+      }
+    ],
+    "purchasable": false,
+    "inventory_status": "",
+    "original_max_price": { "cents": 329900, "currency_iso": "USD" },
+    "original_min_price": { "cents": 99900, "currency_iso": "USD" },
+    "sell_max_price": { "cents": 329900, "currency_iso": "USD" },
+    "sell_min_price": { "cents": 99900, "currency_iso": "USD" },
+    "review_stats": null
+  },
+  {
+    "id": "CD45922E8B",
+    "name": "p6 WITH FLEXFIT™ 2",
+    "type": "other",
+    "description": null,
+    "long_description": null,
+    "meta_description": null,
+    "positioning_statement": null,
+    "disclaimer": null,
+    "content_badge_message": null,
+    "merchant_message": null,
+    "slug": "p6-ff2-360",
+    "original_slug": "p6-ff2-360",
+    "browser_title": "p6 WITH FLEXFIT™ 2",
+    "template": "family",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": null,
+    "filters": {},
+    "details": {},
+    "comfort_guide_details": {},
+    "features": [
+      {
+        "id": "FD9AAF8832",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-partner-snore",
+        "name": "Partner Snore",
+        "text": "Gently raise your partner’s head to help alleviate snoring*",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "146EFB15B0",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-light-control",
+        "name": "Lighting",
+        "text": "Find your way at night with under bed lighting",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "A998B392F1",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-head-adjust",
+        "name": "Head Adjust",
+        "text": "Endless head positions",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "F3FB96824E",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-head-foot-adjust",
+        "name": "Zero Gravity",
+        "text": "Endless head/foot positions and favorites like zero-G",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": null,
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": [
+        {
+          "id": "5f358a2867be5ac4a1cc2434",
+          "type": "html",
+          "area": "price_block",
+          "name": "HTML",
+          "data": {
+            "html": "<div class=\"mt-2\"><img src=\"/images/15-year-warranty.svg\"/>&nbsp;15-year Limited Warranty</div>"
+          },
+          "hidden_breakpoints": [],
+          "position": 0
+        }
+      ]
+    },
+    "swatches": {},
+    "images": [
+      {
+        "id": "5f358a9667be5ac4a1cc267e",
+        "options": {},
+        "position": 0,
+        "primary": true,
+        "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-ff2-360/thumbnail",
+        "tags": ["thumbnail"]
+      }
+    ],
+    "videos": [],
+    "renders": [],
+    "recommended": [],
+    "variants": [],
+    "packaged_products": [
+      {
+        "id": "p6-360",
+        "name": "p6",
+        "type": "mattress",
+        "description": "Plush, pressure-relieving comfort with cooling technology",
+        "long_description": "Enjoy soothing, cool comfort with a 5\" combination of pressure-relieving comfort layers",
+        "meta_description": "Discover the cooling technology of the p6 360 Smart Bed by Sleep Number, and how it can help you sleep blissfully all night long.",
+        "positioning_statement": "Plush, pressure-relieving comfort with cooling technology",
+        "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "p6",
+        "original_slug": "p6-360",
+        "browser_title": "p6",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin Long",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {
+          "Comfort Layer": ["5"],
+          "Mattress Height": ["11"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"],
+          "Cooling": ["5"]
+        },
+        "comfort_guide_details": {
+          "Comfort Layer": ["5"],
+          "Mattress Height": ["11"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"],
+          "Cooling": ["5"]
+        },
+        "features": [
+          {
+            "id": "F3A87841D6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-dual-air",
+            "name": "Dual Adjustability",
+            "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "758B63AEE6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-responsive-air",
+            "name": "Responsive Air<sup>®</sup> technology",
+            "text": "Effortlessly responds and automatically adjusts firmness on each side",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "3B21E1016C",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-sleep-iq-color",
+            "name": "SleepIQ<sup>®</sup> technology",
+            "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "7E63699ED6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-temp-balance",
+            "name": "Temperature balancing sleep surface",
+            "text": "Absorbs excess heat and releases it as you cool, so you sleep just right.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a6f67be5ac4a1cc25ba",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/matt_only",
+            "tags": ["matt-only"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25bb",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/thumbnail",
+            "tags": ["thumbnail"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25bc",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt_flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25bd",
+            "options": {},
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt_2x",
+            "tags": ["2x", "upt"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25be",
+            "options": {},
+            "position": 4,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt_flextop_2x",
+            "tags": ["2x", "flextop", "upt"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25bf",
+            "options": {},
+            "position": 5,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_tablet_split",
+            "tags": ["postcard", "tablet", "split"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c0",
+            "options": {},
+            "position": 6,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/straight_on_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c1",
+            "options": {},
+            "position": 7,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/straight_on_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c2",
+            "options": {},
+            "position": 8,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_tablet_flextop",
+            "tags": ["postcard", "tablet", "flextop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c3",
+            "options": {},
+            "position": 9,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_mobile_flextop",
+            "tags": ["mobile", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c4",
+            "options": {},
+            "position": 10,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_mobile",
+            "tags": ["postcard", "mobile"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c5",
+            "options": {},
+            "position": 11,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_tablet",
+            "tags": ["postcard", "tablet"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c6",
+            "options": {},
+            "position": 12,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/zoom_2",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c7",
+            "options": {},
+            "position": 13,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_mobile_split",
+            "tags": ["mobile", "postcard", "split"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c8",
+            "options": {},
+            "position": 14,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/45_wide_mobile",
+            "tags": ["mobile", "gallery"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25c9",
+            "options": {},
+            "position": 15,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/zoom_1",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25ca",
+            "options": {},
+            "position": 16,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/zoom_2_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25cb",
+            "options": {},
+            "position": 17,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_desktop_flextop",
+            "tags": ["desktop", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25cc",
+            "options": {},
+            "position": 18,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_desktop",
+            "tags": ["postcard", "desktop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25cd",
+            "options": {},
+            "position": 19,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/postcard_desktop_split",
+            "tags": ["desktop", "postcard", "split"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25ce",
+            "options": {},
+            "position": 20,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/zoom_1_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25cf",
+            "options": {},
+            "position": 21,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt",
+            "tags": ["upt"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25d0",
+            "options": {},
+            "position": 22,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/45_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25d1",
+            "options": {},
+            "position": 23,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt_split_2x",
+            "tags": ["2x", "split", "upt"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25d2",
+            "options": {},
+            "position": 24,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/matt_only_ghost",
+            "tags": ["ghosted-base"]
+          },
+          {
+            "id": "5f358a7067be5ac4a1cc25d3",
+            "options": {},
+            "position": 25,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/p6-360/upt_split",
+            "tags": ["split", "upt"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1767be5ac4a1cc2349",
+            "details": { "Size": ["Twin Long"] },
+            "name": "p6 360 Bed Twin XL",
+            "regular": { "cents": 239900, "currency_iso": "USD" },
+            "sale": { "cents": 239900, "currency_iso": "USD" },
+            "sku": "XZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234a",
+            "details": { "Size": ["Queen"] },
+            "name": "p6 360 Bed Queen",
+            "regular": { "cents": 289900, "currency_iso": "USD" },
+            "sale": { "cents": 289900, "currency_iso": "USD" },
+            "sku": "QZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234b",
+            "details": { "Size": ["King"] },
+            "name": "p6 360 Bed King",
+            "regular": { "cents": 349900, "currency_iso": "USD" },
+            "sale": { "cents": 349900, "currency_iso": "USD" },
+            "sku": "KZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234c",
+            "details": { "Size": ["Split King"] },
+            "name": "p6 360 Bed Split King",
+            "regular": { "cents": 389900, "currency_iso": "USD" },
+            "sale": { "cents": 389900, "currency_iso": "USD" },
+            "sku": "SZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234d",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "p6 360 Bed FlexTop King",
+            "regular": { "cents": 389900, "currency_iso": "USD" },
+            "sale": { "cents": 389900, "currency_iso": "USD" },
+            "sku": "AZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234e",
+            "details": { "Size": ["California King"] },
+            "name": "p6 360 Bed California King",
+            "regular": { "cents": 349900, "currency_iso": "USD" },
+            "sale": { "cents": 349900, "currency_iso": "USD" },
+            "sku": "CZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc234f",
+            "details": { "Size": ["Split California King"] },
+            "name": "p6 360 Bed Split California King",
+            "regular": { "cents": 389900, "currency_iso": "USD" },
+            "sale": { "cents": 389900, "currency_iso": "USD" },
+            "sku": "PZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc2350",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "p6 360 Bed FlexTop California King",
+            "regular": { "cents": 389900, "currency_iso": "USD" },
+            "sale": { "cents": 389900, "currency_iso": "USD" },
+            "sku": "BZP6",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 389900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 239900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 389900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 239900, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4.5769,
+          "total_review_count": 26,
+          "distributions": { "1": 1, "2": 0, "3": 0, "4": 7, "5": 18 }
+        }
+      },
+      {
+        "id": "ff2-360",
+        "name": "Flexfit™ 2 Base",
+        "type": "adjustable_base",
+        "description": "Designed for enhanced comfort and wellbeing. Provides soothing, relaxing support for tired muscles.",
+        "long_description": null,
+        "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+        "positioning_statement": "Endless head and foot positions",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ff2",
+        "original_slug": "ff2",
+        "browser_title": "Flexfit™ 2 Base",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head and foot control) options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "CAE0452132",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_head_foot_adjust",
+            "name": "Zero Gravity",
+            "text": "Enjoy favorites like the weightless of zero gravity",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "EBD09715E5",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_partner_snore",
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "D87F4F0FA4",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_light_control",
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a7867be5ac4a1cc263d",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff2/standard",
+            "tags": ["standard", "thumbnail", "upt"]
+          },
+          {
+            "id": "5f358a7867be5ac4a1cc263e",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff2/flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a7867be5ac4a1cc263f",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff2/split",
+            "tags": ["split", "upt"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1967be5ac4a1cc237d",
+            "details": { "Size": ["Twin Long"] },
+            "name": "FlexFit 2 360 Twin XL",
+            "regular": { "cents": 169900, "currency_iso": "USD" },
+            "sale": { "cents": 169900, "currency_iso": "USD" },
+            "sku": "XFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc237e",
+            "details": { "Size": ["Full"] },
+            "name": "FlexFit 2 360 Full",
+            "regular": { "cents": 189900, "currency_iso": "USD" },
+            "sale": { "cents": 189900, "currency_iso": "USD" },
+            "sku": "FFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc237f",
+            "details": { "Size": ["Queen"] },
+            "name": "FlexFit 2 360 Queen",
+            "regular": { "cents": 189900, "currency_iso": "USD" },
+            "sale": { "cents": 189900, "currency_iso": "USD" },
+            "sku": "QFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2380",
+            "details": { "Size": ["King"] },
+            "name": "FlexFit 2 360 King",
+            "regular": { "cents": 309900, "currency_iso": "USD" },
+            "sale": { "cents": 309900, "currency_iso": "USD" },
+            "sku": "KFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2381",
+            "details": { "Size": ["Split King"] },
+            "name": "FlexFit 2 360 Split King",
+            "regular": { "cents": 319900, "currency_iso": "USD" },
+            "sale": { "cents": 319900, "currency_iso": "USD" },
+            "sku": "SFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2382",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "FlexFit 2 360 FlexTop King",
+            "regular": { "cents": 319900, "currency_iso": "USD" },
+            "sale": { "cents": 319900, "currency_iso": "USD" },
+            "sku": "AFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2383",
+            "details": { "Size": ["California King"] },
+            "name": "FlexFit 2 360 California King",
+            "regular": { "cents": 309900, "currency_iso": "USD" },
+            "sale": { "cents": 309900, "currency_iso": "USD" },
+            "sku": "CFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2384",
+            "details": { "Size": ["Split California King"] },
+            "name": "FlexFit 2 360 Split California King",
+            "regular": { "cents": 319900, "currency_iso": "USD" },
+            "sale": { "cents": 319900, "currency_iso": "USD" },
+            "sku": "PFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2385",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "FlexFit 2 360 FlexTop California King",
+            "regular": { "cents": 319900, "currency_iso": "USD" },
+            "sale": { "cents": 319900, "currency_iso": "USD" },
+            "sku": "BFA50",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 319900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 169900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 319900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 169900, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 5,
+          "total_review_count": 2,
+          "distributions": { "1": 0, "2": 0, "3": 0, "4": 0, "5": 2 }
+        }
+      }
+    ],
+    "purchasable": false,
+    "inventory_status": "",
+    "original_max_price": { "cents": 389900, "currency_iso": "USD" },
+    "original_min_price": { "cents": 169900, "currency_iso": "USD" },
+    "sell_max_price": { "cents": 389900, "currency_iso": "USD" },
+    "sell_min_price": { "cents": 169900, "currency_iso": "USD" },
+    "review_stats": null
+  },
+  {
+    "id": "F1CBB89877",
+    "name": "iLE WITH FLEXFIT™ 3",
+    "type": "other",
+    "description": null,
+    "long_description": null,
+    "meta_description": null,
+    "positioning_statement": null,
+    "disclaimer": null,
+    "content_badge_message": null,
+    "merchant_message": null,
+    "slug": "ile-ff3-360",
+    "original_slug": "ile-ff3-360",
+    "browser_title": "iLE WITH FLEXFIT™ 3",
+    "template": "family",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": null,
+    "filters": {},
+    "details": {},
+    "comfort_guide_details": {},
+    "features": [
+      {
+        "id": "FD9AAF8832",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-partner-snore",
+        "name": "Partner Snore",
+        "text": "Gently raise your partner’s head to help alleviate snoring*",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "146EFB15B0",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-light-control",
+        "name": "Lighting",
+        "text": "Find your way at night with under bed lighting",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "A998B392F1",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-head-adjust",
+        "name": "Head Adjust",
+        "text": "Endless head positions",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "F3FB96824E",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-head-foot-adjust",
+        "name": "Zero Gravity",
+        "text": "Endless head/foot positions and favorites like zero-G",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "D4A74251FA",
+        "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-foot-warming",
+        "name": "Foot Warming",
+        "text": "Foot warming—designed to help you fall asleep faster",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": null,
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": [
+        {
+          "id": "5f358a2967be5ac4a1cc2442",
+          "type": "html",
+          "area": "price_block",
+          "name": "HTML",
+          "data": {
+            "html": "<div class=\"mt-2\"><img src=\"/images/15-year-warranty.svg\"/>&nbsp;15-year Limited Warranty</div>"
+          },
+          "hidden_breakpoints": [],
+          "position": 0
+        }
+      ]
+    },
+    "swatches": {},
+    "images": [],
+    "videos": [],
+    "renders": [],
+    "recommended": [],
+    "variants": [],
+    "packaged_products": [
+      {
+        "id": "iLE-360",
+        "name": "iLE LIMITED EDITION",
+        "type": "mattress",
+        "description": "Plush, Soothing, and Effortlessly Comfortable",
+        "long_description": "Our Limited Edition bed is a luxurious 6\" combination of pressure-relieving comfort layers with temperature balancing benefits to keep both of you sleeping just right.",
+        "meta_description": "Discover the difference an iLE Smart Bed by Sleep Number makes to your sleep. Find your perfect Sleep Setting that automatically adjusts based on your body.",
+        "positioning_statement": "Plush, Soothing, and Effortlessly Comfortable",
+        "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ile",
+        "original_slug": "ile-360",
+        "browser_title": "iLE LIMITED EDITION",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {
+          "Comfort Layer": ["6"],
+          "Mattress Height": ["12"],
+          "Pressure Relief": ["10"],
+          "Support": ["8"],
+          "Cooling": ["8"]
+        },
+        "comfort_guide_details": {
+          "Comfort Layer": ["6"],
+          "Mattress Height": ["12"],
+          "Pressure Relief": ["10"],
+          "Support": ["8"],
+          "Cooling": ["8"]
+        },
+        "features": [
+          {
+            "id": "F3A87841D6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-dual-air",
+            "name": "Dual Adjustability",
+            "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "758B63AEE6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-responsive-air",
+            "name": "Responsive Air<sup>®</sup> technology",
+            "text": "Effortlessly responds and automatically adjusts firmness on each side",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "3B21E1016C",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-sleep-iq-color",
+            "name": "SleepIQ<sup>®</sup> technology",
+            "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "7E63699ED6",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/feature-temp-balance",
+            "name": "Temperature balancing sleep surface",
+            "text": "Absorbs excess heat and releases it as you cool, so you sleep just right.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a7367be5ac4a1cc25ee",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/zoom_2",
+            "tags": ["desktop", "gallery"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25ef",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/zoom_2_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f0",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/zoom_1",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f1",
+            "options": {},
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/zoom_1_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f2",
+            "options": {},
+            "position": 4,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt",
+            "tags": ["upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f3",
+            "options": {},
+            "position": 5,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt_split",
+            "tags": ["split", "upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f4",
+            "options": {},
+            "position": 6,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt_split_2x",
+            "tags": ["2x", "split", "upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f5",
+            "options": {},
+            "position": 7,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt_flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f6",
+            "options": {},
+            "position": 8,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt_flextop_2x",
+            "tags": ["2x", "flextop", "upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f7",
+            "options": {},
+            "position": 9,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/upt_2x",
+            "tags": ["2x", "upt"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f8",
+            "options": {},
+            "position": 10,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/straight_on_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25f9",
+            "options": {},
+            "position": 11,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/straight_on_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25fa",
+            "options": {},
+            "position": 12,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_tablet",
+            "tags": ["postcard", "tablet"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25fb",
+            "options": {},
+            "position": 13,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_tablet_split",
+            "tags": ["postcard", "tablet", "split"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25fc",
+            "options": {},
+            "position": 14,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_tablet_flextop",
+            "tags": ["postcard", "tablet", "flextop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25fd",
+            "options": {},
+            "position": 15,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_mobile",
+            "tags": ["postcard", "mobile"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25fe",
+            "options": {},
+            "position": 16,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_mobile_split",
+            "tags": ["mobile", "postcard", "split"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc25ff",
+            "options": {},
+            "position": 17,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_mobile_flextop",
+            "tags": ["mobile", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2600",
+            "options": {},
+            "position": 18,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_desktop",
+            "tags": ["postcard", "desktop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2601",
+            "options": {},
+            "position": 19,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_desktop_split",
+            "tags": ["desktop", "postcard", "split"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2602",
+            "options": {},
+            "position": 20,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/postcard_desktop_flextop",
+            "tags": ["desktop", "postcard", "flextop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2603",
+            "options": { "Size": "" },
+            "position": 21,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/matt_only_ghost",
+            "tags": ["ghosted-base", "thumbnail"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2604",
+            "options": {},
+            "position": 22,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/45_wide",
+            "tags": ["gallery", "desktop"]
+          },
+          {
+            "id": "5f358a7367be5ac4a1cc2605",
+            "options": {},
+            "position": 23,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ile-360/45_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1767be5ac4a1cc235a",
+            "details": { "Size": ["Twin Long"] },
+            "name": "iLE 360 Bed Twin XL",
+            "regular": { "cents": 439900, "currency_iso": "USD" },
+            "sale": { "cents": 439900, "currency_iso": "USD" },
+            "sku": "XZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc235b",
+            "details": { "Size": ["Full"] },
+            "name": "iLE 360 Bed Full",
+            "regular": { "cents": 467400, "currency_iso": "USD" },
+            "sale": { "cents": 467400, "currency_iso": "USD" },
+            "sku": "FZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc235c",
+            "details": { "Size": ["Queen"] },
+            "name": "iLE 360 Bed Queen",
+            "regular": { "cents": 499900, "currency_iso": "USD" },
+            "sale": { "cents": 499900, "currency_iso": "USD" },
+            "sku": "QZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc235d",
+            "details": { "Size": ["King"] },
+            "name": "iLE 360 Bed King",
+            "regular": { "cents": 569900, "currency_iso": "USD" },
+            "sale": { "cents": 569900, "currency_iso": "USD" },
+            "sku": "KZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1767be5ac4a1cc235e",
+            "details": { "Size": ["Split King"] },
+            "name": "iLE 360 Bed Split King",
+            "regular": { "cents": 609900, "currency_iso": "USD" },
+            "sale": { "cents": 609900, "currency_iso": "USD" },
+            "sku": "SZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1867be5ac4a1cc235f",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "iLE 360 Bed FlexTop King",
+            "regular": { "cents": 609900, "currency_iso": "USD" },
+            "sale": { "cents": 609900, "currency_iso": "USD" },
+            "sku": "AZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1867be5ac4a1cc2360",
+            "details": { "Size": ["California King"] },
+            "name": "iLE 360 Bed California King",
+            "regular": { "cents": 569900, "currency_iso": "USD" },
+            "sale": { "cents": 569900, "currency_iso": "USD" },
+            "sku": "CZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1867be5ac4a1cc2361",
+            "details": { "Size": ["Split California King"] },
+            "name": "iLE 360 Bed Split California King",
+            "regular": { "cents": 609900, "currency_iso": "USD" },
+            "sale": { "cents": 609900, "currency_iso": "USD" },
+            "sku": "PZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1867be5ac4a1cc2362",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "iLE 360 Bed FlexTop California King",
+            "regular": { "cents": 609900, "currency_iso": "USD" },
+            "sale": { "cents": 609900, "currency_iso": "USD" },
+            "sku": "BZILE",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 609900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 439900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 609900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 439900, "currency_iso": "USD" },
+        "review_stats": {
+          "average_overall_rating": 4.4375,
+          "total_review_count": 16,
+          "distributions": { "1": 1, "2": 0, "3": 1, "4": 3, "5": 11 }
+        }
+      },
+      {
+        "id": "ff3-360",
+        "name": "Flexfit™ 3 Base",
+        "type": "adjustable_base",
+        "description": "For the ultimate in individualized comfort. You have to feel it to believe it.",
+        "long_description": null,
+        "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+        "positioning_statement": "Designed to help you fall asleep faster",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ff3",
+        "original_slug": "ff3",
+        "browser_title": "Flexfit™ 3 Base",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head and foot control) options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "CAE0452132",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_head_foot_adjust",
+            "name": "Zero Gravity",
+            "text": "Enjoy favorites like the weightless of zero gravity",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "EBD09715E5",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_partner_snore",
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "D87F4F0FA4",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_light_control",
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "8AD9EAF2CE",
+            "image_url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/features/icons_foot_warm",
+            "name": "Foot Warming",
+            "text": "Foot warming—designed to help you fall asleep faster",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5f358a7967be5ac4a1cc2640",
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff3/split",
+            "tags": ["split", "upt"]
+          },
+          {
+            "id": "5f358a7967be5ac4a1cc2641",
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff3/flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5f358a7967be5ac4a1cc2642",
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/sleepnumber/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_images/ff3/standard",
+            "tags": ["standard", "upt", "thumbnail"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f358a1a67be5ac4a1cc2386",
+            "details": { "Size": ["Full"] },
+            "name": "FlexFit 3 360 Full",
+            "regular": { "cents": 239900, "currency_iso": "USD" },
+            "sale": { "cents": 239900, "currency_iso": "USD" },
+            "sku": "FFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2387",
+            "details": { "Size": ["Queen"] },
+            "name": "FlexFit 3 360 Queen",
+            "regular": { "cents": 239900, "currency_iso": "USD" },
+            "sale": { "cents": 239900, "currency_iso": "USD" },
+            "sku": "QFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2388",
+            "details": { "Size": ["King"] },
+            "name": "FlexFit 3 360 King",
+            "regular": { "cents": 409900, "currency_iso": "USD" },
+            "sale": { "cents": 409900, "currency_iso": "USD" },
+            "sku": "KFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc2389",
+            "details": { "Size": ["Split King"] },
+            "name": "FlexFit 3 360 Split King",
+            "regular": { "cents": 419900, "currency_iso": "USD" },
+            "sale": { "cents": 419900, "currency_iso": "USD" },
+            "sku": "SFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc238a",
+            "details": { "Size": ["FlexTop King"] },
+            "name": "FlexFit 3 360 FlexTop King",
+            "regular": { "cents": 419900, "currency_iso": "USD" },
+            "sale": { "cents": 419900, "currency_iso": "USD" },
+            "sku": "AFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc238b",
+            "details": { "Size": ["California King"] },
+            "name": "FlexFit 3 360 California King",
+            "regular": { "cents": 409900, "currency_iso": "USD" },
+            "sale": { "cents": 409900, "currency_iso": "USD" },
+            "sku": "CFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc238c",
+            "details": { "Size": ["Split California King"] },
+            "name": "FlexFit 3 360 Split California King",
+            "regular": { "cents": 419900, "currency_iso": "USD" },
+            "sale": { "cents": 419900, "currency_iso": "USD" },
+            "sku": "PFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5f358a1a67be5ac4a1cc238d",
+            "details": { "Size": ["FlexTop California King"] },
+            "name": "FlexFit 3 360 FlexTop California King",
+            "regular": { "cents": 419900, "currency_iso": "USD" },
+            "sale": { "cents": 419900, "currency_iso": "USD" },
+            "sku": "BFA60",
+            "promo_badge_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "",
+        "original_max_price": { "cents": 419900, "currency_iso": "USD" },
+        "original_min_price": { "cents": 239900, "currency_iso": "USD" },
+        "sell_max_price": { "cents": 419900, "currency_iso": "USD" },
+        "sell_min_price": { "cents": 239900, "currency_iso": "USD" },
+        "review_stats": null
+      }
+    ],
+    "purchasable": false,
+    "inventory_status": "",
+    "original_max_price": { "cents": 609900, "currency_iso": "USD" },
+    "original_min_price": { "cents": 239900, "currency_iso": "USD" },
+    "sell_max_price": { "cents": 609900, "currency_iso": "USD" },
+    "sell_min_price": { "cents": 239900, "currency_iso": "USD" },
+    "review_stats": null
+  }
+]

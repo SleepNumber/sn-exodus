@@ -1,0 +1,378 @@
+[
+  {
+    "name": "who",
+    "fact": false,
+    "question": "Who is this mattress for?",
+    "options": [
+      {
+        "id": 1,
+        "label": "You",
+        "value": "You",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 2,
+        "label": "You and Your Partner",
+        "value": "You and Your Partner",
+        "className": {
+          "just-selected": false
+        }
+      }
+    ],
+    "type": "radio",
+    "answer": "You and Your Partner"
+  },
+  {
+    "name": "size",
+    "fact": true,
+    "question": "What size mattress are you looking for?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Twin",
+        "value": "Twin",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 2,
+        "label": "Twin XL",
+        "value": "Twin Long",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 3,
+        "label": "Full",
+        "value": "Full",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 4,
+        "label": "Queen",
+        "value": "Queen",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 5,
+        "label": "King",
+        "value": "King",
+        "className": {
+          "just-selected": false
+        }
+      },
+      {
+        "id": 6,
+        "label": "California King",
+        "value": "California King",
+        "className": {
+          "just-selected": false
+        }
+      }
+    ],
+    "type": "radio",
+    "answer": "King"
+  },
+  {
+    "name": "price",
+    "fact": true,
+    "question": "What is your ideal price range for a new mattress?",
+    "options": {
+      "Twin": [
+        {
+          "id": 1,
+          "label": "Less than $1,000",
+          "value": "1000"
+        },
+        {
+          "id": 2,
+          "label": "Less than $2,000",
+          "value": "2000"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ],
+      "Twin Long": [
+        {
+          "id": 1,
+          "label": "Less than $1,500",
+          "value": "1500"
+        },
+        {
+          "id": 2,
+          "label": "Less than $3,000",
+          "value": "3000"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ],
+      "Full": [
+        {
+          "id": 1,
+          "label": "Less than $2,000",
+          "value": "2000"
+        },
+        {
+          "id": 2,
+          "label": "Less than $4,000",
+          "value": "4000"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ],
+      "Queen": [
+        {
+          "id": 1,
+          "label": "Less than $2,500",
+          "value": "2500"
+        },
+        {
+          "id": 2,
+          "label": "Less than $4,500",
+          "value": "4500"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ],
+      "King": [
+        {
+          "id": 1,
+          "label": "Less than $3,000",
+          "value": "3000"
+        },
+        {
+          "id": 2,
+          "label": "Less than $5,000",
+          "value": "5000"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ],
+      "California King": [
+        {
+          "id": 1,
+          "label": "Less than $3,000",
+          "value": "3000"
+        },
+        {
+          "id": 2,
+          "label": "Less than $5,000",
+          "value": "5000"
+        },
+        {
+          "id": 3,
+          "label": "No Preference",
+          "value": "0"
+        }
+      ]
+    },
+    "type": "radio",
+    "answer": "5000"
+  },
+  {
+    "name": "sleep-quality",
+    "fact": false,
+    "question": "How well are you and your partner currently sleeping?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Poorly",
+        "value": "Poorly"
+      },
+      {
+        "id": 2,
+        "label": "Average",
+        "value": "Average"
+      },
+      {
+        "id": 3,
+        "label": "Good",
+        "value": "Good"
+      }
+    ],
+    "type": "radio",
+    "answer": {
+      "you": "Average",
+      "partner": "Good"
+    }
+  },
+  {
+    "name": "firmness",
+    "fact": false,
+    "question": "How firm do you and your partner like your mattress?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Soft",
+        "value": "Soft"
+      },
+      {
+        "id": 2,
+        "label": "Medium",
+        "value": "Medium"
+      },
+      {
+        "id": 3,
+        "label": "Firm",
+        "value": "Firm"
+      },
+      {
+        "id": 4,
+        "label": "Not Sure",
+        "value": "Not Sure"
+      }
+    ],
+    "type": "radio",
+    "answer": {
+      "you": "Medium",
+      "partner": "Firm"
+    }
+  },
+  {
+    "name": "cooling",
+    "fact": true,
+    "question": "How often do you or your partner feel overheated or sleep too hot?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Often",
+        "value": "Often"
+      },
+      {
+        "id": 2,
+        "label": "Sometimes",
+        "value": "Sometimes"
+      },
+      {
+        "id": 3,
+        "label": "Never",
+        "value": "Never"
+      }
+    ],
+    "type": "radio",
+    "answer": {
+      "you": "Sometimes",
+      "partner": "Never"
+    }
+  },
+  {
+    "name": "tossTurn",
+    "fact": false,
+    "question": "How much do you or your partner toss and turn at night?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Often",
+        "value": "Often"
+      },
+      {
+        "id": 2,
+        "label": "Sometimes",
+        "value": "Sometimes"
+      },
+      {
+        "id": 3,
+        "label": "Never",
+        "value": "Never"
+      }
+    ],
+    "type": "radio",
+    "answer": {
+      "you": "Sometimes",
+      "partner": "Sometimes"
+    }
+  },
+  {
+    "name": "struggles",
+    "fact": true,
+    "question": "Do you or your partner struggle with any of the following?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Snoring",
+        "value": "Snoring"
+      },
+      {
+        "id": 2,
+        "label": "Tired Legs / Feet",
+        "value": "Tired Legs / Feet"
+      },
+      {
+        "id": 3,
+        "label": "Wake up Sore / Achy",
+        "value": "Wake up Sore / Achy"
+      },
+      {
+        "id": 4,
+        "label": "Cold Feet",
+        "value": "Cold Feet"
+      },
+      {
+        "id": 5,
+        "label": "Falling Asleep",
+        "value": "Falling Asleep"
+      },
+      {
+        "id": 6,
+        "label": "None",
+        "value": "None"
+      }
+    ],
+    "type": "checkbox",
+    "answer": {
+      "you": ["Snoring"],
+      "partner": ["Wake up Sore / Achy", "Falling Asleep"]
+    },
+    "additionalMessage": "Select all that apply."
+  },
+  {
+    "name": "adjustability",
+    "fact": true,
+    "question": "How frequently do you or your partner read or watch TV while in bed?",
+    "options": [
+      {
+        "id": 1,
+        "label": "Often",
+        "value": "Often"
+      },
+      {
+        "id": 2,
+        "label": "Sometimes",
+        "value": "Sometimes"
+      },
+      {
+        "id": 3,
+        "label": "Never",
+        "value": "Never"
+      }
+    ],
+    "type": "radio",
+    "answer": {
+      "you": "Never",
+      "partner": "Sometimes"
+    }
+  }
+]

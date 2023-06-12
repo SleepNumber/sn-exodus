@@ -1,0 +1,22 @@
+{
+  "logged_in": true,
+  "cart_quantity": 1,
+  "admin": false,
+  "impersonating": false,
+  "browsing_as_guest": false,
+  "csrf_param": "authenticity_token",
+  "csrf_token": "HwWbWcCfzJNcscVIsk/CjXoCHNubptCPBH1yDrxt4JgVL8JDftaY+/GxWXz/+EhCoVyvhkQkk6uPrts+NHNIDQ==",
+  "geolocation": {
+    "country": "US",
+    "state": "MN",
+    "city": "Osseo",
+    "localities": ["Osseo"],
+    "zipcode": "55311",
+    "longitude": -93.5814,
+    "latitude": 45.1715
+  },
+  "segments": ["InnerCircle"],
+  "price_lists": [],
+  "innercircle": true,
+  "insider": false
+}

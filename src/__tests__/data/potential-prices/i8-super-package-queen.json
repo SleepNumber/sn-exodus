@@ -1,0 +1,146 @@
+[
+  {
+    "skus": ["QZI8"],
+    "products": [
+      {
+        "sku": "QZI8",
+        "prices": {
+          "regular": 3599,
+          "sale": 3099,
+          "savings": 500
+        }
+      }
+    ],
+    "total": {
+      "regular": 3599,
+      "sale": 3099,
+      "savings": 500
+    },
+    "promo_badge_message": "$500 OFF",
+    "promo_expiry_date": 1589570561678,
+    "financing": {
+      "default": true,
+      "deferred": true,
+      "value": 258.25,
+      "end_date": 1589570561678,
+      "description": "",
+      "months": 12,
+      "promo_code": "212",
+      "disclaimer_message": ""
+    }
+  },
+  {
+    "skus": ["QZI8", "QFA40"],
+    "products": [
+      {
+        "sku": "QZI8",
+        "prices": {
+          "regular": 3599,
+          "sale": 3099,
+          "savings": 500
+        }
+      },
+      {
+        "sku": "QFA40",
+        "prices": {
+          "regular": 1199,
+          "sale": 999,
+          "savings": 200
+        }
+      }
+    ],
+    "total": {
+      "regular": 4798,
+      "sale": 4098,
+      "savings": 700
+    },
+    "promo_badge_message": "BUNDLE",
+    "promo_expiry_date": 1589570561678,
+    "financing": {
+      "default": true,
+      "deferred": true,
+      "value": 341.5,
+      "end_date": 1589570561678,
+      "description": "",
+      "months": 12,
+      "promo_code": "212",
+      "disclaimer_message": ""
+    }
+  },
+  {
+    "skus": ["QZI8", "QFA50"],
+    "products": [
+      {
+        "sku": "QZI8",
+        "prices": {
+          "regular": 3599,
+          "sale": 3099,
+          "savings": 500
+        }
+      },
+      {
+        "sku": "QFA50",
+        "prices": {
+          "regular": 1899,
+          "sale": 1499,
+          "savings": 400
+        }
+      }
+    ],
+    "total": {
+      "regular": 5498,
+      "sale": 4598,
+      "savings": 900
+    },
+    "promo_badge_message": "BUNDLE",
+    "promo_expiry_date": 1589570561678,
+    "financing": {
+      "default": true,
+      "deferred": true,
+      "value": 383.17,
+      "end_date": 1589570561678,
+      "description": "",
+      "months": 12,
+      "promo_code": "212",
+      "disclaimer_message": ""
+    }
+  },
+  {
+    "skus": ["QZI8", "QFA60"],
+    "products": [
+      {
+        "sku": "QZI8",
+        "prices": {
+          "regular": 3599,
+          "sale": 3099,
+          "savings": 500
+        }
+      },
+      {
+        "sku": "QFA60",
+        "prices": {
+          "regular": 2399,
+          "sale": 1799,
+          "savings": 600
+        }
+      }
+    ],
+    "total": {
+      "regular": 5998,
+      "sale": 4898,
+      "savings": 1100
+    },
+    "promo_badge_message": "BUNDLE",
+    "promo_expiry_date": 1589570561678,
+    "financing": {
+      "default": true,
+      "deferred": true,
+      "value": 408.17,
+      "end_date": 1589570561678,
+      "description": "",
+      "months": 12,
+      "promo_code": "212",
+      "disclaimer_message": ""
+    }
+  }
+]

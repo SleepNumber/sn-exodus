@@ -1,0 +1,3200 @@
+{
+  "meta": { "uuid": "017f2241-4b85-ab34-f761-8cee9fef07e6", "errors": [] },
+  "response": {
+    "entities": [
+      {
+        "googlePlaceId": "ChIJud1D4gFIs1IRXWuGlJcXBR0",
+        "address": {
+          "line1": "11802 Elm Creek Blvd N",
+          "city": "Maple Grove",
+          "region": "MN",
+          "postalCode": "55369",
+          "extraDescription": "Maple Grove - Arbor Lakes",
+          "countryCode": "US"
+        },
+        "description": "At the Maple Grove, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Maple Grove Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "on corner of Hemlock Ln N. and Elm Creek Pkwy.",
+        "c_siebelNumber": "11033",
+        "c_storeDisplayName": "Maple Grove MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/maple-grove/11802-elm-creek-blvd-n.html",
+        "geocodedCoordinate": {
+          "latitude": 45.0949469,
+          "longitude": -93.4302016
+        },
+        "mainPhone": "+17633155383",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "PXNBr",
+          "id": "11033",
+          "timestamp": "2022-02-22T06:00:15",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "33118",
+            "93968",
+            "42383",
+            "779",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ7fK5Jzk8s1IRlM5DUGxcYDg",
+        "address": {
+          "line1": "3200 Main street",
+          "city": "Coon Rapids",
+          "region": "MN",
+          "postalCode": "55448",
+          "countryCode": "US"
+        },
+        "description": "At the Coon Rapids, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Coon Rapids Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "On Northdale Blvd NW across from Costco at Main Street NW",
+        "c_siebelNumber": "11100",
+        "c_storeDisplayName": "Coon Rapids-Riverdale Village",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/coon-rapids/3200-main-street.html",
+        "geocodedCoordinate": {
+          "latitude": 45.196645,
+          "longitude": -93.347992
+        },
+        "mainPhone": "+17632010958",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "7WBdd",
+          "id": "11100",
+          "timestamp": "2022-02-22T06:00:22",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "777",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJRdrkmpdKs1IR1FiWYfsycmk",
+        "address": {
+          "line1": "12637 Wayzata Blvd",
+          "line2": "Space 2445",
+          "city": "Minnetonka",
+          "region": "MN",
+          "postalCode": "55305",
+          "extraDescription": "Ridgedale Center",
+          "countryCode": "US"
+        },
+        "description": "At the Minnetonka, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Minnetonka Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "18:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "Mall Location - Upper level, next to Big Bowl",
+        "c_siebelNumber": "10322",
+        "c_storeDisplayName": "Ridgedale Mall Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/minnetonka/12637-wayzata-blvd.html",
+        "geocodedCoordinate": {
+          "latitude": 44.9685007,
+          "longitude": -93.4380411
+        },
+        "mainPhone": "+19525251595",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "ylpQ8",
+          "id": "10322",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "771",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "33118"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJnyHeI1wls1IRHvOm5b9SOyM",
+        "address": {
+          "line1": "1420 109th Ave NE",
+          "line2": "Suite 100",
+          "city": "Blaine",
+          "region": "MN",
+          "postalCode": "55449",
+          "countryCode": "US"
+        },
+        "description": "At the Blaine, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Blaine Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "On 109th Ave NE at Central Ave NE in front of Target",
+        "c_siebelNumber": "11143",
+        "c_storeDisplayName": "Blaine MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/blaine/1420-109th-ave-ne.html",
+        "geocodedCoordinate": {
+          "latitude": 45.1669496,
+          "longitude": -93.2340418
+        },
+        "mainPhone": "+19522197676",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "p4N63Q",
+          "id": "11143",
+          "timestamp": "2022-02-22T06:00:14",
+          "labels": ["154435", "156791"],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ36oFp-wrs1IRXpza0WPqUyU",
+        "address": {
+          "line1": "1719 County Rd B2 West",
+          "city": "Roseville",
+          "region": "MN",
+          "postalCode": "55113",
+          "extraDescription": "Roseville",
+          "countryCode": "US"
+        },
+        "description": "At the Roseville, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Roseville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Rosedale Mall",
+        "c_siebelNumber": "10334",
+        "c_storeDisplayName": "Roseville",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/roseville/1719-county-rd-b2-west.html",
+        "geocodedCoordinate": {
+          "latitude": 45.0157389,
+          "longitude": -93.1722777
+        },
+        "mainPhone": "+16516310962",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "4kDG7",
+          "id": "10334",
+          "timestamp": "2022-02-22T06:00:10",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "33119",
+            "775",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJT19-nZcY9ocRWzLatnwB08A",
+        "address": {
+          "line1": "590 Prairie Center Drive",
+          "line2": "Suite 110",
+          "city": "Eden Prairie",
+          "region": "MN",
+          "postalCode": "55344",
+          "countryCode": "US"
+        },
+        "description": "At the Eden Prairie, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Eden Prairie Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Near Flying Cloud Dr. and Prairie Center Dr.",
+        "c_siebelNumber": "10888",
+        "c_storeDisplayName": "Eden Prairie",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/eden-prairie/590-prairie-center-drive.html",
+        "geocodedCoordinate": {
+          "latitude": 44.852952,
+          "longitude": -93.4304867
+        },
+        "mainPhone": "+19529439541",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "gDg3V",
+          "id": "10888",
+          "timestamp": "2022-02-22T06:00:25",
+          "labels": [
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "42370",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJVz9yFhsk9ocRYpmtf0c3AlM",
+        "address": {
+          "line1": "3871 Gallagher Drive",
+          "city": "Edina",
+          "region": "MN",
+          "postalCode": "55435",
+          "extraDescription": "Edina-France Ave.",
+          "countryCode": "US"
+        },
+        "description": "At the Edina, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Edina Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from The Container Store on France Ave.",
+        "c_siebelNumber": "10332",
+        "c_storeDisplayName": "Edina Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/edina/3871-gallagher-drive.html",
+        "geocodedCoordinate": {
+          "latitude": 44.87008660000001,
+          "longitude": -93.32827999999999
+        },
+        "mainPhone": "+19529277502",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "x39n7",
+          "id": "10332",
+          "timestamp": "2022-02-22T06:00:29",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "33119",
+            "778",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ7aN63Wwv9ocRgnX0JgQPk9k",
+        "address": {
+          "line1": "256 S Avenue",
+          "city": "Bloomington",
+          "region": "MN",
+          "postalCode": "55425",
+          "extraDescription": "Mall of America",
+          "countryCode": "US"
+        },
+        "description": "At the Bloomington, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Bloomington Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "Mall Location - Level 2, near Macy's",
+        "c_siebelNumber": "10323",
+        "c_storeDisplayName": "Mall of America store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/bloomington/256-s-avenue.html",
+        "geocodedCoordinate": {
+          "latitude": 44.8534601,
+          "longitude": -93.2434029
+        },
+        "mainPhone": "+19528589531",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "LmZ8k",
+          "id": "10323",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93723",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "33118",
+            "778",
+            "90212"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ3QcS3_3TslIRM8KXa8f4C38",
+        "address": {
+          "line1": "3001 White Bear Ave N",
+          "line2": "Suite 2030",
+          "city": "Maplewood",
+          "region": "MN",
+          "postalCode": "55109",
+          "extraDescription": "Maplewood Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Maplewood, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Maplewood Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "Mall Location - Upper level, Macy's wing",
+        "c_siebelNumber": "10325",
+        "c_storeDisplayName": "Maplewood Mall",
+        "c_storePagesURLURL": "http://stores.sleepnumber.com/mn/maplewood/3001-white-bear-ave-n.html",
+        "geocodedCoordinate": {
+          "latitude": 45.0314245,
+          "longitude": -93.0219876
+        },
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "x39l7",
+          "id": "10325",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["8620", "87782", "773", "111165"],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJaefw2FfRslIRAMqn4HgciDA",
+        "address": {
+          "line1": "3094 White Bear Ave",
+          "city": "Maplewood",
+          "region": "MN",
+          "postalCode": "55109",
+          "countryCode": "US"
+        },
+        "description": "At the Maplewood, MN Sleep Number® store, we're improving lives by individualizing sleep experiences.  Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - you Sleep Number® setting - for the deep, restful sleep you both deserve.  The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize you sleep.  You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you.  Visit the Maplewood Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.  For more information, click https://stores.sleepnumber.com/mn/maplewood/3094-white-bear-ave.html or call (651) 748-0353.  Know Better Sleep.  Only at Sleep Number®.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Next to Caribou Coffee",
+        "c_siebelNumber": "10843",
+        "c_storeDisplayName": "Maplewood MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/maplewood/3094-white-bear-ave.html",
+        "geocodedCoordinate": {
+          "latitude": 45.035035,
+          "longitude": -93.017133
+        },
+        "mainPhone": "+16517480353",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "EwWGa",
+          "id": "10843",
+          "timestamp": "2022-02-22T06:00:23",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "774",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJQY56kv479ocRYv_VBGu7L-8",
+        "address": {
+          "line1": "550 County Road 42 W",
+          "city": "Burnsville",
+          "region": "MN",
+          "postalCode": "55337",
+          "countryCode": "US"
+        },
+        "description": "At the Burnsville, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Burnsville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "On County Road 42 off I35W, next to Wedding Day Diamonds.",
+        "c_siebelNumber": "11199",
+        "c_storeDisplayName": "Burnsville MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/burnsville/550-county-road-42-w.html",
+        "geocodedCoordinate": {
+          "latitude": 44.7470501,
+          "longitude": -93.2863047
+        },
+        "mainPhone": "+16123513366",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "Aa62Xz",
+          "id": "11199",
+          "timestamp": "2022-02-15T14:55:14",
+          "labels": ["156791"],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJmxVA2ws79ocRtbcQHkpVR5Q",
+        "address": {
+          "line1": "1076 Burnsville Center Drive",
+          "city": "Burnsville",
+          "region": "MN",
+          "postalCode": "55306",
+          "extraDescription": "Burnsville Center",
+          "countryCode": "US"
+        },
+        "description": "At the Burnsville, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Burnsville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "Mall Location - 1st Level, near Food Court",
+        "c_siebelNumber": "10324",
+        "c_storeDisplayName": "Burnsville Center Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/burnsville/1076-burnsville-center-drive.html",
+        "geocodedCoordinate": {
+          "latitude": 44.7439867,
+          "longitude": -93.2890041
+        },
+        "mainPhone": "+19524356010",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "BMywz",
+          "id": "10324",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "33119",
+            "778",
+            "111165"
+          ],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJhw_TAtYw9ocRTUESfxfhRXA",
+        "address": {
+          "line1": "7525 147th St W",
+          "line2": "Suite 100",
+          "city": "Apple Valley",
+          "region": "MN",
+          "postalCode": "55124",
+          "countryCode": "US"
+        },
+        "description": "At the Apple Valley, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Apple Valley Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Northwest corner of Cedar Ave. and 147th St. W.",
+        "c_siebelNumber": "10967",
+        "c_storeDisplayName": "Apple Valley MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/apple-valley/7525-147th-st-w.html",
+        "geocodedCoordinate": {
+          "latitude": 44.7354531,
+          "longitude": -93.218292
+        },
+        "mainPhone": "+16128888018",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "0oVLXm",
+          "id": "10967",
+          "timestamp": "2022-02-22T06:00:14",
+          "labels": [
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJsZsKGhfY94cRxPDNWs-23Jg",
+        "address": {
+          "line1": "740 Commons Dr",
+          "city": "Woodbury",
+          "region": "MN",
+          "postalCode": "55125",
+          "extraDescription": "Woodbury Lakes",
+          "countryCode": "US"
+        },
+        "description": "At the Woodbury, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Woodbury Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "corner of Radio Dr. and Tamarack Road, in front of Life Time Fitness",
+        "c_siebelNumber": "11023",
+        "c_storeDisplayName": "Woodbury MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/woodbury/740-commons-dr.html",
+        "geocodedCoordinate": {
+          "latitude": 44.938225,
+          "longitude": -92.932622
+        },
+        "mainPhone": "+16517029225",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "Vlmjw",
+          "id": "11023",
+          "timestamp": "2022-02-22T06:00:12",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "774",
+            "93968",
+            "33119",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "4101 West Division St Space D-5",
+          "city": "St. Cloud",
+          "region": "MN",
+          "postalCode": "56301",
+          "extraDescription": "Crossroads Center",
+          "countryCode": "US"
+        },
+        "description": "At the St. Cloud, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the St. Cloud Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 45.555078,
+          "longitude": -94.209674
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "NRd0W",
+          "id": "381",
+          "timestamp": "2022-02-15T14:34:00",
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJEwffpwVftFIRzAm6n791zSc",
+        "address": {
+          "line1": "4170 West Division Street",
+          "city": "St. Cloud",
+          "region": "MN",
+          "postalCode": "56301",
+          "extraDescription": "St. Cloud",
+          "countryCode": "US"
+        },
+        "description": "At the St. Cloud, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the St. Cloud Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "on Division in Waite Park",
+        "c_siebelNumber": "10333",
+        "c_storeDisplayName": "Centre Place-Division St-St Cloud",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/st-cloud/4170-west-division-street.html",
+        "geocodedCoordinate": {
+          "latitude": 45.5530491,
+          "longitude": -94.2126415
+        },
+        "mainPhone": "+13202523366",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "akBZM",
+          "id": "10333",
+          "timestamp": "2022-02-22T06:00:13",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "779",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ53xkTno69IcRC_VOXvmEZUI",
+        "address": {
+          "line1": "1861 Adams St",
+          "line2": "Suite 100",
+          "city": "Mankato",
+          "region": "MN",
+          "postalCode": "56001",
+          "countryCode": "US"
+        },
+        "description": "At the Mankato, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Mankato Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "on the corner of Sioux Road and Adams Street, next to Planet Fitness, near Best Buy",
+        "c_siebelNumber": "10981",
+        "c_storeDisplayName": "Mankato MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/mankato/1861-adams-st.html",
+        "geocodedCoordinate": {
+          "latitude": 44.1727259,
+          "longitude": -93.9553911
+        },
+        "mainPhone": "+15073885200",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "BMyOq",
+          "id": "10981",
+          "timestamp": "2022-02-22T06:00:14",
+          "labels": [
+            "8620",
+            "87782",
+            "771",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ3xeFX4C_tlIRR1BKNiN6jUs",
+        "address": {
+          "line1": "15094 Dellwood Dr.",
+          "line2": "Suite 100",
+          "city": "Baxter",
+          "region": "MN",
+          "postalCode": "56401",
+          "countryCode": "US"
+        },
+        "description": "At the Baxter, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Baxter Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Between Mills Ford and Menards, across from Cherry Berry",
+        "c_siebelNumber": "11013",
+        "c_storeDisplayName": "Baxter MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/baxter/15094-dellwood-dr.html",
+        "geocodedCoordinate": {
+          "latitude": 46.3705783,
+          "longitude": -94.2432662
+        },
+        "mainPhone": "+12182102397",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "DrEW6d",
+          "id": "11013",
+          "timestamp": "2022-02-22T06:00:15",
+          "labels": [
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJX9WqjhBZ94cRwyZ2SenXU2c",
+        "address": {
+          "line1": "2257 Commerce Dr NW",
+          "city": "Rochester",
+          "region": "MN",
+          "postalCode": "55901",
+          "extraDescription": "Apache Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Rochester, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Rochester Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "in front of Costco, next to Aldi",
+        "c_siebelNumber": "11007",
+        "c_storeDisplayName": "Rochester MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/rochester/2257-commerce-dr-nw.html",
+        "geocodedCoordinate": {
+          "latitude": 44.0476226,
+          "longitude": -92.5200729
+        },
+        "mainPhone": "+15075290275",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "JX2n9",
+          "id": "11007",
+          "timestamp": "2022-02-22T06:00:15",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "778",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJs5M1__m7-IcRHdclCnQOazc",
+        "address": {
+          "line1": "4734 Golf Road",
+          "city": "Eau Claire",
+          "region": "WI",
+          "postalCode": "54701",
+          "extraDescription": "Eau Claire",
+          "countryCode": "US"
+        },
+        "description": "At the Eau Claire, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Eau Claire Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Outside Oakwood Mall",
+        "c_siebelNumber": "10473",
+        "c_storeDisplayName": "Eau Claire WI",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/eau-claire/4734-golf-road.html",
+        "geocodedCoordinate": {
+          "latitude": 44.7743988,
+          "longitude": -91.4380874
+        },
+        "mainPhone": "+17158305413",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "7WBk3",
+          "id": "10473",
+          "timestamp": "2022-02-22T06:00:19",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "775",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "1600 Miller Trunk Highway",
+          "city": "Duluth",
+          "region": "MN",
+          "postalCode": "55811",
+          "extraDescription": "Miller Hill Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Duluth, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Duluth Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": { "latitude": 46.803753, "longitude": -92.15933 },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "GX5A0",
+          "id": "221",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["8620"],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJVaZbnCuzr1IRaK8EWW8b77A",
+        "address": {
+          "line1": "2104 Maple Grove Road",
+          "line2": "Unit 110",
+          "city": "Duluth",
+          "region": "MN",
+          "postalCode": "55811",
+          "countryCode": "US"
+        },
+        "description": "At the Duluth, MN Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Duluth Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Next to the Miller Hill Mall",
+        "c_siebelNumber": "10447",
+        "c_storeDisplayName": "Duluth - MN",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/mn/duluth/2104-maple-grove-road.html",
+        "geocodedCoordinate": {
+          "latitude": 46.8067827,
+          "longitude": -92.16397719999999
+        },
+        "mainPhone": "+12187339305",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "MPEVo",
+          "id": "10447",
+          "timestamp": "2022-02-22T06:00:25",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "778",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "3800 State Road 16",
+          "line2": "Suite 193",
+          "city": "La Crosse",
+          "region": "WI",
+          "postalCode": "54601",
+          "extraDescription": "Valley View Mall",
+          "countryCode": "US"
+        },
+        "description": "At the La Crosse, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the La Crosse Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 43.868185,
+          "longitude": -91.196825
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "0zwda",
+          "id": "424",
+          "timestamp": "2022-02-15T14:34:00",
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJk08668QjAIgRwkDFB1xqaL8",
+        "address": {
+          "line1": "4720 Rib Mountain Drive",
+          "city": "Wausau",
+          "region": "WI",
+          "postalCode": "54401",
+          "extraDescription": "Wausau",
+          "countryCode": "US"
+        },
+        "description": "At the Wausau, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Wausau Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Rib Mountain Road next to Texas Roadhouse",
+        "c_siebelNumber": "10431",
+        "c_storeDisplayName": "Wausau",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/wausau/4720-rib-mountain-drive.html",
+        "geocodedCoordinate": {
+          "latitude": 44.913574,
+          "longitude": -89.650004
+        },
+        "mainPhone": "+17152410990",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "WDqyX",
+          "id": "10431",
+          "timestamp": "2022-02-22T06:00:22",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "778",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJh8Vh7HvLyFIRvbH07Tk8qa0",
+        "address": {
+          "line1": "1895 45th St. S,",
+          "line2": "Suite E-2 & E-3",
+          "city": "Fargo",
+          "region": "ND",
+          "postalCode": "58103",
+          "countryCode": "US"
+        },
+        "description": "At the Fargo, ND Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Fargo Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "next to Verizon Wireless",
+        "c_siebelNumber": "10960",
+        "c_storeDisplayName": "Fargo ND",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/nd/fargo/1895-45th-st-s.html",
+        "geocodedCoordinate": {
+          "latitude": 46.8518415,
+          "longitude": -96.8627411
+        },
+        "mainPhone": "+17012819666",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "E7rXv",
+          "id": "10960",
+          "timestamp": "2022-02-22T06:00:22",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "775",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJJX2Hvx_KjocRbD8YJ4ZlyBc",
+        "address": {
+          "line1": "3600 W 41st Street",
+          "city": "Sioux Falls",
+          "region": "SD",
+          "postalCode": "57106",
+          "countryCode": "US"
+        },
+        "description": "At the Sioux Falls, SD Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Sioux Falls Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Starbucks",
+        "c_siebelNumber": "10488",
+        "c_storeDisplayName": "Sioux Falls",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/sd/sioux-falls/3600-w-41st-street.html",
+        "geocodedCoordinate": {
+          "latitude": 43.515213,
+          "longitude": -96.769368
+        },
+        "mainPhone": "+16053621593",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "wOwzM",
+          "id": "10488",
+          "timestamp": "2022-02-22T06:00:20",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "770",
+            "100468",
+            "107689",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "1130 Empire Mall",
+          "city": "Sioux Falls",
+          "region": "SD",
+          "postalCode": "57106",
+          "extraDescription": "The Empire Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Sioux Falls, SD Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Sioux Falls Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 43.50841473946738,
+          "longitude": -96.77557792496856
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "qa5Wp",
+          "id": "174",
+          "timestamp": "2022-02-15T14:34:00",
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJp_-XgxVS5YcRtzQw1mvj1ew",
+        "address": {
+          "line1": "2027 Crossroads Blvd",
+          "line2": "Ste A",
+          "city": "Waterloo",
+          "region": "IA",
+          "postalCode": "50702",
+          "extraDescription": "Waterloo",
+          "countryCode": "US"
+        },
+        "description": "At the Waterloo, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Waterloo Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Crossroads Mall",
+        "c_siebelNumber": "10403",
+        "c_storeDisplayName": "Waterloo - IA",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/waterloo/2027-crossroads-blvd.html",
+        "geocodedCoordinate": {
+          "latitude": 42.4661277,
+          "longitude": -92.3221042
+        },
+        "mainPhone": "+13192773324",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "pmzB6",
+          "id": "10403",
+          "timestamp": "2022-02-22T06:00:10",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "777",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJs93zJXAt44cRo8Wuk68fqXE",
+        "address": {
+          "line1": "2515 Northwest Arterial",
+          "line2": "Suite 9",
+          "city": "Dubuque",
+          "region": "IA",
+          "postalCode": "52002",
+          "extraDescription": "Dubuque - Asbury Plaza",
+          "countryCode": "US"
+        },
+        "description": "At the Dubuque, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Dubuque Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "On Highway 32 next to Hy-Vee Grocery",
+        "c_siebelNumber": "10837",
+        "c_storeDisplayName": "Dubuque-Asbury Plaza",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/dubuque/2515-northwest-arterial.html",
+        "geocodedCoordinate": {
+          "latitude": 42.5187494,
+          "longitude": -90.7419355
+        },
+        "mainPhone": "+15632313589",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "4EPMX",
+          "id": "10837",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["8620", "87782", "93146", "93967", "776", "111165"],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJU_aoOKL-jYcRYB2KFlUYb_o",
+        "address": {
+          "line1": "5001 Sergeant Road",
+          "line2": "Suite 255",
+          "city": "Sioux City",
+          "region": "IA",
+          "postalCode": "51106",
+          "extraDescription": "Sioux City",
+          "countryCode": "US"
+        },
+        "description": "At the Sioux City, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Sioux City Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Olive Garden",
+        "c_siebelNumber": "10487",
+        "c_storeDisplayName": "Sioux City",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/sioux-city/5001-sergeant-road.html",
+        "geocodedCoordinate": {
+          "latitude": 42.4456052,
+          "longitude": -96.34261160000001
+        },
+        "mainPhone": "+17122764076",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "0Ea3a",
+          "id": "10487",
+          "timestamp": "2022-02-22T06:00:23",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "777",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ5Qmtdgjx5IcR6AoXN445Un0",
+        "address": {
+          "line1": "4444 1st Ave NE",
+          "line2": "Suite 604",
+          "city": "Cedar Rapids",
+          "region": "IA",
+          "postalCode": "52402",
+          "extraDescription": "Lindale Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Cedar Rapids, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Cedar Rapids Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "Mall Location - North side of Lindale Mall, near Collins Rd.",
+        "c_siebelNumber": "10404",
+        "c_storeDisplayName": "Lindale Mall - IA",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/cedar-rapids/4444-1st-ave-ne.html",
+        "geocodedCoordinate": {
+          "latitude": 42.0266136,
+          "longitude": -91.6261674
+        },
+        "mainPhone": "+13193786498",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "ZBar0",
+          "id": "10404",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "774",
+            "42370"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJDS82J5kg7IcRfWbns0fpDw0",
+        "address": {
+          "line1": "2310 SE Delaware Ave",
+          "line2": "Suite Q",
+          "city": "Ankeny",
+          "region": "IA",
+          "postalCode": "50021",
+          "countryCode": "US"
+        },
+        "description": "At the Ankeny, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Ankeny Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "next to Panera Bread",
+        "c_siebelNumber": "11056",
+        "c_storeDisplayName": "Ankeny, IA",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/ankeny/2310-se-delaware-ave.html",
+        "geocodedCoordinate": {
+          "latitude": 41.7072824,
+          "longitude": -93.58202059999999
+        },
+        "mainPhone": "+15152670729",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "2xnlW",
+          "id": "11056",
+          "timestamp": "2022-02-22T06:00:19",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "775",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJlQkb-e6AxlIR6GpPfKGZOkQ",
+        "address": {
+          "line1": "3300 32nd Avenue South",
+          "line2": "Suite 102",
+          "city": "Grand Forks",
+          "region": "ND",
+          "postalCode": "58201",
+          "countryCode": "US"
+        },
+        "description": "At the Grand Forks, ND Sleep Number® store, we're improving lives by individualizing sleep experiences.  Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - you Sleep Number® setting - for the deep, restful sleep you both deserve.  The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize you sleep.  You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you.  Visit the Grand Forks Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.  For more information, click https://stores.sleepnumber.com/nd/grand-forks/3300-32nd-avenue-south.html or call (701) 757-0672.  Know Better Sleep.  Only at Sleep Number®.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "Across from Kohl's",
+        "c_siebelNumber": "10861",
+        "c_storeDisplayName": "Grand Forks",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/nd/grand-forks/3300-32nd-avenue-south.html",
+        "geocodedCoordinate": {
+          "latitude": 47.8899896,
+          "longitude": -97.0760662
+        },
+        "mainPhone": "+17017570672",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "9Pl84",
+          "id": "10861",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "100468",
+            "107689",
+            "779",
+            "111165"
+          ],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "101 Jordan Creek Pkwy",
+          "line2": "Suite 11200",
+          "city": "West Des Moines",
+          "region": "IA",
+          "postalCode": "50266",
+          "extraDescription": "Jordan Creek Town Center",
+          "countryCode": "US"
+        },
+        "description": "At the West Des Moines, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the West Des Moines Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 41.5698453,
+          "longitude": -93.8030635
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "x39PJ",
+          "id": "481",
+          "timestamp": "2022-02-15T14:34:00",
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJpXPEhlWuB4gRtn7Lb4_zKu0",
+        "address": {
+          "line1": "7217 Mineral Point Road",
+          "city": "Madison",
+          "region": "WI",
+          "postalCode": "53717",
+          "countryCode": "US"
+        },
+        "description": "At the Madison, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Madison Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "10:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "10:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "10:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "10:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "10:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "10:00", "end": "21:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "18:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "On Mineral Point Road at West Towne Mall, next to Bonefish Grill.",
+        "c_siebelNumber": "11124",
+        "c_storeDisplayName": "West Madison",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/madison/7217-mineral-point-road.html",
+        "geocodedCoordinate": {
+          "latitude": 43.060530834055,
+          "longitude": -89.50674173815658
+        },
+        "mainPhone": "+16088278877",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "BMyPr",
+          "id": "11124",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["8620", "87782", "93967", "111165", "774"],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJgymdK7kh7IcRRsgw1hPqZn8",
+        "address": {
+          "line1": "6630 Mills Civic Parkway",
+          "line2": "Suite 6130",
+          "city": "West Des Moines",
+          "region": "IA",
+          "postalCode": "50266",
+          "extraDescription": "West Des Moines - Mills Civic Pkwy.",
+          "countryCode": "US"
+        },
+        "description": "At the West Des Moines, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the West Des Moines Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Mills Civic Parkway and 68th Street",
+        "c_siebelNumber": "10453",
+        "c_storeDisplayName": "West Des Moines - Mills Civic Parkway",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/west-des-moines/6630-mills-civic-parkway.html",
+        "geocodedCoordinate": {
+          "latitude": 41.5610733,
+          "longitude": -93.79745199999999
+        },
+        "mainPhone": "+15154407001",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "kdLNO",
+          "id": "10453",
+          "timestamp": "2022-02-22T06:00:25",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "776",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ00U584tWBogRyGIPe2samuU",
+        "address": {
+          "line1": "4602 E Washington Ave",
+          "city": "Madison",
+          "region": "WI",
+          "postalCode": "53704",
+          "countryCode": "US"
+        },
+        "description": "At the Madison, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Madison Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Outback Steakhouse",
+        "c_siebelNumber": "10842",
+        "c_storeDisplayName": "Madison WI Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/madison/4602-e-washington-ave.html",
+        "geocodedCoordinate": {
+          "latitude": 43.1294016,
+          "longitude": -89.3074996
+        },
+        "mainPhone": "+16082446353",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "VQ40m",
+          "id": "10842",
+          "timestamp": "2022-02-22T06:00:11",
+          "labels": [
+            "8620",
+            "87782",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "775",
+            "93132",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJJyEXf9K3A4gRt2JfAr1MKF4",
+        "address": {
+          "line1": "4301 W Wisconsin Ave",
+          "line2": "Space 401",
+          "city": "Appleton",
+          "region": "WI",
+          "postalCode": "54913",
+          "extraDescription": "Fox River Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Appleton, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Appleton Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "10:00", "end": "20:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "10:00", "end": "20:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "18:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "Mall Location - Macy's wing",
+        "c_siebelNumber": "10429",
+        "c_storeDisplayName": "Fox River Mall",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/appleton/4301-w-wisconsin-ave.html",
+        "geocodedCoordinate": {
+          "latitude": 44.2680025,
+          "longitude": -88.4703237
+        },
+        "mainPhone": "+19209930221",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "moGLD",
+          "id": "10429",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93723",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "777",
+            "90212"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ200of21E5IcROQUbrATzVAE",
+        "address": {
+          "line1": "1451 Coral Ridge Ave",
+          "line2": "Space 522",
+          "city": "Coralville",
+          "region": "IA",
+          "postalCode": "52241",
+          "extraDescription": "Coral Ridge Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Coralville, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Coralville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "18:00" }] }
+        },
+        "closed": false,
+        "c_landmark": "Mall Location - Across for Scheel's Interior Entrance",
+        "c_siebelNumber": "10402",
+        "c_storeDisplayName": "Coral Ridge Mall",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/coralville/1451-coral-ridge-ave.html",
+        "geocodedCoordinate": {
+          "latitude": 41.6909747,
+          "longitude": -91.601219
+        },
+        "mainPhone": "+13193370547",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "moGbd",
+          "id": "10402",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "778"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "303 Bay Park Square",
+          "line2": "Space 383",
+          "city": "Green Bay",
+          "region": "WI",
+          "postalCode": "54304",
+          "extraDescription": "Bay Park Square",
+          "countryCode": "US"
+        },
+        "description": "At the Green Bay, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Green Bay Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 44.4832849,
+          "longitude": -88.066744
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "VR7rw",
+          "id": "243",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["775"],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJYwOmPLf7AogRed6SKFbXPpI",
+        "address": {
+          "line1": "2330 S Oneida St",
+          "line2": "Suite 103",
+          "city": "Green Bay",
+          "region": "WI",
+          "postalCode": "54304",
+          "countryCode": "US"
+        },
+        "description": "At the Green Bay, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Green Bay Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "on Oneida St., near McDonald's",
+        "c_siebelNumber": "10432",
+        "c_storeDisplayName": "Green Bay - WI",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/green-bay/2330-s-oneida-st.html",
+        "geocodedCoordinate": {
+          "latitude": 44.48837899999999,
+          "longitude": -88.066364
+        },
+        "mainPhone": "+19204909319",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "0Ea0L",
+          "id": "10432",
+          "timestamp": "2022-02-22T06:00:21",
+          "labels": [
+            "8620",
+            "87782",
+            "111165",
+            "100468",
+            "107689",
+            "774",
+            "93968",
+            "93132",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJBU30Etk14ocRiDk4t0Ix8d0",
+        "address": {
+          "line1": "5270 Elmore Crossing",
+          "line2": "Suite 2",
+          "city": "Davenport",
+          "region": "IA",
+          "postalCode": "52807",
+          "extraDescription": "Davenport - Elmore Crossing",
+          "countryCode": "US"
+        },
+        "description": "At the Davenport, IA Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Davenport Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Across from Target",
+        "c_siebelNumber": "10456",
+        "c_storeDisplayName": "Davenport - Elmore Crossing",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ia/davenport/5270-elmore-crossing.html",
+        "geocodedCoordinate": {
+          "latitude": 41.5731085,
+          "longitude": -90.5293091
+        },
+        "mainPhone": "+15633866915",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "AxWnz",
+          "id": "10456",
+          "timestamp": "2022-02-22T06:00:26",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "93967",
+            "111165",
+            "100468",
+            "107689",
+            "777",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJzXD6IAWxBYgRs5QbE4swp6Y",
+        "address": {
+          "line1": "2916 Golf Road",
+          "city": "Delafield",
+          "region": "WI",
+          "postalCode": "53018",
+          "extraDescription": "Delafield",
+          "countryCode": "US"
+        },
+        "description": "At the Delafield, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Delafield Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "Located at NEQ of Hwy 83 and   i-94",
+        "c_siebelNumber": "10350",
+        "c_storeDisplayName": "Delafield WI",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/delafield/2916-golf-road.html",
+        "geocodedCoordinate": {
+          "latitude": 43.0535838,
+          "longitude": -88.3712815
+        },
+        "mainPhone": "+12626469591",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "BMy8q",
+          "id": "10350",
+          "timestamp": "2022-02-22T06:00:11",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "774",
+            "42370",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJM6SS1rTyk4cRWLfwVjD1AgU",
+        "address": {
+          "line1": "10000 California St",
+          "line2": "Space 2431",
+          "city": "Omaha",
+          "region": "NE",
+          "postalCode": "68114",
+          "extraDescription": "Westroads Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Omaha, NE Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Omaha Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "Mall Location - Lower lever, near Yonkers",
+        "c_siebelNumber": "10424",
+        "c_storeDisplayName": "Westroads Center Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ne/omaha/10000-california-st.html",
+        "geocodedCoordinate": {
+          "latitude": 41.26642409999999,
+          "longitude": -96.0690984
+        },
+        "mainPhone": "+14023919396",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "kjWg3",
+          "id": "10424",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "100468",
+            "42370",
+            "773",
+            "93968",
+            "111165"
+          ],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJT2_ceQDxk4cRvYR5E9PEHlk",
+        "address": {
+          "line1": "17710 West Center Road",
+          "city": "Omaha",
+          "region": "NE",
+          "postalCode": "68130",
+          "extraDescription": "West Omaha",
+          "countryCode": "US"
+        },
+        "description": "At the Omaha, NE Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Omaha Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "17710 West Center Road, Near Target",
+        "c_siebelNumber": "10427",
+        "c_storeDisplayName": "West Omaha Store",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ne/omaha/17710-west-center-road.html",
+        "geocodedCoordinate": {
+          "latitude": 41.234629,
+          "longitude": -96.192864
+        },
+        "mainPhone": "+14023344446",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "bQ4Oz",
+          "id": "10427",
+          "timestamp": "2022-02-22T06:00:18",
+          "labels": [
+            "8620",
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "775",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJd4eFF0yLk4cRYX9WvX9e1g4",
+        "address": {
+          "line1": "794 Olson Dr",
+          "city": "Papillion",
+          "region": "NE",
+          "postalCode": "68046",
+          "countryCode": "US"
+        },
+        "description": "At the Papillion, NE Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Papillion Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "near SW entrance to Shadow Lake Towne Center, on corner of Hwy. 370 and Towne Center Parkway",
+        "c_siebelNumber": "11008",
+        "c_storeDisplayName": "Papillion NE",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/ne/papillion/794-olson-dr.html",
+        "geocodedCoordinate": {
+          "latitude": 41.1383743,
+          "longitude": -96.0311889
+        },
+        "mainPhone": "+14022608188",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "zEwggV",
+          "id": "11008",
+          "timestamp": "2022-02-22T06:00:22",
+          "labels": ["87782", "93146", "111165", "100468", "107689", "154435"],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJFVl7hFO4CIgRlu3jI_K4Dj0",
+        "address": {
+          "line1": "7310 Walton Street",
+          "line2": "Suite B",
+          "city": "Rockford",
+          "region": "IL",
+          "postalCode": "61108",
+          "countryCode": "US"
+        },
+        "description": "At the Rockford, IL Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Rockford Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "E State St. in front of Walmart",
+        "c_siebelNumber": "10657",
+        "c_storeDisplayName": "Rockford - IL",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/il/rockford/7310-walton-street.html",
+        "geocodedCoordinate": {
+          "latitude": 42.2693272,
+          "longitude": -88.9736199
+        },
+        "mainPhone": "+18153327560",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "w00an",
+          "id": "10657",
+          "timestamp": "2022-02-22T06:00:15",
+          "labels": [
+            "8620",
+            "87782",
+            "90345",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "779",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "7200 Harrison Avenue",
+          "line2": "Space F28",
+          "city": "Rockford",
+          "region": "IL",
+          "postalCode": "61112",
+          "extraDescription": "Cherryvale Mall",
+          "countryCode": "US"
+        },
+        "description": "At the Rockford, IL Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Rockford Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "geocodedCoordinate": {
+          "latitude": 42.2461735,
+          "longitude": -88.9757903
+        },
+        "mainPhone": "+18778833959",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "RXvGP",
+          "id": "207",
+          "timestamp": "2022-02-15T14:34:00",
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "googlePlaceId": "ChIJ2-acb2XpBIgR0txqQ7ODQoM",
+        "address": {
+          "line1": "1205 Port Washington Rd.",
+          "city": "Grafton",
+          "region": "WI",
+          "postalCode": "53024",
+          "countryCode": "US"
+        },
+        "description": "At the Grafton, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Grafton Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "tuesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "wednesday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "thursday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "friday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "saturday": {
+            "openIntervals": [{ "start": "11:00", "end": "19:00" }]
+          },
+          "sunday": { "openIntervals": [{ "start": "11:00", "end": "19:00" }] },
+          "holidayHours": [
+            {
+              "date": "2022-02-26",
+              "openIntervals": [{ "start": "10:00", "end": "20:00" }]
+            }
+          ]
+        },
+        "closed": false,
+        "c_landmark": "corner of Washington St. and County Hwy. W, next to AT&T",
+        "c_siebelNumber": "11039",
+        "c_storeDisplayName": "Grafton WI",
+        "c_storePagesURLURL": "https://stores.sleepnumber.com/wi/grafton/1205-port-washington-rd.html",
+        "geocodedCoordinate": {
+          "latitude": 43.3197401,
+          "longitude": -87.9260114
+        },
+        "mainPhone": "+12626187550",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "x88L7n",
+          "id": "11039",
+          "timestamp": "2022-02-22T06:00:21",
+          "labels": [
+            "87782",
+            "93146",
+            "111165",
+            "100468",
+            "107689",
+            "93968",
+            "154435"
+          ],
+          "folderId": "63828",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      },
+      {
+        "address": {
+          "line1": "95 N Moorland Rd",
+          "line2": "Unit B24",
+          "city": "Brookfield",
+          "region": "WI",
+          "postalCode": "53005",
+          "extraDescription": "Brookfield Square",
+          "countryCode": "US"
+        },
+        "description": "At the Brookfield, WI Sleep Number® store, we're improving lives by individualizing sleep experiences. Only Sleep Number® mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number® setting- for the deep, restful sleep you both deserve. The Sleep Number® bed is the only bed available with SleepIQ™ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number® bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Brookfield Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number® bed to help you sleep better.",
+        "hours": {
+          "monday": { "isClosed": true },
+          "tuesday": { "isClosed": true },
+          "wednesday": { "isClosed": true },
+          "thursday": { "isClosed": true },
+          "friday": { "isClosed": true },
+          "saturday": { "isClosed": true },
+          "sunday": { "isClosed": true }
+        },
+        "closed": true,
+        "c_landmark": "Mall Location - Next to Boston Store",
+        "c_siebelNumber": "10348",
+        "c_storePagesURLURL": "http://stores.sleepnumber.com/wi/brookfield/95-n-moorland-rd.html",
+        "geocodedCoordinate": {
+          "latitude": 43.0309275,
+          "longitude": -88.1088147
+        },
+        "mainPhone": "+12627856287",
+        "meta": {
+          "accountId": "8065938868616863560",
+          "uid": "x39VV",
+          "id": "10348",
+          "timestamp": "2022-02-15T14:34:00",
+          "labels": ["771", "8620"],
+          "folderId": "48150",
+          "schemaTypes": ["HomeGoodsStore", "FurnitureStore"],
+          "language": "en",
+          "countryCode": "US",
+          "entityType": "location"
+        }
+      }
+    ],
+    "count": 822,
+    "distances": [
+      {
+        "id": "11033",
+        "distanceMiles": 10.110702984445085,
+        "distanceKilometers": 16.27159918379879
+      },
+      {
+        "id": "11100",
+        "distanceMiles": 11.864675778986847,
+        "distanceKilometers": 19.09434477685781
+      },
+      {
+        "id": "10322",
+        "distanceMiles": 16.832927586481645,
+        "distanceKilometers": 27.08997101373872
+      },
+      {
+        "id": "11143",
+        "distanceMiles": 17.453896008713546,
+        "distanceKilometers": 28.089322818247094
+      },
+      {
+        "id": "10334",
+        "distanceMiles": 23.608365264891894,
+        "distanceKilometers": 37.993980988862184
+      },
+      {
+        "id": "10888",
+        "distanceMiles": 24.366666957270393,
+        "distanceKilometers": 39.214349267681364
+      },
+      {
+        "id": "10332",
+        "distanceMiles": 25.36872831946769,
+        "distanceKilometers": 40.82701070856541
+      },
+      {
+        "id": "10323",
+        "distanceMiles": 28.62021569015168,
+        "distanceKilometers": 46.05977239965147
+      },
+      {
+        "id": "10325",
+        "distanceMiles": 29.74571862028968,
+        "distanceKilometers": 47.871093787251475
+      },
+      {
+        "id": "10843",
+        "distanceMiles": 29.896003229592043,
+        "distanceKilometers": 48.11295342152458
+      },
+      {
+        "id": "11199",
+        "distanceMiles": 33.8449042360478,
+        "distanceKilometers": 54.46809356285812
+      },
+      {
+        "id": "10324",
+        "distanceMiles": 33.97697888791563,
+        "distanceKilometers": 54.68064711139369
+      },
+      {
+        "id": "10967",
+        "distanceMiles": 36.12513449566086,
+        "distanceKilometers": 58.137768449784836
+      },
+      {
+        "id": "11023",
+        "distanceMiles": 36.44611118688897,
+        "distanceKilometers": 58.654330361952645
+      },
+      {
+        "id": "381",
+        "distanceMiles": 39.3499660284046,
+        "distanceKilometers": 63.327631728016776
+      },
+      {
+        "id": "10333",
+        "distanceMiles": 39.37010753801064,
+        "distanceKilometers": 63.36004634565221
+      },
+      {
+        "id": "10981",
+        "distanceMiles": 72.31253429413012,
+        "distanceKilometers": 116.37574319105255
+      },
+      {
+        "id": "11013",
+        "distanceMiles": 87.61718160855538,
+        "distanceKilometers": 141.00618551863897
+      },
+      {
+        "id": "11007",
+        "distanceMiles": 94.71222332816559,
+        "distanceKilometers": 152.42454833984334
+      },
+      {
+        "id": "10473",
+        "distanceMiles": 109.01907336111543,
+        "distanceKilometers": 175.44919159927096
+      },
+      {
+        "id": "221",
+        "distanceMiles": 131.16652468569646,
+        "distanceKilometers": 211.0920595037775
+      },
+      {
+        "id": "10447",
+        "distanceMiles": 131.22731266080228,
+        "distanceKilometers": 211.1898882667862
+      },
+      {
+        "id": "424",
+        "distanceMiles": 149.0247539746971,
+        "distanceKilometers": 239.83209366065492
+      },
+      {
+        "id": "10431",
+        "distanceMiles": 193.29288377955766,
+        "distanceKilometers": 311.07474275332845
+      },
+      {
+        "id": "10960",
+        "distanceMiles": 194.58047034056736,
+        "distanceKilometers": 313.1469124597701
+      },
+      {
+        "id": "10488",
+        "distanceMiles": 194.8949123532902,
+        "distanceKilometers": 313.6529578262935
+      },
+      {
+        "id": "174",
+        "distanceMiles": 195.42754871931962,
+        "distanceKilometers": 314.51015296614474
+      },
+      {
+        "id": "10403",
+        "distanceMiles": 198.3332830813103,
+        "distanceKilometers": 319.18647912720826
+      },
+      {
+        "id": "10837",
+        "distanceMiles": 232.6418555776854,
+        "distanceKilometers": 374.40077442281455
+      },
+      {
+        "id": "10487",
+        "distanceMiles": 233.82103199554373,
+        "distanceKilometers": 376.2984749158364
+      },
+      {
+        "id": "10404",
+        "distanceMiles": 239.44102601201092,
+        "distanceKilometers": 385.34297856627376
+      },
+      {
+        "id": "11056",
+        "distanceMiles": 240.4129466827547,
+        "distanceKilometers": 386.9071332662112
+      },
+      {
+        "id": "10861",
+        "distanceMiles": 249.5757788146325,
+        "distanceKilometers": 401.653282180656
+      },
+      {
+        "id": "481",
+        "distanceMiles": 250.13328581398696,
+        "distanceKilometers": 402.55050272502507
+      },
+      {
+        "id": "11124",
+        "distanceMiles": 250.2266039199119,
+        "distanceKilometers": 402.7006836588867
+      },
+      {
+        "id": "10453",
+        "distanceMiles": 250.72155140030327,
+        "distanceKilometers": 403.4972244167697
+      },
+      {
+        "id": "10842",
+        "distanceMiles": 255.47655761753245,
+        "distanceKilometers": 411.1496651424302
+      },
+      {
+        "id": "10429",
+        "distanceMiles": 259.179335150322,
+        "distanceKilometers": 417.10870794815986
+      },
+      {
+        "id": "10402",
+        "distanceMiles": 261.33644781982696,
+        "distanceKilometers": 420.58024428015165
+      },
+      {
+        "id": "243",
+        "distanceMiles": 274.9004216503442,
+        "distanceKilometers": 442.40934418045157
+      },
+      {
+        "id": "10432",
+        "distanceMiles": 274.9030883834554,
+        "distanceKilometers": 442.41363587138363
+      },
+      {
+        "id": "10456",
+        "distanceMiles": 293.1789411932096,
+        "distanceKilometers": 471.82576993564476
+      },
+      {
+        "id": "10350",
+        "distanceMiles": 297.8422682129099,
+        "distanceKilometers": 479.3306672948373
+      },
+      {
+        "id": "10424",
+        "distanceMiles": 298.14703372243684,
+        "distanceKilometers": 479.82113983900143
+      },
+      {
+        "id": "10427",
+        "distanceMiles": 302.82653618126216,
+        "distanceKilometers": 487.3520690440972
+      },
+      {
+        "id": "11008",
+        "distanceMiles": 305.5148817423537,
+        "distanceKilometers": 491.6785418427665
+      },
+      {
+        "id": "10657",
+        "distanceMiles": 306.1577630225676,
+        "distanceKilometers": 492.7131589737911
+      },
+      {
+        "id": "207",
+        "distanceMiles": 307.16453669063793,
+        "distanceKilometers": 494.333404135858
+      },
+      {
+        "id": "11039",
+        "distanceMiles": 308.5280883990908,
+        "distanceKilometers": 496.5278278965464
+      },
+      {
+        "id": "10348",
+        "distanceMiles": 309.8668106888037,
+        "distanceKilometers": 498.68229258116213
+      }
+    ]
+  }
+}

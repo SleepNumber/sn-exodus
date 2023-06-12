@@ -1,0 +1,197 @@
+[
+  {
+    "skus": ["KZI8"],
+    "products": [
+      {
+        "sku": "KZI8",
+        "product_id": "i8-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c5979fc",
+          "segmented": false,
+          "segments": [],
+          "strong": "$500.00 OFF",
+          "subtle": "with Core Series Mattresses"
+        },
+        "prices": { "regular": 4299.0, "sale": 3799.0, "savings": 500.0 }
+      }
+    ],
+    "total": { "regular": 4299.0, "sale": 3799.0, "savings": 500.0 },
+    "promo_id": "6065fd6e7c9f54d85c5979fc",
+    "promo_badge_message": "$500 Off",
+    "alternate_promo_badge_message": "$500 Off Mattress",
+    "promo_long_message": null,
+    "promo_expiry_date": 1619888911000,
+    "financing": {
+      "description": null,
+      "name": "36 Month Financing or orders over 2999",
+      "id": "5ec69b01cfe528001bb9a642",
+      "months": 36,
+      "value": 106,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "end_date": 1619888911000,
+      "promo_code": "436",
+      "disclaimer_message": null
+    }
+  },
+  {
+    "skus": ["KZI8", "KFA40"],
+    "products": [
+      {
+        "sku": "KZI8",
+        "product_id": "i8-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c5979fc",
+          "segmented": false,
+          "segments": [],
+          "strong": "$500.00 OFF",
+          "subtle": "with Core Series Mattresses"
+        },
+        "prices": { "regular": 4299.0, "sale": 3799.0, "savings": 500.0 }
+      },
+      {
+        "sku": "KFA40",
+        "product_id": "ff1-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c597a01",
+          "segmented": false,
+          "segments": [],
+          "strong": "$200.00 OFF",
+          "subtle": "with FlexFit 1"
+        },
+        "prices": { "regular": 25.0, "sale": -175.0, "savings": 200.0 }
+      }
+    ],
+    "total": { "regular": 4324.0, "sale": 3624.0, "savings": 700.0 },
+    "promo_id": "6065fd6e7c9f54d85c597a01",
+    "promo_badge_message": "BUNDLE SAVINGS",
+    "alternate_promo_badge_message": null,
+    "promo_long_message": null,
+    "promo_expiry_date": 1619888911000,
+    "financing": {
+      "description": null,
+      "name": "36 Month Financing or orders over 2999",
+      "id": "5ec69b01cfe528001bb9a642",
+      "months": 36,
+      "value": 101,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "end_date": 1619888911000,
+      "promo_code": "436",
+      "disclaimer_message": null
+    }
+  },
+  {
+    "skus": ["KZI8", "KFA50"],
+    "products": [
+      {
+        "sku": "KZI8",
+        "product_id": "i8-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c5979fc",
+          "segmented": false,
+          "segments": [],
+          "strong": "$500.00 OFF",
+          "subtle": "with Core Series Mattresses"
+        },
+        "prices": { "regular": 4299.0, "sale": 3799.0, "savings": 500.0 }
+      },
+      {
+        "sku": "KFA50",
+        "product_id": "ff2-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c597a02",
+          "segmented": false,
+          "segments": [],
+          "strong": "$400.00 OFF",
+          "subtle": "with FlexFit 2"
+        },
+        "prices": { "regular": 3099.0, "sale": 2699.0, "savings": 400.0 }
+      }
+    ],
+    "total": { "regular": 7398.0, "sale": 6498.0, "savings": 900.0 },
+    "promo_id": "6065fd6e7c9f54d85c597a02",
+    "promo_badge_message": "BUNDLE SAVINGS",
+    "alternate_promo_badge_message": null,
+    "promo_long_message": null,
+    "promo_expiry_date": 1619888911000,
+    "financing": {
+      "description": null,
+      "name": "36 Month Financing or orders over 2999",
+      "id": "5ec69b01cfe528001bb9a642",
+      "months": 36,
+      "value": 181,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "end_date": 1619888911000,
+      "promo_code": "436",
+      "disclaimer_message": null
+    }
+  },
+  {
+    "skus": ["KZI8", "KFA60"],
+    "products": [
+      {
+        "sku": "KZI8",
+        "product_id": "i8-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c5979fc",
+          "segmented": false,
+          "segments": [],
+          "strong": "$500.00 OFF",
+          "subtle": "with Core Series Mattresses"
+        },
+        "prices": { "regular": 4299.0, "sale": 3799.0, "savings": 500.0 }
+      },
+      {
+        "sku": "KFA60",
+        "product_id": "ff3-360",
+        "quantity": 1,
+        "promo_message": {
+          "discount_id": "6065fd6e7c9f54d85c597a03",
+          "segmented": false,
+          "segments": [],
+          "strong": "$600.00 OFF",
+          "subtle": "with FlexFit 3"
+        },
+        "prices": { "regular": 4099.0, "sale": 3499.0, "savings": 600.0 }
+      }
+    ],
+    "total": { "regular": 8398.0, "sale": 7298.0, "savings": 1100.0 },
+    "promo_id": "6065fd6e7c9f54d85c597a03",
+    "promo_badge_message": "BUNDLE SAVINGS",
+    "alternate_promo_badge_message": null,
+    "promo_long_message": null,
+    "promo_expiry_date": 1619888911000,
+    "financing": {
+      "description": null,
+      "name": "36 Month Financing or orders over 2999",
+      "id": "5ec69b01cfe528001bb9a642",
+      "months": 36,
+      "value": 203,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": false,
+      "deferred": false,
+      "end_date": 1619888911000,
+      "promo_code": "436",
+      "disclaimer_message": null
+    }
+  }
+]

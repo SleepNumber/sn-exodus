@@ -1,0 +1,880 @@
+{
+  "id": "5e7e38010698de9a98b713aa",
+  "name": "Mattresses",
+  "slug": "mattresses",
+  "url": "http://localhost/categories/mattresses",
+  "description": null,
+  "browser_title": "Home - Mattresses",
+  "meta_description": "Shop online for Sleep Number products",
+  "sorts": [
+    ["Top Sellers", "top_sellers"],
+    ["Most Popular", "popularity"],
+    ["Newest", "newest"],
+    ["Price, Low to High", "price_asc"],
+    ["Price, High to Low", "price_desc"]
+  ],
+  "sort": "price_desc",
+  "breadcrumbs": [
+    {
+      "id": "5e7e39420698de9a98b717ea",
+      "api_url": "/taxons/5e7e39420698de9a98b717ea",
+      "name": "Home",
+      "depth": 0,
+      "url": "/",
+      "parent_id": null,
+      "parent_ids": [],
+      "children": [
+        {
+          "id": "5e7e39420698de9a98b717eb",
+          "api_url": "/taxons/5e7e39420698de9a98b717eb",
+          "name": "Mattresses",
+          "depth": 1,
+          "url": "http://localhost/categories/mattresses",
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39420698de9a98b717ed",
+              "api_url": "/taxons/5e7e39420698de9a98b717ed",
+              "name": "Classic Series",
+              "depth": 2,
+              "url": "http://localhost/categories/mattresses-classic-series",
+              "parent_id": "5e7e39420698de9a98b717eb",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717eb"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39420698de9a98b717ee",
+              "api_url": "/taxons/5e7e39420698de9a98b717ee",
+              "name": "Performance Series",
+              "depth": 2,
+              "url": "http://localhost/categories/mattresses-performance-series",
+              "parent_id": "5e7e39420698de9a98b717eb",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717eb"
+              ],
+              "children": [],
+              "position": 1
+            },
+            {
+              "id": "5e7e39420698de9a98b717ef",
+              "api_url": "/taxons/5e7e39420698de9a98b717ef",
+              "name": "Innovation Series",
+              "depth": 2,
+              "url": "http://localhost/categories/mattresses-innovation-series",
+              "parent_id": "5e7e39420698de9a98b717eb",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717eb"
+              ],
+              "children": [],
+              "position": 2
+            },
+            {
+              "id": "5e7e39420698de9a98b717f0",
+              "api_url": "/taxons/5e7e39420698de9a98b717f0",
+              "name": "Memory Foam Series",
+              "depth": 2,
+              "url": "http://localhost/categories/mattresses-memory-series",
+              "parent_id": "5e7e39420698de9a98b717eb",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717eb"
+              ],
+              "children": [],
+              "position": 3
+            }
+          ],
+          "position": 0
+        },
+        {
+          "id": "5e7e39420698de9a98b717f1",
+          "api_url": "/taxons/5e7e39420698de9a98b717f1",
+          "name": "Bedding",
+          "depth": 1,
+          "url": "http://localhost/categories/bedding",
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39420698de9a98b717f3",
+              "api_url": "/taxons/5e7e39420698de9a98b717f3",
+              "name": "Sheets \u0026 Pillowcases",
+              "depth": 2,
+              "url": "http://localhost/categories/sheets-pillowcases",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39420698de9a98b717f4",
+              "api_url": "/taxons/5e7e39420698de9a98b717f4",
+              "name": "Mattress Pads \u0026 Layers",
+              "depth": 2,
+              "url": "http://localhost/categories/mattress-pads",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 1
+            },
+            {
+              "id": "5e7e39420698de9a98b717f5",
+              "api_url": "/taxons/5e7e39420698de9a98b717f5",
+              "name": "Blankets \u0026 Comforters",
+              "depth": 2,
+              "url": "http://localhost/categories/blankets-comforters",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 2
+            },
+            {
+              "id": "5e7e39420698de9a98b717f6",
+              "api_url": "/taxons/5e7e39420698de9a98b717f6",
+              "name": "Duvets \u0026 Bed Skirts",
+              "depth": 2,
+              "url": "http://localhost/categories/duvet-covers",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 3
+            },
+            {
+              "id": "5e7e39430698de9a98b717f7",
+              "api_url": "/taxons/5e7e39430698de9a98b717f7",
+              "name": "Kids Bedding",
+              "depth": 2,
+              "url": "http://localhost/categories/kids",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 4
+            },
+            {
+              "id": "5e7e39430698de9a98b717f8",
+              "api_url": "/taxons/5e7e39430698de9a98b717f8",
+              "name": "Clearance",
+              "depth": 2,
+              "url": "http://localhost/categories/clearance",
+              "parent_id": "5e7e39420698de9a98b717f1",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39420698de9a98b717f1"
+              ],
+              "children": [],
+              "position": 5
+            }
+          ],
+          "position": 1
+        },
+        {
+          "id": "5e7e39430698de9a98b717f9",
+          "api_url": "/taxons/5e7e39430698de9a98b717f9",
+          "name": "Pillows",
+          "depth": 1,
+          "url": "http://localhost/categories/all-pillows",
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39430698de9a98b717fb",
+              "api_url": "/taxons/5e7e39430698de9a98b717fb",
+              "name": "Specialty Pillows",
+              "depth": 2,
+              "url": "http://localhost/categories/specialty-pillows",
+              "parent_id": "5e7e39430698de9a98b717f9",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717f9"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39430698de9a98b717fc",
+              "api_url": "/taxons/5e7e39430698de9a98b717fc",
+              "name": "Pillow Protectors",
+              "depth": 2,
+              "url": "http://localhost/categories/pillow-protectors",
+              "parent_id": "5e7e39430698de9a98b717f9",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717f9"
+              ],
+              "children": [],
+              "position": 1
+            }
+          ],
+          "position": 2
+        },
+        {
+          "id": "5e7e39430698de9a98b717fd",
+          "api_url": "/taxons/5e7e39430698de9a98b717fd",
+          "name": "More",
+          "depth": 1,
+          "url": null,
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39430698de9a98b71801",
+              "api_url": "/taxons/5e7e39430698de9a98b71801",
+              "name": "Bases",
+              "depth": 2,
+              "url": "http://localhost/categories/bed-bases",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39430698de9a98b71802",
+              "api_url": "/taxons/5e7e39430698de9a98b71802",
+              "name": "Furniture",
+              "depth": 2,
+              "url": "http://localhost/categories/furniture",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 1
+            },
+            {
+              "id": "5e7e39440698de9a98b71803",
+              "api_url": "/taxons/5e7e39440698de9a98b71803",
+              "name": "Bed Accessories",
+              "depth": 2,
+              "url": "http://localhost/categories/bed-accessories",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 2
+            },
+            {
+              "id": "5e7e39440698de9a98b71805",
+              "api_url": "/taxons/5e7e39440698de9a98b71805",
+              "name": "Sleep Solutions",
+              "depth": 2,
+              "url": "http://localhost/pages/sleep-solutions",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 3
+            },
+            {
+              "id": "5e7e39440698de9a98b71807",
+              "api_url": "/taxons/5e7e39440698de9a98b71807",
+              "name": "Learn More",
+              "depth": 2,
+              "url": "http://localhost/pages/how-to-sleep-better",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 4
+            },
+            {
+              "id": "5e7e39440698de9a98b71809",
+              "api_url": "/taxons/5e7e39440698de9a98b71809",
+              "name": "SleepIQ Technology",
+              "depth": 2,
+              "url": "http://localhost/pages/sleepiq-sleep-tracker",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 5
+            },
+            {
+              "id": "5e7e39440698de9a98b7180b",
+              "api_url": "/taxons/5e7e39440698de9a98b7180b",
+              "name": "Financing",
+              "depth": 2,
+              "url": "http://localhost/pages/financing",
+              "parent_id": "5e7e39430698de9a98b717fd",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39430698de9a98b717fd"
+              ],
+              "children": [],
+              "position": 6
+            }
+          ],
+          "position": 3
+        },
+        {
+          "id": "5e7e39440698de9a98b7180c",
+          "api_url": "/taxons/5e7e39440698de9a98b7180c",
+          "name": "Owners",
+          "depth": 1,
+          "url": null,
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39440698de9a98b71811",
+              "api_url": "/taxons/5e7e39440698de9a98b71811",
+              "name": "Order Tracking",
+              "depth": 2,
+              "url": "http://localhost/pages/order-status",
+              "parent_id": "5e7e39440698de9a98b7180c",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39440698de9a98b7180c"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39440698de9a98b71813",
+              "api_url": "/taxons/5e7e39440698de9a98b71813",
+              "name": "Support",
+              "depth": 2,
+              "url": "http://localhost/pages/support",
+              "parent_id": "5e7e39440698de9a98b7180c",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39440698de9a98b7180c"
+              ],
+              "children": [],
+              "position": 1
+            },
+            {
+              "id": "5e7e39450698de9a98b71815",
+              "api_url": "/taxons/5e7e39450698de9a98b71815",
+              "name": "InnerCircle",
+              "depth": 2,
+              "url": "http://localhost/pages/inner-circle",
+              "parent_id": "5e7e39440698de9a98b7180c",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39440698de9a98b7180c"
+              ],
+              "children": [],
+              "position": 2
+            },
+            {
+              "id": "5e7e39450698de9a98b71816",
+              "api_url": "/taxons/5e7e39450698de9a98b71816",
+              "name": "SleepIQ Account",
+              "depth": 2,
+              "url": "https://sleepiq.sleepnumber.com",
+              "parent_id": "5e7e39440698de9a98b7180c",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39440698de9a98b7180c"
+              ],
+              "children": [],
+              "position": 3
+            },
+            {
+              "id": "5e7e39450698de9a98b71818",
+              "api_url": "/taxons/5e7e39450698de9a98b71818",
+              "name": "Financing \u0026 Payments",
+              "depth": 2,
+              "url": "http://localhost/pages/financing-expectations",
+              "parent_id": "5e7e39440698de9a98b7180c",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39440698de9a98b7180c"
+              ],
+              "children": [],
+              "position": 4
+            }
+          ],
+          "position": 4
+        },
+        {
+          "id": "5e7e39450698de9a98b7181a",
+          "api_url": "/taxons/5e7e39450698de9a98b7181a",
+          "name": "Reviews",
+          "depth": 1,
+          "url": "http://localhost/pages/reviews-testimonials",
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [],
+          "position": 5
+        },
+        {
+          "id": "5e7e39450698de9a98b7181c",
+          "api_url": "/taxons/5e7e39450698de9a98b7181c",
+          "name": "Sale",
+          "depth": 1,
+          "url": "http://localhost/categories/beds-on-sale",
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [],
+          "position": 6
+        },
+        {
+          "id": "5e7e39450698de9a98b7181e",
+          "api_url": "/taxons/5e7e39450698de9a98b7181e",
+          "name": "Footer",
+          "depth": 1,
+          "url": null,
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39450698de9a98b7181f",
+              "api_url": "/taxons/5e7e39450698de9a98b7181f",
+              "name": "Navigation",
+              "depth": 2,
+              "url": null,
+              "parent_id": "5e7e39450698de9a98b7181e",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39450698de9a98b7181e"
+              ],
+              "children": [
+                {
+                  "id": "5e7e39450698de9a98b71820",
+                  "api_url": "/taxons/5e7e39450698de9a98b71820",
+                  "name": "INVESTORS",
+                  "depth": 3,
+                  "url": "http://ir.sleepnumber.com",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 0
+                },
+                {
+                  "id": "5e7e39450698de9a98b71821",
+                  "api_url": "/taxons/5e7e39450698de9a98b71821",
+                  "name": "NEWSROOM",
+                  "depth": 3,
+                  "url": "http://newsroom.sleepnumber.com",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 1
+                },
+                {
+                  "id": "5e7e39450698de9a98b71822",
+                  "api_url": "/taxons/5e7e39450698de9a98b71822",
+                  "name": "LEGAL",
+                  "depth": 3,
+                  "url": "http://sleepnumber.com/legal-notices",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 2
+                },
+                {
+                  "id": "5e7e39450698de9a98b71823",
+                  "api_url": "/taxons/5e7e39450698de9a98b71823",
+                  "name": "CONTACT US",
+                  "depth": 3,
+                  "url": "http://sleepnumber.com/contact-us",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 3
+                },
+                {
+                  "id": "5e7e39460698de9a98b71824",
+                  "api_url": "/taxons/5e7e39460698de9a98b71824",
+                  "name": "CAREERS",
+                  "depth": 3,
+                  "url": "http://jobs.sleepnumber.com/",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 4
+                },
+                {
+                  "id": "5e7e39460698de9a98b71825",
+                  "api_url": "/taxons/5e7e39460698de9a98b71825",
+                  "name": "BLOG",
+                  "depth": 3,
+                  "url": "https://blog.sleepnumber.com/",
+                  "parent_id": "5e7e39450698de9a98b7181f",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39450698de9a98b7181f"
+                  ],
+                  "children": [],
+                  "position": 5
+                }
+              ],
+              "position": 0
+            },
+            {
+              "id": "5e7e39460698de9a98b71826",
+              "api_url": "/taxons/5e7e39460698de9a98b71826",
+              "name": "Social",
+              "depth": 2,
+              "url": null,
+              "parent_id": "5e7e39450698de9a98b7181e",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39450698de9a98b7181e"
+              ],
+              "children": [
+                {
+                  "id": "5e7e39460698de9a98b71827",
+                  "api_url": "/taxons/5e7e39460698de9a98b71827",
+                  "name": "Facebook",
+                  "depth": 3,
+                  "url": "https://www.facebook.com/SleepNumber",
+                  "parent_id": "5e7e39460698de9a98b71826",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b71826"
+                  ],
+                  "children": [],
+                  "position": 0
+                },
+                {
+                  "id": "5e7e39460698de9a98b71828",
+                  "api_url": "/taxons/5e7e39460698de9a98b71828",
+                  "name": "Twitter",
+                  "depth": 3,
+                  "url": "https://twitter.com/SleepNumber",
+                  "parent_id": "5e7e39460698de9a98b71826",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b71826"
+                  ],
+                  "children": [],
+                  "position": 1
+                },
+                {
+                  "id": "5e7e39460698de9a98b71829",
+                  "api_url": "/taxons/5e7e39460698de9a98b71829",
+                  "name": "Youtube",
+                  "depth": 3,
+                  "url": "https://www.youtube.com/user/Sleepnumber",
+                  "parent_id": "5e7e39460698de9a98b71826",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b71826"
+                  ],
+                  "children": [],
+                  "position": 2
+                },
+                {
+                  "id": "5e7e39460698de9a98b7182a",
+                  "api_url": "/taxons/5e7e39460698de9a98b7182a",
+                  "name": "Instagram",
+                  "depth": 3,
+                  "url": "https://www.instagram.com/sleepnumber/",
+                  "parent_id": "5e7e39460698de9a98b71826",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b71826"
+                  ],
+                  "children": [],
+                  "position": 3
+                }
+              ],
+              "position": 1
+            },
+            {
+              "id": "5e7e39460698de9a98b7182b",
+              "api_url": "/taxons/5e7e39460698de9a98b7182b",
+              "name": "Bottom",
+              "depth": 2,
+              "url": null,
+              "parent_id": "5e7e39450698de9a98b7181e",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39450698de9a98b7181e"
+              ],
+              "children": [
+                {
+                  "id": "5e7e39460698de9a98b7182c",
+                  "api_url": "/taxons/5e7e39460698de9a98b7182c",
+                  "name": "Terms of Use",
+                  "depth": 3,
+                  "url": "http://www.sleepnumber.com/legal-notices/terms-of-use",
+                  "parent_id": "5e7e39460698de9a98b7182b",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b7182b"
+                  ],
+                  "children": [],
+                  "position": 0
+                },
+                {
+                  "id": "5e7e39460698de9a98b7182d",
+                  "api_url": "/taxons/5e7e39460698de9a98b7182d",
+                  "name": "Privacy",
+                  "depth": 3,
+                  "url": "https://www.sleepnumber.com/legal-notices/privacy-policy",
+                  "parent_id": "5e7e39460698de9a98b7182b",
+                  "parent_ids": [
+                    "5e7e39420698de9a98b717ea",
+                    "5e7e39450698de9a98b7181e",
+                    "5e7e39460698de9a98b7182b"
+                  ],
+                  "children": [],
+                  "position": 1
+                }
+              ],
+              "position": 2
+            }
+          ],
+          "position": 7
+        },
+        {
+          "id": "5e7e39460698de9a98b7182e",
+          "api_url": "/taxons/5e7e39460698de9a98b7182e",
+          "name": "Customer Service",
+          "depth": 1,
+          "url": null,
+          "parent_id": "5e7e39420698de9a98b717ea",
+          "parent_ids": ["5e7e39420698de9a98b717ea"],
+          "children": [
+            {
+              "id": "5e7e39460698de9a98b7182f",
+              "api_url": "/taxons/5e7e39460698de9a98b7182f",
+              "name": "Shipping Policy",
+              "depth": 2,
+              "url": "http://localhost/pages/shipping-policy",
+              "parent_id": "5e7e39460698de9a98b7182e",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39460698de9a98b7182e"
+              ],
+              "children": [],
+              "position": 0
+            },
+            {
+              "id": "5e7e39460698de9a98b71830",
+              "api_url": "/taxons/5e7e39460698de9a98b71830",
+              "name": "Returns",
+              "depth": 2,
+              "url": "http://localhost/pages/returns",
+              "parent_id": "5e7e39460698de9a98b7182e",
+              "parent_ids": [
+                "5e7e39420698de9a98b717ea",
+                "5e7e39460698de9a98b7182e"
+              ],
+              "children": [],
+              "position": 1
+            }
+          ],
+          "position": 8
+        }
+      ],
+      "position": 0
+    },
+    {
+      "id": "5e7e39420698de9a98b717eb",
+      "api_url": "/taxons/5e7e39420698de9a98b717eb",
+      "name": "Mattresses",
+      "depth": 1,
+      "url": "http://localhost/categories/mattresses",
+      "parent_id": "5e7e39420698de9a98b717ea",
+      "parent_ids": ["5e7e39420698de9a98b717ea"],
+      "children": [
+        {
+          "id": "5e7e39420698de9a98b717ed",
+          "api_url": "/taxons/5e7e39420698de9a98b717ed",
+          "name": "Classic Series",
+          "depth": 2,
+          "url": "http://localhost/categories/mattresses-classic-series",
+          "parent_id": "5e7e39420698de9a98b717eb",
+          "parent_ids": [
+            "5e7e39420698de9a98b717ea",
+            "5e7e39420698de9a98b717eb"
+          ],
+          "children": [],
+          "position": 0
+        },
+        {
+          "id": "5e7e39420698de9a98b717ee",
+          "api_url": "/taxons/5e7e39420698de9a98b717ee",
+          "name": "Performance Series",
+          "depth": 2,
+          "url": "http://localhost/categories/mattresses-performance-series",
+          "parent_id": "5e7e39420698de9a98b717eb",
+          "parent_ids": [
+            "5e7e39420698de9a98b717ea",
+            "5e7e39420698de9a98b717eb"
+          ],
+          "children": [],
+          "position": 1
+        },
+        {
+          "id": "5e7e39420698de9a98b717ef",
+          "api_url": "/taxons/5e7e39420698de9a98b717ef",
+          "name": "Innovation Series",
+          "depth": 2,
+          "url": "http://localhost/categories/mattresses-innovation-series",
+          "parent_id": "5e7e39420698de9a98b717eb",
+          "parent_ids": [
+            "5e7e39420698de9a98b717ea",
+            "5e7e39420698de9a98b717eb"
+          ],
+          "children": [],
+          "position": 2
+        },
+        {
+          "id": "5e7e39420698de9a98b717f0",
+          "api_url": "/taxons/5e7e39420698de9a98b717f0",
+          "name": "Memory Foam Series",
+          "depth": 2,
+          "url": "http://localhost/categories/mattresses-memory-series",
+          "parent_id": "5e7e39420698de9a98b717eb",
+          "parent_ids": [
+            "5e7e39420698de9a98b717ea",
+            "5e7e39420698de9a98b717eb"
+          ],
+          "children": [],
+          "position": 3
+        }
+      ],
+      "position": 0
+    }
+  ],
+  "content_blocks": {
+    "top": [],
+    "middle": [],
+    "bottom": [
+      {
+        "id": "5e7e393f0698de9a98b717e0",
+        "type": "video_and_text",
+        "area": "bottom",
+        "name": "Video and Text",
+        "data": {
+          "embed": "\u003cvideo width=\"560\" height=\"315\" loop autoplay\u003e\r\n  \u003csource src=\"https://cdn.sleepnumber.com/video/upload/vc_auto/v64209177435342236899294/assets/img/pages/mlp/adjustable-base.mp4\" type=\"video/mp4\"\u003e\r\nYour browser does not support the video tag.\r\n\u003c/video\u003e",
+          "video_position": "Right",
+          "text": "        \u003ch2 class=\"type-xs\"\u003e\r\n          \u003cspan class=\"no-line-break\"\u003eTake Your Sleep To The\u003c/span\u003e \u003cspan class=\"no-line-break\"\u003eNext Level\u003c/span\u003e\r\n        \u003c/h2\u003e\r\n        \u003cdiv class=\"mt-4\"\u003e\r\n          \u003cspan class=\"type-text\"\u003eAdd a FlexFit\u003csup\u003e™\u003c/sup\u003e adjustable base for the ultimate in individual comfort. From taking the roar out of snore\u003csup\u003e‡‡\u003c/sup\u003e​ to floating in the weightless feeling of zero gravity, you have to feel the comfort of a FlexFit\u003csup\u003e™\u003c/sup\u003e base to believe it.\r\n            \u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"d-mt-2 m-bump-down-sm\"\u003e\r\n          \u003cul class=\"flexfit-features\"\u003e\r\n            \u003cli\u003e\r\n              \u003cdiv class=\"flexfit-features-icon\"\u003e\u003cimg src=\"https://www.sleepnumber.com/assets/img/icons/svg/head-positions-dark.svg\" alt=\"\" width=\"42\"\u003e Endless Head Positions\u003c/div\u003e\r\n            \u003c/li\u003e\r\n            \u003cli\u003e\r\n              \u003cdiv class=\"flexfit-features-icon\"\u003e\u003cimg src=\"https://www.sleepnumber.com/assets/img/icons/svg/snore-dark.svg\" alt=\"\" width=\"42\"\u003e Alleviate Snoring\u003csup\u003e*\u003c/sup\u003e\u003c/div\u003e\r\n            \u003c/li\u003e\r\n            \u003cli\u003e\r\n              \u003cdiv class=\"flexfit-features-icon\"\u003e\u003cimg src=\"https://www.sleepnumber.com/assets/img/icons/svg/light-control-dark.svg\" alt=\"\" width=\"42\"\u003e Underbed Lighting \u003c/div\u003e\r\n            \u003c/li\u003e\r\n            \u003cli\u003e\r\n              \u003cdiv class=\"flexfit-features-icon\"\u003e\u003cimg src=\"https://www.sleepnumber.com/assets/img/icons/svg/zero-g-dark.svg\" alt=\"\" width=\"42\"\u003e Endless Feet Positions\u003c/div\u003e\r\n            \u003c/li\u003e\r\n            \u003cli\u003e\r\n              \u003cdiv class=\"flexfit-features-icon\"\u003e\u003cimg src=\"https://www.sleepnumber.com/assets/img/icons/svg/foot-warming-dark.svg\" alt=\"\" width=\"42\"\u003e Foot Warming\u003c/div\u003e\r\n            \u003c/li\u003e\r\n          \u003c/ul\u003e\r\n        \u003c/div\u003e\r\n        \u003cbutton class=\"bump-down\"\u003e\r\n          \u003ca href=\"/c/bed-bases\" class=\"btn btn-cta\" tabindex=\"0\"\u003eLearn More\u003c/a\u003e\r\n        \u003c/button\u003e\r\n      ",
+          "text_alignment": "Left"
+        },
+        "hidden_breakpoints": [],
+        "position": 1
+      }
+    ],
+    "features": []
+  },
+  "first_page": true,
+  "second_page": false,
+  "last_page": false,
+  "page": 1,
+  "next_page": 2,
+  "prev_page": null,
+  "per_page": 20,
+  "total_results": 0,
+  "total_pages": 0,
+  "facets": [],
+  "products": [],
+  "children": [
+    {
+      "id": "5e7e39420698de9a98b717ed",
+      "api_url": "/taxons/5e7e39420698de9a98b717ed",
+      "name": "Classic Series",
+      "depth": 2,
+      "url": "http://localhost/categories/mattresses-classic-series",
+      "parent_id": "5e7e39420698de9a98b717eb",
+      "parent_ids": ["5e7e39420698de9a98b717ea", "5e7e39420698de9a98b717eb"],
+      "children": [],
+      "position": 0
+    },
+    {
+      "id": "5e7e39420698de9a98b717ee",
+      "api_url": "/taxons/5e7e39420698de9a98b717ee",
+      "name": "Performance Series",
+      "depth": 2,
+      "url": "http://localhost/categories/mattresses-performance-series",
+      "parent_id": "5e7e39420698de9a98b717eb",
+      "parent_ids": ["5e7e39420698de9a98b717ea", "5e7e39420698de9a98b717eb"],
+      "children": [],
+      "position": 1
+    },
+    {
+      "id": "5e7e39420698de9a98b717ef",
+      "api_url": "/taxons/5e7e39420698de9a98b717ef",
+      "name": "Innovation Series",
+      "depth": 2,
+      "url": "http://localhost/categories/mattresses-innovation-series",
+      "parent_id": "5e7e39420698de9a98b717eb",
+      "parent_ids": ["5e7e39420698de9a98b717ea", "5e7e39420698de9a98b717eb"],
+      "children": [],
+      "position": 2
+    },
+    {
+      "id": "5e7e39420698de9a98b717f0",
+      "api_url": "/taxons/5e7e39420698de9a98b717f0",
+      "name": "Memory Foam Series",
+      "depth": 2,
+      "url": "http://localhost/categories/mattresses-memory-series",
+      "parent_id": "5e7e39420698de9a98b717eb",
+      "parent_ids": ["5e7e39420698de9a98b717ea", "5e7e39420698de9a98b717eb"],
+      "children": [],
+      "position": 3
+    }
+  ],
+  "features": [
+    {
+      "id": "94797F3A43",
+      "image_url": null,
+      "name": "Dual Adjustability",
+      "text": "Adjusts to your comfort on both sides - your SleepNumber® setting."
+    }
+  ]
+}

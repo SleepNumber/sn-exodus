@@ -1,0 +1,4010 @@
+{
+  "Limit": 100,
+  "Offset": 0,
+  "TotalResults": 37,
+  "Locale": "en_US",
+  "Results": [
+    {
+      "Id": "11199",
+      "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+      "Active": false,
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "Name": null,
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "BrandExternalId": null,
+      "ProductPageUrl": null,
+      "ImageUrl": null,
+      "Brand": {},
+      "AttributesOrder": [],
+      "Description": null,
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotRecommendedCount": 0,
+        "NotHelpfulVoteCount": 1,
+        "FirstSubmissionTime": "2021-08-22T21:17:39.000+00:00",
+        "LastSubmissionTime": "2021-11-29T22:52:34.000+00:00",
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "TotalReviewCount": 7,
+        "RecommendedCount": 7,
+        "AverageOverallRating": 5,
+        "FeaturedReviewCount": 0,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 7
+          }
+        ],
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 6,
+                "Value": "True"
+              },
+              {
+                "Count": 1,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 7
+    },
+    {
+      "Id": "11143",
+      "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+      "Active": false,
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "Name": null,
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "BrandExternalId": null,
+      "ProductPageUrl": null,
+      "ImageUrl": null,
+      "Brand": {},
+      "AttributesOrder": [],
+      "Description": null,
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotHelpfulVoteCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "TotalReviewCount": 11,
+        "NotRecommendedCount": 0,
+        "AverageOverallRating": 5,
+        "FirstSubmissionTime": "2021-05-26T16:52:48.000+00:00",
+        "LastSubmissionTime": "2021-11-30T02:45:37.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 11,
+                "Value": "True"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 11
+          }
+        ],
+        "HelpfulVoteCount": 1,
+        "RecommendedCount": 11,
+        "FeaturedReviewCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 11
+    },
+    {
+      "Id": "11124",
+      "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+      "Active": false,
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "Name": null,
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "BrandExternalId": null,
+      "ProductPageUrl": null,
+      "ImageUrl": null,
+      "Brand": {},
+      "AttributesOrder": [],
+      "Description": null,
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RecommendedCount": 8,
+        "HelpfulVoteCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 5,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 7,
+                "Value": "True"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotRecommendedCount": 0,
+        "TotalReviewCount": 8,
+        "FeaturedReviewCount": 0,
+        "AverageOverallRating": 5,
+        "RatingsOnlyReviewCount": 0,
+        "NotHelpfulVoteCount": 0,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 8
+          }
+        ],
+        "FirstSubmissionTime": "2021-07-07T20:20:14.000+00:00",
+        "LastSubmissionTime": "2021-11-03T21:33:36.000+00:00",
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 8
+    },
+    {
+      "Id": "11100",
+      "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+      "Active": false,
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "Name": null,
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "BrandExternalId": null,
+      "ProductPageUrl": null,
+      "ImageUrl": null,
+      "Brand": {},
+      "AttributesOrder": [],
+      "Description": null,
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "TotalReviewCount": 68,
+        "NotHelpfulVoteCount": 0,
+        "NotRecommendedCount": 0,
+        "FirstSubmissionTime": "2020-05-26T22:58:49.000+00:00",
+        "LastSubmissionTime": "2021-11-17T14:40:06.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 67,
+                "Value": "True"
+              },
+              {
+                "Count": 1,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "RecommendedCount": 68,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 63
+          },
+          {
+            "RatingValue": 4,
+            "Count": 5
+          }
+        ],
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.926470588235294,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.838235294117647,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.911764705882353,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "AverageOverallRating": 4.926470588235294,
+        "HelpfulVoteCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 68
+    },
+    {
+      "Description": "At the West Des Moines, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the West Des Moines Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "11056",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/ankeny/2310-se-delaware-ave.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotHelpfulVoteCount": 0,
+        "AverageOverallRating": 4.9324324324324325,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 69
+          },
+          {
+            "RatingValue": 4,
+            "Count": 5
+          }
+        ],
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.945945945945946,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.930555555555555,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.9324324324324325,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 70,
+                "Value": "True"
+              },
+              {
+                "Count": 3,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "NotRecommendedCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "TotalReviewCount": 74,
+        "RecommendedCount": 73,
+        "FirstSubmissionTime": "2018-12-24T05:23:32.000+00:00",
+        "LastSubmissionTime": "2021-11-25T16:23:08.000+00:00",
+        "HelpfulVoteCount": 10,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 74
+    },
+    {
+      "Description": "At the Grafton, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Grafton Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/R8zPE60pkDNaSGgtlQGFnEZfFML579e_7uSusT3Y0Ag/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "11039",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/grafton/1205-port-washington-rd.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.869158878504673,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.943396226415095,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.878504672897196,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 95
+          },
+          {
+            "RatingValue": 4,
+            "Count": 11
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          }
+        ],
+        "RecommendedCount": 106,
+        "AverageOverallRating": 4.869158878504673,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 100,
+                "Value": "True"
+              },
+              {
+                "Count": 2,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotHelpfulVoteCount": 0,
+        "NotRecommendedCount": 1,
+        "FeaturedReviewCount": 0,
+        "FirstSubmissionTime": "2019-01-05T13:46:03.000+00:00",
+        "LastSubmissionTime": "2021-11-17T21:26:05.000+00:00",
+        "HelpfulVoteCount": 2,
+        "RatingsOnlyReviewCount": 0,
+        "TotalReviewCount": 107,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 107
+    },
+    {
+      "Description": "At the Maple Grove, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Maple Grove Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Maple Grove - Arbor Lakes",
+      "Id": "11033",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/maple-grove/11802-elm-creek-blvd-n.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FeaturedReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.947916666666667,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.9267015706806285,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.947916666666667,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 191,
+        "NotHelpfulVoteCount": 0,
+        "NotRecommendedCount": 1,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 176
+          },
+          {
+            "RatingValue": 4,
+            "Count": 15
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "TotalReviewCount": 192,
+        "FirstSubmissionTime": "2019-02-09T17:30:54.000+00:00",
+        "LastSubmissionTime": "2021-11-29T05:58:18.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 182,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "AverageOverallRating": 4.911458333333333,
+        "HelpfulVoteCount": 8,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 192
+    },
+    {
+      "Description": "At the Woodbury, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Woodbury Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Woodbury Lakes",
+      "Id": "11023",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/woodbury/740-commons-dr.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.863157894736842,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.809523809523809,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.91578947368421,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 174,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 9,
+        "NotRecommendedCount": 4,
+        "TotalReviewCount": 191,
+        "FirstSubmissionTime": "2018-12-26T18:34:49.000+00:00",
+        "LastSubmissionTime": "2021-11-17T20:08:45.000+00:00",
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 186,
+        "AverageOverallRating": 4.821989528795812,
+        "FeaturedReviewCount": 0,
+        "NotHelpfulVoteCount": 1,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 171
+          },
+          {
+            "RatingValue": 4,
+            "Count": 12
+          },
+          {
+            "RatingValue": 3,
+            "Count": 4
+          },
+          {
+            "RatingValue": 1,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          }
+        ],
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 191
+    },
+    {
+      "Description": "At the Baxter, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Baxter Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/R8zPE60pkDNaSGgtlQGFnEZfFML579e_7uSusT3Y0Ag/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "11013",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/baxter/15094-dellwood-dr.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "TotalReviewCount": 86,
+        "AverageOverallRating": 4.906976744186046,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 81
+          },
+          {
+            "RatingValue": 4,
+            "Count": 3
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 79,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "NotRecommendedCount": 2,
+        "NotHelpfulVoteCount": 7,
+        "FirstSubmissionTime": "2018-11-18T22:35:00.000+00:00",
+        "LastSubmissionTime": "2021-11-24T19:06:16.000+00:00",
+        "HelpfulVoteCount": 303,
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 83,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.843373493975903,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.855421686746988,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.870588235294117,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 86
+    },
+    {
+      "Description": "At the Papillion, NE Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Papillion Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/R8zPE60pkDNaSGgtlQGFnEZfFML579e_7uSusT3Y0Ag/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "11008",
+      "CategoryId": "NE",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ne/papillion/794-olson-dr.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.906666666666666,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.933333333333334,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.986666666666666,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "NotRecommendedCount": 1,
+        "FeaturedReviewCount": 0,
+        "TotalReviewCount": 75,
+        "AverageOverallRating": 4.973333333333334,
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 3,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 68,
+                "Value": "True"
+              },
+              {
+                "Count": 2,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RecommendedCount": 74,
+        "NotHelpfulVoteCount": 0,
+        "FirstSubmissionTime": "2019-03-30T15:40:04.000+00:00",
+        "LastSubmissionTime": "2021-11-23T21:26:20.000+00:00",
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 73
+          },
+          {
+            "RatingValue": 4,
+            "Count": 2
+          }
+        ],
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 75
+    },
+    {
+      "Description": "At the Rochester, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Rochester Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Apache Mall",
+      "Id": "11007",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/rochester/2257-commerce-dr-nw.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 114
+          },
+          {
+            "RatingValue": 4,
+            "Count": 13
+          }
+        ],
+        "FirstSubmissionTime": "2018-10-08T18:08:59.000+00:00",
+        "LastSubmissionTime": "2021-11-30T01:38:23.000+00:00",
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.913385826771654,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.952755905511811,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.94488188976378,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "HelpfulVoteCount": 1,
+        "FeaturedReviewCount": 0,
+        "RecommendedCount": 127,
+        "NotRecommendedCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "TotalReviewCount": 127,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 120,
+                "Value": "True"
+              },
+              {
+                "Count": 2,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "AverageOverallRating": 4.897637795275591,
+        "NotHelpfulVoteCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 127
+    },
+    {
+      "Description": "At the Mankato, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Mankato Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10981",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/mankato/1861-adams-st.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 94,
+                "Value": "True"
+              },
+              {
+                "Count": 4,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.898989898989899,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.898989898989899,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.8979591836734695,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 87
+          },
+          {
+            "RatingValue": 4,
+            "Count": 13
+          }
+        ],
+        "NotHelpfulVoteCount": 0,
+        "RecommendedCount": 99,
+        "HelpfulVoteCount": 1,
+        "NotRecommendedCount": 0,
+        "FeaturedReviewCount": 0,
+        "FirstSubmissionTime": "2018-03-20T00:59:21.000+00:00",
+        "LastSubmissionTime": "2021-10-20T19:47:27.000+00:00",
+        "AverageOverallRating": 4.87,
+        "TotalReviewCount": 100,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 100
+    },
+    {
+      "Description": "At the Apple Valley, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Apple Valley Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/R8zPE60pkDNaSGgtlQGFnEZfFML579e_7uSusT3Y0Ag/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10967",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/apple-valley/7525-147th-st-w.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotRecommendedCount": 3,
+        "AverageOverallRating": 4.866071428571429,
+        "NotHelpfulVoteCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "TotalReviewCount": 224,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.90625,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.923766816143497,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.879464285714286,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 203
+          },
+          {
+            "RatingValue": 4,
+            "Count": 15
+          },
+          {
+            "RatingValue": 3,
+            "Count": 4
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          }
+        ],
+        "RecommendedCount": 220,
+        "FirstSubmissionTime": "2017-09-21T21:04:11.000+00:00",
+        "LastSubmissionTime": "2021-11-27T19:06:19.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 212,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 5,
+        "FeaturedReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 224
+    },
+    {
+      "Description": "At the Fargo, ND Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Fargo Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10960",
+      "CategoryId": "ND",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/nd/fargo/1895-45th-st-s.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FeaturedReviewCount": 0,
+        "NotRecommendedCount": 2,
+        "RecommendedCount": 165,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 158,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.868263473053892,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.8579881656804735,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.863095238095238,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "TotalReviewCount": 169,
+        "FirstSubmissionTime": "2017-09-22T01:00:46.000+00:00",
+        "LastSubmissionTime": "2021-11-28T20:44:03.000+00:00",
+        "NotHelpfulVoteCount": 4,
+        "HelpfulVoteCount": 10,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 150
+          },
+          {
+            "RatingValue": 4,
+            "Count": 14
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "AverageOverallRating": 4.834319526627219,
+        "RatingsOnlyReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 169
+    },
+    {
+      "Description": "At the Eden Prairie, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Eden Prairie Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/R8zPE60pkDNaSGgtlQGFnEZfFML579e_7uSusT3Y0Ag/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10888",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/eden-prairie/590-prairie-center-drive.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FeaturedReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.866666666666666,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.868131868131868,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.851648351648351,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "NotRecommendedCount": 3,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 157
+          },
+          {
+            "RatingValue": 4,
+            "Count": 22
+          },
+          {
+            "RatingValue": 1,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 9,
+        "TotalReviewCount": 182,
+        "RecommendedCount": 177,
+        "AverageOverallRating": 4.824175824175824,
+        "NotHelpfulVoteCount": 4,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 173,
+                "Value": "True"
+              },
+              {
+                "Count": 7,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FirstSubmissionTime": "2017-09-21T20:43:24.000+00:00",
+        "LastSubmissionTime": "2021-11-19T16:52:45.000+00:00",
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 182
+    },
+    {
+      "Description": "At the Maplewood, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Maplewood Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/4WVLYgdzKlz3kBJ41_klMiOmX52FWDEDCIbA0U6k1XM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10843",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/maplewood/3094-white-bear-ave.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.909638554216867,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.843373493975903,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.884848484848485,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "HelpfulVoteCount": 11,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 151
+          },
+          {
+            "RatingValue": 4,
+            "Count": 12
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 163,
+        "FirstSubmissionTime": "2017-09-27T12:33:35.000+00:00",
+        "LastSubmissionTime": "2021-11-27T04:11:33.000+00:00",
+        "NotHelpfulVoteCount": 2,
+        "AverageOverallRating": 4.879518072289157,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 153,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "NotRecommendedCount": 1,
+        "TotalReviewCount": 166,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 166
+    },
+    {
+      "Description": "At the Madison, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Madison Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number.",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10842",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/madison/4602-e-washington-ave.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FeaturedReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.8431372549019605,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.85064935064935,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.857142857142857,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "NotRecommendedCount": 1,
+        "AverageOverallRating": 4.87012987012987,
+        "NotHelpfulVoteCount": 0,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 140,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 152,
+        "FirstSubmissionTime": "2017-10-02T14:52:18.000+00:00",
+        "LastSubmissionTime": "2021-11-19T19:59:34.000+00:00",
+        "TotalReviewCount": 154,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 138
+          },
+          {
+            "RatingValue": 4,
+            "Count": 13
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          }
+        ],
+        "HelpfulVoteCount": 6,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 154
+    },
+    {
+      "Description": "At the Rockford, IL Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Rockford Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10657",
+      "CategoryId": "IL",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/il/rockford/7310-walton-street.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FeaturedReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.922413793103448,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.812765957446809,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.927038626609442,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "RecommendedCount": 230,
+        "AverageOverallRating": 4.872881355932203,
+        "FirstSubmissionTime": "2017-09-22T17:47:24.000+00:00",
+        "LastSubmissionTime": "2021-11-17T21:21:18.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 215,
+                "Value": "True"
+              },
+              {
+                "Count": 14,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotRecommendedCount": 2,
+        "TotalReviewCount": 236,
+        "NotHelpfulVoteCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 20,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 212
+          },
+          {
+            "RatingValue": 4,
+            "Count": 20
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          }
+        ],
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 236
+    },
+    {
+      "Description": "At the Sioux Falls, SD Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Sioux Falls Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10488",
+      "CategoryId": "SD",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/sd/sioux-falls/3600-w-41st-street.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "HelpfulVoteCount": 7,
+        "RatingsOnlyReviewCount": 0,
+        "NotRecommendedCount": 4,
+        "AverageOverallRating": 4.7727272727272725,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.8355263157894735,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.810457516339869,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.7272727272727275,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 130
+          },
+          {
+            "RatingValue": 4,
+            "Count": 19
+          },
+          {
+            "RatingValue": 1,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "FirstSubmissionTime": "2017-10-06T16:59:44.000+00:00",
+        "LastSubmissionTime": "2021-11-25T15:37:28.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 143,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotHelpfulVoteCount": 2,
+        "TotalReviewCount": 154,
+        "RecommendedCount": 149,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 154
+    },
+    {
+      "Description": "At the Sioux City, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Sioux City Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sioux City",
+      "Id": "10487",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/sioux-city/5001-sergeant-road.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "HelpfulVoteCount": 4,
+        "FirstSubmissionTime": "2017-09-29T01:24:30.000+00:00",
+        "LastSubmissionTime": "2021-11-18T02:45:07.000+00:00",
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.947826086956522,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.956896551724138,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.853448275862069,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "TotalReviewCount": 116,
+        "FeaturedReviewCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 108,
+                "Value": "True"
+              },
+              {
+                "Count": 3,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "AverageOverallRating": 4.905172413793103,
+        "RecommendedCount": 116,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 107
+          },
+          {
+            "RatingValue": 4,
+            "Count": 7
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          }
+        ],
+        "NotHelpfulVoteCount": 0,
+        "NotRecommendedCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 116
+    },
+    {
+      "Description": "At the Eau Claire, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Eau Claire Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Eau Claire",
+      "Id": "10473",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/eau-claire/4734-golf-road.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.826086956521739,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.771428571428571,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.871428571428571,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "NotRecommendedCount": 2,
+        "FirstSubmissionTime": "2017-10-05T13:09:56.000+00:00",
+        "LastSubmissionTime": "2021-11-12T17:58:16.000+00:00",
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 130,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 10,
+        "TotalReviewCount": 140,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 124
+          },
+          {
+            "RatingValue": 4,
+            "Count": 14
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          }
+        ],
+        "NotHelpfulVoteCount": 2,
+        "FeaturedReviewCount": 0,
+        "RecommendedCount": 137,
+        "AverageOverallRating": 4.85,
+        "RatingsOnlyReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 140
+    },
+    {
+      "Description": "At the Davenport, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Davenport Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Davenport - Elmore Crossing",
+      "Id": "10456",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/davenport/5270-elmore-crossing.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "AverageOverallRating": 4.8938356164383565,
+        "TotalReviewCount": 292,
+        "RecommendedCount": 288,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.824137931034483,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.945017182130584,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.934707903780069,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "FirstSubmissionTime": "2017-09-22T10:30:39.000+00:00",
+        "LastSubmissionTime": "2021-11-28T23:36:55.000+00:00",
+        "FeaturedReviewCount": 0,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 264
+          },
+          {
+            "RatingValue": 4,
+            "Count": 27
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "HelpfulVoteCount": 10,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 272,
+                "Value": "True"
+              },
+              {
+                "Count": 8,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotHelpfulVoteCount": 1,
+        "RatingsOnlyReviewCount": 0,
+        "NotRecommendedCount": 2,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 292
+    },
+    {
+      "Description": "At the West Des Moines, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the West Des Moines Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "West Des Moines - Mills Civic Pkwy.",
+      "Id": "10453",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/west-des-moines/6630-mills-civic-parkway.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RecommendedCount": 132,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 116
+          },
+          {
+            "RatingValue": 4,
+            "Count": 16
+          },
+          {
+            "RatingValue": 1,
+            "Count": 3
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "FirstSubmissionTime": "2017-09-29T17:02:37.000+00:00",
+        "LastSubmissionTime": "2021-11-27T20:52:54.000+00:00",
+        "AverageOverallRating": 4.779411764705882,
+        "HelpfulVoteCount": 16,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.827067669172933,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.822222222222222,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.807407407407408,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "NotHelpfulVoteCount": 2,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 129,
+                "Value": "True"
+              },
+              {
+                "Count": 3,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "TotalReviewCount": 136,
+        "RatingsOnlyReviewCount": 0,
+        "NotRecommendedCount": 3,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 136
+    },
+    {
+      "Description": "At the Duluth, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Duluth Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Sleep Number Store",
+      "Id": "10447",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/duluth/2104-maple-grove-road.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.834394904458598,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.891025641025641,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.864516129032258,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "RecommendedCount": 153,
+        "HelpfulVoteCount": 11,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 153,
+                "Value": "True"
+              },
+              {
+                "Count": 2,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 142
+          },
+          {
+            "RatingValue": 4,
+            "Count": 11
+          },
+          {
+            "RatingValue": 2,
+            "Count": 3
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "FirstSubmissionTime": "2017-09-21T20:18:19.000+00:00",
+        "LastSubmissionTime": "2021-11-25T17:16:25.000+00:00",
+        "NotHelpfulVoteCount": 2,
+        "FeaturedReviewCount": 0,
+        "AverageOverallRating": 4.859872611464968,
+        "NotRecommendedCount": 4,
+        "RatingsOnlyReviewCount": 0,
+        "TotalReviewCount": 157,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 157
+    },
+    {
+      "Description": "At the Green Bay, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Green Bay Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Green Bay",
+      "Id": "10432",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/green-bay/2330-s-oneida-st.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 249
+          },
+          {
+            "RatingValue": 4,
+            "Count": 20
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          }
+        ],
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.915129151291513,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.784386617100372,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.9,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "AverageOverallRating": 4.900735294117647,
+        "NotRecommendedCount": 0,
+        "HelpfulVoteCount": 13,
+        "RatingsOnlyReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-27T14:56:33.000+00:00",
+        "LastSubmissionTime": "2021-11-18T13:47:05.000+00:00",
+        "NotHelpfulVoteCount": 0,
+        "TotalReviewCount": 272,
+        "RecommendedCount": 272,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 259,
+                "Value": "True"
+              },
+              {
+                "Count": 4,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 272
+    },
+    {
+      "Description": "At the Wausau, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Wausau Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Wausau",
+      "Id": "10431",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/wausau/4720-rib-mountain-drive.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.934426229508197,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.852459016393443,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.925,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "NotRecommendedCount": 1,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 117,
+                "Value": "True"
+              },
+              {
+                "Count": 2,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 4,
+        "FeaturedReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-24T17:33:00.000+00:00",
+        "LastSubmissionTime": "2021-11-05T22:09:38.000+00:00",
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 119,
+        "AverageOverallRating": 4.885245901639344,
+        "TotalReviewCount": 122,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 111
+          },
+          {
+            "RatingValue": 4,
+            "Count": 10
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "NotHelpfulVoteCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 122
+    },
+    {
+      "Description": "At the Appleton, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Appleton Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Fox River Mall",
+      "Id": "10429",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/appleton/4301-w-wisconsin-ave.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RatingsOnlyReviewCount": 0,
+        "AverageOverallRating": 4.856540084388186,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.860169491525424,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.890295358649789,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.76595744680851,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "FirstSubmissionTime": "2017-09-28T15:42:57.000+00:00",
+        "LastSubmissionTime": "2021-11-30T15:30:45.000+00:00",
+        "TotalReviewCount": 237,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 222,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotRecommendedCount": 5,
+        "FeaturedReviewCount": 0,
+        "NotHelpfulVoteCount": 0,
+        "RecommendedCount": 231,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 215
+          },
+          {
+            "RatingValue": 4,
+            "Count": 16
+          },
+          {
+            "RatingValue": 1,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          }
+        ],
+        "HelpfulVoteCount": 4,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 237
+    },
+    {
+      "Description": "At the Omaha, NE Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Omaha Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "West Omaha",
+      "Id": "10427",
+      "CategoryId": "NE",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ne/omaha/17710-west-center-road.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotRecommendedCount": 2,
+        "FeaturedReviewCount": 0,
+        "AverageOverallRating": 4.934497816593886,
+        "NotHelpfulVoteCount": 1,
+        "TotalReviewCount": 229,
+        "FirstSubmissionTime": "2017-09-21T20:26:20.000+00:00",
+        "LastSubmissionTime": "2021-11-16T16:24:14.000+00:00",
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.921052631578948,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.9035087719298245,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.9475982532751095,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 215,
+                "Value": "True"
+              },
+              {
+                "Count": 9,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "RecommendedCount": 227,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 216
+          },
+          {
+            "RatingValue": 4,
+            "Count": 11
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          }
+        ],
+        "HelpfulVoteCount": 7,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 229
+    },
+    {
+      "Description": "At the Cedar Rapids, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Cedar Rapids Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Lindale Mall",
+      "Id": "10404",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/cedar-rapids/4444-1st-ave-ne.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "HelpfulVoteCount": 3,
+        "TotalReviewCount": 111,
+        "NotRecommendedCount": 5,
+        "NotHelpfulVoteCount": 1,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 90
+          },
+          {
+            "RatingValue": 4,
+            "Count": 14
+          },
+          {
+            "RatingValue": 1,
+            "Count": 3
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 2
+          }
+        ],
+        "RecommendedCount": 106,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 100,
+                "Value": "True"
+              },
+              {
+                "Count": 4,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "AverageOverallRating": 4.675675675675675,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.72972972972973,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.7657657657657655,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.7207207207207205,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "FeaturedReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-22T04:36:02.000+00:00",
+        "LastSubmissionTime": "2021-10-22T00:50:31.000+00:00",
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 111
+    },
+    {
+      "Description": "At the Waterloo, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Waterloo Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Waterloo",
+      "Id": "10403",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/waterloo/2027-crossroads-blvd.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "FirstSubmissionTime": "2017-10-09T16:19:24.000+00:00",
+        "LastSubmissionTime": "2021-11-16T01:21:02.000+00:00",
+        "AverageOverallRating": 4.84375,
+        "TotalReviewCount": 64,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.828125,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.857142857142857,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.796875,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 58,
+                "Value": "True"
+              },
+              {
+                "Count": 1,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RecommendedCount": 63,
+        "NotRecommendedCount": 1,
+        "NotHelpfulVoteCount": 0,
+        "FeaturedReviewCount": 0,
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 4,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 57
+          },
+          {
+            "RatingValue": 4,
+            "Count": 6
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 64
+    },
+    {
+      "Description": "At the Coralville, IA Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Coralville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Coral Ridge Mall",
+      "Id": "10402",
+      "CategoryId": "IA",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/ia/coralville/1451-coral-ridge-ave.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "TotalReviewCount": 153,
+        "RecommendedCount": 151,
+        "FirstSubmissionTime": "2017-09-21T23:23:40.000+00:00",
+        "LastSubmissionTime": "2021-11-06T16:28:13.000+00:00",
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.869281045751634,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.862745098039215,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.860927152317881,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 143,
+                "Value": "True"
+              },
+              {
+                "Count": 3,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 134
+          },
+          {
+            "RatingValue": 4,
+            "Count": 16
+          },
+          {
+            "RatingValue": 2,
+            "Count": 2
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "NotHelpfulVoteCount": 4,
+        "NotRecommendedCount": 2,
+        "RatingsOnlyReviewCount": 0,
+        "FeaturedReviewCount": 0,
+        "AverageOverallRating": 4.8431372549019605,
+        "HelpfulVoteCount": 7,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 153
+    },
+    {
+      "Description": "At the Delafield, WI Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Delafield Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Delafield",
+      "Id": "10350",
+      "CategoryId": "WI",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/wi/delafield/2916-golf-road.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.942196531791907,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.837209302325581,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.954022988505747,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "FeaturedReviewCount": 0,
+        "TotalReviewCount": 174,
+        "AverageOverallRating": 4.908045977011494,
+        "HelpfulVoteCount": 5,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 159
+          },
+          {
+            "RatingValue": 4,
+            "Count": 14
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 162,
+                "Value": "True"
+              },
+              {
+                "Count": 5,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "NotHelpfulVoteCount": 0,
+        "NotRecommendedCount": 0,
+        "RecommendedCount": 172,
+        "RatingsOnlyReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-22T01:08:26.000+00:00",
+        "LastSubmissionTime": "2021-11-30T15:20:02.000+00:00",
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 174
+    },
+    {
+      "Description": "At the Roseville, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Roseville Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Roseville",
+      "Id": "10334",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/roseville/1719-county-rd-b2-west.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "NotHelpfulVoteCount": 1,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.875621890547263,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.893939393939394,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.82089552238806,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "RecommendedCount": 198,
+        "TotalReviewCount": 201,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 189,
+                "Value": "True"
+              },
+              {
+                "Count": 7,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 2,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 187
+          },
+          {
+            "RatingValue": 4,
+            "Count": 13
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "RatingsOnlyReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-21T21:08:22.000+00:00",
+        "LastSubmissionTime": "2021-11-06T15:25:57.000+00:00",
+        "AverageOverallRating": 4.925373134328358,
+        "FeaturedReviewCount": 0,
+        "NotRecommendedCount": 1,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 201
+    },
+    {
+      "Description": "At the St. Cloud, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the St. Cloud Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "St. Cloud",
+      "Id": "10333",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/st-cloud/4170-west-division-street.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 170
+          },
+          {
+            "RatingValue": 4,
+            "Count": 26
+          },
+          {
+            "RatingValue": 1,
+            "Count": 2
+          },
+          {
+            "RatingValue": 2,
+            "Count": 1
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "AverageOverallRating": 4.805,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.834170854271357,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.865,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.893939393939394,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "RecommendedCount": 196,
+        "NotHelpfulVoteCount": 1,
+        "NotRecommendedCount": 1,
+        "TotalReviewCount": 200,
+        "RatingsOnlyReviewCount": 0,
+        "FirstSubmissionTime": "2017-09-21T22:23:39.000+00:00",
+        "LastSubmissionTime": "2021-11-26T23:03:27.000+00:00",
+        "HelpfulVoteCount": 9,
+        "FeaturedReviewCount": 0,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 186,
+                "Value": "True"
+              },
+              {
+                "Count": 7,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 200
+    },
+    {
+      "Description": "At the Edina, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Edina Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Edina-France Ave.",
+      "Id": "10332",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/edina/3871-gallagher-drive.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.911111111111111,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.779411764705882,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.82962962962963,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          }
+        },
+        "TotalReviewCount": 136,
+        "NotRecommendedCount": 2,
+        "RecommendedCount": 134,
+        "FeaturedReviewCount": 0,
+        "HelpfulVoteCount": 1,
+        "FirstSubmissionTime": "2017-09-21T20:16:43.000+00:00",
+        "LastSubmissionTime": "2021-11-20T19:03:58.000+00:00",
+        "NotHelpfulVoteCount": 1,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 127,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "AverageOverallRating": 4.8161764705882355,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 117
+          },
+          {
+            "RatingValue": 4,
+            "Count": 15
+          },
+          {
+            "RatingValue": 3,
+            "Count": 3
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          }
+        ],
+        "RatingsOnlyReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 136
+    },
+    {
+      "Description": "At the Bloomington, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Bloomington Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Mall of America",
+      "Id": "10323",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/bloomington/256-s-avenue.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "TotalReviewCount": 120,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 115,
+                "Value": "True"
+              },
+              {
+                "Count": 4,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "HelpfulVoteCount": 4,
+        "FirstSubmissionTime": "2017-09-21T21:44:07.000+00:00",
+        "LastSubmissionTime": "2021-09-01T21:05:14.000+00:00",
+        "RecommendedCount": 119,
+        "FeaturedReviewCount": 0,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 99
+          },
+          {
+            "RatingValue": 4,
+            "Count": 16
+          },
+          {
+            "RatingValue": 3,
+            "Count": 5
+          }
+        ],
+        "NotHelpfulVoteCount": 1,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.7899159663865545,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.697478991596639,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.798319327731092,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          }
+        },
+        "NotRecommendedCount": 1,
+        "AverageOverallRating": 4.783333333333333,
+        "RatingsOnlyReviewCount": 0,
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 120
+    },
+    {
+      "Description": "At the Minnetonka, MN Sleep Number store, we're improving lives by individualizing sleep experiences. Only Sleep Number mattresses allow you to adjust each side to your ideal firmness, support and pressure-relieving comfort - your Sleep Number setting- for the deep, restful sleep you both deserve. The Sleep Number bed is the only bed available with SleepIQ technology to track and optimize your sleep. You can complete your sleep experience with the exclusive Sleep Number bedding collection, from cozy warm comforters to pillows individualized to you. Visit the Minnetonka Sleep Number store where one of our Sleep Professionals will help you find the right Sleep Number bed to help you sleep better. For more information, please call or go to our website. Know better sleep. Only at Sleep Number",
+      "ImageUrl": "http://a.mktgcdn.com/p/N6MWUHAaX_OstqT8QdC35XvlmrGyrnBHb_ORRWExYkM/600x600.jpg",
+      "Name": "Ridgedale Center",
+      "Id": "10322",
+      "CategoryId": "MN",
+      "BrandExternalId": "Sleep Number",
+      "Brand": {
+        "Id": "Sleep Number",
+        "Name": "Sleep Number"
+      },
+      "Active": true,
+      "ProductPageUrl": "https://stores.sleepnumber.com/mn/minnetonka/12637-wayzata-blvd.html",
+      "Disabled": false,
+      "FamilyIds": [],
+      "UPCs": [],
+      "EANs": [],
+      "StoryIds": [],
+      "ModelNumbers": [],
+      "Attributes": {},
+      "QuestionIds": [],
+      "ISBNs": [],
+      "AttributesOrder": [],
+      "ReviewIds": [],
+      "ManufacturerPartNumbers": [],
+      "ReviewStatistics": {
+        "TotalReviewCount": 231,
+        "RecommendedCount": 227,
+        "RatingDistribution": [
+          {
+            "RatingValue": 5,
+            "Count": 205
+          },
+          {
+            "RatingValue": 4,
+            "Count": 24
+          },
+          {
+            "RatingValue": 1,
+            "Count": 1
+          },
+          {
+            "RatingValue": 3,
+            "Count": 1
+          }
+        ],
+        "NotHelpfulVoteCount": 0,
+        "AverageOverallRating": 4.87012987012987,
+        "NotRecommendedCount": 1,
+        "FeaturedReviewCount": 0,
+        "SecondaryRatingsAveragesOrder": [
+          "knowledge",
+          "VisualAppeal",
+          "CustomerService"
+        ],
+        "SecondaryRatingsAverages": {
+          "CustomerService": {
+            "Id": "CustomerService",
+            "AverageRating": 4.895196506550218,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Customer Service"
+          },
+          "knowledge": {
+            "Id": "knowledge",
+            "AverageRating": 4.917391304347826,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Knowledgeable Staff"
+          },
+          "VisualAppeal": {
+            "Id": "VisualAppeal",
+            "AverageRating": 4.782608695652174,
+            "MinLabel": null,
+            "DisplayType": "NORMAL",
+            "MaxLabel": null,
+            "ValueRange": 5,
+            "Label": "Visual Appeal"
+          }
+        },
+        "RatingsOnlyReviewCount": 0,
+        "HelpfulVoteCount": 11,
+        "ContextDataDistributionOrder": ["IncentivizedReview"],
+        "ContextDataDistribution": {
+          "IncentivizedReview": {
+            "Id": "IncentivizedReview",
+            "Values": [
+              {
+                "Count": 213,
+                "Value": "True"
+              },
+              {
+                "Count": 6,
+                "Value": "No"
+              }
+            ],
+            "Label": "Entered into a sweepstakes:"
+          }
+        },
+        "FirstSubmissionTime": "2017-09-21T21:27:17.000+00:00",
+        "LastSubmissionTime": "2021-11-18T13:02:21.000+00:00",
+        "TagDistribution": {},
+        "OverallRatingRange": 5,
+        "TagDistributionOrder": []
+      },
+      "TotalReviewCount": 231
+    }
+  ],
+  "Includes": {},
+  "HasErrors": false,
+  "Errors": []
+}

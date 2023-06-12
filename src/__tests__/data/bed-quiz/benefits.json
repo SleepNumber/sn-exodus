@@ -1,0 +1,150 @@
+{
+  "mattress": [
+    [
+      {
+        "id": "277689a1-4670-494a-ae1b-ca983532c6c3",
+        "copy": "King sized mattress"
+      },
+      {
+        "id": "fae3c6cd-5934-461d-99c9-a422aa068435",
+        "copy": "Adjustable firmness on each side, so it’s <strong>just right for both of you</strong>"
+      },
+      {
+        "id": "daa0bb19-ab67-4323-b8bb-9f86ed6466a3",
+        "copy": "Contours to your neck, shoulders, back and hips so <strong>you wake up feeling refreshed</strong>"
+      },
+      {
+        "id": "cbf8ec5b-3bba-4469-a1e8-0b5ed753308c",
+        "copy": "Individualized support reduces pressure points so <strong>you toss and turn less</strong>"
+      },
+      {
+        "id": "59491086-5b68-4189-a710-2f22f4e9a19f",
+        "copy": "Senses movements and automatically <strong>adjusts to keep you asleep</strong>"
+      },
+      {
+        "id": "a559c2ab-21b3-4efd-870f-c4be51502d67",
+        "copy": "Shows your sleep quality and gives personalized insights for your best sleep"
+      },
+      {
+        "id": "721edf99-5424-4fe4-9218-babe4e72d1a1",
+        "copy": "Enhanced pressure relief"
+      },
+      { "id": "703163b0-572e-48a2-a47a-aaa0c85bb7fa", "copy": null }
+    ],
+    [
+      {
+        "id": "9644aa26-6854-4716-b75b-f82f8c21c7fb",
+        "copy": "King sized mattress"
+      },
+      {
+        "id": "62f91e98-2b46-4229-abbe-e440df5f494d",
+        "copy": "Adjustable firmness on each side, so it’s <strong>just right for both of you</strong>"
+      },
+      {
+        "id": "eca0ab6b-e6b9-4520-8aaf-bc406af40f91",
+        "copy": "Contours to your neck, shoulders, back and hips so <strong>you wake up feeling refreshed</strong>"
+      },
+      {
+        "id": "0c41d84c-126d-44f9-8a6d-d420a7f3efab",
+        "copy": "Individualized support reduces pressure points so <strong>you toss and turn less</strong>"
+      },
+      {
+        "id": "1f039ac8-69a2-4f7f-8bfd-161a478688f7",
+        "copy": "Senses movements and automatically <strong>adjusts to keep you asleep</strong>"
+      },
+      {
+        "id": "2c4ef48a-bd5f-4c87-9e07-3eb0661da854",
+        "copy": "Shows your sleep quality and gives personalized insights for your best sleep"
+      },
+      {
+        "id": "b34074f8-b368-4880-83b3-55bdc228eb8c",
+        "copy": "Enhanced pressure relief"
+      },
+      {
+        "id": "7968ccd9-bfe9-40d2-86d4-5d44cc01b592",
+        "copy": "Soothing, <strong>cool</strong> comfort layer"
+      }
+    ],
+    [
+      {
+        "id": "76b3c748-283b-4831-846a-ec17a0ee88c6",
+        "copy": "King sized mattress"
+      },
+      {
+        "id": "ee6f2d4f-f182-4efb-890a-41fca9dd402c",
+        "copy": "Adjustable firmness on each side, so it’s <strong>just right for both of you</strong>"
+      },
+      {
+        "id": "4f822615-ef78-4a39-8bc8-f13c681f3f02",
+        "copy": "Contours to your neck, shoulders, back and hips so <strong>you wake up feeling refreshed</strong>"
+      },
+      {
+        "id": "84f2a2b6-f938-4e02-b67d-4afefd5fe309",
+        "copy": "Individualized support reduces pressure points so <strong>you toss and turn less</strong>"
+      },
+      {
+        "id": "1adea43f-871f-4c04-bab3-d9354ea5e4e5",
+        "copy": "Senses movements and automatically <strong>adjusts to keep you asleep</strong>"
+      },
+      {
+        "id": "7b9dfbff-cd39-41d4-980f-2a9af149cf19",
+        "copy": "Shows your sleep quality and gives personalized insights for your best sleep"
+      },
+      { "id": "c272b024-7382-4924-9055-99042e3bea5c", "copy": null },
+      { "id": "83bf5b9c-0f96-4b00-9aeb-e4f146530cdf", "copy": null }
+    ]
+  ],
+  "base": [
+    [
+      {
+        "id": "872a0556-f567-435a-bda2-f3f5db00a543",
+        "copy": null
+      },
+      {
+        "id": "303dfeca-f736-466b-9273-c354a56e8033",
+        "copy": null
+      },
+      { "id": "b7476aa0-ccdd-4c55-86f1-386c8087627d", "copy": null },
+      { "id": "1d6e96d3-d41a-4ab0-b2fe-1ecfdd80602a", "copy": null },
+      { "id": "f373dc94-869c-49c3-a481-63a338e4de49", "copy": null },
+      { "id": "0ca4ebbf-1478-4a83-a126-c165335af59f", "copy": null }
+    ],
+    [
+      {
+        "id": "3fa10126-92c5-4f7b-9c1d-4cf91f68fb77",
+        "copy": null
+      },
+      {
+        "id": "acf492ec-3b49-4eba-b399-63049894d898",
+        "copy": null
+      },
+      {
+        "id": "3c4860b7-57d8-4163-b894-acc4c6804b52",
+        "copy": null
+      },
+      { "id": "6e65a10f-34d2-44d0-877c-0ad962e709f5", "copy": null },
+      { "id": "874ac077-3771-4d12-9685-293e88059490", "copy": null },
+      { "id": "665da87f-b2ff-4117-82ad-0790bf89b3ff", "copy": null }
+    ],
+    [
+      {
+        "id": "525b253b-f8f3-4dce-8f45-ef830333d75e",
+        "copy": "Raises your head to <strong>alleviate snoring</strong><sup>*</sup>"
+      },
+      {
+        "id": "549e5e99-a835-49e0-9cd4-cd361b20aa7f",
+        "copy": "Raise the head and foot of your bed for <strong>ultimate relaxation as you read & watch TV</strong>"
+      },
+      {
+        "id": "b45b4d21-9023-421b-9ef1-5581dcde83f6",
+        "copy": "Endless head and foot positions enhance comfort and well-being <strong>so you wake up feeling refreshed</strong>"
+      },
+      { "id": "1195cfe7-a7fc-4994-9fd3-f3be4138ad0a", "copy": null },
+      {
+        "id": "c83458f3-14e0-47dd-ac77-9f0237cf94ff",
+        "copy": null
+      },
+      { "id": "68d5bd35-4216-4cad-a14d-d298e2f82e38", "copy": null }
+    ]
+  ]
+}

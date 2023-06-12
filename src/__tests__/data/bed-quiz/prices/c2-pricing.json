@@ -1,0 +1,24 @@
+{
+  "pricing": {
+    "value": 499,
+    "formatted": "$499",
+    "has_sale": true,
+    "reg_price": { "value": 999, "formatted": "$999" },
+    "sale_price": { "value": 499, "formatted": "$499" },
+    "savings": { "value": 500, "formatted": "$500", "percent": "50%" }
+  },
+  "financing": {
+    "description": null,
+    "name": "48 Month Financing on Performance Series",
+    "id": "5ec69acfebfd13001a489a83",
+    "months": 48,
+    "value": 11,
+    "non_stackable": false,
+    "default": false,
+    "deferred": false,
+    "end_date": 1604335918000,
+    "promo_code": "449",
+    "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+  },
+  "promo_badge_message": "$500 Off"
+}

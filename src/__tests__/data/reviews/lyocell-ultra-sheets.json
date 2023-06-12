@@ -1,0 +1,1081 @@
+{
+  "Limit": 8,
+  "Offset": 0,
+  "TotalResults": 843,
+  "Locale": "en_US",
+  "Results": [
+    {
+      "Id": "154329200",
+      "CID": "f5f3f326-a888-5e1f-aafa-cbc40a8acf70",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-04-06T00:45:09.000+00:00",
+      "LastModificationTime": "2020-04-06T00:45:09.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "UserLocation": "fairfax, VA",
+      "AuthorId": "3ce1eieb81sdoxwlmy3itttve",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 0,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "kzmtyvw2zdbtryn119k8d51ee",
+      "SubmissionTime": "2020-04-05T22:08:54.000+00:00",
+      "ReviewText": "The bedding is so soft! Also if you have pets sleeping in the bed, like us, their hair/fur comes RIGHT off and does not get stuck. Love it!",
+      "Title": "Great for pets",
+      "UserNickname": "Rachellllll",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "18to24",
+          "Id": "Age",
+          "ValueLabel": "18-24",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Male",
+          "Id": "Gender",
+          "ValueLabel": "Male",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "35",
+          "Id": "SleepNumber",
+          "ValueLabel": "35",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "ClientResponses": [],
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "154317494",
+      "CID": "57003ce2-7ec7-590f-b9f9-6d4f880eb329",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-04-05T16:00:13.000+00:00",
+      "LastModificationTime": "2020-04-05T16:00:13.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "We appreciate the review!",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Cory M.",
+          "Date": "2020-04-05T16:00:01.000+00:00"
+        }
+      ],
+      "UserLocation": "Saint Paul, Mn",
+      "AuthorId": "etrdt6jvcda2op64blygppfx7",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "2jrhsq3km73x2tzghc214wwou",
+      "SubmissionTime": "2020-04-05T15:37:04.000+00:00",
+      "ReviewText": "We are on our second sleep number bed in the past 7 years.  We only use the lyocell bedding because of the comfort and thinness. They are breathable.",
+      "Title": "Never use another",
+      "UserNickname": "Plus1mo33",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "45to54",
+          "Id": "Age",
+          "ValueLabel": "45-54",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Male",
+          "Id": "Gender",
+          "ValueLabel": "Male",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "35",
+          "Id": "SleepNumber",
+          "ValueLabel": "35",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "154308279",
+      "CID": "837501d2-1df4-5162-bc44-1d784269c7fe",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-04-05T14:15:17.000+00:00",
+      "LastModificationTime": "2020-04-05T14:15:17.000+00:00",
+      "ProductId": "lyocell-ultra-sheet-set-blush",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "Fantastic! Your review is appreciated :-)",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Cory M.",
+          "Date": "2020-04-05T14:01:31.000+00:00"
+        }
+      ],
+      "UserLocation": "Melbourne Fl",
+      "AuthorId": "djgdzli1pvkmv8sr2pjif6bg9",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "mkz30r17e86q1u6jc678ejda4",
+      "SubmissionTime": "2020-04-05T03:45:10.000+00:00",
+      "ReviewText": "Love these sheets. Like sleeping on Lyocell Ulta Sheets so soft and cool",
+      "Title": "Great color",
+      "UserNickname": "Bug18",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "Over65",
+          "Id": "Age",
+          "ValueLabel": "Over 65",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Female",
+          "Id": "Gender",
+          "ValueLabel": "Female",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "50",
+          "Id": "SleepNumber",
+          "ValueLabel": "50",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 4,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "154290366",
+      "CID": "7af236fc-71de-5398-a295-64dd21e0d3a3",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-04-04T20:45:09.000+00:00",
+      "LastModificationTime": "2020-04-04T21:04:26.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "Awesome you love your Lyocell Ultra Sheets! Thanks for sharing.",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Ry M.",
+          "Date": "2020-04-04T21:04:26.000+00:00"
+        }
+      ],
+      "UserLocation": "Pensacola,FL",
+      "AuthorId": "di8799n1x1sjif7qkxwx4hula",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "dcrk65qqizwp7jmxiv4noqje0",
+      "SubmissionTime": "2020-04-04T20:29:49.000+00:00",
+      "ReviewText": "Love my new sheets! They make my new comfy bed even that much better! Love how soft they are!",
+      "Title": "Very soft",
+      "UserNickname": "Sarahkat",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "30to34",
+          "Id": "Age",
+          "ValueLabel": "30-34",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Female",
+          "Id": "Gender",
+          "ValueLabel": "Female",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "30",
+          "Id": "SleepNumber",
+          "ValueLabel": "30",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "154290290",
+      "CID": "6b895a67-107b-5289-b844-ad4f57aedf60",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes"],
+      "LastModeratedTime": "2020-04-04T20:30:08.000+00:00",
+      "LastModificationTime": "2020-04-04T21:19:16.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "Thanks for rating!",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Ry M.",
+          "Date": "2020-04-04T21:19:16.000+00:00"
+        }
+      ],
+      "AuthorId": "sz6t51odgwqpbldp36d8xkoq0",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": true,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "3pgyr17ylwjn2wo6dndqggycf",
+      "SubmissionTime": "2020-04-04T20:27:29.000+00:00",
+      "UserNickname": "Feisty dolphin",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "45to54",
+          "Id": "Age",
+          "ValueLabel": "45-54",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Female",
+          "Id": "Gender",
+          "ValueLabel": "Female",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "35",
+          "Id": "SleepNumber",
+          "ValueLabel": "35",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "ReviewText": null,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "Title": null,
+      "UserLocation": null,
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "154215069",
+      "CID": "b5e9d650-d8cf-5cb1-bac3-8728743116ac",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-04-03T13:45:16.000+00:00",
+      "LastModificationTime": "2020-04-04T13:00:21.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "Thanks for your review. We're happy you love your Lyocell Ultra Sheets!",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Ry M.",
+          "Date": "2020-04-03T18:41:53.000+00:00"
+        }
+      ],
+      "UserLocation": "Loveland, Ohio",
+      "AuthorId": "dvoja3g0y8p5wiha44k3cys30",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "Helpfulness": 1,
+      "TotalFeedbackCount": 1,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 1,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "6hveyo10pbhim0n02z19q5ggl",
+      "SubmissionTime": "2020-04-03T13:00:32.000+00:00",
+      "ReviewText": "Very soft and cooling sheets. We love them and they fit great!",
+      "Title": "Great sheets",
+      "UserNickname": "Mtbruns5",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "45to54",
+          "Id": "Age",
+          "ValueLabel": "45-54",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "SleepNumber": {
+          "Value": "25",
+          "Id": "SleepNumber",
+          "ValueLabel": "25",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 4,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "153855028",
+      "CID": "0bc6852e-cae0-5ed5-bd32-673a1517976f",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes"],
+      "LastModeratedTime": "2020-04-01T15:30:25.000+00:00",
+      "LastModificationTime": "2020-04-04T13:00:29.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "We're glad they've been a great fit! Thanks for sharing your review. ",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Maggie G",
+          "Date": "2020-04-01T20:42:47.000+00:00"
+        }
+      ],
+      "UserLocation": "Peshtigo, Wi",
+      "AuthorId": "lb4k740z7vbzmdht494p9bssk",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "Helpfulness": 1,
+      "TotalFeedbackCount": 1,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 1,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "2ditp5w6rffdimnjvdc775v86",
+      "SubmissionTime": "2020-04-01T15:00:50.000+00:00",
+      "ReviewText": "All of our other sheets kept coming off our bed. I purchased these sheets and they are amazing!  I no longer have to worry about my sheets coming off!  They stay on night after night!",
+      "Title": "Great features!",
+      "UserNickname": "Pate26",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "45to54",
+          "Id": "Age",
+          "ValueLabel": "45-54",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Female",
+          "Id": "Gender",
+          "ValueLabel": "Female",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "30",
+          "Id": "SleepNumber",
+          "ValueLabel": "30",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    },
+    {
+      "Id": "153303036",
+      "CID": "87cad108-e003-58a8-b024-e3112c1a0508",
+      "SourceClient": "selectcomfort",
+      "Badges": {
+        "VerifiedPurchaser_1Yes": {
+          "ContentType": "REVIEW",
+          "Id": "VerifiedPurchaser_1Yes",
+          "BadgeType": "Custom"
+        },
+        "incentivizedReview": {
+          "ContentType": "REVIEW",
+          "Id": "incentivizedReview",
+          "BadgeType": "Custom"
+        }
+      },
+      "BadgesOrder": ["VerifiedPurchaser_1Yes", "incentivizedReview"],
+      "LastModeratedTime": "2020-03-31T23:45:12.000+00:00",
+      "LastModificationTime": "2020-04-01T22:18:22.000+00:00",
+      "ProductId": "lyocell-ultra-sheets",
+      "CampaignId": "inner_circle_activity",
+      "ContextDataValuesOrder": [
+        "Age",
+        "Gender",
+        "SleepNumber",
+        "EmployeeOrFamilyMember",
+        "VerifiedPurchaser_1"
+      ],
+      "ClientResponses": [
+        {
+          "Department": "Customer Service",
+          "Response": "Fantastic you love your sheets! Thanks for your recommendation.",
+          "ResponseType": "",
+          "ResponseSource": "Workbench",
+          "Name": "Ry M.",
+          "Date": "2020-04-01T22:18:22.000+00:00"
+        }
+      ],
+      "UserLocation": "NV",
+      "AuthorId": "hoi3yhbyiowjsou894tfolbyj",
+      "ContentLocale": "en_US",
+      "IsFeatured": false,
+      "TotalInappropriateFeedbackCount": 0,
+      "TotalClientResponseCount": 1,
+      "TotalCommentCount": 0,
+      "Rating": 5,
+      "SecondaryRatingsOrder": ["Comfort", "Quality", "Value"],
+      "IsRatingsOnly": false,
+      "TotalFeedbackCount": 0,
+      "TotalNegativeFeedbackCount": 0,
+      "TotalPositiveFeedbackCount": 0,
+      "ModerationStatus": "APPROVED",
+      "SubmissionId": "9isa1khrlzugrx5ry0lxq5esy",
+      "SubmissionTime": "2020-03-31T23:20:37.000+00:00",
+      "ReviewText": "We just purchased these sheets and have been sleeping on them for a couple of weeks. We LOVE them! They are so soft yet breathable. They do not cause you to overheat at all. They are thin yet great quality. They fit wonderfully on our bed as well. We highly recommend them!",
+      "Title": "So soft and breathable",
+      "UserNickname": "775Kel",
+      "ContextDataValues": {
+        "Age": {
+          "Value": "35to44",
+          "Id": "Age",
+          "ValueLabel": "35-44",
+          "DimensionLabel": "Age"
+        },
+        "EmployeeOrFamilyMember": {
+          "Value": "No",
+          "Id": "EmployeeOrFamilyMember",
+          "ValueLabel": "No",
+          "DimensionLabel": "EmployeeOrFamily"
+        },
+        "VerifiedPurchaser_1": {
+          "Value": "Yes",
+          "Id": "VerifiedPurchaser_1",
+          "ValueLabel": "Yes",
+          "DimensionLabel": "Verified Purchaser"
+        },
+        "Gender": {
+          "Value": "Female",
+          "Id": "Gender",
+          "ValueLabel": "Female",
+          "DimensionLabel": "Gender"
+        },
+        "SleepNumber": {
+          "Value": "85",
+          "Id": "SleepNumber",
+          "ValueLabel": "85",
+          "DimensionLabel": "Sleep Number"
+        }
+      },
+      "SecondaryRatings": {
+        "Value": {
+          "Value": 5,
+          "Id": "Value",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Value",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Comfort": {
+          "Value": 5,
+          "Id": "Comfort",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Comfort",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Value": 5,
+          "Id": "Quality",
+          "MaxLabel": null,
+          "ValueLabel": null,
+          "ValueRange": 5,
+          "Label": "Quality",
+          "MinLabel": null,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "TagDimensionsOrder": [],
+      "TagDimensions": {},
+      "IsSyndicated": false,
+      "Photos": [],
+      "AdditionalFields": {},
+      "IsRecommended": null,
+      "CommentIds": [],
+      "InappropriateFeedbackList": [],
+      "Videos": [],
+      "AdditionalFieldsOrder": [],
+      "RatingRange": 5,
+      "Cons": null,
+      "Helpfulness": null,
+      "ProductRecommendationIds": [],
+      "Pros": null
+    }
+  ],
+  "Includes": {},
+  "HasErrors": false,
+  "Errors": []
+}

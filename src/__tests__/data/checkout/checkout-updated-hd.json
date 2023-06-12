@@ -1,0 +1,628 @@
+{
+  "id": "B44DF34A9B",
+  "hashed_id": "824584",
+  "url": "https://qa.sleepnumber.com/orders/B44DF34A9B",
+  "share_url": "https://qa.sleepnumber.com/shared_cart/pCJ5QxeJfx11soJwC8qbCmzL",
+  "user_id": null,
+  "email": "mkqtesting@gmail.com",
+  "placed_at": "2021-08-16T14:29:13.512-05:00",
+  "canceled_at": null,
+  "promo_codes": [],
+  "promo_code_data": [],
+  "reward_codes": [],
+  "reward_forfeiture": 0,
+  "requires_shipping": true,
+  "tax_rate": 1,
+  "vertex_flag": true,
+  "calculation_status": "ACTUAL",
+  "segment_ids": [
+    "first_time_visitor",
+    "60d0e75331cd2a0017dd521c"
+  ],
+  "nonstackable_product_ids": [],
+  "items": [
+    {
+      "id": "611abb85541e1b00182bdd95",
+      "product_id": "ff1-360",
+      "product_url": "https://qa.sleepnumber.com/products/ff1?sku=QFA40",
+      "product": {
+        "id": "ff1-360",
+        "bazaar_voice_id": "ff1-360",
+        "name": "Flexfit™ 1 Base",
+        "bundle_name": null,
+        "type": "adjustable_base",
+        "description": "Gently raise your partner's side to help prevent snoring.* It's smart adjustability, comfortably priced.",
+        "long_description": null,
+        "reference_description": null,
+        "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+        "positioning_statement": "Take the roar out of snore™",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ff1",
+        "original_slug": "ff1",
+        "browser_title": "Flexfit™ 1 Base",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head control) options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "3AB36310BB",
+            "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/icons_button_head_adjust.svg",
+            "name": "Head Adjust",
+            "text": "Perfect for reading and watching TV",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "F2DFEFEEB4",
+            "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/icons_button_partner_snore.svg",
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "D8A5FA3EA7",
+            "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/icons_button_light_control.svg",
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": "",
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "60997ea538a95c001898aaac",
+            "alt_text": "",
+            "options": {
+              "Size": ""
+            },
+            "position": 3,
+            "primary": true,
+            "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1629141895/workarea/catalog/product_images/ff1/i8_Icon_Base_FX1",
+            "tags": [
+              "thumbnail",
+              "standard"
+            ]
+          },
+          {
+            "id": "60997eca38a95c001898ab6b",
+            "alt_text": "",
+            "options": {
+              "Size": ""
+            },
+            "position": 5,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1629141895/workarea/catalog/product_images/ff1/i8_Icon_Base_FlexTop_FX1",
+            "tags": [
+              "thumbnail",
+              "flextop"
+            ]
+          },
+          {
+            "id": "60997ede38a95c001898acf6",
+            "alt_text": "",
+            "options": {
+              "Size": ""
+            },
+            "position": 5,
+            "primary": false,
+            "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1629141895/workarea/catalog/product_images/ff1/i8_Icon_Base_Split_FX1",
+            "tags": [
+              "thumbnail",
+              "split"
+            ]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5f34616e92fc7500013e01d0",
+            "active": true,
+            "details": {
+              "Size": [
+                "FlexTop King"
+              ]
+            },
+            "name": "FlexFit 1 360 FlexTop King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "AFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01d3",
+            "active": true,
+            "details": {
+              "Size": [
+                "FlexTop California King"
+              ]
+            },
+            "name": "FlexFit 1 360 FlexTop California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "BFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01d1",
+            "active": true,
+            "details": {
+              "Size": [
+                "California King"
+              ]
+            },
+            "name": "FlexFit 1 360 California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "CFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01cc",
+            "active": true,
+            "details": {
+              "Size": [
+                "Full"
+              ]
+            },
+            "name": "FlexFit 1 360 Full",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "FFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01ce",
+            "active": true,
+            "details": {
+              "Size": [
+                "King"
+              ]
+            },
+            "name": "FlexFit 1 360 King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "KFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01d2",
+            "active": true,
+            "details": {
+              "Size": [
+                "Split California King"
+              ]
+            },
+            "name": "FlexFit 1 360 Split California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "PFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01cd",
+            "active": true,
+            "details": {
+              "Size": [
+                "Queen"
+              ]
+            },
+            "name": "FlexFit 1 360 Queen",
+            "regular": {
+              "cents": 2500,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 2500,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "QFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01cf",
+            "active": true,
+            "details": {
+              "Size": [
+                "Split King"
+              ]
+            },
+            "name": "FlexFit 1 360 Split King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "SFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          },
+          {
+            "id": "5f34616e92fc7500013e01cb",
+            "active": true,
+            "details": {
+              "Size": [
+                "Twin Long"
+              ]
+            },
+            "name": "FlexFit 1 360 Twin XL",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "on_clearance": false,
+            "sku": "XFA40",
+            "promo_badge_message": null,
+            "alternate_promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "promo_id": null,
+            "financing": null,
+            "inventory_message": "In Stock",
+            "inventory_count": 99999
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "review_stats": {}
+      },
+      "sku": "QFA40",
+      "quantity": 1,
+      "options": {
+        "Size": "Queen"
+      },
+      "customizations": {},
+      "pricing": {
+        "price_adjustments": [
+          {
+            "description": "Item Subtotal",
+            "discount": false,
+            "fee": false,
+            "amount": {
+              "cents": 2500,
+              "currency_iso": "USD"
+            }
+          },
+          {
+            "description": "Recycling Fee",
+            "discount": false,
+            "fee": true,
+            "amount": {
+              "cents": 1050,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "customized": false,
+        "customizations_unit_price": {
+          "cents": 0,
+          "currency_iso": "USD"
+        },
+        "original_unit_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "total_regular_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        },
+        "total_price": {
+          "cents": 2500,
+          "currency_iso": "USD"
+        }
+      },
+      "promo_message": null,
+      "bundle": false,
+      "family_product_id": null,
+      "bundle_index": null,
+      "sku_list": [
+        "QFA40"
+      ]
+    }
+  ],
+  "financing_options": [
+    {
+      "description": "12 Months No Interest if Paid in Full",
+      "name": "12 Months All Day Every Day",
+      "id": "5f7e29925f188f00704ba12b",
+      "months": 12,
+      "value": 4,
+      "non_stackable": false,
+      "segmented": false,
+      "segments": [],
+      "default": true,
+      "deferred": true,
+      "end_date": null,
+      "promo_code": "212",
+      "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest if Paid in Full within 12 Months\n      <strong>**</strong>\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card.\n      Interest will be charged to your account from the purchase date if the promotional\n      purchase is not paid in full within 12 months.\n      Minimum monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      <strong>**</strong>\n      Offer applies only to single-receipt qualifying purchases. No interest will be charged on the promo purchase if you pay the promo purchase amount in full within 12 months. If you do not, interest will be charged on the promo purchase from the purchase date. Depending on purchase amount, promotion length and payment allocation, the required minimum monthly payments may or may not pay off purchase by end of promotional period. Regular account terms apply to non-promotional purchases and, after promotion ends, to promotional balance. For new accounts: Purchase APR is 29.99%; Minimum Interest Charge is $2. Existing cardholders should see their credit card agreement for their applicable terms. Subject to credit approval.\n    </p>"
+    }
+  ],
+  "estimated_location": {
+    "country": "US",
+    "state": "MN",
+    "city": "Minneapolis",
+    "localities": [
+      "Minneapolis"
+    ],
+    "zipcode": "55406",
+    "longitude": -93.224,
+    "latitude": 44.9764
+  },
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "tax_total": {
+      "cents": 225,
+      "currency_iso": "USD"
+    },
+    "total_recycling_fee": {
+      "cents": 1050,
+      "currency_iso": "USD"
+    },
+    "subtotal_price": {
+      "cents": 2500,
+      "currency_iso": "USD"
+    },
+    "total_price": {
+      "cents": 3775,
+      "currency_iso": "USD"
+    },
+    "total_price_minus_rewards": {
+      "cents": 3775,
+      "currency_iso": "USD"
+    },
+    "paid_amount": {
+      "cents": 3775,
+      "currency_iso": "USD"
+    }
+  },
+  "shipping_service": "Premium Delivery & Setup",
+  "shipping_groups": [
+    {
+      "id": "611abb85541e1b00182bdd96",
+      "items": [
+        "611abb85541e1b00182bdd95"
+      ],
+      "skus": [
+        "QFA40"
+      ],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_group_selections": [
+    {
+      "id": "611abb85541e1b00182bdd96",
+      "items": [
+        "611abb85541e1b00182bdd95"
+      ],
+      "skus": [
+        "QFA40"
+      ],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": "<p>Premium Delivery includes mattress and base delivery with set up.</p>To prioritize the health and safety of all, our teams are carefully following CDC guidelines, including hand washing, cleaning surfaces and wearing protective gear including masks, gloves and shoe coverings while in homes.",
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          },
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "shipping_address": {
+    "id": "611abb86541e1b00182bdd9f",
+    "first_name": "Mary",
+    "last_name": "Quint",
+    "company": null,
+    "street": "665 W OLIVE AVE",
+    "street_2": "",
+    "city": "SUNNYVALE",
+    "country": "US",
+    "region": "CA",
+    "postal_code": "94086-7622",
+    "phone_number": "6127407043",
+    "phone_extension": null
+  },
+  "billing_address": {
+    "id": "611abc68541e1b00182bde21",
+    "first_name": "Mary",
+    "last_name": "Quint",
+    "company": null,
+    "street": "665 W OLIVE AVE",
+    "street_2": "",
+    "city": "SUNNYVALE",
+    "country": "US",
+    "region": "CA",
+    "postal_code": "94086-7622",
+    "phone_number": "6127407043",
+    "phone_extension": null
+  },
+  "tenders": [
+    {
+      "type": "credit_card",
+      "amount": {
+        "cents": 3775,
+        "currency_iso": "USD"
+      },
+      "issuer": "master_card",
+      "display_number": "XXXX-XXXX-XXXX-1111",
+      "month": 3,
+      "year": 2022
+    }
+  ]
+}

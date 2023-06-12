@@ -1,0 +1,1167 @@
+{
+  "calculation_status": "ACTUAL",
+  "created": "2019-05-01T11:29:01",
+  "customer_name": "DONALD JOHNSON",
+  "customer_number": "10829642",
+  "estimated_location": null,
+  "order_number": "95006436350",
+  "tax_rate": 1,
+  "hd_items": [
+    {
+      "id": "1-V5PRFKW",
+      "parent_id": "1-V5PRFKW",
+      "name": "p5",
+      "sku": "QZP5",
+      "product_id": "p5-360",
+      "quantity": 1,
+      "options": {
+        "Size": ["Queen"]
+      },
+      "product": {
+        "id": "p5-360",
+        "bazaar_voice_id": "p5-360",
+        "name": "p5",
+        "type": "mattress",
+        "description": "Plush performance, pressure-relieving comfort",
+        "long_description": "You’ll love plush, cushioned pressure relief with this 4\" combination of comfort layers that contour to you.",
+        "reference_description": null,
+        "meta_description": "The Sleep Number 360 p5 Smart Bed maximizes pressure relieving comfort while tracking how you're sleeping, adjusting to your personalized sleeping habits.",
+        "positioning_statement": "Plush performance, pressure-relieving comfort",
+        "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "p5",
+        "original_slug": "p5-360",
+        "browser_title": "p5",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Twin",
+            "Twin Long",
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {
+          "Comfort Layer": ["4"],
+          "Mattress Height": ["10"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"]
+        },
+        "comfort_guide_details": {
+          "Comfort Layer": ["4"],
+          "Mattress Height": ["10"],
+          "Pressure Relief": ["8"],
+          "Support": ["5"]
+        },
+        "features": [
+          {
+            "id": "60A6F46512",
+            "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-dual-air.svg",
+            "name": "Dual Adjustability",
+            "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "D2733A19B4",
+            "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-responsive-air.svg",
+            "name": "Responsive Air<sup>®</sup> technology",
+            "text": "Effortlessly responds and automatically adjusts firmness on each side",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "25CDA1B0DF",
+            "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-sleep-iq.svg",
+            "name": "SleepIQ<sup>®</sup> technology",
+            "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "9361571191",
+            "image_url": "http://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-temp-balance.svg",
+            "name": "Temperature balancing sleep surface",
+            "text": "Absorbs excess heat and releases it as you cool, so you sleep just right.",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5fcf8a29a0d3178fb53c286e",
+            "alt_text": null,
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/p5-360/45_wide_mobile",
+            "tags": ["gallery", "mobile"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5fcf89b1a0d3178fb53c25e2",
+            "active": true,
+            "details": {
+              "Size": ["Twin"]
+            },
+            "name": "p5 360 Bed Twin",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "TZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b1a0d3178fb53c25e3",
+            "active": true,
+            "details": {
+              "Size": ["Twin Long"]
+            },
+            "name": "p5 360 Bed Twin XL",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "XZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b1a0d3178fb53c25e4",
+            "active": true,
+            "details": {
+              "Size": ["Full"]
+            },
+            "name": "p5 360 Bed Full",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "FZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b1a0d3178fb53c25e5",
+            "active": true,
+            "details": {
+              "Size": ["Queen"]
+            },
+            "name": "p5 360 Bed Queen",
+            "regular": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "sku": "QZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b1a0d3178fb53c25e6",
+            "active": true,
+            "details": {
+              "Size": ["King"]
+            },
+            "name": "p5 360 Bed King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "KZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b1a0d3178fb53c25e7",
+            "active": true,
+            "details": {
+              "Size": ["Split King"]
+            },
+            "name": "p5 360 Bed Split King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "SZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b2a0d3178fb53c25e8",
+            "active": true,
+            "details": {
+              "Size": ["FlexTop King"]
+            },
+            "name": "p5 360 Bed FlexTop King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "AZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b2a0d3178fb53c25e9",
+            "active": true,
+            "details": {
+              "Size": ["California King"]
+            },
+            "name": "p5 360 Bed California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "CZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89b2a0d3178fb53c25ea",
+            "active": true,
+            "details": {
+              "Size": ["FlexTop California King"]
+            },
+            "name": "p5 360 Bed FlexTop California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "BZP5",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "review_stats": {
+          "average_overall_rating": 4,
+          "total_review_count": 20,
+          "distributions": {
+            "1": 2,
+            "2": 3,
+            "3": 0,
+            "4": 3,
+            "5": 12
+          }
+        }
+      },
+      "pricing": {
+        "price_adjustments": [
+          {
+            "discount": true,
+            "amount": {
+              "cents": 120000,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "total_price": {
+          "cents": 179900
+        },
+        "total_regular_price": {
+          "cents": 239900
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": "Home Delivery"
+        },
+        {
+          "ships_via": "Home Delivery"
+        },
+        {
+          "ships_via": "Home Delivery"
+        },
+        {
+          "ships_via": "Home Delivery"
+        }
+      ],
+      "boxes_count": 4,
+      "delivery_schedule_end_date": "2019-04-25T00:00:00",
+      "delivery_schedule_start_date": "2019-04-25T00:00:00",
+      "delivery_schedule_status": "COMPLETED",
+      "delivers_via": "Premium Delivery",
+      "ups_tracking_id": "19024325"
+    },
+    {
+      "id": "1-V5PSXCJ",
+      "parent_id": "1-V5PSXCJ",
+      "name": "Remote - Smart Bed",
+      "sku": "122601",
+      "product_id": "ff-remotes-360",
+      "quantity": 2,
+      "options": {
+        "Remote": ["12-Button Remote for all 360 FlexFit Bases"]
+      },
+      "product": {
+        "id": "ff-remotes-360",
+        "bazaar_voice_id": "ff-remotes-360",
+        "name": "Remote - Smart Bed",
+        "type": "remote",
+        "description": "Control your smart bed and base without your smart device.",
+        "long_description": "<p>The Sleep Number 360™ smart bed remote is available as an optional purchase for making quick, easy adjustments to your Sleep Number 360™ smart bed. The remote allows for easy access to functions like selecting a Sleep Number® setting, adjusting the head/foot position on selected bases, and accessing timers on selected bases. </p> <p>The Sleep Number 360™ smart bed is powered by SleepIQ® technology for smart, effortless sleep. </p> <p>SleepIQ® technology provides easy adjustability, sleep tracking and connectivity. Intelligent biometrics track your heart rate, breathing rate and movement to give you a SleepIQ® score each morning. </p>",
+        "reference_description": null,
+        "meta_description": "Choose the right remote for your Sleep Number 360™ smart bed sleep experience.",
+        "positioning_statement": null,
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "flexfit-360-remotes",
+        "original_slug": "flexfit-360-remotes",
+        "browser_title": "Remote - Smart Bed",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 4,
+        "shipping_type_name": "ups_standard",
+        "upsell_text": null,
+        "filters": {
+          "Size": [],
+          "Color": [],
+          "Shape": []
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [
+            {
+              "id": "5fcf8a93a0d3178fb53c299c",
+              "type": "html",
+              "area": "product_info",
+              "name": "Details",
+              "data": {
+                "html": "<strong>Control your smart bed and base without your smart device</strong><p>The 360 smart bed Remote control is available as an optional purchase for further individualization of your sleep experience.</p> <p>Allows for easy access to functions like selecting a Sleep Number, adjusting the height of the head/foot on select bases, and access to timers on select bases.</p><p>The Sleep Number 360 smart bed is powered by SleepIQ technology for smart, effortless sleep. SleepIQ technology provides easy adjustability, sleep tracking, and connectivity.</p> <p>Intelligent biometrics track your heart rate, breathing rate, and movement to give you a SleepIQ score each morning.</p><p>The FlexFit Remotes 360 comes in three styles: 5-Button Remote, 10-Button, and 12-Button Remote.&nbsp; See the <strong>REMOTE OPTIONS</strong> tab for specific remote details.</p><p>Should you need additional assistance choosing the right remote, call 1-888-411-2188 or chat for assistance. Visit <a href=\"https://www.sleepnumber.com/support/categories/204141568-Set-Up-or-Move-Your-Bed/articles/360003538113-Set-Up-My-Remote\">sleepnumber.com/support</a> for details on setting up your remote.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 0
+            },
+            {
+              "id": "5fcf8a93a0d3178fb53c299d",
+              "type": "html",
+              "area": "product_info",
+              "name": "Remote Options",
+              "data": {
+                "html": "<p>Choose the right remote for your Sleep Number 360 smart bed sleep experience.</p><p><strong>5-Button Remote: Operates Sleep Number 360 smart bed mattress only</strong>:</p><ul><li>Easily change your Sleep Number setting during the night</li> <li>View your SleepIQ score</li> <li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer</li></ul> <p><strong>10-Button Remote: Operates Sleep Number 360 smart mattress used with a FlexFit</strong><b>&trade;</b><strong>&nbsp;1 smart adjustable base </strong>(on back order)</p><ul><li>Easily change your Sleep Number setting during the night</li><li>View your SleepIQ score</li><li>Access Partner Snore technology</li><li>Control your bed even if your home Wi-Fi is down temporarily</li><li>Control timers and DualTemp layer.</li></ul> <p><strong>12-Button Remote: Operates Sleep Number 360 smart mattress used with FlexFit</strong><b>&trade;</b><strong>&nbsp;2 or FlexFit</strong><b>&trade;</b><strong>&nbsp;3 smart adjustable base</strong>:</p><ul><li>Everything offered in the 10-Button Remote, plus - Set a timer for foot warming feature (FlexFit&trade; 3 only)</li></ul>"
+              },
+              "hidden_breakpoints": [],
+              "position": 1
+            },
+            {
+              "id": "5fcf8a93a0d3178fb53c299e",
+              "type": "html",
+              "area": "product_info",
+              "name": "Care",
+              "data": {
+                "html": "<p>With the exception of the battery compartment, do not open the remote. Doing so will void the limited warranty.</p><p>Keep the remote away from heat sources such as radiators, heat registers, etc.</p><p>The remote is not water resistant. Do not immerse in, use or store near water, for example, in a wet basement, near an open window, etc.</p><p>Be sure to use only the batteries specified and always handle the batteries with care. Improper use may result in battery explosion, cracking or leakage, which could result in personal injury and/or property damage.</p>"
+              },
+              "hidden_breakpoints": [],
+              "position": 2
+            }
+          ],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5fcf89f5a0d3178fb53c2795",
+            "alt_text": null,
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Gallery_1",
+            "tags": ["gallery", "upt"]
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2796",
+            "alt_text": null,
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_5_button",
+            "tags": []
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2797",
+            "alt_text": null,
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_10_button",
+            "tags": []
+          },
+          {
+            "id": "5fcf89f5a0d3178fb53c2798",
+            "alt_text": null,
+            "options": {},
+            "position": 3,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/flexfit-360-remotes/ff-remotes-360_PDP_Postcard_Variant_12_button",
+            "tags": []
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5fcf88e6a0d3178fb53c21fb",
+            "active": true,
+            "details": {
+              "Remote": [
+                "5-Button Remote for use with Mattress + Integrated Base"
+              ]
+            },
+            "name": "5-Button Smart Bed Remote for Mattress + Integrated Base",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "122599",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf88e6a0d3178fb53c21fc",
+            "active": true,
+            "details": {
+              "Remote": ["10-Button Remote for use with FlexFit™ 1"]
+            },
+            "name": "10-Button Smart Bed Remote for FlexFit™ 1",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "122600",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf88e6a0d3178fb53c21fd",
+            "active": true,
+            "details": {
+              "Remote": ["12-Button Remote for all 360 FlexFit Bases"]
+            },
+            "name": "12-Button Smart Bed Remote for use with FlexFit™ 2 & 3",
+            "regular": {
+              "cents": 3900,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 3900,
+              "currency_iso": "USD"
+            },
+            "sku": "122601",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 3900,
+          "currency_iso": "USD"
+        },
+        "review_stats": {
+          "average_overall_rating": 5,
+          "total_review_count": 1,
+          "distributions": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          }
+        }
+      },
+      "pricing": {
+        "price_adjustments": [],
+        "total_price": {
+          "cents": 3900
+        },
+        "total_regular_price": {
+          "cents": 3900
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": "Home Delivery"
+        },
+        {
+          "ships_via": "Home Delivery"
+        }
+      ],
+      "boxes_count": 2,
+      "delivery_schedule_end_date": "2019-04-25T00:00:00",
+      "delivery_schedule_start_date": "2019-04-25T00:00:00",
+      "delivery_schedule_status": "COMPLETED",
+      "delivers_via": "Premium Delivery",
+      "ups_tracking_id": "19239246"
+    },
+    {
+      "id": "1-V5PSWSG",
+      "parent_id": "1-V5PRFKW",
+      "name": "Flexfit™ 3 Base",
+      "sku": "QFA60",
+      "product_id": "ff3-360",
+      "quantity": 1,
+      "options": {
+        "Size": ["Queen"]
+      },
+      "product": {
+        "id": "ff3-360",
+        "bazaar_voice_id": "ff3-360",
+        "name": "Flexfit™ 3 Base",
+        "type": "adjustable_base",
+        "description": "For the ultimate in individualized comfort. You have to feel it to believe it.",
+        "long_description": null,
+        "reference_description": null,
+        "meta_description": "The Sleep Number 360 Series bed. The only bed designed to make you smarter, healthier and happier. Starting Around $2,299.",
+        "positioning_statement": "Designed to help you fall asleep faster",
+        "disclaimer": null,
+        "content_badge_message": null,
+        "merchant_message": null,
+        "slug": "ff3",
+        "original_slug": "ff3",
+        "browser_title": "Flexfit™ 3 Base",
+        "template": "generic",
+        "digital": false,
+        "shipping_type": 1,
+        "shipping_type_name": "home_delivery",
+        "upsell_text": "Standard King option shown. FlexTop<sup>®</sup> (individual head control) and Split (individual head and foot control) options available in shopping cart.",
+        "filters": {
+          "Size": [
+            "Full",
+            "Queen",
+            "King",
+            "Split King",
+            "FlexTop King",
+            "California King",
+            "Split California King",
+            "FlexTop California King"
+          ]
+        },
+        "details": {},
+        "comfort_guide_details": {},
+        "features": [
+          {
+            "id": "C1E3D4A537",
+            "image_url": null,
+            "name": "Zero Gravity",
+            "text": "Enjoy favorites like the weightless of zero gravity",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "B49F834B85",
+            "image_url": null,
+            "name": "Partner Snore",
+            "text": "Gently raise your partner’s head to help alleviate snoring*",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "06CC430033",
+            "image_url": null,
+            "name": "Lighting",
+            "text": "Find your way at night with under bed lighting",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          },
+          {
+            "id": "6EC8182881",
+            "image_url": null,
+            "name": "Foot Warming",
+            "text": "Foot warming—designed to help you fall asleep faster",
+            "comparable": true,
+            "specification": false,
+            "show_plus_text": false
+          }
+        ],
+        "customizations": null,
+        "content_blocks": {
+          "top": [],
+          "middle": [],
+          "bottom": [],
+          "product_info": [],
+          "price_block": []
+        },
+        "swatches": {},
+        "images": [
+          {
+            "id": "5fcf8a21a0d3178fb53c2838",
+            "alt_text": null,
+            "options": {},
+            "position": 0,
+            "primary": true,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/ff3/standard",
+            "tags": ["standard", "thumbnail", "upt"]
+          },
+          {
+            "id": "5fcf8a21a0d3178fb53c2839",
+            "alt_text": null,
+            "options": {},
+            "position": 1,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/ff3/flextop",
+            "tags": ["flextop", "upt"]
+          },
+          {
+            "id": "5fcf8a21a0d3178fb53c283a",
+            "alt_text": null,
+            "options": {},
+            "position": 2,
+            "primary": false,
+            "url": "http://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1609860595/workarea/catalog/product_images/ff3/split",
+            "tags": ["split", "upt"]
+          }
+        ],
+        "videos": [],
+        "renders": [],
+        "recommended": [],
+        "variants": [
+          {
+            "id": "5fcf89afa0d3178fb53c25bb",
+            "active": true,
+            "details": {
+              "Size": ["Full"]
+            },
+            "name": "FlexFit 3 360 Full",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "FFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25bc",
+            "active": true,
+            "details": {
+              "Size": ["Queen"]
+            },
+            "name": "FlexFit 3 360 Queen",
+            "regular": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 239900,
+              "currency_iso": "USD"
+            },
+            "sku": "QFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25bd",
+            "active": true,
+            "details": {
+              "Size": ["King"]
+            },
+            "name": "FlexFit 3 360 King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "KFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25be",
+            "active": true,
+            "details": {
+              "Size": ["Split King"]
+            },
+            "name": "FlexFit 3 360 Split King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "SFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25bf",
+            "active": true,
+            "details": {
+              "Size": ["FlexTop King"]
+            },
+            "name": "FlexFit 3 360 FlexTop King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "AFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25c0",
+            "active": true,
+            "details": {
+              "Size": ["California King"]
+            },
+            "name": "FlexFit 3 360 California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "CFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25c1",
+            "active": true,
+            "details": {
+              "Size": ["Split California King"]
+            },
+            "name": "FlexFit 3 360 Split California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "PFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          },
+          {
+            "id": "5fcf89afa0d3178fb53c25c2",
+            "active": true,
+            "details": {
+              "Size": ["FlexTop California King"]
+            },
+            "name": "FlexFit 3 360 FlexTop California King",
+            "regular": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sale": {
+              "cents": 0,
+              "currency_iso": "USD"
+            },
+            "sku": "BFA60",
+            "promo_badge_message": null,
+            "promo_long_message": null,
+            "promo_expiry_date": null,
+            "financing": null
+          }
+        ],
+        "packaged_products": [],
+        "purchasable": true,
+        "inventory_status": "In Stock",
+        "original_max_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "original_min_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sell_max_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sell_min_price": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "review_stats": {}
+      },
+      "pricing": {
+        "price_adjustments": [],
+        "total_price": {
+          "cents": 179900
+        },
+        "total_regular_price": {
+          "cents": 239900
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": null
+        }
+      ],
+      "boxes_count": 0,
+      "delivery_schedule_end_date": "2019-04-25T00:00:00",
+      "delivery_schedule_start_date": "2019-04-25T00:00:00",
+      "delivery_schedule_status": "COMPLETED",
+      "delivers_via": "Received At Store",
+      "ups_tracking_id": null
+    }
+  ],
+  "other_items": [],
+  "ups_items": [
+    {
+      "id": "1-UWJZE7F",
+      "parent_id": "1-UWJZE7F",
+      "name": "King 2\" Inset Foam Topper, 7-Zone",
+      "sku": "122867",
+      "product_id": "122867",
+      "quantity": 1,
+      "options": null,
+      "product": null,
+      "pricing": {
+        "price_adjustments": [
+          {
+            "discount": true,
+            "amount": {
+              "cents": 6243,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "total_price": {
+          "cents": 24971
+        },
+        "total_regular_price": {
+          "cents": 31214
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": "UPS Ground"
+        }
+      ],
+      "boxes_count": 1,
+      "delivery_schedule_end_date": "",
+      "delivery_schedule_start_date": "",
+      "delivery_schedule_status": "",
+      "delivers_via": "UPS",
+      "ups_tracking_id": "1ZE86W800374012172"
+    },
+    {
+      "id": "1-UWK54B8",
+      "parent_id": "1-UWK54B8",
+      "name": "King 6\" Side & End Wall Kit, Beige",
+      "sku": "117101",
+      "product_id": "117101",
+      "quantity": 1,
+      "options": null,
+      "product": null,
+      "pricing": {
+        "price_adjustments": [
+          {
+            "discount": true,
+            "amount": {
+              "cents": 2239,
+              "currency_iso": "USD"
+            }
+          }
+        ],
+        "total_price": {
+          "cents": 8956
+        },
+        "total_regular_price": {
+          "cents": 11195
+        }
+      },
+      "boxes": [
+        {
+          "ships_via": "UPS Ground"
+        },
+        {
+          "ships_via": "UPS Ground"
+        }
+      ],
+      "boxes_count": 2,
+      "delivery_schedule_end_date": "",
+      "delivery_schedule_start_date": "",
+      "delivery_schedule_status": "",
+      "delivers_via": "UPS",
+      "ups_tracking_id": "1ZE86W800373999234"
+    }
+  ],
+  "billing_address": {
+    "city": "ELIZABETH",
+    "country": "USA",
+    "first_name": "DONALD",
+    "last_name": "JOHNSON",
+    "postal_code": "80107-8315",
+    "region": "CO",
+    "street": "1535 LEGACY TRL",
+    "street_2": ""
+  },
+  "shipping_address": {
+    "city": "ELIZABETH",
+    "country": "USA",
+    "first_name": "DONALD",
+    "last_name": "JOHNSON",
+    "postal_code": "80107-8315",
+    "region": "CO",
+    "street": "1535 LEGACY TRL",
+    "street_2": ""
+  },
+  "shipping_groups": [
+    {
+      "id": "FREIGHT TO CUSTOMER",
+      "skus": [],
+      "shipping_services": [
+        {
+          "service_code": null,
+          "type": null,
+          "name": null,
+          "description": null,
+          "price": {
+            "cents": 1995,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "id": "5fcf88cea0d3178fb53c2010",
+      "skus": ["INSTALL"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": null,
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    }
+  ],
+  "shipping_group_selections": [
+    {
+      "id": "FREIGHT TO CUSTOMER",
+      "skus": [],
+      "shipping_services": [
+        {
+          "service_code": null,
+          "type": null,
+          "name": null,
+          "description": null,
+          "price": {
+            "cents": 1995,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    },
+    {
+      "id": "5fcf88cea0d3178fb53c2010",
+      "skus": ["INSTALL"],
+      "shipping_services": [
+        {
+          "service_code": "homeDelivery",
+          "type": "home_delivery",
+          "name": "Premium Delivery & Setup",
+          "description": null,
+          "price": {
+            "cents": 0,
+            "currency_iso": "USD"
+          }
+        }
+      ],
+      "selected": true
+    }
+  ],
+  "pricing": {
+    "price_adjustments": [],
+    "shipping_total": {
+      "cents": 1995,
+      "currency_iso": "USD"
+    },
+    "tax_total": {
+      "cents": 1042,
+      "currency_iso": "USD"
+    },
+    "total_fee": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "subtotal_price": {
+      "cents": 33927,
+      "currency_iso": "USD"
+    },
+    "total_price": {
+      "cents": 36964,
+      "currency_iso": "USD"
+    },
+    "paid_amount": null
+  }
+}

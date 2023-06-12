@@ -1,0 +1,161 @@
+/**
+ * Mattress Recommendation Settings
+ * - array of objects, one per mattress size
+ * - data starts with price appetites
+ * - for each price appetite, we record the 'sleeps hot' question settings
+ * - for each 'sleeps hot' option we record the 3 mattress skus we recommend
+ */
+{
+  "version": 1,
+  "settings": [{
+    "size": "California King",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["C1C2", "C1CSE", "C1P5"],
+          "Sometimes": ["C1CSE", "C1P5", "C1P6"],
+          "Often": ["C1CSE", "C1P6", "C1I8"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["C1CSE", "C1P5", "C1P6"],
+          "Sometimes": ["C1P5", "C1P6", "C1I8"],
+          "Often": ["C1P6", "C1I8", "C1I10"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["C1CSE", "C1P5", "C1I8"],
+          "Sometimes": ["C1P5", "C1M7", "C1I8"],
+          "Often": ["C1P6", "C1I8", "C1I10"]
+        }
+      }
+    }
+  }, {
+    "size": "King",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["K1C2", "K1CSE", "K1P5"],
+          "Sometimes": ["K1CSE", "K1P5", "K1P6"],
+          "Often": ["K1CSE", "K1P6", "K1I8"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["K1CSE", "K1P5", "K1P6"],
+          "Sometimes": ["K1P5", "K1P6", "K1I8"],
+          "Often": ["K1P6", "K1I8", "K1I10"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["K1CSE", "K1P5", "K1I8"],
+          "Sometimes": ["K1P5", "K1M7", "K1I8"],
+          "Often": ["K1P6", "K1I8", "KC360"]
+        }
+      }
+    }
+  }, {
+    "size": "Queen",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["Q1C2", "Q1CSE", "Q1P5"],
+          "Sometimes": ["Q1CSE", "Q1P5", "Q1P6"],
+          "Often": ["Q1CSE", "Q1P6", "Q1I8"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["Q1CSE", "Q1P5", "Q1P6"],
+          "Sometimes": ["Q1P5", "Q1P6", "Q1I8"],
+          "Often": ["Q1P6", "Q1I8", "Q1I10"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["Q1CSE", "Q1P5", "Q1I8"],
+          "Sometimes": ["Q1P5", "Q1M7", "Q1I8"],
+          "Often": ["Q1P6", "Q1I8", "Q1I10"]
+        }
+      }
+    }
+  }, {
+    "size": "Full",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["F1C2", "F1CSE", "F1P5"],
+          "Sometimes": ["F1CSE", "F1P5", "F1I8"],
+          "Often": ["F1CSE", "F1P5", "F1I8"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["F1CSE", "F1P5", "F1I8"],
+          "Sometimes": ["F1CSE", "F1P5", "F1I8"],
+          "Often": ["F1P5", "F1P6", "F1I8"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["F1CSE", "F1P5", "F1I8"],
+          "Sometimes": ["F1CSE", "F1P5", "F1I8"],
+          "Often": ["F1P5", "F1P6", "F1I8"]
+        }
+      }
+    }
+  }, {
+    "size": "Twin XL",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["X1C2", "X1CSE", "X1P5"],
+          "Sometimes": ["X1CSE", "X1P5", "X1P6"],
+          "Often": ["X1CSE", "X1P6", "X1I8"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["X1CSE", "X1P5", "X1I8"],
+          "Sometimes": ["X1P5", "X1P6", "X1I8"],
+          "Often": ["X1P6", "X1M7", "X1I8"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["X1CSE", "X1P5", "X1I8"],
+          "Sometimes": ["X1P5", "X1P6", "X1I8"],
+          "Often": ["X1P6", "X1M7", "X1I8"]
+        }
+      }
+    }
+  }, {
+    "size": "Twin",
+    "price_appetite": {
+      "low": {
+        "sleeps_hot": {
+          "Never": ["T1C2", "T1CSE", "T1P5"],
+          "Sometimes": ["T1C2", "T1CSE", "T1P5"],
+          "Often": ["T1C2", "T1CSE", "T1P5"]
+        }
+      },
+      "mid": {
+        "sleeps_hot": {
+          "Never": ["T1C2", "T1CSE", "T1P5"],
+          "Sometimes": ["T1C2", "T1CSE", "T1P5"],
+          "Often": ["T1C2", "T1CSE", "T1P5"]
+        }
+      },
+      "no-pref": {
+        "sleeps_hot": {
+          "Never": ["T1C2", "T1CSE", "T1P5"],
+          "Sometimes": ["T1C2", "T1CSE", "T1P5"],
+          "Often": ["T1C2", "T1CSE", "T1P5"]
+        }
+      }
+    }
+  }]
+}

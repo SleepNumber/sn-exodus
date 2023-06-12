@@ -1,0 +1,503 @@
+{
+  "c2": {
+    "QZC2": {
+      "skus": ["QZC2"],
+      "products": [
+        {
+          "sku": "QZC2",
+          "product_id": "c2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 999, "sale": 499, "savings": 500 }
+        }
+      ],
+      "total": { "regular": 999, "sale": 499, "savings": 500 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 11,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA40_QZC2": {
+      "skus": ["QFA40", "QZC2"],
+      "products": [
+        {
+          "sku": "QZC2",
+          "product_id": "c2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 999, "sale": 499, "savings": 500 }
+        },
+        {
+          "sku": "QFA40",
+          "product_id": "ff1-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c86",
+            "strong": "$200.00 OFF",
+            "subtle": "with FlexFit 1"
+          },
+          "prices": { "regular": 1199, "sale": 999, "savings": 200 }
+        }
+      ],
+      "total": { "regular": 2198, "sale": 1498, "savings": 700 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 32,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA50_QZC2": {
+      "skus": ["QFA50", "QZC2"],
+      "products": [
+        {
+          "sku": "QZC2",
+          "product_id": "c2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 999, "sale": 499, "savings": 500 }
+        },
+        {
+          "sku": "QFA50",
+          "product_id": "ff2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c87",
+            "strong": "$400.00 OFF",
+            "subtle": "with FlexFit 2"
+          },
+          "prices": { "regular": 1899, "sale": 1499, "savings": 400 }
+        }
+      ],
+      "total": { "regular": 2898, "sale": 1998, "savings": 900 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 42,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA60_QZC2": {
+      "skus": ["QFA60", "QZC2"],
+      "products": [
+        {
+          "sku": "QZC2",
+          "product_id": "c2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 999, "sale": 499, "savings": 500 }
+        },
+        {
+          "sku": "QFA60",
+          "product_id": "ff3-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c88",
+            "strong": "$600.00 OFF",
+            "subtle": "with FlexFit 3"
+          },
+          "prices": { "regular": 2399, "sale": 1799, "savings": 600 }
+        }
+      ],
+      "total": { "regular": 3398, "sale": 2298, "savings": 1100 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 48,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    }
+  },
+  "c4": {
+    "QZC4": {
+      "skus": ["QZC4"],
+      "products": [
+        {
+          "sku": "QZC4",
+          "product_id": "c4-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$25.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 25, "sale": 0, "savings": 25 }
+        }
+      ],
+      "total": { "regular": 25, "sale": 0, "savings": 25 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 0,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA40_QZC4": {
+      "skus": ["QFA40", "QZC4"],
+      "products": [
+        {
+          "sku": "QZC4",
+          "product_id": "c4-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$25.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 25, "sale": 0, "savings": 25 }
+        },
+        {
+          "sku": "QFA40",
+          "product_id": "ff1-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c86",
+            "strong": "$200.00 OFF",
+            "subtle": "with FlexFit 1"
+          },
+          "prices": { "regular": 1199, "sale": 999, "savings": 200 }
+        }
+      ],
+      "total": { "regular": 1224, "sale": 999, "savings": 225 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 21,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA50_QZC4": {
+      "skus": ["QFA50", "QZC4"],
+      "products": [
+        {
+          "sku": "QZC4",
+          "product_id": "c4-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$25.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 25, "sale": 0, "savings": 25 }
+        },
+        {
+          "sku": "QFA50",
+          "product_id": "ff2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c87",
+            "strong": "$400.00 OFF",
+            "subtle": "with FlexFit 2"
+          },
+          "prices": { "regular": 1899, "sale": 1499, "savings": 400 }
+        }
+      ],
+      "total": { "regular": 1924, "sale": 1499, "savings": 425 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 32,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA60_QZC4": {
+      "skus": ["QFA60", "QZC4"],
+      "products": [
+        {
+          "sku": "QZC4",
+          "product_id": "c4-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$25.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 25, "sale": 0, "savings": 25 }
+        },
+        {
+          "sku": "QFA60",
+          "product_id": "ff3-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c88",
+            "strong": "$600.00 OFF",
+            "subtle": "with FlexFit 3"
+          },
+          "prices": { "regular": 2399, "sale": 1799, "savings": 600 }
+        }
+      ],
+      "total": { "regular": 2424, "sale": 1799, "savings": 625 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 38,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    }
+  },
+  "p5-ff1-360": {
+    "QZP5": {
+      "skus": ["QZP5"],
+      "products": [
+        {
+          "sku": "QZP5",
+          "product_id": "p5-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 2399, "sale": 1899, "savings": 500 }
+        }
+      ],
+      "total": { "regular": 2399, "sale": 1899, "savings": 500 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 40,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA40_QZP5": {
+      "skus": ["QFA40", "QZP5"],
+      "products": [
+        {
+          "sku": "QZP5",
+          "product_id": "p5-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 2399, "sale": 1899, "savings": 500 }
+        },
+        {
+          "sku": "QFA40",
+          "product_id": "ff1-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c86",
+            "strong": "$200.00 OFF",
+            "subtle": "with FlexFit 1"
+          },
+          "prices": { "regular": 1199, "sale": 999, "savings": 200 }
+        }
+      ],
+      "total": { "regular": 3598, "sale": 2898, "savings": 700 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 61,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA50_QZP5": {
+      "skus": ["QFA50", "QZP5"],
+      "products": [
+        {
+          "sku": "QZP5",
+          "product_id": "p5-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 2399, "sale": 1899, "savings": 500 }
+        },
+        {
+          "sku": "QFA50",
+          "product_id": "ff2-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c87",
+            "strong": "$400.00 OFF",
+            "subtle": "with FlexFit 2"
+          },
+          "prices": { "regular": 1899, "sale": 1499, "savings": 400 }
+        }
+      ],
+      "total": { "regular": 4298, "sale": 3398, "savings": 900 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 71,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    },
+    "QFA60_QZP5": {
+      "skus": ["QFA60", "QZP5"],
+      "products": [
+        {
+          "sku": "QZP5",
+          "product_id": "p5-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c81",
+            "strong": "$500.00 OFF",
+            "subtle": "with Core Series Mattresses"
+          },
+          "prices": { "regular": 2399, "sale": 1899, "savings": 500 }
+        },
+        {
+          "sku": "QFA60",
+          "product_id": "ff3-360",
+          "quantity": 1,
+          "promo_message": {
+            "discount_id": "5f774c0467be5a7205a69c88",
+            "strong": "$600.00 OFF",
+            "subtle": "with FlexFit 3"
+          },
+          "prices": { "regular": 2399, "sale": 1799, "savings": 600 }
+        }
+      ],
+      "total": { "regular": 4798, "sale": 3698, "savings": 1100 },
+      "promo_badge_message": "$500 Off",
+      "promo_long_message": null,
+      "promo_expiry_date": 1604335918000,
+      "financing": {
+        "description": null,
+        "name": "48 Month Financing on Performance Series",
+        "id": "5ec69acfebfd13001a489a83",
+        "months": 48,
+        "value": 78,
+        "non_stackable": false,
+        "default": false,
+        "deferred": false,
+        "end_date": 1604335918000,
+        "promo_code": "449",
+        "disclaimer_message": "<p class=\"font-size-m text-bold\">\n      No Interest For 48 Months*\n    </p>\n    <p>\n      On purchases with a Sleep Number<sup>&reg;</sup> credit card through 12/01/2022.\n      48 equal monthly payments required.\n    </p>\n    <p class=\"font-size-xs\">\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \n      by the due date each month and (2) this is the only balance on your account during the promo period. \n      If you have other balances on your account, this monthly payment will be added to the minimum payment \n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \n      Subject to credit approval.\n    </p>"
+      }
+    }
+  }
+}

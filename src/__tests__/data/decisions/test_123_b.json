@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "responses": [
+      {
+        "requestId": "1616507951",
+        "actions": [
+          {
+            "impressionReporting": [
+              {
+                "is_control": false,
+                "has_targets": false,
+                "tags": [],
+                "experience_type": "Standard Test",
+                "experience_name": "Bundle Testing",
+                "experience_id": 1400863,
+                "experience_label": "Bundle-Testing_1400863",
+                "variant_label": "B",
+                "control_allocation": 0.0
+              }
+            ],
+            "json": {
+              "test_123": "B"
+            },
+            "actionType": "monetate:action:OmnichannelJson",
+            "actionId": 3836715,
+            "isControl": false
+          }
+        ]
+      }
+    ]
+  }
+}

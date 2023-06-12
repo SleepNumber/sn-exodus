@@ -1,0 +1,771 @@
+[
+  {
+    "id": "pillow-comfortfit",
+    "bazaar_voice_id": "pillow-comfortfit",
+    "name": "Comfort Fit™ Pillow",
+    "bundle_name": null,
+    "type": "bedding",
+    "description": "Everyone’s new favorite pillow is a wonder-filled combination of soft comfort and conforming support.\n",
+    "long_description": "<p>Conforming Support and Soft Comfort</p> <p>Experience a pillow that gently conforms to your head and neck. Unique fill blend of premium down alternative fibers and memory foam recovers its shape night after night. Cover features a Lyocell blend for superior softness and breathability. Hypoallergenic for allergen-sensitive sleepers.</p><p>Available in three shapes designed to fit the way you sleep.</p> <p><strong>Classic: </strong>Gently supports your head and neck. Best for stomach or back sleepers.</p> <p><strong>Curved: </strong>Fits your contours for enhanced comfort and support. Best for side or back sleepers.</p>  <p><strong>Ultimate:</strong> Three removable inserts let you individualize your support and height as your sleep needs change. Great for all sleeping positions. Recommend 1-2 inserts for stomach sleepers; 2-3 inserts for back or side sleepers.</p><p>Product care  instructions: Spot Clean Only - Curved and Classic <br>Ultimate – Remove cover and machine wash cover only</p> <p>Made in the  USA  of imported materials. </p> <p>5-Year Limited Warranty</p>",
+    "reference_description": null,
+    "meta_description": "<p>Experience  the conforming support of memory foam with the soft comfort of down alternative  fiber&mdash;all in one pillow. Memory foam pieces blended with premium down  alternative fiber offer a unique fill that won&rsquo;t lose its shape.&nbsp; Luxurious lyocell blend cover provides the  ultimate in breathability.</p>",
+    "positioning_statement": "123",
+    "disclaimer": null,
+    "content_badge_message": "<p>NEW</p>",
+    "merchant_message": "* MOST POPULAR PRODUCT *",
+    "slug": "pillow-comfortfit",
+    "original_slug": "pillow-comfortfit",
+    "browser_title": "Comfort Fit™ Pillow",
+    "template": "generic",
+    "digital": false,
+    "shipping_type": 4,
+    "shipping_type_name": "ups_standard",
+    "upsell_text": null,
+    "filters": {
+      "Size": ["King", "Standard"],
+      "Shape": ["Ultimate Regular", "Classic", "Curved"]
+    },
+    "details": {},
+    "comfort_guide_details": {},
+    "features": [],
+    "customizations": "",
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [
+        {
+          "id": "5f34619f92fc7500013e0521",
+          "type": "html",
+          "area": "product_info",
+          "name": "Details",
+          "data": {
+            "html": "\u003cp\u003eConforming comfort and soft support for any sleeper. Unique blend of memory foam pieces and premium down alternative fibers. Gently conforms to your head and neck and recovers its shape night after night. Breathable Lyocell blend cover is luxurious and soothing. Hypoallergenic for allergy sensitive sleepers.\u003c/p\u003e \u003cp\u003eFind the pillow that's just right for you. Take our\u0026nbsp;\u003ca href=\"https://www.sleepnumber.com/sn/en/find-best-pillow\"\u003ePillowFit\u003csup\u003e®\u003c/sup\u003e quiz\u003c/a\u003e.\u003c/p\u003e"
+          },
+          "hidden_breakpoints": [],
+          "position": 0,
+          "ab_test": false,
+          "ab_test_id": null,
+          "ab_test_split": "A",
+          "segments": [],
+          "excluded_segments": []
+        },
+        {
+          "id": "5f34619f92fc7500013e0522",
+          "type": "html",
+          "area": "product_info",
+          "name": "Options",
+          "data": {
+            "html": "\u003cp\u003eAvailable in three shapes designed to fit the way you sleep.\u003c/p\u003e\n\u003cul\u003e\u003cli\u003eClassic: Gently supports your head and neck. Best for stomach or back sleepers.\u003c/li\u003e\n\u003cli\u003eCurved: Fits your contours for enhanced comfort and support. Best for side or back sleepers\u003c/li\u003e\n\u003cli\u003eUltimate: Three removable inserts let you individualize your support and height as your sleep needs change. Great for all sleeping positions. Recommend 1-2 inserts for stomach sleepers; 2-3 inserts for back or side sleepers.\u003c/li\u003e\u003c/ul\u003e"
+          },
+          "hidden_breakpoints": [],
+          "position": 1,
+          "ab_test": false,
+          "ab_test_id": null,
+          "ab_test_split": "A",
+          "segments": [],
+          "excluded_segments": []
+        },
+        {
+          "id": "5f34619f92fc7500013e0523",
+          "type": "html",
+          "area": "product_info",
+          "name": "Care",
+          "data": {
+            "html": "\u003cp\u003eCurved and Classic shape: Spot Clean Only\u0026nbsp;\u003c/p\u003e\u003cp\u003eUltimate shape: Remove cover and machine wash the cover only.\u003c/p\u003e\u003cp\u003eMade in the USA of imported materials.\u003c/p\u003e\u003cp\u003e\u003ca class=\"type-text-link\" \r\n   href=\"#\" \r\n   data-target=\"#sn-modal\" \r\n   data-toggle=\"modal\" \r\n   data-modal-url=\"https://www.youtube.com/embed/RQQDTVWpm-M\"\u003eLEARN MORE\u003c/a\u003e\u0026nbsp;about how to care for your pillows.\u003c/p\u003e"
+          },
+          "hidden_breakpoints": [],
+          "position": 2,
+          "ab_test": false,
+          "ab_test_id": null,
+          "ab_test_split": "A",
+          "segments": [],
+          "excluded_segments": []
+        }
+      ],
+      "price_block": []
+    },
+    "swatches": {
+      "Ultimate": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/swatches/Ultimate.svg",
+        "alt_text": null
+      },
+      "Curved": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/swatches/Curved.svg",
+        "alt_text": null
+      },
+      "Classic": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/swatches/Classic.svg",
+        "alt_text": null
+      }
+    },
+    "images": [
+      {
+        "id": "5f34617b92fc7500013e02f0",
+        "alt_text": null,
+        "options": { "Size": "", "Shape": "" },
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/Pillow-comfortfit_PDP_Postcard_Gallery_1a",
+        "tags": ["gallery", "upt"]
+      },
+      {
+        "id": "5f34617b92fc7500013e02f0",
+        "alt_text": null,
+        "options": { "Shape": "Ultimate Regular" },
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/ultimate",
+        "tags": []
+      },
+      {
+        "id": "5f34617b92fc7500013e02f1",
+        "alt_text": null,
+        "options": {},
+        "position": 1,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/on-bed-with-plant",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5f34617b92fc7500013e02f2",
+        "alt_text": null,
+        "options": { "Shape": "Classic" },
+        "position": 2,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/classic",
+        "tags": []
+      },
+      {
+        "id": "5f34617b92fc7500013e02f3",
+        "alt_text": null,
+        "options": { "Shape": "Curved" },
+        "position": 3,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/curved",
+        "tags": []
+      },
+      {
+        "id": "5f34617b92fc7500013e02f4",
+        "alt_text": null,
+        "options": {},
+        "position": 4,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/on-bed",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5f34617b92fc7500013e02f5",
+        "alt_text": null,
+        "options": {},
+        "position": 5,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/cotton",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5f34617b92fc7500013e02f6",
+        "alt_text": null,
+        "options": {},
+        "position": 6,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/pillow-comfortfit/upt",
+        "tags": ["gallery", "primary", "upt"]
+      }
+    ],
+    "videos": [
+      {
+        "id": "5f34617c92fc7500013e02f7",
+        "options": {},
+        "position": 0,
+        "thumbnail": "https://res.cloudinary.com/snbr-qa/video/upload/f_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/comfortfit_Product_Video.jpg",
+        "url": "https://res.cloudinary.com/snbr-qa/video/upload/vc_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/comfortfit_Product_Video",
+        "tags": [
+          "name => comfortfit_Product_Video.mp4",
+          "model_class => Workarea::Catalog::ProductVideo",
+          "model_attachment => video"
+        ]
+      },
+      {
+        "id": "5f34617c92fc7500013e02f8",
+        "options": {},
+        "position": 1,
+        "thumbnail": "https://res.cloudinary.com/snbr-qa/video/upload/f_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video.jpg",
+        "url": "https://res.cloudinary.com/snbr-qa/video/upload/vc_auto/v1/workarea/catalog/product_videos/pillow-comfortfit/gallery_video",
+        "tags": ["gallery"]
+      }
+    ],
+    "renders": [
+      {
+        "id": "5f92eca032d2e000180ea5a4",
+        "options": { "Shape": "Ultimate", "Size": "", "Foo": "" },
+        "position": null,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Ultimate",
+        "tags": []
+      },
+      {
+        "id": "5f92ec8c239d100018e008e7",
+        "options": { "Shape": "Curved", "Size": "", "Foo": "" },
+        "position": null,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Curved",
+        "tags": []
+      },
+      {
+        "id": "5f92ec81239d100018e008a0",
+        "options": { "Shape": "Classic", "Size": "", "Foo": "" },
+        "position": null,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_renders/pillow-comfortfit/Pillow-comfortfit_PFQ_Classic",
+        "tags": []
+      }
+    ],
+    "recommended": ["comfortfit-mattress-layer", "lyocell-ultra-sheets"],
+    "variants": [
+      {
+        "id": "5f3460e392fc7500013dfda9",
+        "active": true,
+        "details": { "Shape": ["Classic"], "Size": ["Standard"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 8999.0, "currency_iso": "USD" },
+        "sale": { "cents": 6999.0, "currency_iso": "USD" },
+        "sku": "423801",
+        "promo_badge_message": "$20 OFF",
+        "alternate_promo_badge_message": "alternate badge message",
+        "promo_long_message": "<p>Promo long message</p>",
+        "promo_expiry_date": 1624424400000,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e392fc7500013dfda8",
+        "active": true,
+        "details": { "Shape": ["Classic"], "Size": ["King"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 10999.0, "currency_iso": "USD" },
+        "sale": { "cents": 8999.0, "currency_iso": "USD" },
+        "sku": "423802",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e392fc7500013dfdab",
+        "active": true,
+        "details": { "Shape": ["Curved"], "Size": ["Standard"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 10999.0, "currency_iso": "USD" },
+        "sale": { "cents": 8999.0, "currency_iso": "USD" },
+        "sku": "423867",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e392fc7500013dfdaa",
+        "active": true,
+        "details": { "Shape": ["Curved"], "Size": ["King"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 12999.0, "currency_iso": "USD" },
+        "sale": { "cents": 10999.0, "currency_iso": "USD" },
+        "sku": "423868",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e392fc7500013dfda7",
+        "active": true,
+        "details": { "Shape": ["Ultimate"], "Size": ["Standard"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 12999.0, "currency_iso": "USD" },
+        "sale": { "cents": 10999.0, "currency_iso": "USD" },
+        "sku": "423930",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e392fc7500013dfda6",
+        "active": true,
+        "details": { "Shape": ["Ultimate"], "Size": ["King"] },
+        "name": "ComfortFit™ Pillow",
+        "regular": { "cents": 14999.0, "currency_iso": "USD" },
+        "sale": { "cents": 12999.0, "currency_iso": "USD" },
+        "sku": "423931",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      }
+    ],
+    "packaged_products": [],
+    "purchasable": true,
+    "inventory_status": "",
+    "original_max_price": { "cents": 14999.0, "currency_iso": "USD" },
+    "original_min_price": { "cents": 8999.0, "currency_iso": "USD" },
+    "sell_max_price": { "cents": 12999.0, "currency_iso": "USD" },
+    "sell_min_price": { "cents": 6999.0, "currency_iso": "USD" },
+    "review_stats": {
+      "average_overall_rating": 4.5556,
+      "total_review_count": 18,
+      "distributions": { "3": 1, "4": 6, "5": 11, "1": 0, "2": 0 }
+    }
+  },
+  {
+    "id": "lyocell-ultra-pillowcases",
+    "bazaar_voice_id": "lyocell-ultra-pillowcases",
+    "name": "Lyocell Ultra Pillowcase Set",
+    "bundle_name": null,
+    "type": "bedding",
+    "description": "",
+    "long_description": null,
+    "reference_description": null,
+    "meta_description": "Find the Sleep Number 's highest quality Lyocell Ultra Pillowcase Sets, developed with durable fibers to ensure comfortable and long lasting pillowcases.",
+    "positioning_statement": null,
+    "disclaimer": null,
+    "content_badge_message": null,
+    "merchant_message": "Soft, silky, conforming",
+    "slug": "lyocell-ultra-pillowcase-set",
+    "original_slug": "lyocell-ultra-pillowcase-set",
+    "browser_title": "Lyocell Ultra Pillowcase Set",
+    "template": "generic",
+    "digital": false,
+    "shipping_type": 4,
+    "shipping_type_name": "ups_standard",
+    "upsell_text": null,
+    "filters": {
+      "Size": ["King", "Standard"],
+      "Color": [
+        "Ivory",
+        "Soft Green",
+        "Stone",
+        "Blush",
+        "Cloud Gray",
+        "White",
+        "Marine Blue"
+      ]
+    },
+    "details": {},
+    "comfort_guide_details": {},
+    "features": [],
+    "customizations": "",
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": []
+    },
+    "swatches": {
+      "Ivory": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/LyocellUltimate_PDP_Postcard_Swatch_Ivory",
+        "alt_text": ""
+      },
+      "Stone": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/LyocellUltimate_PDP_Postcard_Swatch_Stone",
+        "alt_text": ""
+      },
+      "Blush": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/lyocell-ultra-sheets_swatch_lilac",
+        "alt_text": ""
+      },
+      "Soft Green": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/lyocell-ultra-sheets_swatch_softgreen",
+        "alt_text": ""
+      },
+      "Cloud Gray": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/LyocellUltimate_PDP_Postcard_Swatch_CloudGray",
+        "alt_text": ""
+      },
+      "White": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/LyocellUltimate_PDP_Postcard_Swatch_White",
+        "alt_text": ""
+      },
+      "Marine Blue": {
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1/workarea/catalog/product_swatches/LyocellUltimate_PDP_Postcard_Swatch_MarineBlue",
+        "alt_text": ""
+      }
+    },
+    "images": [
+      {
+        "id": "5fecbcf33131c20017d457f5",
+        "alt_text": "",
+        "options": { "Color": "", "Size": "" },
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Gallery1",
+        "tags": ["gallery", "upt"]
+      },
+      {
+        "id": "5fecbd633131c20017d4587c",
+        "alt_text": "",
+        "options": { "Color": "", "Size": "" },
+        "position": 1,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Gallery3",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5fecbd71995fb60018a89ec7",
+        "alt_text": "",
+        "options": { "Color": "", "Size": "" },
+        "position": 2,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Gallery2a",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5fecbd80995fb60018a89f0e",
+        "alt_text": "",
+        "options": { "Color": "", "Size": "" },
+        "position": 3,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Gallery4",
+        "tags": ["gallery"]
+      },
+      {
+        "id": "5fecbdaf3131c20017d458c3",
+        "alt_text": "",
+        "options": { "Color": "White", "Size": "" },
+        "position": 4,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_White",
+        "tags": []
+      },
+      {
+        "id": "5fecbdbf995fb60018a89f5d",
+        "alt_text": "",
+        "options": { "Color": "Cloud Gray", "Size": "" },
+        "position": 5,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Cloud_Gray",
+        "tags": []
+      },
+      {
+        "id": "5fecbdce995fb60018a89fb0",
+        "alt_text": "",
+        "options": { "Color": "Ivory", "Size": "" },
+        "position": 6,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Ivory",
+        "tags": []
+      },
+      {
+        "id": "5fecbddc3131c20017d45914",
+        "alt_text": "",
+        "options": { "Color": "Marine Blue", "Size": "" },
+        "position": 7,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Marine_Blue",
+        "tags": []
+      },
+      {
+        "id": "5fecbdeb995fb60018a8a009",
+        "alt_text": "",
+        "options": { "Color": "Soft Green", "Size": "" },
+        "position": 8,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Soft_Green",
+        "tags": []
+      },
+      {
+        "id": "5fecbdf9995fb60018a8a068",
+        "alt_text": "",
+        "options": { "Color": "Stone", "Size": "" },
+        "position": 9,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Stone",
+        "tags": []
+      },
+      {
+        "id": "5fecbe153131c20017d45972",
+        "alt_text": "",
+        "options": { "Color": "Blush", "Size": "" },
+        "position": 10,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624539406/workarea/catalog/product_images/lyocell-ultra-pillowcase-set/lyocell-ultra-sheets_PDP_Postcard_Variant_Lilac",
+        "tags": []
+      }
+    ],
+    "videos": [],
+    "renders": [],
+    "recommended": [
+      "downcomfort",
+      "pur-down-comforter",
+      "lyocell-ultra-sheets"
+    ],
+    "variants": [
+      {
+        "id": "5f3460e092fc7500013dfd73",
+        "active": true,
+        "details": { "Color": ["White"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424809",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6e",
+        "active": true,
+        "details": { "Color": ["White"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424810",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6b",
+        "active": true,
+        "details": { "Color": ["Ivory"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424818",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd68",
+        "active": true,
+        "details": { "Color": ["Ivory"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424819",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e192fc7500013dfd75",
+        "active": true,
+        "details": { "Color": ["Stone"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424827",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6a",
+        "active": true,
+        "details": { "Color": ["Stone"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424828",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6d",
+        "active": true,
+        "details": { "Color": ["Cloud Gray"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424836",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd72",
+        "active": true,
+        "details": { "Color": ["Cloud Gray"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424837",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd71",
+        "active": true,
+        "details": { "Color": ["Marine Blue"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424845",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd74",
+        "active": true,
+        "details": { "Color": ["Marine Blue"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424846",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd69",
+        "active": true,
+        "details": { "Color": ["Soft Green"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424854",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd70",
+        "active": true,
+        "details": { "Color": ["Soft Green"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424855",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6c",
+        "active": true,
+        "details": { "Color": ["Blush"], "Size": ["Standard"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4499.0, "currency_iso": "USD" },
+        "sale": { "cents": 3599.0, "currency_iso": "USD" },
+        "sku": "424863",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f3460e092fc7500013dfd6f",
+        "active": true,
+        "details": { "Color": ["Blush"], "Size": ["King"] },
+        "name": "Lyocell Ultra Pillowcase Set",
+        "regular": { "cents": 4999.0, "currency_iso": "USD" },
+        "sale": { "cents": 3999.0, "currency_iso": "USD" },
+        "sku": "424864",
+        "promo_badge_message": "20% Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<b>20% Off</b>&nbsp;All Sheets",
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      }
+    ],
+    "packaged_products": [],
+    "purchasable": true,
+    "inventory_status": "",
+    "original_max_price": { "cents": 4999.0, "currency_iso": "USD" },
+    "original_min_price": { "cents": 4499.0, "currency_iso": "USD" },
+    "sell_max_price": { "cents": 3999.0, "currency_iso": "USD" },
+    "sell_min_price": { "cents": 3599.0, "currency_iso": "USD" },
+    "review_stats": {}
+  }
+]

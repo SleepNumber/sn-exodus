@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "c2-360",
+    "bazaar_voice_id": "c2-360",
+    "name": "c2",
+    "bundle_name": null,
+    "type": "mattress",
+    "description": "Comfortable. Adjustable. Affordable.™",
+    "long_description": "2\" gel-infused comfort layer is a great balance of comfort and proactive support.",
+    "reference_description": "",
+    "meta_description": "Learn more about the adjustability and comfort that the c2 360 Smart Bed offers to give you a blissful night's sleep.",
+    "positioning_statement": "Comfortable. Adjustable. Affordable.™",
+    "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+    "content_badge_message": null,
+    "merchant_message": "",
+    "slug": "c2",
+    "original_slug": "c2-360",
+    "browser_title": "c2",
+    "template": "generic",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+    "filters": {
+      "Size": [
+        "Twin",
+        "Twin Long",
+        "Full",
+        "Queen",
+        "King",
+        "Split King",
+        "FlexTop King",
+        "California King",
+        "FlexTop California King"
+      ]
+    },
+    "details": {
+      "Mattress Height": ["8"],
+      "Comfort Layer": ["2"],
+      "Testing": ["Indexing"]
+    },
+    "comfort_guide_details": {
+      "Mattress Height": ["8"],
+      "Comfort Layer": ["2"]
+    },
+    "features": [
+      {
+        "id": "A606132602",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-dual-air.svg",
+        "name": "Dual Adjustability",
+        "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "6F252A6C35",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-responsive-air.svg",
+        "name": "Responsive Air<sup>®</sup> technology",
+        "text": "Effortlessly responds and automatically adjusts firmness on each side",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "973213B889",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-sleep-iq-color.svg",
+        "name": "SleepIQ<sup>®</sup> technology",
+        "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "AA20807CCC",
+        "image_url": null,
+        "name": "8\" Profile",
+        "text": "Plush-style bed is measured from the base to the top of the mattress.",
+        "comparable": true,
+        "specification": true,
+        "show_plus_text": false
+      },
+      {
+        "id": "AE9C0AE148",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/comfort-layer.svg",
+        "name": "2\" Comfort layer",
+        "text": "2” gel-infused comfort layer is a great balance of comfort and proactive support.",
+        "comparable": true,
+        "specification": true,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": "",
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": []
+    },
+    "swatches": {},
+    "images": [
+      {
+        "id": "5f34618a92fc7500013e039f",
+        "alt_text": null,
+        "options": {},
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/upt",
+        "tags": ["upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a0",
+        "alt_text": null,
+        "options": {},
+        "position": 1,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/upt_flextop",
+        "tags": ["flextop", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a1",
+        "alt_text": null,
+        "options": {},
+        "position": 2,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/upt_split",
+        "tags": ["split", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a2",
+        "alt_text": null,
+        "options": {},
+        "position": 3,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/upt_flextop_2x",
+        "tags": ["2x", "flextop", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a4",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 4,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/zoom_2",
+        "tags": ["desktop", "gallery"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a5",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 5,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/zoom_1_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a6",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 6,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/zoom_2_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a7",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 7,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/zoom_1",
+        "tags": ["desktop", "gallery"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a8",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 8,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/straight_on_wide",
+        "tags": ["desktop", "gallery"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a9",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 9,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/45_wide",
+        "tags": ["desktop", "gallery"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03aa",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 10,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/45_wide_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03ab",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 11,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/straight_on_wide_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b1",
+        "alt_text": null,
+        "options": {},
+        "position": 12,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_mobile_flextop",
+        "tags": ["mobile", "postcard", "flextop"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03ae",
+        "alt_text": null,
+        "options": {},
+        "position": 13,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_mobile",
+        "tags": ["postcard", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03ac",
+        "alt_text": null,
+        "options": {},
+        "position": 14,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_mobile_split",
+        "tags": ["mobile", "postcard", "split"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03ad",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 15,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_tablet_split",
+        "tags": ["postcard", "split", "tablet"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03af",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 16,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_tablet",
+        "tags": ["postcard", "tablet"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b0",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 17,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_tablet_flextop",
+        "tags": ["flextop", "postcard", "tablet"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b2",
+        "alt_text": null,
+        "options": {},
+        "position": 18,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_desktop_flextop",
+        "tags": ["desktop", "postcard", "flextop"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b3",
+        "alt_text": null,
+        "options": {},
+        "position": 19,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_desktop_split",
+        "tags": ["desktop", "postcard", "split"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b4",
+        "alt_text": null,
+        "options": {},
+        "position": 20,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/postcard_desktop",
+        "tags": ["postcard", "desktop"]
+      },
+      {
+        "id": "5f34618a92fc7500013e039b",
+        "alt_text": null,
+        "options": {},
+        "position": 21,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/matt_only",
+        "tags": ["matt-only"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03a3",
+        "alt_text": null,
+        "options": {},
+        "position": 22,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/matt_only_ghost",
+        "tags": ["ghosted-base"]
+      },
+      {
+        "id": "5f34618a92fc7500013e039c",
+        "alt_text": null,
+        "options": {},
+        "position": 23,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c2-360/thumbnail",
+        "tags": ["thumbnail"]
+      }
+    ],
+    "videos": [],
+    "renders": [],
+    "recommended": [],
+    "variants": [
+      {
+        "id": "5f34616c92fc7500013e017c",
+        "active": true,
+        "details": {
+          "Size": ["Twin"]
+        },
+        "name": "c2 360 Bed Twin",
+        "regular": {
+          "cents": 59900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 39900,
+          "currency_iso": "USD"
+        },
+        "sku": "TZC2",
+        "promo_badge_message": "$200 OFF ",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e017d",
+        "active": true,
+        "details": {
+          "Size": ["Twin Long"]
+        },
+        "name": "c2 360 Bed Twin XL",
+        "regular": {
+          "cents": 69900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 69900,
+          "currency_iso": "USD"
+        },
+        "sku": "XZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e017e",
+        "active": true,
+        "details": {
+          "Size": ["Full"]
+        },
+        "name": "c2 360 Bed Full",
+        "regular": {
+          "cents": 79900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 79900,
+          "currency_iso": "USD"
+        },
+        "sku": "FZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e017f",
+        "active": true,
+        "details": {
+          "Size": ["Queen"]
+        },
+        "name": "c2 360 Bed Queen",
+        "regular": {
+          "cents": 99900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 99900,
+          "currency_iso": "USD"
+        },
+        "sku": "QZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": {
+          "description": "No Interest with 24 Equal Monthly Payments",
+          "name": "24 months all mattresses",
+          "id": "600b0eb2f81f8e6cbd551bfe",
+          "months": 24,
+          "value": 42,
+          "non_stackable": false,
+          "segmented": false,
+          "segments": [],
+          "default": false,
+          "deferred": false,
+          "end_date": null,
+          "promo_code": "424",
+          "disclaimer_message": "<p>\r\n      No Interest For 24 Months*\r\n    </p>\r\n    <p>\r\n      On purchases with a Sleep Number<sup>®</sup> credit card through \r\n\r\n{end_date}. 24 equal monthly payments required.\r\n    </p>\r\n    <p>\r\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \r\n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \r\n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \r\n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \r\n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \r\n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \r\n      by the due date each month and (2) this is the only balance on your account during the promo period. \r\n      If you have other balances on your account, this monthly payment will be added to the minimum payment \r\n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \r\n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \r\n      Subject to credit approval.\r\n    </p>"
+        },
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0180",
+        "active": true,
+        "details": {
+          "Size": ["King"]
+        },
+        "name": "c2 360 Bed King",
+        "regular": {
+          "cents": 149900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 149900,
+          "currency_iso": "USD"
+        },
+        "sku": "KZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0181",
+        "active": true,
+        "details": {
+          "Size": ["Split King"]
+        },
+        "name": "c2 360 Bed Split King",
+        "regular": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sku": "SZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0182",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop King"]
+        },
+        "name": "c2 360 Bed FlexTop King",
+        "regular": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sku": "AZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0183",
+        "active": true,
+        "details": {
+          "Size": ["California King"]
+        },
+        "name": "c2 360 Bed California King",
+        "regular": {
+          "cents": 149900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 149900,
+          "currency_iso": "USD"
+        },
+        "sku": "CZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0184",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop California King"]
+        },
+        "name": "c2 360 Bed FlexTop California King",
+        "regular": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sku": "BZC2",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": null,
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      }
+    ],
+    "packaged_products": [],
+    "purchasable": true,
+    "inventory_status": "In Stock",
+    "original_max_price": {
+      "cents": 169900,
+      "currency_iso": "USD"
+    },
+    "original_min_price": {
+      "cents": 59900,
+      "currency_iso": "USD"
+    },
+    "sell_max_price": {
+      "cents": 169900,
+      "currency_iso": "USD"
+    },
+    "sell_min_price": {
+      "cents": 39900,
+      "currency_iso": "USD"
+    },
+    "review_stats": {
+      "average_overall_rating": 4.375,
+      "total_review_count": 48,
+      "distributions": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 10,
+        "5": 31
+      }
+    }
+  },
+  {
+    "id": "c4-360",
+    "bazaar_voice_id": "c4-360",
+    "name": "c4",
+    "bundle_name": null,
+    "type": "mattress",
+    "description": "Cushioning comfort and resilient support",
+    "long_description": "Experience enhanced cushioning and resilient, proactive support with a 3\" gel-infused comfort layer.",
+    "reference_description": null,
+    "meta_description": "Find a mattress that adjusts to your individual comfort with the Sleep Number technology available with the c4 360 Smart Bed. Don't settle for anything less than ultimate comfort in your mattress.",
+    "positioning_statement": "Cushioning comfort and resilient support",
+    "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+    "content_badge_message": null,
+    "merchant_message": null,
+    "slug": "c4",
+    "original_slug": "c4-360",
+    "browser_title": "c4",
+    "template": "generic",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+    "filters": {
+      "Size": [
+        "Twin",
+        "Twin Long",
+        "Full",
+        "Queen",
+        "King",
+        "Split King",
+        "FlexTop King",
+        "California King",
+        "FlexTop California King"
+      ]
+    },
+    "details": {
+      "Comfort Layer": ["3"],
+      "Mattress Height": ["9"],
+      "Test": ["Details"]
+    },
+    "comfort_guide_details": {
+      "Comfort Layer": ["3"],
+      "Mattress Height": ["9"]
+    },
+    "features": [
+      {
+        "id": "A606132602",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-dual-air.svg",
+        "name": "Dual Adjustability",
+        "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "6F252A6C35",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-responsive-air.svg",
+        "name": "Responsive Air<sup>®</sup> technology",
+        "text": "Effortlessly responds and automatically adjusts firmness on each side",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "973213B889",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-sleep-iq-color.svg",
+        "name": "SleepIQ<sup>®</sup> technology",
+        "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": "",
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": []
+    },
+    "swatches": {},
+    "images": [
+      {
+        "id": "5f34618a92fc7500013e03b5",
+        "alt_text": null,
+        "options": {},
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/matt_only",
+        "tags": ["matt-only"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b6",
+        "alt_text": null,
+        "options": {},
+        "position": 1,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/thumbnail",
+        "tags": ["thumbnail"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b7",
+        "alt_text": null,
+        "options": {},
+        "position": 2,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt",
+        "tags": ["upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b8",
+        "alt_text": null,
+        "options": {},
+        "position": 3,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt_split",
+        "tags": ["split", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03b9",
+        "alt_text": null,
+        "options": {},
+        "position": 4,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt_split_2x",
+        "tags": ["2x", "split", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03ba",
+        "alt_text": null,
+        "options": {},
+        "position": 5,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt_flextop",
+        "tags": ["flextop", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03bb",
+        "alt_text": null,
+        "options": {},
+        "position": 6,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt_flextop_2x",
+        "tags": ["2x", "flextop", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03bc",
+        "alt_text": null,
+        "options": {},
+        "position": 7,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/upt_2x",
+        "tags": ["2x", "upt"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03bd",
+        "alt_text": null,
+        "options": {},
+        "position": 8,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/matt_only_ghost",
+        "tags": ["ghosted-base"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03be",
+        "alt_text": null,
+        "options": {},
+        "position": 9,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_mobile_flex",
+        "tags": ["mobile", "postcard", "flextop"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03bf",
+        "alt_text": null,
+        "options": {},
+        "position": 10,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_mobile_split",
+        "tags": ["mobile", "split", "postcard"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03c0",
+        "alt_text": null,
+        "options": {},
+        "position": 11,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_mobile",
+        "tags": ["postcard", "mobile"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03c1",
+        "alt_text": null,
+        "options": {},
+        "position": 12,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_tablet_split",
+        "tags": ["postcard", "tablet", "split"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03c2",
+        "alt_text": null,
+        "options": {},
+        "position": 13,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_tablet_flextop",
+        "tags": ["postcard", "tablet", "flextop"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03c3",
+        "alt_text": null,
+        "options": {},
+        "position": 14,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_tablet",
+        "tags": ["postcard", "tablet"]
+      },
+      {
+        "id": "5f34618a92fc7500013e03c4",
+        "alt_text": null,
+        "options": {},
+        "position": 15,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_desktop_split",
+        "tags": ["desktop", "postcard", "split"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03c5",
+        "alt_text": null,
+        "options": {},
+        "position": 16,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_desktop_flextop",
+        "tags": ["desktop", "postcard", "flextop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03c6",
+        "alt_text": null,
+        "options": {},
+        "position": 17,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/postcard_desktop",
+        "tags": ["postcard", "desktop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03c7",
+        "alt_text": null,
+        "options": {},
+        "position": 18,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/zoom_1_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03c8",
+        "alt_text": null,
+        "options": {},
+        "position": 19,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/zoom_1",
+        "tags": ["gallery", "desktop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03c9",
+        "alt_text": null,
+        "options": {},
+        "position": 20,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/zoom_2",
+        "tags": ["gallery", "desktop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03ca",
+        "alt_text": null,
+        "options": {},
+        "position": 21,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/zoom_2_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03cb",
+        "alt_text": null,
+        "options": {},
+        "position": 22,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/45_wide_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03cc",
+        "alt_text": null,
+        "options": {},
+        "position": 23,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/45_wide",
+        "tags": ["gallery", "desktop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03cd",
+        "alt_text": null,
+        "options": {},
+        "position": 24,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/straight_on_wide",
+        "tags": ["gallery", "desktop"]
+      },
+      {
+        "id": "5f34618b92fc7500013e03ce",
+        "alt_text": null,
+        "options": {},
+        "position": 25,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/straight_on_wide_mobile",
+        "tags": ["gallery", "mobile"]
+      },
+      {
+        "id": "5faac74546d1d400181a4c25",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 26,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558908/workarea/catalog/product_images/c4-360/comfortfit_Product_Video",
+        "tags": ["gallery"]
+      }
+    ],
+    "videos": [
+      {
+        "id": "601098bad8d2c80018062619",
+        "options": {
+          "Size": ""
+        },
+        "position": 0,
+        "thumbnail": "https://res.cloudinary.com/snbr-qa/video/upload/f_auto/v1/workarea/catalog/product_videos/c4-360/lyocell-sheets-product-video.jpg",
+        "url": "https://res.cloudinary.com/snbr-qa/video/upload/vc_auto/v1/workarea/catalog/product_videos/c4-360/lyocell-sheets-product-video",
+        "tags": ["gallery"]
+      }
+    ],
+    "renders": [],
+    "recommended": [],
+    "variants": [
+      {
+        "id": "5f34616c92fc7500013e0185",
+        "active": true,
+        "details": {
+          "Size": ["Twin"]
+        },
+        "name": "c4 360 Bed Twin",
+        "regular": {
+          "cents": 139900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 99900,
+          "currency_iso": "USD"
+        },
+        "sku": "TZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0186",
+        "active": true,
+        "details": {
+          "Size": ["Twin Long"]
+        },
+        "name": "c4 360 Bed Twin XL",
+        "regular": {
+          "cents": 149900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 109900,
+          "currency_iso": "USD"
+        },
+        "sku": "XZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0187",
+        "active": true,
+        "details": {
+          "Size": ["Full"]
+        },
+        "name": "c4 360 Bed Full",
+        "regular": {
+          "cents": 154900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 114900,
+          "currency_iso": "USD"
+        },
+        "sku": "FZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0188",
+        "active": true,
+        "details": {
+          "Size": ["Queen"]
+        },
+        "name": "c4 360 Bed Queen",
+        "regular": {
+          "cents": 15000,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 0,
+          "currency_iso": "USD"
+        },
+        "sku": "QZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": {
+          "description": "No Interest with 24 Equal Monthly Payments",
+          "name": "24 months all mattresses",
+          "id": "600b0eb2f81f8e6cbd551bfe",
+          "months": 24,
+          "value": 0,
+          "non_stackable": false,
+          "segmented": false,
+          "segments": [],
+          "default": false,
+          "deferred": false,
+          "end_date": null,
+          "promo_code": "424",
+          "disclaimer_message": "<p>\r\n      No Interest For 24 Months*\r\n    </p>\r\n    <p>\r\n      On purchases with a Sleep Number<sup>®</sup> credit card through \r\n\r\n{end_date}. 24 equal monthly payments required.\r\n    </p>\r\n    <p>\r\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \r\n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \r\n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \r\n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \r\n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \r\n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \r\n      by the due date each month and (2) this is the only balance on your account during the promo period. \r\n      If you have other balances on your account, this monthly payment will be added to the minimum payment \r\n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \r\n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \r\n      Subject to credit approval.\r\n    </p>"
+        },
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0189",
+        "active": true,
+        "details": {
+          "Size": ["King"]
+        },
+        "name": "c4 360 Bed King",
+        "regular": {
+          "cents": 219900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 179900,
+          "currency_iso": "USD"
+        },
+        "sku": "KZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e018a",
+        "active": true,
+        "details": {
+          "Size": ["Split King"]
+        },
+        "name": "c4 360 Bed Split King",
+        "regular": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 199900,
+          "currency_iso": "USD"
+        },
+        "sku": "SZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e018b",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop King"]
+        },
+        "name": "c4 360 Bed FlexTop King",
+        "regular": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 199900,
+          "currency_iso": "USD"
+        },
+        "sku": "AZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e018c",
+        "active": true,
+        "details": {
+          "Size": ["California King"]
+        },
+        "name": "c4 360 Bed California King",
+        "regular": {
+          "cents": 219900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 179900,
+          "currency_iso": "USD"
+        },
+        "sku": "CZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e018d",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop California King"]
+        },
+        "name": "c4 360 Bed FlexTop California King",
+        "regular": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 199900,
+          "currency_iso": "USD"
+        },
+        "sku": "BZC4",
+        "promo_badge_message": "$400 Off",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      }
+    ],
+    "packaged_products": [],
+    "purchasable": true,
+    "inventory_status": "In Stock",
+    "original_max_price": {
+      "cents": 239900,
+      "currency_iso": "USD"
+    },
+    "original_min_price": {
+      "cents": 15000,
+      "currency_iso": "USD"
+    },
+    "sell_max_price": {
+      "cents": 199900,
+      "currency_iso": "USD"
+    },
+    "sell_min_price": {
+      "cents": 0,
+      "currency_iso": "USD"
+    },
+    "review_stats": {
+      "average_overall_rating": 4.45,
+      "total_review_count": 40,
+      "distributions": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 11,
+        "5": 25
+      }
+    }
+  },
+  {
+    "id": "p5-360",
+    "bazaar_voice_id": "p5-360",
+    "name": "p5",
+    "bundle_name": null,
+    "type": "mattress",
+    "description": "Plush performance<sup>®</sup>, pressure-relieving comfort",
+    "long_description": "You’ll love plush, cushioned pressure relief with this 4\" combination of comfort layers that contour to you.",
+    "reference_description": "",
+    "meta_description": "The Sleep Number 360 p5 Smart Bed maximizes pressure relieving comfort while tracking how you're sleeping, adjusting to your personalized sleeping habits.",
+    "positioning_statement": "Plush performance, pressure-relieving comfort",
+    "disclaimer": "Furniture sold separately. Prices higher in AK and HI",
+    "content_badge_message": null,
+    "merchant_message": "",
+    "slug": "p5",
+    "original_slug": "p5-360",
+    "browser_title": "p5",
+    "template": "generic",
+    "digital": false,
+    "shipping_type": 1,
+    "shipping_type_name": "home_delivery",
+    "upsell_text": "Standard base sold separately. Options available in shopping cart.",
+    "filters": {
+      "Size": [
+        "Twin",
+        "Twin Long",
+        "Full",
+        "Queen",
+        "King",
+        "Split King",
+        "FlexTop King",
+        "California King",
+        "FlexTop California King"
+      ]
+    },
+    "details": {
+      "Mattress Height": ["10"],
+      "Pressure Relief": ["8"],
+      "Support": ["5"],
+      "Comfort Layers": ["4"]
+    },
+    "comfort_guide_details": {
+      "Mattress Height": ["10"],
+      "Pressure Relief": ["8"],
+      "Support": ["5"],
+      "Comfort Layers": ["4"]
+    },
+    "features": [
+      {
+        "id": "A606132602",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-dual-air.svg",
+        "name": "Dual Adjustability",
+        "text": "Adjusts to your comfort on both sides - your Sleep Number<sup>®</sup> setting.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "6F252A6C35",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-responsive-air.svg",
+        "name": "Responsive Air<sup>®</sup> technology",
+        "text": "Effortlessly responds and automatically adjusts firmness on each side",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "973213B889",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-sleep-iq-color.svg",
+        "name": "SleepIQ<sup>®</sup> technology",
+        "text": "Tracks how you’re sleeping, so you know how your day affects your night.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      },
+      {
+        "id": "A033842E59",
+        "image_url": "https://res.cloudinary.com/snbr-qa/image/upload/v1/workarea/catalog/features/feature-temp-balance.svg",
+        "name": "Temperature balancing sleep surface",
+        "text": "Absorbs excess heat and releases it as you cool, so you sleep just right.",
+        "comparable": true,
+        "specification": false,
+        "show_plus_text": false
+      }
+    ],
+    "customizations": "",
+    "content_blocks": {
+      "top": [],
+      "middle": [],
+      "bottom": [],
+      "product_info": [],
+      "price_block": []
+    },
+    "swatches": {},
+    "images": [
+      {
+        "id": "609d6e81a78f310054a0fd5a",
+        "alt_text": null,
+        "options": {},
+        "position": 0,
+        "primary": true,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_matt_only",
+        "tags": ["matt-only"]
+      },
+      {
+        "id": "609d6e81a78f310054a0fd5c",
+        "alt_text": "",
+        "options": {
+          "Size": ""
+        },
+        "position": 1,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/thumbnail",
+        "tags": ["thumbnail"]
+      },
+      {
+        "id": "609d6e82a78f310054a0fd5e",
+        "alt_text": null,
+        "options": {},
+        "position": 2,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_matt_only_ghost",
+        "tags": ["ghosted-base"]
+      },
+      {
+        "id": "609d6e82a78f310054a0fd60",
+        "alt_text": null,
+        "options": {},
+        "position": 3,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_mobile_split",
+        "tags": ["postcard", "mobile", "split"]
+      },
+      {
+        "id": "609d6e82a78f310054a0fd62",
+        "alt_text": null,
+        "options": {},
+        "position": 4,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_mobile_flextop",
+        "tags": ["postcard", "mobile", "flextop"]
+      },
+      {
+        "id": "609d6e82a78f310054a0fd64",
+        "alt_text": null,
+        "options": {},
+        "position": 5,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_mobile",
+        "tags": ["postcard", "mobile"]
+      },
+      {
+        "id": "609d6e82a78f310054a0fd66",
+        "alt_text": null,
+        "options": {},
+        "position": 6,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_tablet_split",
+        "tags": ["postcard", "tablet", "split"]
+      },
+      {
+        "id": "609d6e83a78f310054a0fd68",
+        "alt_text": null,
+        "options": {},
+        "position": 7,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_tablet_flextop",
+        "tags": ["postcard", "tablet", "flextop"]
+      },
+      {
+        "id": "609d6e83a78f310054a0fd6a",
+        "alt_text": null,
+        "options": {},
+        "position": 8,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_tablet",
+        "tags": ["postcard", "tablet"]
+      },
+      {
+        "id": "609d6e83a78f310054a0fd6c",
+        "alt_text": null,
+        "options": {},
+        "position": 9,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5-360-SPLIT-FF1",
+        "tags": ["upt", "split"]
+      },
+      {
+        "id": "609d6e83a78f310054a0fd6e",
+        "alt_text": null,
+        "options": {},
+        "position": 10,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5-360-FT-FF1",
+        "tags": ["upt", "flextop"]
+      },
+      {
+        "id": "609d6e83a78f310054a0fd70",
+        "alt_text": null,
+        "options": {},
+        "position": 11,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5-360",
+        "tags": ["upt", "desktop"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd72",
+        "alt_text": null,
+        "options": {},
+        "position": 12,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_desktop_split",
+        "tags": ["postcard", "desktop", "split"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd74",
+        "alt_text": null,
+        "options": {},
+        "position": 13,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_desktop_flextop",
+        "tags": ["postcard", "desktop", "flextop"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd76",
+        "alt_text": null,
+        "options": {},
+        "position": 14,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/postcard_desktop",
+        "tags": ["postcard", "desktop"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd78",
+        "alt_text": null,
+        "options": {},
+        "position": 15,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_gallery4",
+        "tags": ["gallery", "desktop", "mobile", "tablet"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd7a",
+        "alt_text": null,
+        "options": {},
+        "position": 16,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_gallery3",
+        "tags": ["gallery", "desktop", "mobile", "tablet"]
+      },
+      {
+        "id": "609d6e84a78f310054a0fd7c",
+        "alt_text": null,
+        "options": {},
+        "position": 17,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_gallery2",
+        "tags": ["gallery", "desktop", "mobile", "tablet"]
+      },
+      {
+        "id": "609d6e85a78f310054a0fd7e",
+        "alt_text": null,
+        "options": {},
+        "position": 18,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/p5_gallery1",
+        "tags": ["desktop", "gallery", "mobile", "tablet"]
+      },
+      {
+        "id": "609d6e85a78f310054a0fd80",
+        "alt_text": null,
+        "options": {},
+        "position": 19,
+        "primary": false,
+        "url": "https://res.cloudinary.com/snbr-qa/image/upload/f_auto,q_auto:eco/v1624558909/workarea/catalog/product_images/p5-360/45_wide_mobile",
+        "tags": ["gallery", "mobile"]
+      }
+    ],
+    "videos": [],
+    "renders": [],
+    "recommended": [],
+    "variants": [
+      {
+        "id": "5f34616c92fc7500013e018e",
+        "active": true,
+        "details": {
+          "Size": ["Twin"]
+        },
+        "name": "p5 360 Bed Twin",
+        "regular": {
+          "cents": 184900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 154900,
+          "currency_iso": "USD"
+        },
+        "sku": "TZP5",
+        "promo_badge_message": "$300 OFF",
+        "alternate_promo_badge_message": "alternate badge message",
+        "promo_long_message": "<p>Promo long message</p>",
+        "promo_expiry_date": 1623992400000,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e018f",
+        "active": true,
+        "details": {
+          "Size": ["Twin Long"]
+        },
+        "name": "p5 360 Bed Twin XL",
+        "regular": {
+          "cents": 199900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 169900,
+          "currency_iso": "USD"
+        },
+        "sku": "XZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616c92fc7500013e0190",
+        "active": true,
+        "details": {
+          "Size": ["Full"]
+        },
+        "name": "p5 360 Bed Full",
+        "regular": {
+          "cents": 227400,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 197400,
+          "currency_iso": "USD"
+        },
+        "sku": "FZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0191",
+        "active": true,
+        "details": {
+          "Size": ["Queen"]
+        },
+        "name": "p5 360 Bed Queen",
+        "regular": {
+          "cents": 239900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 209900,
+          "currency_iso": "USD"
+        },
+        "sku": "QZP5",
+        "promo_badge_message": "$300 is OFF",
+        "alternate_promo_badge_message": null,
+        "promo_long_message": "<p><b>Limited time only</b></p>",
+        "promo_expiry_date": 1624510800000,
+        "promo_id": "pricing_sku_markdown",
+        "financing": {
+          "description": "No Interest with 24 Equal Monthly Payments",
+          "name": "24 months all mattresses",
+          "id": "600b0eb2f81f8e6cbd551bfe",
+          "months": 24,
+          "value": 88,
+          "non_stackable": false,
+          "segmented": false,
+          "segments": [],
+          "default": false,
+          "deferred": false,
+          "end_date": null,
+          "promo_code": "424",
+          "disclaimer_message": "<p>\r\n      No Interest For 24 Months*\r\n    </p>\r\n    <p>\r\n      On purchases with a Sleep Number<sup>®</sup> credit card through \r\n\r\n{end_date}. 24 equal monthly payments required.\r\n    </p>\r\n    <p>\r\n      *Qualifying purchase amount must be on one receipt. No interest will be charged and equal monthly payments \r\n      are required on promo purchase until it is paid in full. These payments equal the total promo purchase \r\n      amount divided by the number of months in the promo period and rounded up to the next whole dollar. \r\n      These payments may be higher than the payments that would be required if this purchase was a non-promo purchase. \r\n      Any monthly payments shown in connection with this promotional offer exclude taxes and delivery \r\n      and should allow you to pay off the promotional purchase within the promo period if (1) you make your payments \r\n      by the due date each month and (2) this is the only balance on your account during the promo period. \r\n      If you have other balances on your account, this monthly payment will be added to the minimum payment \r\n      applicable to those balances. Regular account terms apply to non-promo purchases. For new accounts: Purchase APR \r\n      is 29.99%. Minimum interest charge is $2. Existing cardholders: See your credit card agreement terms. \r\n      Subject to credit approval.\r\n    </p>"
+        },
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0192",
+        "active": true,
+        "details": {
+          "Size": ["King"]
+        },
+        "name": "p5 360 Bed King",
+        "regular": {
+          "cents": 40000,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 10000,
+          "currency_iso": "USD"
+        },
+        "sku": "KZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0193",
+        "active": true,
+        "details": {
+          "Size": ["Split King"]
+        },
+        "name": "p5 360 Bed Split King",
+        "regular": {
+          "cents": 329900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 299900,
+          "currency_iso": "USD"
+        },
+        "sku": "SZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0194",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop King"]
+        },
+        "name": "p5 360 Bed FlexTop King",
+        "regular": {
+          "cents": 329900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 299900,
+          "currency_iso": "USD"
+        },
+        "sku": "AZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0195",
+        "active": true,
+        "details": {
+          "Size": ["California King"]
+        },
+        "name": "p5 360 Bed California King",
+        "regular": {
+          "cents": 289900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 259900,
+          "currency_iso": "USD"
+        },
+        "sku": "CZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      },
+      {
+        "id": "5f34616d92fc7500013e0196",
+        "active": true,
+        "details": {
+          "Size": ["FlexTop California King"]
+        },
+        "name": "p5 360 Bed FlexTop California King",
+        "regular": {
+          "cents": 329900,
+          "currency_iso": "USD"
+        },
+        "sale": {
+          "cents": 299900,
+          "currency_iso": "USD"
+        },
+        "sku": "BZP5",
+        "promo_badge_message": null,
+        "alternate_promo_badge_message": null,
+        "promo_long_message": null,
+        "promo_expiry_date": null,
+        "promo_id": "pricing_sku_markdown",
+        "financing": null,
+        "inventory_message": "In Stock",
+        "inventory_count": 99999
+      }
+    ],
+    "packaged_products": [],
+    "purchasable": true,
+    "inventory_status": "In Stock",
+    "original_max_price": {
+      "cents": 329900,
+      "currency_iso": "USD"
+    },
+    "original_min_price": {
+      "cents": 40000,
+      "currency_iso": "USD"
+    },
+    "sell_max_price": {
+      "cents": 299900,
+      "currency_iso": "USD"
+    },
+    "sell_min_price": {
+      "cents": 10000,
+      "currency_iso": "USD"
+    },
+    "review_stats": {
+      "average_overall_rating": 4.04,
+      "total_review_count": 25,
+      "distributions": {
+        "1": 2,
+        "2": 4,
+        "3": 0,
+        "4": 4,
+        "5": 15
+      }
+    }
+  }
+]

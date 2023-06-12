@@ -1,0 +1,61 @@
+{
+  "user": {
+    "crowdtwist_id": "69561541",
+    "third_party_id": "1015462636"
+  },
+  "points": {
+    "redeemable": 731,
+    "total": 731,
+    "to_next_tier": 69,
+    "in_this_tier": 131
+  },
+  "levels": {
+    "current_level": {
+      "title": "Gold Circle",
+      "min_value": 600,
+      "max_value": 799,
+      "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png",
+      "progress": 65.5
+    },
+    "next_level": {
+      "title": "Platinum Circle",
+      "min_value": 800,
+      "max_value": 999,
+      "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+    },
+    "levels_above": [
+      {
+        "title": "Platinum Circle",
+        "min_value": 800,
+        "max_value": 999,
+        "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+      },
+      {
+        "title": "Diamond Circle",
+        "min_value": 1000,
+        "max_value": null,
+        "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+      }
+    ],
+    "levels_below": [
+      {
+        "title": "Blue Circle",
+        "min_value": null,
+        "max_value": 199,
+        "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+      },
+      {
+        "title": "Bronze Circle",
+        "min_value": 200,
+        "max_value": 399,
+        "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+      },
+      {
+        "title": "Silver Circle",
+        "min_value": 400,
+        "max_value": 599,
+        "image_url": "https://cdn.crowdtwist.com/img/v2/2b60fc8ae04900fd2e4542df418c2d33ea98c2b1/w/h/0/image.png"
+      }
+    ]
+  }
+}
