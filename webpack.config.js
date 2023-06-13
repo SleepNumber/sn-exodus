@@ -37,7 +37,10 @@ entries.forEach(file => {
 });
 
 module.exports = {
+  mode: 'production',
+
   entry: scripts,
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: pathData => distNames[pathData.chunk.name],
@@ -45,6 +48,7 @@ module.exports = {
       type: 'commonjs',
     },
   },
+
   resolve: {
     modules: [
       path.resolve(__dirname, 'src'),
