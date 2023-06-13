@@ -1,2 +1,1909 @@
-/*! For license information please see format.js.LICENSE.txt */
-(()=>{var e={6531:(e,t,n)=>{"use strict";n.d(t,{default:()=>r});var o=n(2829);class i extends o.default{static access_token=new i("access_token");static analytics_session=new i("analytics_session");static auth_token=new i("authentication_token");static bq_auto_lead_send=new i("bq_auto_lead_send");static cart=new i("order_id");static ccpa=new i("sn-ccpa-optin");static debug=new i("sn-debug");static dynamic_yield_id_server=new i("_dyid_server");static dynamic_yield_id=new i("_dyid");static dynamic_yield_jsession=new i("_dyjsession");static id_token=new i("id_token");static price_lists=new i("plid");static promo_drawer=new i("promo_drawer");static refresh_token=new i("refresh_token");static request_names=new i("request_names");static session=new i("_sleep_number_session");static sessions=new i("sessions");static sn=new i("sn");static _=this.closeEnum();constructor(e){super(),this.name=e}}const r=i},3168:(e,t,n)=>{"use strict";n.d(t,{timezone:()=>f});var o=n(3818),i=n(6808),r=n.n(i),s=n(6531),a=n(2829),c=n(5981),u=n(7814);const d="test"===n.g?.process?.env?.NODE_ENV;let l=n.g||window;if(!o.jU&&!d){const e={local:"https://sleepnumber.test:8090",qa:"https://qa.sleepnumber.com",staging:"https://staging.sleepnumber.com",production:"https://www.sleepnumber.com"},t=e[process.env.BUILD_ENV]||e.local,n=new URL(`${t}/categories/beds-on-sale`);l={...l,location:n}}const m=l,p=m?.sn_globals||{config:{}};m?.location?.pathname?.startsWith("/dev/"),m?.top?.location?.href?.includes("/admin/")||m?.location?.pathname?.startsWith("/admin/"),p.config.env,(0,u.namespace)("sn.toggleDebug",(function(){const e=function(){if(!o.jU)return!1;const e=r().get(s.default.debug.name);return e&&"false"!==e}();r().set(s.default.debug.name,!e),console.log(`sn-debug set to "${!e}"`)}));const f="Intl"in m?Intl.DateTimeFormat().resolvedOptions().timeZone:"America/Chicago",g={esc:27,space:32,backspace:8,enter:13,tab:9,up:38,down:40,left:37,right:39,home:36,end:35,n:78,p:80};g.radio={prev:[g.left,g.up],next:[g.right,g.down]},g.arrows=[g.left,g.up,g.right,g.down];class h extends a.default{static idle=new h;static pending=new h;static success=new h;static error=new h;static active=new h;static complete=new h;static _=this.closeEnum()}class w extends a.default{static up=new w;static down=new w;static left=new w;static right=new w;static _=this.closeEnum()}class y extends a.default{static NotStarted=new y({name:"not_started"});static Login=new y({name:"login",next:()=>y.Shipping});static Shipping=new y({name:"shipping",next:()=>y.Delivery});static Delivery=new y({name:"delivery",next:()=>y.Payment});static Payment=new y({name:"payment",next:()=>y.Review});static Review=new y({name:"review",next:()=>y.Confirmation});static Confirmation=new y({name:"confirmation"});static _=this.closeEnum();constructor(e){super(),this.next=e.next,this.name=e.name}}class _ extends a.default{static dropdown=new _(1e3);static sticky=new _(1020);static fixed=new _(1030);static modal_backdrop=new _(1040);static modal=new _(107159);static popover=new _(1060);static tooltip=new _(1070);static chat_button=new _(107158);static over_chat=new _(107159);constructor(e){super(),this.value=e}}const v={header_unpin:"-unpinned-header",jumping:"-jump-scrolling",position_sticky:"position-sticky",top_below_header:"top-below-header",search_open:"-search-open",skip_nav_show:"-skip-nav-show"};v.sticky_top=[v.position_sticky,v.top_below_header],(0,c.isFunc)(m,"performance.now")?m?.performance:m?.Date},2829:(e,t,n)=>{"use strict";n.d(t,{default:()=>i});class o{static closeEnum(){const e=[],t=[];for(const[n,o]of Object.entries(this))e.push(n),o.enumKey=n,o.enumOrdinal=t.length,t.push(o);this.enumKeys=e,this.enumValues=t}static enumValueOf(e){const t=this.enumKeys.indexOf(e);if(t>=0)return this.enumValues[t]}static[Symbol.iterator](){return this.enumValues[Symbol.iterator]()}toString(){return`${this.constructor.name}.${this.enumKey}`}}const i=o},5981:(e,t,n)=>{"use strict";n.d(t,{isFunc:()=>i});var o=n(7814);const i=function(){return 1===arguments.length?"function"==typeof(arguments.length<=0?void 0:arguments[0]):"function"==typeof(0,o.prop)(arguments.length<=0?void 0:arguments[0],arguments.length<=1?void 0:arguments[1])}},7814:(e,t,n)=>{"use strict";function o(e,t){if(!e)return e;let n=e;const o=t.replace(/\[/g,".").replace(/[\]"'`]/g,"").split(".");for(let e=0;e<o.length;e++){const t=n[o[e]],i=null==t;if(n=t,e===o.length-1||i)break}return n}function i(e,t){const o=n.g||window,i=e.split(".");let r,s,a;for(o[i[0]]||(o[i[0]]={}),r=o[i[0]],s=1,a=i.length;s<a;s++)r[i[s]]||(r[i[s]]={}),r=r[i[s]];return t&&(function(e,t,n){const o=t.split(".");let i,r,s;for(i=e,r=0,s=o.length;r<s;r++)r===s-1?i[o[r]]=n:(i[o[r]]||(i[o[r]]={}),i=i[o[r]])}(o,e,t),r=t),r}n.d(t,{namespace:()=>i,prop:()=>o})},5203:(e,t,n)=>{"use strict";function o(e,t){return"0",n=t-e.toString().length,new Array(n+1).join("0")+e;var n}n.d(t,{pad:()=>o}),n(3168)},3818:(e,t)=>{"use strict";var n="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},o="undefined"!=typeof window&&void 0!==window.document;"undefined"!=typeof process&&null!=process.versions&&process.versions.node,"object"===("undefined"==typeof self?"undefined":n(self))&&self.constructor&&self.constructor.name,"undefined"!=typeof window&&"nodejs"===window.name||"undefined"!=typeof navigator&&(navigator.userAgent.includes("Node.js")||navigator.userAgent.includes("jsdom")),"undefined"!=typeof Deno&&void 0!==Deno.version&&Deno.version.deno;t.jU=o},6808:(e,t,n)=>{var o,i,r;r=function(){function e(){for(var e=0,t={};e<arguments.length;e++){var n=arguments[e];for(var o in n)t[o]=n[o]}return t}function t(e){return e.replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent)}return function n(o){function i(){}function r(t,n,r){if("undefined"!=typeof document){"number"==typeof(r=e({path:"/"},i.defaults,r)).expires&&(r.expires=new Date(1*new Date+864e5*r.expires)),r.expires=r.expires?r.expires.toUTCString():"";try{var s=JSON.stringify(n);/^[\{\[]/.test(s)&&(n=s)}catch(e){}n=o.write?o.write(n,t):encodeURIComponent(String(n)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),t=encodeURIComponent(String(t)).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent).replace(/[\(\)]/g,escape);var a="";for(var c in r)r[c]&&(a+="; "+c,!0!==r[c]&&(a+="="+r[c].split(";")[0]));return document.cookie=t+"="+n+a}}function s(e,n){if("undefined"!=typeof document){for(var i={},r=document.cookie?document.cookie.split("; "):[],s=0;s<r.length;s++){var a=r[s].split("="),c=a.slice(1).join("=");n||'"'!==c.charAt(0)||(c=c.slice(1,-1));try{var u=t(a[0]);if(c=(o.read||o)(c,u)||t(c),n)try{c=JSON.parse(c)}catch(e){}if(i[u]=c,e===u)break}catch(e){}}return e?i[e]:i}}return i.set=r,i.get=function(e){return s(e,!1)},i.getJSON=function(e){return s(e,!0)},i.remove=function(t,n){r(t,"",e(n,{expires:-1}))},i.defaults={},i.withConverter=n,i}((function(){}))},void 0===(i="function"==typeof(o=r)?o.call(t,n,t,e):o)||(e.exports=i),e.exports=r()}},t={};function n(o){var i=t[o];if(void 0!==i)return i.exports;var r=t[o]={exports:{}};return e[o](r,r.exports,n),r.exports}n.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return n.d(t,{a:t}),t},n.d=(e,t)=>{for(var o in t)n.o(t,o)&&!n.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},n.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),n.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),n.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var o={};(()=>{"use strict";n.r(o),n.d(o,{format:()=>r,formats:()=>i,fromNow:()=>s});var e=n(5203),t=n(3168);const i={date:{DAY_MONTH_LONG:e=>e.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",timeZone:t.timezone}),MONTH_ABR_DAY_YEAR:e=>e.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:t.timezone}),MONTH_LONG_DAY_YEAR:e=>e.toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric",timeZone:t.timezone}),SIMPLE:e=>e.toLocaleDateString("en-US",{month:"numeric",day:"numeric",year:"numeric",timeZone:t.timezone}),SIMPLE_2_DIGIT:e=>e.toLocaleDateString("en-US",{month:"2-digit",day:"2-digit",year:"numeric",timeZone:t.timezone}),UTC_SIMPLE_2_DIGIT:e=>e.toLocaleDateString("en-US",{month:"2-digit",day:"2-digit",year:"numeric",timeZone:"UTC"}),MONTH_DAY_YEAR:e=>e.toLocaleDateString("en-US",{timeZone:t.timezone}),UTC_MONTH_DAY_YEAR:e=>e.toLocaleDateString("en-US",{timeZone:"UTC"}),ISO:t=>t.getUTCFullYear()+"-"+(0,e.pad)(t.getUTCMonth()+1,2)+"-"+(0,e.pad)(t.getUTCDate(),2),COMPACT:t=>t.getFullYear()+(0,e.pad)(t.getMonth()+1,2)+(0,e.pad)(t.getDate(),2)},time:{SIMPLE:e=>e.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit",timeZone:t.timezone,timeZoneName:"short"}),HOUR_AND_MINUTE:e=>e.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"}),HOUR_ONLY:e=>e.toLocaleTimeString("en-US",{hour:"numeric"}),ARMY:e=>e.toLocaleTimeString("en-US",{hour12:!1,hour:"2-digit",minute:"2-digit",timeZone:t.timezone,timeZoneName:"short"}),PRECISE:t=>`${(0,e.pad)(t.getHours(),2)}:${(0,e.pad)(t.getMinutes(),2)}:${(0,e.pad)(t.getSeconds(),2)}.${(0,e.pad)(t.getMilliseconds(),3)}`,PRECISE_NO_MILLISECONDS:t=>`${(0,e.pad)(t.getHours(),2)}:${(0,e.pad)(t.getMinutes(),2)}:${(0,e.pad)(t.getSeconds(),2)}`},datetime:{LOCAL:e=>e.toLocaleDateString("en-US",{month:"numeric",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit",timeZone:t.timezone}),SIMPLE:e=>e.toLocaleDateString("en-US",{month:"numeric",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit",timeZone:t.timezone,timeZoneName:"short"})}},r={date(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new Date;return(arguments.length>1&&void 0!==arguments[1]?arguments[1]:i.date.MONTH_ABR_DAY_YEAR)(new Date(e))},formatTimeString(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];const[n,o]=e.split(":"),i="00"!==o?`:${o}`:"";let r=n>12?`${n%12}${i} PM`:`${n}${i} AM`;return t&&(r=r.replace(" PM","pm").replace(" AM","am")),r},percent(e,t){return`${Number((e/t*100).toFixed(arguments.length>2&&void 0!==arguments[2]?arguments[2]:3)).toString()}%`},currency(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=e;"object"==typeof e&&(n=e.cents/100);const o=t?".00":"",i=n<0?"-$":"$",r=`${parseInt(n=Math.abs(+n||0).toFixed(2),10)}`;let s=r.length;return s=s>3?s%3:0,i+(s?r.substr(0,s)+",":"")+r.substr(s).replace(/(\d{3})(?=\d)/g,"$1,")+("."+Math.abs(n-r).toFixed(2).slice(2)).replace(o,"")},ratio(e,t){let n=!1,o=e,i=t;const r=(e,t)=>0===t?e:r(t,e%t);if(o===i)return"1 : 1";if(+o<+i){n=!0;const e=o;o=i,i=e}const s=r(+o,+i);return n?`${i/s}:${o/s}`:`${o/s}:${i/s}`},time(e){const t=Number(e),n=Math.floor(t/3600),o=Math.floor(t%3600/60),i=Math.floor(t%3600%60);let r=`${`0${o}`.slice(-2)}:${`:0${i}`.slice(-2)}`;return n>0&&(r=`${`0${n}`.slice(-2)}:${r}`),r}};function s(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=e;e instanceof Date&&(n=e.getTime());const o=Date.now(),i=o-n,r=e<o,s=Math.abs(i),a=Math.floor(s/864e5),c=s%864e5,u=Math.floor(c/36e5),d=s%36e5,l=Math.floor(d/6e4),m=s%6e4,p=Math.floor(m/1e3),f=Math.floor(a/30),g=Math.floor(a/365);return r?g>1?`${g} years ago`:1===g?"a year ago":f>1?`${f} months ago`:1===f?"1 month ago":a>1?`${a} days ago`:1===a?"yesterday":u>1?`${u} hours ago`:1===u?"one hour ago":l>1?`${l} minutes ago`:1===l?"1 minute ago":p>1?`${p} seconds ago`:"1 second ago":g>1?t?"in {years} years":`${g} years from now`:1===g?t?"in a year":"a year from now":f>1?t?`in ${f} months`:`${f} months from now`:1===f?t?"in a month":"1 month from now":a>1?t?`in ${a} days`:`${a} days from now`:1===a?"tomorrow":u>1?t?`in ${u} hours`:`${u} hours from now`:1===u?t?"in an hour":"one hour from now":l>1?t?`in ${l} minutes`:`${l} minutes from now`:1===l?t?"in 1 minute":"1 minute from now":p>1?t?`in ${p} seconds`:`${p} seconds from now`:"1 second from now"}})();var i=exports;for(var r in o)i[r]=o[r];o.__esModule&&Object.defineProperty(i,"__esModule",{value:!0})})();
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 6531:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2829);
+
+
+/**
+ * Cookie names used by us.
+ * @enum
+ */
+class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__["default"] {
+  static access_token = new Cookie('access_token');
+  static analytics_session = new Cookie('analytics_session');
+  static auth_token = new Cookie('authentication_token');
+  static bq_auto_lead_send = new Cookie('bq_auto_lead_send');
+  static cart = new Cookie('order_id');
+  static ccpa = new Cookie('sn-ccpa-optin');
+  static debug = new Cookie('sn-debug');
+  static dynamic_yield_id_server = new Cookie('_dyid_server');
+  static dynamic_yield_id = new Cookie('_dyid'); // This client cookie must match _dyid_server
+  static dynamic_yield_jsession = new Cookie('_dyjsession');
+  static id_token = new Cookie('id_token');
+  static price_lists = new Cookie('plid');
+  static promo_drawer = new Cookie('promo_drawer');
+  static refresh_token = new Cookie('refresh_token');
+  static request_names = new Cookie('request_names'); // Set by rails if user is missing names
+  static session = new Cookie('_sleep_number_session');
+  static sessions = new Cookie('sessions');
+  static sn = new Cookie('sn');
+  static _ = this.closeEnum();
+  constructor(name) {
+    super();
+    this.name = name;
+  }
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Cookie);
+
+/***/ }),
+
+/***/ 3168:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   timezone: () => (/* binding */ timezone)
+/* harmony export */ });
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6808);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6531);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2829);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7814);
+
+
+
+
+
+
+const localUrl = 'https://sleepnumber.test';
+const qaUrl = 'https://qa.sleepnumber.com';
+const stageUrl = 'https://staging.sleepnumber.com';
+const prodUrl = 'https://www.sleepnumber.com';
+const isJestEnv = __webpack_require__.g?.process?.env?.NODE_ENV === 'test';
+let windowObject = __webpack_require__.g || window;
+const isSSR = !browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU && !isJestEnv;
+if (isSSR) {
+  const hosts = {
+    local: 'https://sleepnumber.test:8090',
+    qa: qaUrl,
+    staging: stageUrl,
+    production: prodUrl
+  };
+  const ssrHost = hosts[process.env.BUILD_ENV] || hosts.local;
+  const ssrHref = `${ssrHost}/categories/beds-on-sale`;
+  const ssrUrl = new URL(ssrHref);
+
+  // Set the origin for all the places that check it
+  windowObject = {
+    ...windowObject,
+    location: ssrUrl
+  };
+}
+const win = windowObject;
+const sn_globals = win?.sn_globals || {
+  config: {}
+};
+const isProduction = () => sn_globals.config.env === 'production';
+const isStaging = () => sn_globals.config.env === 'staging';
+const isQa = () => sn_globals.config.env === 'qa';
+const isDevelopment = () => sn_globals.config.env === 'development';
+const isDevPage = win?.location?.pathname?.startsWith('/dev/');
+const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.location?.pathname?.startsWith('/admin/');
+const isTestEnv = sn_globals.config.env !== 'production';
+function isDebug() {
+  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU) return false;
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  return cookieValue && cookieValue !== 'false';
+}
+(0,_object__WEBPACK_IMPORTED_MODULE_4__.namespace)('sn.toggleDebug', function toggleDebug() {
+  const current = isDebug();
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  // eslint-disable-next-line no-console
+  console.log(`sn-debug set to "${!current}"`);
+});
+const timezone = 'Intl' in win ? Intl.DateTimeFormat().resolvedOptions().timeZone : 'America/Chicago';
+
+/** Returns the browser locale. Defaults to `en-US`. */
+function locale() {
+  return navigator.languages && navigator.languages[0] || navigator.language || 'en-US';
+}
+const attributes = {
+  // window.sessionStorage fields
+  session: {
+    mlp: {
+      compare: 'mlp_compare_order'
+    }
+  },
+  // window.localStorage fields
+  local: {
+    modals: {
+      insider_appreciation_shown: 'insider_appreciation_shown',
+      insider_signin_shown: 'insider_signin_shown',
+      lead_compare_shown: 'lead_compare_shown',
+      lead_compare_submitted: 'lead_compare_submitted',
+      lead_modal_shown: 'lead_capture_shown',
+      lead_modal_submitted: 'lead_capture_submitted',
+      lead_modal_email_submitted: 'lead_capture_email_submitted',
+      lead_capture_link: 'lead_capture_link',
+      lead_quiz_shown: 'lead_quiz_shown',
+      lead_quiz_submitted: 'lead_quiz_submitted'
+    },
+    toasts: {
+      blog_toast_shown: 'blog_toast_shown',
+      bq_toast_shown: 'bq_toast_shown'
+    },
+    misc: {
+      hd_pending_cancel: 'hd_pending_cancel',
+      last_tracked_order_id: 'last_tracked_order_id'
+    },
+    bq: {
+      skus: 'bed-quiz-skus',
+      results: 'bed-quiz-results'
+    },
+    ic: {
+      points: 'inner-circle-points'
+    }
+  },
+  // Response header fields
+  headers: {
+    flash: 'x-flash-messages'
+  }
+};
+
+// Used in console logging
+const css = {
+  fwb: 'font-weight: bold;',
+  fwn: 'font-weight: normal;',
+  black: 'color: #777777;',
+  gray: 'color: #9e9e9e;',
+  white: 'color: #ffffff',
+  blue: 'color: #03a9f4;',
+  green: 'color: #4caf50;',
+  red: 'color: #f20404;',
+  orange: 'color: #ff8000;'
+};
+
+// Used in console logging
+const styles = {
+  normal: `${css.fwn}${css.black}`,
+  strong: `${css.fwb}${css.black}`,
+  label: `${css.fwb}${css.gray}`,
+  value: `${css.fwn}${css.blue}`,
+  success: `${css.fwn}${css.green}`,
+  error: `${css.fwn}${css.red}`,
+  orange: `${css.fwn}${css.orange}`
+};
+const months = [{
+  name: 'January',
+  abbr: 'Jan',
+  value: 1
+}, {
+  name: 'February',
+  abbr: 'Feb',
+  value: 2
+}, {
+  name: 'March',
+  abbr: 'Mar',
+  value: 3
+}, {
+  name: 'April',
+  abbr: 'Apr',
+  value: 4
+}, {
+  name: 'May',
+  abbr: 'May',
+  value: 5
+}, {
+  name: 'June',
+  abbr: 'Jun',
+  value: 6
+}, {
+  name: 'July',
+  abbr: 'Jul',
+  value: 7
+}, {
+  name: 'August',
+  abbr: 'Aug',
+  value: 8
+}, {
+  name: 'September',
+  abbr: 'Sept',
+  value: 9
+}, {
+  name: 'October',
+  abbr: 'Oct',
+  value: 10
+}, {
+  name: 'November',
+  abbr: 'Nov',
+  value: 11
+}, {
+  name: 'December',
+  abbr: 'Dec',
+  value: 12
+}];
+const specials = {
+  asterisk: {
+    label: 'Asterisk',
+    value: '*',
+    entity: '*',
+    unicode: '\u20F0'
+  },
+  reg: {
+    label: 'Registered Trade Mark',
+    value: '®',
+    entity: '&reg;',
+    unicode: '\u00AE'
+  },
+  tm: {
+    label: 'Trade Mark',
+    value: '™',
+    entity: '&trade;',
+    unicode: '\u2122'
+  },
+  sm: {
+    label: 'Service Mark',
+    value: '℠',
+    entity: '&#8480;',
+    unicode: '\u2120'
+  },
+  dagger: {
+    label: 'Dagger',
+    value: '†',
+    entity: '&dagger;',
+    unicode: '\u2020'
+  },
+  doubledagger: {
+    label: 'Double Dagger',
+    value: '‡',
+    entity: '&Dagger;',
+    unicode: '\u2021'
+  },
+  section: {
+    label: 'Section',
+    value: '§',
+    entity: '&sect;',
+    unicode: '\u00A7'
+  }
+};
+const keyCodes = {
+  esc: 27,
+  space: 32,
+  backspace: 8,
+  enter: 13,
+  tab: 9,
+  up: 38,
+  down: 40,
+  left: 37,
+  right: 39,
+  home: 36,
+  end: 35,
+  n: 78,
+  p: 80
+};
+keyCodes.radio = {
+  prev: [keyCodes.left, keyCodes.up],
+  next: [keyCodes.right, keyCodes.down]
+};
+keyCodes.arrows = [keyCodes.left, keyCodes.up, keyCodes.right, keyCodes.down];
+const spacing = {
+  space: '\u0020',
+  nbsp: '\u00a0',
+  ndash: '\u0096',
+  mdash: '\u0097',
+  ellipsis: '\u2026'
+};
+const timing = {
+  scroll: 500,
+  expand: 150,
+  transition: 250,
+  animation: 'cubic-bezier(0.42, 0, 0.58, 1)'
+};
+const mime = {
+  app: {
+    json: 'application/json',
+    form: 'multipart/form-data'
+  }
+};
+const headers = {
+  accept: 'Accept',
+  content: 'Content-Type'
+};
+const millisPerYear = 31536000000;
+const ALERT_TYPES = {
+  primary: 'primary',
+  secondary: 'secondary',
+  success: 'success',
+  danger: 'danger',
+  warning: 'warning',
+  info: 'info',
+  dark: 'dark',
+  light: 'light'
+};
+const ALERT_FLAVORS = {
+  normal: 'normal',
+  toast: 'toast'
+};
+
+/**
+ * General purpose status enum.
+ * @enum
+ */
+class Status extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+  static idle = new Status();
+  static pending = new Status();
+  static success = new Status();
+  static error = new Status();
+  static active = new Status();
+  static complete = new Status();
+  static _ = this.closeEnum();
+}
+
+/**
+ * General purpose direction enum.
+ * @enum
+ */
+class Direction extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+  static up = new Direction();
+  static down = new Direction();
+  static left = new Direction();
+  static right = new Direction();
+  static _ = this.closeEnum();
+}
+
+/**
+ * Listing of user segments.
+ * @enum
+ */
+const USER_SEGMENT = {
+  innercircle: 'InnerCircle',
+  insider: 'Insider'
+};
+class CheckoutSteps extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+  static NotStarted = new CheckoutSteps({
+    name: 'not_started'
+  });
+  static Login = new CheckoutSteps({
+    name: 'login',
+    next: () => CheckoutSteps.Shipping
+  });
+  static Shipping = new CheckoutSteps({
+    name: 'shipping',
+    next: () => CheckoutSteps.Delivery
+  });
+  static Delivery = new CheckoutSteps({
+    name: 'delivery',
+    next: () => CheckoutSteps.Payment
+  });
+  static Payment = new CheckoutSteps({
+    name: 'payment',
+    next: () => CheckoutSteps.Review
+  });
+  static Review = new CheckoutSteps({
+    name: 'review',
+    next: () => CheckoutSteps.Confirmation
+  });
+  static Confirmation = new CheckoutSteps({
+    name: 'confirmation'
+  });
+  static _ = this.closeEnum();
+  constructor(props) {
+    super();
+    this.next = props.next;
+    this.name = props.name;
+  }
+}
+const zindex_dropdown = 1000;
+const zindex_fixed = 1030;
+const zindex_modal = 107159;
+const zindex_modal_backdrop = 1040;
+const zindex_popover = 1060;
+const zindex_sticky = 1020;
+const zindex_tooltip = 1070;
+
+/** Global z-index values */
+class ZIndex extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+  // From bootstrap
+  static dropdown = new ZIndex(zindex_dropdown);
+  static sticky = new ZIndex(zindex_sticky);
+  static fixed = new ZIndex(zindex_fixed);
+  static modal_backdrop = new ZIndex(zindex_modal_backdrop);
+  static modal = new ZIndex(zindex_modal);
+  static popover = new ZIndex(zindex_popover);
+  static tooltip = new ZIndex(zindex_tooltip);
+
+  // Live person chat button
+  static chat_button = new ZIndex(107158);
+  // Overlap live person chat
+  static over_chat = new ZIndex(107159);
+  constructor(index) {
+    super();
+    this.value = index;
+  }
+}
+
+/** Classes used as logic flags on the page. */
+const page_classes = {
+  header_unpin: '-unpinned-header',
+  jumping: '-jump-scrolling',
+  position_sticky: 'position-sticky',
+  top_below_header: 'top-below-header',
+  search_open: '-search-open',
+  skip_nav_show: '-skip-nav-show'
+};
+// cx can take arrays: `cx('foo', page_classes.sticky_top)`
+page_classes.sticky_top = [page_classes.position_sticky, page_classes.top_below_header];
+const page_selectors = {
+  sticky_top: '.position-sticky.top-below-header',
+  search_open: '.-search-open',
+  header_unpin: '.-unpinned-header',
+  jumping: '.-jump-scrolling'
+};
+
+/** Use performance API if it's available for better precision. */
+const timer = (0,_function__WEBPACK_IMPORTED_MODULE_5__.isFunc)(win, 'performance.now') ? win?.performance : win?.Date;
+const regex = {
+  // https://emailregex.com
+  email: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}])|(([a-zA-Z\-\d]+\.)+[a-zA-Z]{2,}))$/,
+  zip_partial: /^\d{1,5}$/,
+  zip: /^\d{5}$/,
+  zip_full: /^\d{5}(?:-\d{4})?$/,
+  iso_state: /(US-[A-Z]{2})/,
+  geo: {
+    lat: /^-?([0-8]?\d|90)\.\d{1,6}$/,
+    long: /^-?((1?[0-7]?|\d?)\d|180)\.\d{1,6}$/
+  },
+  /** @see http://www.regular-expressions.info/creditcard.html */
+  cc: {
+    visa: /^4\d{12}(?:\d{3})?$/,
+    master: /^5[1-5]\d{14}$/,
+    amex: /^3[47]\d{13}$/,
+    diners: /^3(?:0[0-5]|[68]\d)\d{11}$/,
+    discover: /^6(?:011|5\d{2})\d{12}$/,
+    jcb: /^(?:2131|1800|35\d{3})\d{11}$/,
+    sn: /^(60346233|60191702|60191708).*/ // Sleep Number Financing Cards
+  }
+};
+
+/***/ }),
+
+/***/ 2829:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* unused harmony exports enumKeyOrNull, enumEntryOrNull */
+/**
+ * This is a copy of the `enumify` package: https://github.com/rauschma/enumify
+ * We are porting it to avoid webpack issues caused by mixing module types
+ */
+class Enumify {
+  static closeEnum() {
+    const enumKeys = [];
+    const enumValues = [];
+    // Traverse the enum entries
+    for (const [key, value] of Object.entries(this)) {
+      enumKeys.push(key);
+      value.enumKey = key;
+      value.enumOrdinal = enumValues.length;
+      enumValues.push(value);
+    }
+    // Important: only add more static properties *after* processing the enum entries
+    this.enumKeys = enumKeys;
+    this.enumValues = enumValues;
+    // TODO: prevent instantiation now. Freeze `this`?
+  }
+
+  /** Use case: parsing enum values */
+  static enumValueOf(str) {
+    const index = this.enumKeys.indexOf(str);
+    if (index >= 0) {
+      return this.enumValues[index];
+    }
+    return undefined;
+  }
+  static [Symbol.iterator]() {
+    return this.enumValues[Symbol.iterator]();
+  }
+  toString() {
+    return `${this.constructor.name}.${this.enumKey}`;
+  }
+}
+function enumKeyOrNull(input) {
+  if (input === null) return null;
+  if (input instanceof Enumify) return input.enumKey;
+  return input;
+}
+function enumEntryOrNull(Enum, key) {
+  if (key === null) return null;
+  return Enum?.enumValueOf(key);
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Enumify);
+
+/***/ }),
+
+/***/ 5981:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   isFunc: () => (/* binding */ isFunc)
+/* harmony export */ });
+/* unused harmony exports lazy, compose, required, pipe, debounce, noop, identity, combineReducers, onEnter, onKey, cappedCallback, retry */
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7814);
+/**
+ * FUNCTION UTILS
+ * @module sn.functions
+ */
+
+
+function lazy(f) {
+  return function lazyApply() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    return f.apply(this, args);
+  };
+}
+const compose = function () {
+  for (var _len2 = arguments.length, fns = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+    fns[_key2] = arguments[_key2];
+  }
+  return function () {
+    for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+      args[_key3] = arguments[_key3];
+    }
+    return fns.forEach(fn => fn && fn(...args));
+  };
+};
+
+/** Returns `true` only if the property on the object is a function. */
+const isFunc = function () {
+  if (arguments.length === 1) return typeof (arguments.length <= 0 ? undefined : arguments[0]) === 'function';
+  return typeof (0,_object__WEBPACK_IMPORTED_MODULE_0__.prop)(arguments.length <= 0 ? undefined : arguments[0], arguments.length <= 1 ? undefined : arguments[1]) === 'function';
+};
+
+/**
+ * Use as an ES6 default parameter to make a parameter required.
+ * @param name - The required parameter name.
+ *
+ * USAGE:
+ *  makeSandwich = (meat = required('meat'), cheese) => { ... };
+ *  makeSandwich = ({ meat = required('meat'), cheese } = {}) => { ... };
+ */
+const required = name => {
+  throw new Error(`${name} is a required parameter.`);
+};
+
+/**
+ * Pipe data through a series of functions.
+ * @param {[Function]} fns - Array of functions to pipe data through.
+ *
+ * USAGE:
+ * let fn1 = s => s.toLowerCase();
+ * let fn2 = s => s.split('').reverse().join('');
+ * let fn3 = s => s + '!'
+ *
+ * let emitter = pipe(fn1, fn2, fn3);
+ * console.log(emitter('Time')); // emit!
+ */
+const pipe = function () {
+  for (var _len4 = arguments.length, fns = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
+    fns[_key4] = arguments[_key4];
+  }
+  return x => fns.reduce((v, f) => f(v), x);
+};
+
+/**
+ * Returns a function, that, as long as it continues to be invoked, will not
+ * be triggered. The function will be called after it stops being called for
+ * N milliseconds. If `immediate` is passed, trigger the function on the
+ * leading edge, instead of the trailing.
+ * @param {Function} func - The function to debounce.
+ * @param {Number} wait - The number of milliseconds to wait between triggering.
+ * @param {boolean} [immediate] - Trigger the function on the leading edge, instead of the trailing.
+ * @see https://davidwalsh.name/javascript-debounce-function
+ *
+ * USAGE:
+ * let myEfficientFn = sn.debounce(() => {
+ *   // All the taxing stuff you do
+ * }, 250);
+ *
+ * window.addEventListener('resize', myEfficientFn);
+ */
+function debounce(func) {
+  let wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 250;
+  let immediate = arguments.length > 2 ? arguments[2] : undefined;
+  let timeout;
+  return function debounced() {
+    for (var _len5 = arguments.length, args = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
+      args[_key5] = arguments[_key5];
+    }
+    const context = this;
+    function later() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    }
+    const callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+}
+
+/** Convenient 'do nothing' function that doesn't require an argument like void(0); */
+const noop = () => {};
+const identity = o => o;
+
+/**
+ * Combine many redux style reducers into one 'root' reducer function.
+ * Similar to redux combineReducers except that redux reducers only
+ * receive/update a piece of the app state. Ours receive and can update
+ * the entire state object.
+ * @param reducers - 0 to many reducer functions
+ * @return {function(*=, *=)} a single 'root' reducer function
+ */
+const combineReducers = function () {
+  for (var _len6 = arguments.length, reducers = new Array(_len6), _key6 = 0; _key6 < _len6; _key6++) {
+    reducers[_key6] = arguments[_key6];
+  }
+  return function () {
+    let state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    let action = arguments.length > 1 ? arguments[1] : undefined;
+    return reducers.reduce((nextState, reducer) => reducer(nextState, action), state);
+  };
+};
+
+/**
+ * Produces an event handler that expects to receive an event and will
+ * only fire the provided callback if the event key code is the 'Enter' key.
+ * Useful for valid a11y handling, i.e. divs with onClick's.
+ *
+ * USAGE:
+ * <div onClick={changeImage} onKeyDown={onEnter(changeImage)}>
+ *
+ * @param {function} fn - the callback to fire on enter key.
+ * @returns {function}
+ */
+function onEnter(fn) {
+  return function handleOnEnter(e) {
+    if (e.keyCode === 13) fn(e);
+  };
+}
+
+/**
+ * Produces an event handler that expects to receive an event and will
+ * only fire the provided callback if the event key one of the desired keys.
+ * USAGE:
+ * <input type="range" onKeyDown={onKey(seek, ['ArrowLeft', 'ArrowRight'])}>
+ *
+ * @param {function} fn - the callback to fire on key down.
+ * @param {(number[]|string[])} keys - key names to respond to
+ * @returns {function}
+ */
+function onKey(fn, keys) {
+  return function handleOnKey(e) {
+    if (keys.includes(e.key) || keys.includes(e.keyCode)) fn(e);
+  };
+}
+
+/**
+ * Returns a function that can be called only a certain number of times.
+ * @param {function} fn - the callback to fire
+ * @param {number} times - number of times this callback can be called
+ * @param {...*} args - callback arguments, if any
+ * @return {function(): *}
+ */
+function cappedCallback(fn, times) {
+  for (var _len7 = arguments.length, args = new Array(_len7 > 2 ? _len7 - 2 : 0), _key7 = 2; _key7 < _len7; _key7++) {
+    args[_key7 - 2] = arguments[_key7];
+  }
+  let count = times;
+  return function cappedFunction() {
+    if (count > 0) {
+      fn(...args);
+      count -= 1;
+    }
+  };
+}
+
+/**
+ * Fire a callback function if a condition is met.
+ * If not met, retry until it is met or the # of retries is expended.
+ * @param {function} callback - function to fire
+ * @param {function} condition - function to determine to fire callback
+ * @param {number} [delay] - number of milliseconds to wait before retrying
+ * @param [number [retries] - number or retries to attempt
+ */
+function retry(_ref) {
+  let {
+    callback,
+    condition,
+    delay = 200,
+    retries = 10
+  } = _ref;
+  if (condition()) {
+    callback();
+  } else if (retries > 0) {
+    setTimeout(() => {
+      retry({
+        callback,
+        condition,
+        delay,
+        retries: retries - 1
+      });
+    }, delay);
+  }
+}
+
+/***/ }),
+
+/***/ 7814:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   namespace: () => (/* binding */ namespace),
+/* harmony export */   prop: () => (/* binding */ prop)
+/* harmony export */ });
+/* unused harmony exports setProp, values, reverse, shallowEqual, shrink, eq, has, isPlainObject, extend, type */
+/* OBJECT UTILS
+   --------------------------------------------------------------- */
+
+const _identity = o => o;
+
+/**
+ * Get the value of a property at a path without throwing a ReferenceError.
+ * If the path contains a {undefined} or {null}, it is returned.
+ * @param {object} obj - The object to lookup the property from.
+ * @param {string} path - The property path string.
+ * @returns {*} - The value at the end of the property path,
+ *                or {null} or {undefined} if encountered.
+ *
+ * USAGE:
+ * let employee = {
+ *   name: 'Bob Vila',
+ *   nicknames: ['Bobby V', 'Bob the Builder', 'The Veebs'],
+ *   address: {
+ *     street1: '12345 67th St',
+ *     state: {
+ *       'iso-code': 'US-MN',
+ *       'short-code': 'US-MN',
+ *       'long-code': 'US-Minnesota'
+ *     }
+ *   }
+ * };
+ * let format = 'iso';
+ *
+ * // values without reference errors
+ * prop(employee, 'name');                            // "Bob Vila"
+ * prop(employee, 'address.street2');                 // undefined
+ *
+ * // bracket syntax
+ * prop(employee, "address.state['long-code']");      // "US-Minnesota"
+ * prop(employee, 'address.state["short-code"]');     // "US-MN"
+ * prop(employee, 'address.state[`short-code`]');     // "US-MN"
+ * prop(employee, `address.state['${format}-code']`); // "US-MN"
+ *
+ * // and arrays, oh my!
+ * prop(employee, 'nicknames[1]');                    // "Bob the Builder"
+ * prop(employee, 'nicknames[1].length');             // 15
+ * prop(employee, 'nicknames[3].length');             // undefined
+ */
+function prop(obj, path) {
+  if (!obj) return obj;
+  let item = obj;
+
+  // Handle bracket syntax.
+  const normalized = path.replace(/\[/g, '.') // convert open bracket to dot
+  .replace(/[\]"'`]/g, ''); // remove close bracket and all quote flavors
+
+  const parts = normalized.split('.');
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    const value = item[part];
+
+    // Allow empty strings/objects.
+    const bad_value = typeof value === 'undefined' || value === null;
+    const last_value = i === parts.length - 1;
+    item = value;
+    if (last_value || bad_value) break;
+  }
+  return item;
+}
+
+/**
+ * Set a property at a path on an object. Parts of the path
+ * that do not exist yet are lazily created.
+ * @param {object} obj - The object to set a property on.
+ * @param {string} path - The '.' separated property path to set.
+ * @param {*} value - The value to set at the property path.
+ *
+ * USAGE:
+ * setProp(employee, 'address.city', 'Rogers');
+ * let bg = sn.setProp({}, 'background.color', '#efefef');
+ */
+function setProp(obj, path, value) {
+  const parts = path.split('.');
+  let object;
+  let i;
+  let n;
+  object = obj; // Start the chain at our object.
+
+  for (i = 0, n = parts.length; i < n; i++) {
+    if (i === n - 1) {
+      // At the end of the path, set the value.
+      object[parts[i]] = value;
+    } else {
+      // If this part of the path isn't there, fill in with object literal.
+      if (!object[parts[i]]) object[parts[i]] = {};
+      object = object[parts[i]]; // Move `object` to the next path part.
+    }
+  }
+
+  return obj;
+}
+
+/**
+ * Namespace function: so we don't have to put all those checks to see if
+ * modules exist and either create empty ones or set a reference to one
+ * that was previously created.
+ * See Zakas, Maintainable JavaScript, pp. 72-73, and
+ * Stefanov, Javascript Patterns, pp. 89-90
+ * @param {string} ns - a '.' separated namespace like 'foo.bar.baz'
+ * @param {*} [o] - and optional object/number/string to set the path value to
+ */
+function namespace(ns, o) {
+  const win = __webpack_require__.g || window;
+  const parts = ns.split('.');
+  let object;
+  let i;
+  let n;
+
+  // Start the object if needed.
+  if (!win[parts[0]]) {
+    win[parts[0]] = {};
+  }
+  object = win[parts[0]];
+  for (i = 1, n = parts.length; i < n; i++) {
+    if (!object[parts[i]]) {
+      object[parts[i]] = {};
+    }
+    object = object[parts[i]];
+  }
+  if (o) {
+    setProp(win, ns, o);
+    object = o;
+  }
+  return object;
+}
+
+/**
+ * Returns and array of the values in an object.
+ * It only returns the objects own values, not those from the prototype chain.
+ */
+function values(obj) {
+  if (Object.values) return Object.values(obj);
+  return Object.keys(obj || {}).map(key => obj[key]);
+}
+
+/** Reverses a simple object containing key - value pairs. */
+function reverse(obj) {
+  let callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _identity;
+  return Object.keys(obj).reduce((prev, curr) => {
+    prev[obj[curr]] = callback(curr);
+    return prev;
+  }, {});
+}
+
+/**
+ * Returns true if `a` contains the same keys with the same values as `b`.
+ * Uses strict equality (===) and does not support `NaN`.
+ */
+function shallowEqual(a, b) {
+  /* eslint-disable no-restricted-syntax */
+  for (const key in a) {
+    if (!(key in b) || a[key] !== b[key]) return false;
+  }
+  for (const key in b) {
+    if (!(key in a) || a[key] !== b[key]) return false;
+  }
+  return true;
+}
+
+/**
+ * Returns a new object containing only the properties listed in `props`.
+ * @param {object} o - The object to get properties from.
+ * @param {String[]} props - Array of property names to keep.
+ * @return {object} - The resulting object containing only the properties listed in `props`.
+ *
+ * USAGE:
+ * const vowels = shrink({ a: 'a', c: 'c', e: 'e' }, ['a', 'e']);
+ * // => { a: 'a', e: 'e' }
+ */
+function shrink(o, props) {
+  return props.reduce((acc, curr) => {
+    acc[curr] = o[curr];
+    return acc;
+  }, {});
+}
+
+/**
+ * Returns `true` if the JSON.stringify result is the same for both arguments.
+ * Order matters, properties or array elements in different orders will result in `false`.
+ */
+function eq(a, b) {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
+/**
+ * Returns true if the given object has the 'own' property
+ * @param {object} o - the object to check for a property
+ * @param {string|string[]} p - the property name or array of names to check for
+ * @return {boolean}
+ */
+function has(o, p) {
+  if (!o || !p) return false;
+  if (Array.isArray(p)) {
+    return p.reduce((result, prop) => {
+      if (!result) return result;
+      return Object.prototype.hasOwnProperty.call(o, prop);
+    }, true);
+  }
+  return Object.prototype.hasOwnProperty.call(o, p);
+}
+
+/** Returns true if this is a plain object, not created from a class/prototype */
+function isPlainObject(obj) {
+  // Detect obvious negatives
+  // Use toString instead of jQuery.type to catch host objects
+  if (!obj || {}.toString.call(obj) !== '[object Object]') {
+    return false;
+  }
+  const proto = Object.getPrototypeOf(obj);
+  const fnToString = Object.prototype.hasOwnProperty.toString;
+  const ObjectFunctionString = fnToString.call(Object);
+
+  // Objects with no prototype (e.g., `Object.create( null )`) are plain
+  if (!proto) {
+    return true;
+  }
+
+  // Objects with prototype are plain iff they were constructed by a global Object function
+  const Ctor = Object.prototype.hasOwnProperty.call(proto, 'constructor') && proto.constructor;
+  return typeof Ctor === 'function' && fnToString.call(Ctor) === ObjectFunctionString;
+}
+
+/**
+ * Extend an object with one to many sources.
+ * Can be used to produce a deep copy of an object.
+ * Replaces $.extend
+ * Example:
+ * <code>
+ *   let clone;
+ *   const source = { foo: { bar: 'baz' } };
+ *
+ *   clone = extend({}, source) // => { foo: { bar: 'baz' } }
+ *   source.foo === clone.foo; // => true
+ *
+ *   clone = extend(true, {}, source) // => { foo: { bar: 'baz' } }
+ *   source.foo === clone.foo; // => false
+ * </code>
+ */
+function extend() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+  const deepflag = typeof args[0] === 'boolean';
+  const deep = deepflag && args[0];
+  const destination = args[deepflag ? 1 : 0];
+  const sources = args.slice(deepflag ? 2 : 1);
+  if (!deep) return Object.assign(destination, ...sources);
+  const target = destination || {};
+  for (let i = 0; i < sources.length; i++) {
+    const options = sources[i];
+
+    // eslint-disable-next-line no-continue
+    if (!options) continue;
+
+    // eslint-disable-next-line guard-for-in,no-restricted-syntax
+    for (const name in options) {
+      const copy = options[name];
+
+      // Prevent Object.prototype pollution
+      // Prevent never-ending loop
+      if (name === '__proto__' || target === copy) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      // Recurse if we're merging plain objects or arrays
+      let copyIsArray = Array.isArray(copy);
+      if (deep && copy && (isPlainObject(copy) || copyIsArray)) {
+        const src = target[name];
+        let clone;
+
+        // Ensure proper type for the source value
+        if (copyIsArray && !Array.isArray(src)) {
+          clone = [];
+        } else if (!copyIsArray && !isPlainObject(src)) {
+          clone = {};
+        } else {
+          clone = src;
+        }
+        copyIsArray = false;
+
+        // Never move original objects, clone them
+        target[name] = extend(deep, clone, copy);
+
+        // Don't bring in undefined values
+      } else if (copy !== undefined) {
+        target[name] = copy;
+      }
+    }
+  }
+  return target;
+}
+
+/**
+ * Returns the type of the argument
+ * Replaces $.type
+ * @param {*} obj - literally anything
+ * Example:
+ * <code>
+ *   type([]); // => "array"
+ *   type({}); // => "object"
+ *   type(''); // => "string"
+ *   type(42); // => "number"
+ *   type(Symbol); // => "function"
+ *   type(Symbol(42); // => "symbol"
+ * </code>
+ */
+function type(arg) {
+  return Object.prototype.toString.call(arg).replace(/^\[object (.+)]$/, '$1').toLowerCase();
+}
+
+/***/ }),
+
+/***/ 5203:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   pad: () => (/* binding */ pad)
+/* harmony export */ });
+/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, replaceAt, endsWith, firstWord, uuid, lazyId, bytes, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters */
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3168);
+
+function isString(input) {
+  return typeof input === 'string';
+}
+
+/**
+ * Capitalize the first letter of the string, keep the rest as-is.
+ * Example:
+ * capitalize('chat with us!') -> "Chat with us!"
+ */
+function capitalize(phrase) {
+  if (!phrase) return phrase;
+  return phrase[0].toUpperCase() + phrase.slice(1);
+}
+
+/**
+ * For each word in the phrase, uppercase the first letter and lowercase the rest.
+ * Example:
+ * titlecase('LYOCELL uLTra Sheet SET') -> "Lyocell Ultra Sheet Set"
+ */
+function titlecase(phrase) {
+  if (!phrase) return phrase;
+  return phrase.replace(/\w\S*/g, word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
+}
+
+/**
+ * Convert snake_case or sentence to camelCase
+ * @param {string} phrase
+ * @return {string}
+ *
+ * Example:
+ * camelCase('foo_bar') -> "fooBar"
+ * camelCase('Foo Bar') -> "fooBar"
+ */
+function camelCase(phrase) {
+  return phrase.replace(/^\w|[A-Z]|\b\w|_+\w/g, (word, index) => {
+    if (word.startsWith('_')) {
+      // handle underscore word
+      const next = word.replace('_', '');
+      if (index === 0) return next[0].toLowerCase() + next.substr(1);
+      return next[0].toUpperCase() + next.substr(1);
+    }
+    // lowercase or uppercase this letter
+    return index === 0 ? word.toLowerCase() : word.toUpperCase();
+  }).replace(/[\s-_]+/g, '');
+}
+
+/**
+ * Convert camelCase into snake_case
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * camelToSnake('fooBar') -> "foo_bar"
+ */
+function camelToSnake(phrase) {
+  return phrase.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+}
+
+/**
+ * Convert PascalCase into snake_case
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * pascalToSnake('FooBar') -> "foo_bar"
+ */
+function pascalToSnake(phrase) {
+  const first = phrase[0].toLowerCase();
+  const rest = phrase.substring(1);
+  return `${first}${camelToSnake(rest)}`;
+}
+
+/**
+ * Convert snake_case to PascalCase
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * snakeToPascal('foo_bar') -> "FooBar"
+ */
+function snakeToPascal(phrase) {
+  return capitalize(camelCase(phrase));
+}
+
+/**
+ * Sleep Number's crazy naming scheme
+ * @param {string} phrase
+ * @returns {string} cased like 'pSE SPECIAL EDITION'
+ */
+function mattressCase(phrase) {
+  let allowSpecialCase = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  if (!allowSpecialCase) return phrase.toUpperCase();
+  return `${phrase[0].toLowerCase()}${phrase.substr(1).toUpperCase()}`;
+}
+
+/**
+ * Rails has the concept of 'optionizing' text which replaces spaces with
+ * underscores and lower-cases text.
+ *
+ * Example:
+ * optionize('Soft Green'); -> "soft_green"
+ */
+function optionize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return phrase.toLowerCase().replace(/\s/g, '_');
+}
+
+/**
+ * Replace '_' characters with spaces
+ *
+ * Example:
+ * deoptionize('soft_green'); -> "Soft Green"
+ */
+function deoptionize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return titlecase(phrase.replace(/_/g, ' '));
+}
+
+/**
+ * Replaces spaces with dashes and lower-cases text.
+ *
+ * Example:
+ * dasherize('Split California King'); -> "split-california-king"
+ */
+function dasherize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return phrase.toLowerCase().replace(/\s/g, '-');
+}
+
+/**
+ * Replaces dashes with spaces and uppercase the first letter of each word.
+ *
+ * Example:
+ * dasherize('split-california-king'); -> "Split California King"
+ */
+function undasherize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  const result = phrase.toLowerCase().replaceAll(/-/g, ' ');
+  return titlecase(result);
+}
+function repeat(str, times) {
+  return new Array(times + 1).join(str);
+}
+function wordCount(string) {
+  return string.trim().split(/\s+/).length;
+}
+function pad(num, maxLength) {
+  return repeat(`0`, maxLength - num.toString().length) + num;
+}
+function replaceAt(s, i, c) {
+  return s.substr(0, i) + c + s.substr(i + 1);
+}
+function endsWith(s, c) {
+  return s[s.length - 1] === c;
+}
+function firstWord(s) {
+  return s.replace(/ .*/, '');
+}
+
+/**
+ * Generate a universally unique identifier.
+ * @return {string}
+ */
+function uuid() {
+  /* eslint-disable */
+  let uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : r & 0x3 | 0x8;
+    return v.toString(16);
+  });
+  return 'uuid-' + uuid;
+  /* eslint-enable */
+}
+
+/** Add a uuid to something if it doesn't already have one. */
+function lazyId(o) {
+  o.id = o.id || uuid();
+  return o;
+}
+
+/** Return the size of a string in bytes assuming UTF-8 encoding. */
+function bytes(str) {
+  // Matches only the 10.. bytes that are non-initial characters in a multi-byte sequence.
+  const m = encodeURIComponent(str).match(/%[89ABab]/g);
+  return str.length + (m ? m.length : 0);
+}
+
+/**
+ * Returns either an empty string, a plural character of choice, or
+ * an optional singular form.
+ * @param {boolean} condition False will return an empty string.
+ * @param {string} plural Plural suffix, 's' by default.
+ * @param {string} [singular] Optional singular suffix, or version.
+ */
+function pluralIf(condition) {
+  let plural = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 's';
+  let singular = arguments.length > 2 ? arguments[2] : undefined;
+  if (!condition) return singular || '';
+  return plural;
+}
+
+/**
+ * Returns a number of for a string px value, ie: '23px' => 23.
+ */
+function pxToNum(str) {
+  return +str.trim().replace('px', '');
+}
+
+/**
+ * Returns a truncated string with ellipsis (...) appended.
+ * @param {string} string to truncate
+ * @param {number} number of characters to keep
+ */
+function truncate(str, num) {
+  if (str.length <= num) {
+    return str;
+  }
+  return `${str.slice(0, num)}...`;
+}
+
+/** Convert a 'true' or 'false' string to a boolean */
+function asBool(str) {
+  if (typeof str === 'boolean') return str;
+  if (typeof str === 'string') return str === 'true';
+  return !!str;
+}
+
+/** Replace all the special characters from a string */
+function removeSpecialCharacters() {
+  let input = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return Object.values(specials).reduce((result, special) => {
+    return result.replaceAll(special.value, '');
+  }, input);
+}
+
+/***/ }),
+
+/***/ 3818:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+var __webpack_unused_export__;
+
+
+__webpack_unused_export__ = ({
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
+
+var isNode = typeof process !== "undefined" && process.versions != null && process.versions.node != null;
+
+var isWebWorker = (typeof self === "undefined" ? "undefined" : _typeof(self)) === "object" && self.constructor && self.constructor.name === "DedicatedWorkerGlobalScope";
+
+/**
+ * @see https://github.com/jsdom/jsdom/releases/tag/12.0.0
+ * @see https://github.com/jsdom/jsdom/issues/1537
+ */
+var isJsDom = typeof window !== "undefined" && window.name === "nodejs" || typeof navigator !== "undefined" && (navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom"));
+
+var isDeno = typeof Deno !== "undefined" && typeof Deno.version !== "undefined" && typeof Deno.version.deno !== "undefined";
+
+exports.jU = isBrowser;
+__webpack_unused_export__ = isWebWorker;
+__webpack_unused_export__ = isNode;
+__webpack_unused_export__ = isJsDom;
+__webpack_unused_export__ = isDeno;
+
+/***/ }),
+
+/***/ 6808:
+/***/ ((module, exports, __webpack_require__) => {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * JavaScript Cookie v2.2.1
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ */
+;(function (factory) {
+	var registeredInModuleLoader;
+	if (true) {
+		!(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+		(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+		__WEBPACK_AMD_DEFINE_FACTORY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		registeredInModuleLoader = true;
+	}
+	if (true) {
+		module.exports = factory();
+		registeredInModuleLoader = true;
+	}
+	if (!registeredInModuleLoader) {
+		var OldCookies = window.Cookies;
+		var api = window.Cookies = factory();
+		api.noConflict = function () {
+			window.Cookies = OldCookies;
+			return api;
+		};
+	}
+}(function () {
+	function extend () {
+		var i = 0;
+		var result = {};
+		for (; i < arguments.length; i++) {
+			var attributes = arguments[ i ];
+			for (var key in attributes) {
+				result[key] = attributes[key];
+			}
+		}
+		return result;
+	}
+
+	function decode (s) {
+		return s.replace(/(%[0-9A-Z]{2})+/g, decodeURIComponent);
+	}
+
+	function init (converter) {
+		function api() {}
+
+		function set (key, value, attributes) {
+			if (typeof document === 'undefined') {
+				return;
+			}
+
+			attributes = extend({
+				path: '/'
+			}, api.defaults, attributes);
+
+			if (typeof attributes.expires === 'number') {
+				attributes.expires = new Date(new Date() * 1 + attributes.expires * 864e+5);
+			}
+
+			// We're using "expires" because "max-age" is not supported by IE
+			attributes.expires = attributes.expires ? attributes.expires.toUTCString() : '';
+
+			try {
+				var result = JSON.stringify(value);
+				if (/^[\{\[]/.test(result)) {
+					value = result;
+				}
+			} catch (e) {}
+
+			value = converter.write ?
+				converter.write(value, key) :
+				encodeURIComponent(String(value))
+					.replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent);
+
+			key = encodeURIComponent(String(key))
+				.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent)
+				.replace(/[\(\)]/g, escape);
+
+			var stringifiedAttributes = '';
+			for (var attributeName in attributes) {
+				if (!attributes[attributeName]) {
+					continue;
+				}
+				stringifiedAttributes += '; ' + attributeName;
+				if (attributes[attributeName] === true) {
+					continue;
+				}
+
+				// Considers RFC 6265 section 5.2:
+				// ...
+				// 3.  If the remaining unparsed-attributes contains a %x3B (";")
+				//     character:
+				// Consume the characters of the unparsed-attributes up to,
+				// not including, the first %x3B (";") character.
+				// ...
+				stringifiedAttributes += '=' + attributes[attributeName].split(';')[0];
+			}
+
+			return (document.cookie = key + '=' + value + stringifiedAttributes);
+		}
+
+		function get (key, json) {
+			if (typeof document === 'undefined') {
+				return;
+			}
+
+			var jar = {};
+			// To prevent the for loop in the first place assign an empty array
+			// in case there are no cookies at all.
+			var cookies = document.cookie ? document.cookie.split('; ') : [];
+			var i = 0;
+
+			for (; i < cookies.length; i++) {
+				var parts = cookies[i].split('=');
+				var cookie = parts.slice(1).join('=');
+
+				if (!json && cookie.charAt(0) === '"') {
+					cookie = cookie.slice(1, -1);
+				}
+
+				try {
+					var name = decode(parts[0]);
+					cookie = (converter.read || converter)(cookie, name) ||
+						decode(cookie);
+
+					if (json) {
+						try {
+							cookie = JSON.parse(cookie);
+						} catch (e) {}
+					}
+
+					jar[name] = cookie;
+
+					if (key === name) {
+						break;
+					}
+				} catch (e) {}
+			}
+
+			return key ? jar[key] : jar;
+		}
+
+		api.set = set;
+		api.get = function (key) {
+			return get(key, false /* read as raw */);
+		};
+		api.getJSON = function (key) {
+			return get(key, true /* read as json */);
+		};
+		api.remove = function (key, attributes) {
+			set(key, '', extend(attributes, {
+				expires: -1
+			}));
+		};
+
+		api.defaults = {};
+
+		api.withConverter = init;
+
+		return api;
+	}
+
+	return init(function () {});
+}));
+
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   format: () => (/* binding */ format),
+/* harmony export */   formats: () => (/* binding */ formats),
+/* harmony export */   fromNow: () => (/* binding */ fromNow)
+/* harmony export */ });
+/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5203);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3168);
+
+
+const formats = {
+  date: {
+    /** "Thursday, November 7" */
+    DAY_MONTH_LONG: date => date.toLocaleDateString('en-US', {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "Nov 7, 2019" */
+    MONTH_ABR_DAY_YEAR: date => date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "November 7, 2019" */
+    MONTH_LONG_DAY_YEAR: date => date.toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "11/7/2019" */
+    SIMPLE: date => date.toLocaleDateString('en-US', {
+      month: 'numeric',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "11/07/2019" */
+    SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
+      month: '2-digit',
+      day: '2-digit',
+      year: 'numeric',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "11/07/2019" */
+    UTC_SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
+      month: '2-digit',
+      day: '2-digit',
+      year: 'numeric',
+      timeZone: 'UTC'
+    }),
+    /** "11/7/2019" */
+    MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "11/8/2019" */
+    UTC_MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
+      timeZone: 'UTC'
+    }),
+    /** "2019-11-07"
+     * See https://www.iso.org/iso-8601-date-and-time-format.html
+     */
+    /* eslint-disable prefer-template */
+    ISO: date => date.getUTCFullYear() + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(date.getUTCMonth() + 1, 2) + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(date.getUTCDate(), 2),
+    /* eslint-enable prefer-template */
+
+    /** "20191107" */
+    COMPACT: date => date.getFullYear() + (0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(date.getMonth() + 1, 2) + (0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(date.getDate(), 2)
+  },
+  time: {
+    /** "2:07 PM CST" */
+    SIMPLE: time => time.toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone,
+      timeZoneName: 'short'
+    }),
+    /** "2:07 PM" */
+    HOUR_AND_MINUTE: time => time.toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: '2-digit'
+    }),
+    /** "2 PM" */
+    HOUR_ONLY: time => time.toLocaleTimeString('en-US', {
+      hour: 'numeric'
+    }),
+    /** "14:07 CST" */
+    ARMY: time => time.toLocaleTimeString('en-US', {
+      hour12: false,
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone,
+      timeZoneName: 'short'
+    }),
+    /** "14:07:59.506" */
+    PRECISE: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getSeconds(), 2)}` + `.${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getMilliseconds(), 3)}`,
+    /** "14:07:59" */
+    PRECISE_NO_MILLISECONDS: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__.pad)(time.getSeconds(), 2)}`
+  },
+  datetime: {
+    /** "11/7/2019, 2:07 PM" */
+    LOCAL: datetime => datetime.toLocaleDateString('en-US', {
+      month: 'numeric',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone
+    }),
+    /** "11/7/2019, 2:07 PM CST" */
+    SIMPLE: datetime => datetime.toLocaleDateString('en-US', {
+      month: 'numeric',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__.timezone,
+      timeZoneName: 'short'
+    })
+  }
+};
+/** Formatters */
+const format = {
+  /**
+   ** Format a Date object into a date, with the browser's timezone and a configurable format
+   * @param {Date|String|Number} [date=now] - Unix timestamp to format as a readable date-time
+   * @param {Function} [formatter='MMM D, YYYY'] - The format to use.
+   */
+  date() {
+    let date = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Date();
+    let formatter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : formats.date.MONTH_ABR_DAY_YEAR;
+    return formatter(new Date(date));
+  },
+  /**
+   * Convert 24h time string to 12h time string with meridiems(PM/AM).
+   * @param {String} time - ie.: "19:00"
+   * @returns {String} - ie.: "7 PM"
+   */
+  formatTimeString(time) {
+    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    const [hour, minute] = time.split(':');
+    const showMinute = minute !== '00' ? `:${minute}` : '';
+    const pm = hour > 12;
+    let result = pm ? `${hour % 12}${showMinute} PM` : `${hour}${showMinute} AM`;
+    if (trim) {
+      result = result.replace(' PM', 'pm').replace(' AM', 'am');
+    }
+    return result;
+  },
+  /**
+   * Return a formatted percent string to the decimal places specified.
+   * USAGE:
+   * sn.format.percent(13, 205, 3) // "6.341%"
+   * sn.format.percent(5, 10, 3) // "50%"
+   * @param {Number} count - The current count of items.
+   * @param {Number} total - The total number of items.
+   * @param {Number} decimals - The number of decimal places.
+   */
+  percent(count, total) {
+    let decimals = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3;
+    return `${Number((count / total * 100).toFixed(decimals)).toString()}%`;
+  },
+  /**
+   * Return a formatted currency string for the supplied number.
+   * USAGE:
+   * sn.format.currency(123456789.12345) // "$123,456,789.12"
+   * @param {string|number} num - the currency amount.
+   * @param {boolean} trim - if `true`, '.00' is omitted, default to `false`.
+   */
+  currency(num) {
+    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    let n = num;
+    if (typeof num === 'object') {
+      // convert price type
+      n = num.cents / 100;
+    }
+    const trimming = trim ? '.00' : '';
+    const c = 2;
+    const d = '.';
+    const t = ',';
+    const s = n < 0 ? '-$' : '$';
+    const i = `${parseInt(n = Math.abs(+n || 0).toFixed(c), 10)}`;
+    let j = i.length;
+    j = j > 3 ? j % 3 : 0;
+    return s + (j ? i.substr(0, j) + t : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, `$1${t}`) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : '').replace(trimming, '');
+  },
+  /**
+   * Reduce a numerator and denominator to it's smallest,
+   * integer ratio using Euclid's Algorithm. Example:
+   * <code>
+   *   ratio(1920, 1080) -> "16:9"
+   * </code>
+   */
+  ratio(numerator, denominator) {
+    let flip = false;
+    let n = numerator;
+    let d = denominator;
+    const gcd = (a, b) => {
+      if (b === 0) return a;
+      return gcd(b, a % b);
+    };
+    if (n === d) return '1 : 1';
+
+    // Make sure numerator is always the larger number
+    if (+n < +d) {
+      flip = true;
+      const temp = n;
+      n = d;
+      d = temp;
+    }
+    const divisor = gcd(+n, +d);
+    return flip ? `${d / divisor}:${n / divisor}` : `${n / divisor}:${d / divisor}`;
+  },
+  time(sec) {
+    const seconds = Number(sec);
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor(seconds % 3600 / 60);
+    const s = Math.floor(seconds % 3600 % 60);
+    let result = `${`0${m}`.slice(-2)}:${`:0${s}`.slice(-2)}`;
+    if (h > 0) result = `${`0${h}`.slice(-2)}:${result}`;
+    return result;
+  }
+};
+
+/**
+ * Returns a human readable format of the difference between an date/timestamp
+ * and now.
+ * @param {Date|String} dateMillis - the unix timestamp or date instance.
+ * @param {boolean} useIn - when true, future times use 'in' instead of 'from now'.
+ * @return {string} the formatted difference, i.e. `one month from now` or `two days ago`
+ */
+function fromNow(dateMillis) {
+  let useIn = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  let millis = dateMillis;
+  if (dateMillis instanceof Date) {
+    millis = dateMillis.getTime();
+  }
+  const now = Date.now();
+  const diff = now - millis;
+  const isBefore = dateMillis < now;
+  const abs = Math.abs(diff);
+  const days = Math.floor(abs / (24 * 60 * 60 * 1000));
+  const daysMs = abs % (24 * 60 * 60 * 1000);
+  const hrs = Math.floor(daysMs / (60 * 60 * 1000));
+  const hrsMs = abs % (60 * 60 * 1000);
+  const mins = Math.floor(hrsMs / (60 * 1000));
+  const minsMs = abs % (60 * 1000);
+  const secs = Math.floor(minsMs / 1000);
+  const months = Math.floor(days / 30);
+  const years = Math.floor(days / 365);
+  if (isBefore) {
+    // In the past
+    if (years > 1) return `${years} years ago`;
+    if (years === 1) return 'a year ago';
+    if (months > 1) return `${months} months ago`;
+    if (months === 1) return '1 month ago';
+    if (days > 1) return `${days} days ago`;
+    if (days === 1) return 'yesterday';
+    if (hrs > 1) return `${hrs} hours ago`;
+    if (hrs === 1) return 'one hour ago';
+    if (mins > 1) return `${mins} minutes ago`;
+    if (mins === 1) return '1 minute ago';
+    if (secs > 1) return `${secs} seconds ago`;
+    return '1 second ago';
+  }
+
+  // In the future
+  if (years > 1) return useIn ? `in {years} years` : `${years} years from now`;
+  if (years === 1) return useIn ? 'in a year' : 'a year from now';
+  if (months > 1) return useIn ? `in ${months} months` : `${months} months from now`;
+  if (months === 1) return useIn ? 'in a month' : '1 month from now';
+  if (days > 1) return useIn ? `in ${days} days` : `${days} days from now`;
+  if (days === 1) return 'tomorrow';
+  if (hrs > 1) return useIn ? `in ${hrs} hours` : `${hrs} hours from now`;
+  if (hrs === 1) return useIn ? 'in an hour' : 'one hour from now';
+  if (mins > 1) return useIn ? `in ${mins} minutes` : `${mins} minutes from now`;
+  if (mins === 1) return useIn ? 'in 1 minute' : '1 minute from now';
+  if (secs > 1) return useIn ? `in ${secs} seconds` : `${secs} seconds from now`;
+  return '1 second from now';
+}
+})();
+
+var __webpack_export_target__ = exports;
+for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
+if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
+/******/ })()
+;

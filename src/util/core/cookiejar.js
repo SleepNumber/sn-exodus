@@ -4,6 +4,7 @@
  */
 
 import Cookies from 'js-cookie';
+import cookie from 'cookie';
 
 import Cookie from './Cookie';
 import Enumify from './enumify';
@@ -95,6 +96,61 @@ CookieJar.get = function get(e) {
   let key = `${entry.group}`;
   if (entry.id) key += `-${entry.id}`;
   let value = typeof c[key] === 'undefined' ? entry.default : c[key];
+  value = cleanCookieValue(value);
+
+  return value;
+};
+
+/**
+ * Retrieve value from JSON object store in the cookies of the request,
+ * or the default value.
+ *
+ * If `e` is undefined, the entire cookie object is returned.
+ *
+ * @param {Request} req - needed on the server-side
+ * @param {Entry} [e] - optional the cookie entry.
+ */
+CookieJar.getFromRequest = function get(req, e) {
+  const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
+  checkEntry(entry, true);
+  let c = {};
+  try {
+    const cookies = cookie.parse(req.headers.get('Cookie') || '');
+    const raw = cookies[name];
+    c = JSON.parse(raw);
+  } catch (err) {
+    /* ignore */
+  }
+
+  if (!entry) return c || {};
+  if (!c) return entry.default;
+
+  let key = `${entry.group}`;
+  if (entry.id) key += `-${entry.id}`;
+  let value = typeof c[key] === 'undefined' ? entry.default : c[key];
+  value = cleanCookieValue(value);
+
+  return value;
+};
+
+/**
+ * Retrieve value from data retrieved form JSON object store in the cookies of the request,
+ * or the default value.
+ *
+ * If `e` is undefined, the entire cookie object is returned.
+ *
+ * @param {Request} data - the data stored in the `sn` cookie
+ * @param {Entry} [e] - optional the cookie entry.
+ */
+CookieJar.getFromData = function get(data, e) {
+  const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
+  checkEntry(entry, true);
+
+  if (!entry) return data || {};
+
+  let key = `${entry.group}`;
+  if (entry.id) key += `-${entry.id}`;
+  let value = typeof data[key] === 'undefined' ? entry.default : data[key];
   value = cleanCookieValue(value);
 
   return value;

@@ -1,1 +1,222 @@
-(()=>{"use strict";var e={d:(r,t)=>{for(var n in t)e.o(t,n)&&!e.o(r,n)&&Object.defineProperty(r,n,{enumerable:!0,get:t[n]})},o:(e,r)=>Object.prototype.hasOwnProperty.call(e,r),r:e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})}},r={};e.r(r),e.d(r,{Transformers:()=>t,getCloudinaryTransformData:()=>n,setCloudinaryTransforms:()=>o,updateCloudinaryTransforms:()=>s});const t=["a","ac","af","ar","b","bo","br","c","co","cs","d","dl","dn","dpr","du","e","eo","f","fl","fn","fps","g","h","if","ki","l","o","p","pg","q","r","so","sp","t","u","vc","vs","w","x","y","z","$"];function n(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";const r=e.indexOf("upload/")+7,n=e.substring(r).split(/[,/]/).find((e=>{if(!e.includes("_"))return!0;const r=e.substring(0,e.indexOf("_"));return!t.includes(r)})),o=e.indexOf(n,r+1)-1,s=e.substring(r,o).split(/[,/]/);return{url:e,start:r,end:o,transforms:s,asMap:s.reduce(((e,r)=>(e[r.substring(0,r.indexOf("_"))]=r,e)),{}),prefix:e.substring(0,r),suffix:e.substring(o)}}function o(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[];const{prefix:t,suffix:o}=n(e);return`${t}${r.join(",")}${o}`}function s(){let e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[];const r=n(arguments.length>0&&void 0!==arguments[0]?arguments[0]:""),t=e.reduce(((e,r)=>(e[r.substring(0,r.indexOf("_"))]=r,e)),{}),o={...r.asMap};Object.entries(t).forEach((e=>{let[r,t]=e;o[r]=t}));const s=Object.values(o);return`${r.prefix}${s.join(",")}${r.suffix}`}var i=exports;for(var u in r)i[u]=r[u];r.__esModule&&Object.defineProperty(i,"__esModule",{value:!0})})();
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	// The require scope
+/******/ 	var __webpack_require__ = {};
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Transformers: () => (/* binding */ Transformers),
+/* harmony export */   getCloudinaryTransformData: () => (/* binding */ getCloudinaryTransformData),
+/* harmony export */   setCloudinaryTransforms: () => (/* binding */ setCloudinaryTransforms),
+/* harmony export */   updateCloudinaryTransforms: () => (/* binding */ updateCloudinaryTransforms)
+/* harmony export */ });
+/**
+ * @see https://cloudinary.com/documentation/transformation_reference
+ * @type {string[]}
+ */
+
+const Transformers = ['a',
+// angle
+'ac',
+// audio codec
+'af',
+// audio frequency
+'ar',
+// aspect ratio
+'b',
+// background
+'bo',
+// border
+'br',
+// bit rate
+'c',
+// crop/resize
+'co',
+// color
+'cs',
+// color space
+'d',
+// default image
+'dl',
+// delay
+'dn',
+// density
+'dpr',
+// DPR
+'du',
+// duration
+'e',
+// effect
+'eo',
+// end offset
+'f',
+// format
+'fl',
+// flag
+'fn',
+// custom function
+'fps',
+// FPS
+'g',
+// gravity
+'h',
+// height
+'if',
+// if condition
+'ki',
+// keyframe interval
+'l',
+// layer
+'o',
+// opacity
+'p',
+// prefix
+'pg',
+// page or file layer
+'q',
+// quality
+'r',
+// round corners
+'so',
+// start offset
+'sp',
+// streaming profile
+'t',
+// named transformation
+'u',
+// underlay
+'vc',
+// video codec
+'vs',
+// video sampling
+'w',
+// width
+'x',
+// x coordinates
+'y',
+// y coordinates
+'z',
+// zoom
+'$' // variable
+];
+
+/**
+ * Return the cloudinary transform url data
+ * @param {string} url - the url to inspect
+ * @return {{
+ *   url: string
+ *   start: number,
+ *   end: number,
+ *   transforms: string[],
+ *   asMap: Object<string>,
+ *   prefix: string,
+ *   suffix: string,
+ * }}
+ */
+function getCloudinaryTransformData() {
+  let url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  const t_start = url.indexOf('upload/') + 7;
+  const parts = url.substring(t_start).split(/[,/]/);
+  const non_transform_part = parts.find(p => {
+    if (!p.includes('_')) return true;
+    const type = p.substring(0, p.indexOf('_'));
+    const isTransform = Transformers.includes(type);
+    return !isTransform;
+  });
+  // Assuming at lease some transforms for now
+  const t_end = url.indexOf(non_transform_part, t_start + 1) - 1;
+  const transforms = url.substring(t_start, t_end).split(/[,/]/);
+  return {
+    url,
+    start: t_start,
+    end: t_end,
+    transforms,
+    asMap: transforms.reduce((acc, t) => {
+      const type = t.substring(0, t.indexOf('_'));
+      acc[type] = t;
+      return acc;
+    }, {}),
+    prefix: url.substring(0, t_start),
+    suffix: url.substring(t_end)
+  };
+}
+
+/**
+ * Returns a cloudinary url with the transforms replaced
+ * @param {string} url - a cloudinary url
+ * @param {string[]} transforms - a list of transforms
+ * @return {string}
+ */
+function setCloudinaryTransforms() {
+  let url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  let transforms = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+  const {
+    prefix,
+    suffix
+  } = getCloudinaryTransformData(url);
+  return `${prefix}${transforms.join(',')}${suffix}`;
+}
+
+/**
+ * Returns a cloudinary url with the specified transforms updated if they exist
+ * or add if they do not already exist in the url.
+ * @param {string} url - a cloudinary url
+ * @param {string[]} transforms - a list of cloudinary transforms
+ * @return {string}
+ */
+function updateCloudinaryTransforms() {
+  let url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  let transforms = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+  const data = getCloudinaryTransformData(url);
+  const transformsMap = transforms.reduce((acc, t) => {
+    const type = t.substring(0, t.indexOf('_'));
+    acc[type] = t;
+    return acc;
+  }, {});
+  const updated = {
+    ...data.asMap
+  };
+  Object.entries(transformsMap).forEach(_ref => {
+    let [type, value] = _ref;
+    // Override existing transform or add new transform
+    updated[type] = value;
+  });
+  const next = Object.values(updated);
+  return `${data.prefix}${next.join(',')}${data.suffix}`;
+}
+var __webpack_export_target__ = exports;
+for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_exports__[i];
+if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
+/******/ })()
+;

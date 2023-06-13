@@ -41,6 +41,10 @@ module.exports = {
 
   entry: scripts,
 
+  optimization: {
+    minimize: false,
+  },
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: pathData => distNames[pathData.chunk.name],
