@@ -11,8 +11,10 @@ export function lazy(f) {
   };
 }
 
-export const compose = (...fns) => (...args) =>
-  fns.forEach(fn => fn && fn(...args));
+export const compose =
+  (...fns) =>
+  (...args) =>
+    fns.forEach(fn => fn && fn(...args));
 
 /** Returns `true` only if the property on the object is a function. */
 export const isFunc = (...args) => {
@@ -44,7 +46,10 @@ export const required = name => {
  * let emitter = pipe(fn1, fn2, fn3);
  * console.log(emitter('Time')); // emit!
  */
-export const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+export const pipe =
+  (...fns) =>
+  x =>
+    fns.reduce((v, f) => f(v), x);
 
 /**
  * Returns a function, that, as long as it continues to be invoked, will not
@@ -91,8 +96,10 @@ export const identity = o => o;
  * @param reducers - 0 to many reducer functions
  * @return {function(*=, *=)} a single 'root' reducer function
  */
-export const combineReducers = (...reducers) => (state = {}, action) =>
-  reducers.reduce((nextState, reducer) => reducer(nextState, action), state);
+export const combineReducers =
+  (...reducers) =>
+  (state = {}, action) =>
+    reducers.reduce((nextState, reducer) => reducer(nextState, action), state);
 
 /**
  * Produces an event handler that expects to receive an event and will
@@ -160,4 +167,30 @@ export function retry({ callback, condition, delay = 200, retries = 10 }) {
       retry({ callback, condition, delay, retries: retries - 1 });
     }, delay);
   }
+}
+
+/**
+ * Safe chained function
+ *
+ * Will only create a new function if needed,
+ * otherwise will pass back existing functions or null.
+ *
+ * @param {function} functions to chain
+ * @returns {function|null}
+ */
+export function createChainedFunction(...funcs) {
+  return funcs
+    .filter(f => f != null)
+    .reduce((acc, f) => {
+      if (typeof f !== 'function') {
+        throw new Error(
+          'Invalid Argument Type, must only provide functions, undefined, or null.'
+        );
+      }
+      if (acc === null) return f;
+      return function chainedFunction(...args) {
+        acc.apply(this, args);
+        f.apply(this, args);
+      };
+    }, null);
 }
