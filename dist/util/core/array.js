@@ -9,7 +9,7 @@
 /* harmony export */   identity: () => (/* binding */ identity),
 /* harmony export */   required: () => (/* binding */ required)
 /* harmony export */ });
-/* unused harmony exports lazy, compose, isFunc, pipe, debounce, noop, combineReducers, onEnter, onKey, cappedCallback, retry */
+/* unused harmony exports lazy, compose, isFunc, pipe, debounce, noop, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
 /**
  * FUNCTION UTILS
  * @module sn.functions
@@ -213,6 +213,34 @@ function retry(_ref) {
       });
     }, delay);
   }
+}
+
+/**
+ * Safe chained function
+ *
+ * Will only create a new function if needed,
+ * otherwise will pass back existing functions or null.
+ *
+ * @param {function} functions to chain
+ * @returns {function|null}
+ */
+function createChainedFunction() {
+  for (var _len8 = arguments.length, funcs = new Array(_len8), _key8 = 0; _key8 < _len8; _key8++) {
+    funcs[_key8] = arguments[_key8];
+  }
+  return funcs.filter(f => f != null).reduce((acc, f) => {
+    if (typeof f !== 'function') {
+      throw new Error('Invalid Argument Type, must only provide functions, undefined, or null.');
+    }
+    if (acc === null) return f;
+    return function chainedFunction() {
+      for (var _len9 = arguments.length, args = new Array(_len9), _key9 = 0; _key9 < _len9; _key9++) {
+        args[_key9] = arguments[_key9];
+      }
+      acc.apply(this, args);
+      f.apply(this, args);
+    };
+  }, null);
 }
 
 /***/ }),
