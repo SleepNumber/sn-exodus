@@ -1,16 +1,17 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 7109:
+/***/ 109:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Breakpoint: () => (/* binding */ Breakpoint)
 /* harmony export */ });
 /* unused harmony exports isMobile, isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2829);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
 
 
 class Breakpoint extends _enumify__WEBPACK_IMPORTED_MODULE_1__["default"] {
@@ -167,16 +168,15 @@ let supportsPassive = false;
   }
 })();
 const events = {
-  wheel: browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU && 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
+  wheel: browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser && 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
   passive: supportsPassive
 };
 
 /***/ }),
 
-/***/ 2829:
+/***/ 829:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -230,10 +230,9 @@ function enumEntryOrNull(Enum, key) {
 
 /***/ }),
 
-/***/ 4749:
+/***/ 749:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   validate: () => (/* binding */ validate)
 /* harmony export */ });
@@ -346,150 +345,10 @@ const validate = {
 
 /***/ }),
 
-/***/ 3818:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-
-__webpack_unused_export__ = ({
-  value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
-
-var isNode = typeof process !== "undefined" && process.versions != null && process.versions.node != null;
-
-var isWebWorker = (typeof self === "undefined" ? "undefined" : _typeof(self)) === "object" && self.constructor && self.constructor.name === "DedicatedWorkerGlobalScope";
-
-/**
- * @see https://github.com/jsdom/jsdom/releases/tag/12.0.0
- * @see https://github.com/jsdom/jsdom/issues/1537
- */
-var isJsDom = typeof window !== "undefined" && window.name === "nodejs" || typeof navigator !== "undefined" && (navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom"));
-
-var isDeno = typeof Deno !== "undefined" && typeof Deno.version !== "undefined" && typeof Deno.version.deno !== "undefined";
-
-exports.jU = isBrowser;
-__webpack_unused_export__ = isWebWorker;
-__webpack_unused_export__ = isNode;
-__webpack_unused_export__ = isJsDom;
-__webpack_unused_export__ = isDeno;
-
-/***/ }),
-
-/***/ 2703:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-var ReactPropTypesSecret = __webpack_require__(414);
-
-function emptyFunction() {}
-function emptyFunctionWithReset() {}
-emptyFunctionWithReset.resetWarningCache = emptyFunction;
-
-module.exports = function() {
-  function shim(props, propName, componentName, location, propFullName, secret) {
-    if (secret === ReactPropTypesSecret) {
-      // It is still safe when called from React.
-      return;
-    }
-    var err = new Error(
-      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
-      'Use PropTypes.checkPropTypes() to call them. ' +
-      'Read more at http://fb.me/use-check-prop-types'
-    );
-    err.name = 'Invariant Violation';
-    throw err;
-  };
-  shim.isRequired = shim;
-  function getShim() {
-    return shim;
-  };
-  // Important!
-  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
-  var ReactPropTypes = {
-    array: shim,
-    bigint: shim,
-    bool: shim,
-    func: shim,
-    number: shim,
-    object: shim,
-    string: shim,
-    symbol: shim,
-
-    any: shim,
-    arrayOf: getShim,
-    element: shim,
-    elementType: shim,
-    instanceOf: getShim,
-    node: shim,
-    objectOf: getShim,
-    oneOf: getShim,
-    oneOfType: getShim,
-    shape: getShim,
-    exact: getShim,
-
-    checkPropTypes: emptyFunctionWithReset,
-    resetWarningCache: emptyFunction
-  };
-
-  ReactPropTypes.PropTypes = ReactPropTypes;
-
-  return ReactPropTypes;
-};
-
-
-/***/ }),
-
-/***/ 5697:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-if (false) { var throwOnDirectAccess, ReactIs; } else {
-  // By explicitly using `prop-types` you are opting into new production behavior.
-  // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(2703)();
-}
-
-
-/***/ }),
-
-/***/ 414:
+/***/ 192:
 /***/ ((module) => {
 
-"use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
-
-module.exports = ReactPropTypesSecret;
-
+module.exports = require("browser-or-node");
 
 /***/ })
 
@@ -562,9 +421,8 @@ module.exports = ReactPropTypesSecret;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -579,29 +437,29 @@ __webpack_require__.d(__webpack_exports__, {
   validators: () => (/* binding */ validators)
 });
 
-;// CONCATENATED MODULE: external "React"
-const external_React_namespaceObject = require("React");
-var external_React_default = /*#__PURE__*/__webpack_require__.n(external_React_namespaceObject);
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(5697);
-var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
+;// CONCATENATED MODULE: external "react"
+const external_react_namespaceObject = require("react");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_namespaceObject);
+;// CONCATENATED MODULE: external "prop-types"
+const external_prop_types_namespaceObject = require("prop-types");
+var external_prop_types_default = /*#__PURE__*/__webpack_require__.n(external_prop_types_namespaceObject);
 // EXTERNAL MODULE: ./src/util/core/validate.js
-var validate = __webpack_require__(4749);
+var validate = __webpack_require__(749);
 // EXTERNAL MODULE: ./src/util/core/device.js
-var device = __webpack_require__(7109);
+var device = __webpack_require__(109);
 ;// CONCATENATED MODULE: ./src/util/core/jsx-utils.js
 
 
 
 
 const common_input_props = {
-  id: (prop_types_default()).string,
-  label: (prop_types_default()).any,
-  desc: (prop_types_default()).string,
-  onChange: (prop_types_default()).func,
-  error: (prop_types_default()).string,
-  classes: (prop_types_default()).any,
-  wrapperClasses: (prop_types_default()).any
+  id: (external_prop_types_default()).string,
+  label: (external_prop_types_default()).any,
+  desc: (external_prop_types_default()).string,
+  onChange: (external_prop_types_default()).func,
+  error: (external_prop_types_default()).string,
+  classes: (external_prop_types_default()).any,
+  wrapperClasses: (external_prop_types_default()).any
 };
 const jsx_utils_text = {
   /**
@@ -610,10 +468,10 @@ const jsx_utils_text = {
    * @param {String[]} textArray - The array of strings to weave <br>'s into.
    */
   break: textArray => textArray.reduce((prev, curr, i) => {
-    prev.push( /*#__PURE__*/external_React_default().createElement("span", {
+    prev.push( /*#__PURE__*/external_react_default().createElement("span", {
       key: `t-${i}`
     }, curr));
-    if (i < textArray.length - 1) prev.push( /*#__PURE__*/external_React_default().createElement("br", {
+    if (i < textArray.length - 1) prev.push( /*#__PURE__*/external_react_default().createElement("br", {
       key: `b-${i}`
     }));
     return prev;
@@ -650,7 +508,7 @@ const jsx_utils_text = {
     const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) && unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
     if (!match) {
       // We found the last string, then everything is formatted
-      return [...input, /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, {
+      return [...input, /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
         key: input.length
       }, unformatted)];
     }
@@ -668,7 +526,7 @@ const jsx_utils_text = {
     if (preSpecial.length > 0) {
       suppedKey += 1;
       // Add text before our special character
-      semiFormatted.push( /*#__PURE__*/external_React_default().createElement((external_React_default()).Fragment, {
+      semiFormatted.push( /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
         key: input.length
       }, preSpecial));
     }
@@ -676,9 +534,9 @@ const jsx_utils_text = {
       semiFormatted.push(
       /*#__PURE__*/
       // Add supped special
-      external_React_default().createElement((external_React_default()).Fragment, {
+      external_react_default().createElement((external_react_default()).Fragment, {
         key: suppedKey
-      }, /*#__PURE__*/external_React_default().createElement("sup", null, matched)));
+      }, /*#__PURE__*/external_react_default().createElement("sup", null, matched)));
     }
     const remainder = unformatted.substring(index + match.length);
     if (remainder.length > 0) {
@@ -778,9 +636,9 @@ const validators = {
     });
   }
 };
-const entitiesOf = type => prop_types_default().shape({
-  byId: prop_types_default().objectOf(type),
-  allIds: prop_types_default().arrayOf((prop_types_default()).string).isRequired
+const entitiesOf = type => external_prop_types_default().shape({
+  byId: external_prop_types_default().objectOf(type),
+  allIds: external_prop_types_default().arrayOf((external_prop_types_default()).string).isRequired
 });
 function ConditionalWrapper(_ref) {
   let {
@@ -794,7 +652,7 @@ function ConditionalWrapper(_ref) {
 /**
  * PropType where boolean means show or don't show, Breakpoint[] means show at breakpoints
  */
-const displayableType = prop_types_default().oneOfType([(prop_types_default()).bool, prop_types_default().arrayOf(device.Breakpoint)]);
+const displayableType = external_prop_types_default().oneOfType([(external_prop_types_default()).bool, external_prop_types_default().arrayOf(device.Breakpoint)]);
 
 /**
  * If boolean, show or don't show, if Breakpoint[], show at breakpoints

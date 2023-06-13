@@ -1,14 +1,14 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 6531:
+/***/ 531:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2829);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(829);
 
 
 /**
@@ -44,18 +44,18 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ 3168:
+/***/ 168:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6808);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6531);
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2829);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5981);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7814);
+/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(814);
 
 
 
@@ -68,7 +68,7 @@ const stageUrl = 'https://staging.sleepnumber.com';
 const prodUrl = 'https://www.sleepnumber.com';
 const isJestEnv = __webpack_require__.g?.process?.env?.NODE_ENV === 'test';
 let windowObject = __webpack_require__.g || window;
-const isSSR = !browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU && !isJestEnv;
+const isSSR = !browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser && !isJestEnv;
 if (isSSR) {
   const hosts = {
     local: 'https://sleepnumber.test:8090',
@@ -98,7 +98,7 @@ const isDevPage = win?.location?.pathname?.startsWith('/dev/');
 const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.location?.pathname?.startsWith('/admin/');
 const isTestEnv = sn_globals.config.env !== 'production';
 function isDebug() {
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU) return false;
+  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
   const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
@@ -474,10 +474,9 @@ const regex = {
 
 /***/ }),
 
-/***/ 2829:
+/***/ 829:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -531,15 +530,14 @@ function enumEntryOrNull(Enum, key) {
 
 /***/ }),
 
-/***/ 5981:
+/***/ 981:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isFunc: () => (/* binding */ isFunc)
 /* harmony export */ });
 /* unused harmony exports lazy, compose, required, pipe, debounce, noop, identity, combineReducers, onEnter, onKey, cappedCallback, retry */
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7814);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * FUNCTION UTILS
  * @module sn.functions
@@ -747,10 +745,9 @@ function retry(_ref) {
 
 /***/ }),
 
-/***/ 7814:
+/***/ 814:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   namespace: () => (/* binding */ namespace),
 /* harmony export */   prop: () => (/* binding */ prop)
@@ -1074,15 +1071,14 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 5203:
+/***/ 203:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   bytes: () => (/* binding */ bytes)
 /* harmony export */ });
 /* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters */
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3168);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 
 function isString(input) {
   return typeof input === 'string';
@@ -1321,422 +1317,17 @@ function removeSpecialCharacters() {
 
 /***/ }),
 
-/***/ 3818:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ 192:
+/***/ ((module) => {
 
-"use strict";
-var __webpack_unused_export__;
-
-
-__webpack_unused_export__ = ({
-  value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
-
-var isNode = typeof process !== "undefined" && process.versions != null && process.versions.node != null;
-
-var isWebWorker = (typeof self === "undefined" ? "undefined" : _typeof(self)) === "object" && self.constructor && self.constructor.name === "DedicatedWorkerGlobalScope";
-
-/**
- * @see https://github.com/jsdom/jsdom/releases/tag/12.0.0
- * @see https://github.com/jsdom/jsdom/issues/1537
- */
-var isJsDom = typeof window !== "undefined" && window.name === "nodejs" || typeof navigator !== "undefined" && (navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom"));
-
-var isDeno = typeof Deno !== "undefined" && typeof Deno.version !== "undefined" && typeof Deno.version.deno !== "undefined";
-
-exports.jU = isBrowser;
-__webpack_unused_export__ = isWebWorker;
-__webpack_unused_export__ = isNode;
-__webpack_unused_export__ = isJsDom;
-__webpack_unused_export__ = isDeno;
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 6489:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ 734:
+/***/ ((module) => {
 
-"use strict";
-/*!
- * cookie
- * Copyright(c) 2012-2014 Roman Shtylman
- * Copyright(c) 2015 Douglas Christopher Wilson
- * MIT Licensed
- */
-
-
-
-/**
- * Module exports.
- * @public
- */
-
-exports.parse = parse;
-exports.serialize = serialize;
-
-/**
- * Module variables.
- * @private
- */
-
-var decode = decodeURIComponent;
-var encode = encodeURIComponent;
-
-/**
- * RegExp to match field-content in RFC 7230 sec 3.2
- *
- * field-content = field-vchar [ 1*( SP / HTAB ) field-vchar ]
- * field-vchar   = VCHAR / obs-text
- * obs-text      = %x80-FF
- */
-
-var fieldContentRegExp = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/;
-
-/**
- * Parse a cookie header.
- *
- * Parse the given cookie header string into an object
- * The object has the various cookies as keys(names) => values
- *
- * @param {string} str
- * @param {object} [options]
- * @return {object}
- * @public
- */
-
-function parse(str, options) {
-  if (typeof str !== 'string') {
-    throw new TypeError('argument str must be a string');
-  }
-
-  var obj = {}
-  var opt = options || {};
-  var pairs = str.split(';')
-  var dec = opt.decode || decode;
-
-  for (var i = 0; i < pairs.length; i++) {
-    var pair = pairs[i];
-    var index = pair.indexOf('=')
-
-    // skip things that don't look like key=value
-    if (index < 0) {
-      continue;
-    }
-
-    var key = pair.substring(0, index).trim()
-
-    // only assign once
-    if (undefined == obj[key]) {
-      var val = pair.substring(index + 1, pair.length).trim()
-
-      // quoted values
-      if (val[0] === '"') {
-        val = val.slice(1, -1)
-      }
-
-      obj[key] = tryDecode(val, dec);
-    }
-  }
-
-  return obj;
-}
-
-/**
- * Serialize data into a cookie header.
- *
- * Serialize the a name value pair into a cookie string suitable for
- * http headers. An optional options object specified cookie parameters.
- *
- * serialize('foo', 'bar', { httpOnly: true })
- *   => "foo=bar; httpOnly"
- *
- * @param {string} name
- * @param {string} val
- * @param {object} [options]
- * @return {string}
- * @public
- */
-
-function serialize(name, val, options) {
-  var opt = options || {};
-  var enc = opt.encode || encode;
-
-  if (typeof enc !== 'function') {
-    throw new TypeError('option encode is invalid');
-  }
-
-  if (!fieldContentRegExp.test(name)) {
-    throw new TypeError('argument name is invalid');
-  }
-
-  var value = enc(val);
-
-  if (value && !fieldContentRegExp.test(value)) {
-    throw new TypeError('argument val is invalid');
-  }
-
-  var str = name + '=' + value;
-
-  if (null != opt.maxAge) {
-    var maxAge = opt.maxAge - 0;
-
-    if (isNaN(maxAge) || !isFinite(maxAge)) {
-      throw new TypeError('option maxAge is invalid')
-    }
-
-    str += '; Max-Age=' + Math.floor(maxAge);
-  }
-
-  if (opt.domain) {
-    if (!fieldContentRegExp.test(opt.domain)) {
-      throw new TypeError('option domain is invalid');
-    }
-
-    str += '; Domain=' + opt.domain;
-  }
-
-  if (opt.path) {
-    if (!fieldContentRegExp.test(opt.path)) {
-      throw new TypeError('option path is invalid');
-    }
-
-    str += '; Path=' + opt.path;
-  }
-
-  if (opt.expires) {
-    if (typeof opt.expires.toUTCString !== 'function') {
-      throw new TypeError('option expires is invalid');
-    }
-
-    str += '; Expires=' + opt.expires.toUTCString();
-  }
-
-  if (opt.httpOnly) {
-    str += '; HttpOnly';
-  }
-
-  if (opt.secure) {
-    str += '; Secure';
-  }
-
-  if (opt.sameSite) {
-    var sameSite = typeof opt.sameSite === 'string'
-      ? opt.sameSite.toLowerCase() : opt.sameSite;
-
-    switch (sameSite) {
-      case true:
-        str += '; SameSite=Strict';
-        break;
-      case 'lax':
-        str += '; SameSite=Lax';
-        break;
-      case 'strict':
-        str += '; SameSite=Strict';
-        break;
-      case 'none':
-        str += '; SameSite=None';
-        break;
-      default:
-        throw new TypeError('option sameSite is invalid');
-    }
-  }
-
-  return str;
-}
-
-/**
- * Try decoding a string using a decoding function.
- *
- * @param {string} str
- * @param {function} decode
- * @private
- */
-
-function tryDecode(str, decode) {
-  try {
-    return decode(str);
-  } catch (e) {
-    return str;
-  }
-}
-
-
-/***/ }),
-
-/***/ 6808:
-/***/ ((module, exports, __webpack_require__) => {
-
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * JavaScript Cookie v2.2.1
- * https://github.com/js-cookie/js-cookie
- *
- * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
- * Released under the MIT license
- */
-;(function (factory) {
-	var registeredInModuleLoader;
-	if (true) {
-		!(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-		(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
-		__WEBPACK_AMD_DEFINE_FACTORY__),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		registeredInModuleLoader = true;
-	}
-	if (true) {
-		module.exports = factory();
-		registeredInModuleLoader = true;
-	}
-	if (!registeredInModuleLoader) {
-		var OldCookies = window.Cookies;
-		var api = window.Cookies = factory();
-		api.noConflict = function () {
-			window.Cookies = OldCookies;
-			return api;
-		};
-	}
-}(function () {
-	function extend () {
-		var i = 0;
-		var result = {};
-		for (; i < arguments.length; i++) {
-			var attributes = arguments[ i ];
-			for (var key in attributes) {
-				result[key] = attributes[key];
-			}
-		}
-		return result;
-	}
-
-	function decode (s) {
-		return s.replace(/(%[0-9A-Z]{2})+/g, decodeURIComponent);
-	}
-
-	function init (converter) {
-		function api() {}
-
-		function set (key, value, attributes) {
-			if (typeof document === 'undefined') {
-				return;
-			}
-
-			attributes = extend({
-				path: '/'
-			}, api.defaults, attributes);
-
-			if (typeof attributes.expires === 'number') {
-				attributes.expires = new Date(new Date() * 1 + attributes.expires * 864e+5);
-			}
-
-			// We're using "expires" because "max-age" is not supported by IE
-			attributes.expires = attributes.expires ? attributes.expires.toUTCString() : '';
-
-			try {
-				var result = JSON.stringify(value);
-				if (/^[\{\[]/.test(result)) {
-					value = result;
-				}
-			} catch (e) {}
-
-			value = converter.write ?
-				converter.write(value, key) :
-				encodeURIComponent(String(value))
-					.replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent);
-
-			key = encodeURIComponent(String(key))
-				.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent)
-				.replace(/[\(\)]/g, escape);
-
-			var stringifiedAttributes = '';
-			for (var attributeName in attributes) {
-				if (!attributes[attributeName]) {
-					continue;
-				}
-				stringifiedAttributes += '; ' + attributeName;
-				if (attributes[attributeName] === true) {
-					continue;
-				}
-
-				// Considers RFC 6265 section 5.2:
-				// ...
-				// 3.  If the remaining unparsed-attributes contains a %x3B (";")
-				//     character:
-				// Consume the characters of the unparsed-attributes up to,
-				// not including, the first %x3B (";") character.
-				// ...
-				stringifiedAttributes += '=' + attributes[attributeName].split(';')[0];
-			}
-
-			return (document.cookie = key + '=' + value + stringifiedAttributes);
-		}
-
-		function get (key, json) {
-			if (typeof document === 'undefined') {
-				return;
-			}
-
-			var jar = {};
-			// To prevent the for loop in the first place assign an empty array
-			// in case there are no cookies at all.
-			var cookies = document.cookie ? document.cookie.split('; ') : [];
-			var i = 0;
-
-			for (; i < cookies.length; i++) {
-				var parts = cookies[i].split('=');
-				var cookie = parts.slice(1).join('=');
-
-				if (!json && cookie.charAt(0) === '"') {
-					cookie = cookie.slice(1, -1);
-				}
-
-				try {
-					var name = decode(parts[0]);
-					cookie = (converter.read || converter)(cookie, name) ||
-						decode(cookie);
-
-					if (json) {
-						try {
-							cookie = JSON.parse(cookie);
-						} catch (e) {}
-					}
-
-					jar[name] = cookie;
-
-					if (key === name) {
-						break;
-					}
-				} catch (e) {}
-			}
-
-			return key ? jar[key] : jar;
-		}
-
-		api.set = set;
-		api.get = function (key) {
-			return get(key, false /* read as raw */);
-		};
-		api.getJSON = function (key) {
-			return get(key, true /* read as json */);
-		};
-		api.remove = function (key, attributes) {
-			set(key, '', extend(attributes, {
-				expires: -1
-			}));
-		};
-
-		api.defaults = {};
-
-		api.withConverter = init;
-
-		return api;
-	}
-
-	return init(function () {});
-}));
-
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1821,20 +1412,31 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6808);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6489);
-/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6531);
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2829);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7814);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5203);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ cookiejar)
+});
+
+// EXTERNAL MODULE: external "js-cookie"
+var external_js_cookie_ = __webpack_require__(734);
+var external_js_cookie_default = /*#__PURE__*/__webpack_require__.n(external_js_cookie_);
+;// CONCATENATED MODULE: external "cookie"
+const external_cookie_namespaceObject = require("cookie");
+var external_cookie_default = /*#__PURE__*/__webpack_require__.n(external_cookie_namespaceObject);
+// EXTERNAL MODULE: ./src/util/core/Cookie.js
+var Cookie = __webpack_require__(531);
+// EXTERNAL MODULE: ./src/util/core/enumify.js
+var enumify = __webpack_require__(829);
+// EXTERNAL MODULE: ./src/util/core/object.js
+var object = __webpack_require__(814);
+// EXTERNAL MODULE: ./src/util/core/string.js
+var string = __webpack_require__(203);
+;// CONCATENATED MODULE: ./src/util/core/cookiejar.js
 /**
  * Module to store data as json in a single cookie.
  * @module sn.cookiejar
@@ -1846,7 +1448,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-class Entry extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+class Entry extends enumify["default"] {
   static admin_hide = new Entry('admin', 'hide', false);
   static alerts_queued = new Entry('alerts', 'queued', []);
   static answer_helpful = new Entry('answer', 'helpful', {});
@@ -1878,8 +1480,8 @@ class Entry extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
 }
 const CookieJar = {};
 const {
-  name
-} = _Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].sn;
+  name: cookiejar_name
+} = Cookie["default"].sn;
 const max = 4093;
 
 /**
@@ -1914,7 +1516,7 @@ function checkEntry(entry, allowUndefined) {
 CookieJar.get = function get(e) {
   const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
   checkEntry(entry, true);
-  const c = js_cookie__WEBPACK_IMPORTED_MODULE_0___default().getJSON(name);
+  const c = external_js_cookie_default().getJSON(cookiejar_name);
   if (!entry) return c || {};
   if (!c) return entry.default;
   let key = `${entry.group}`;
@@ -1938,8 +1540,8 @@ CookieJar.getFromRequest = function get(req, e) {
   checkEntry(entry, true);
   let c = {};
   try {
-    const cookies = cookie__WEBPACK_IMPORTED_MODULE_1__.parse(req.headers.get('Cookie') || '');
-    const raw = cookies[name];
+    const cookies = external_cookie_default().parse(req.headers.get('Cookie') || '');
+    const raw = cookies[cookiejar_name];
     c = JSON.parse(raw);
   } catch (err) {
     /* ignore */
@@ -1980,27 +1582,27 @@ CookieJar.getFromData = function get(data, e) {
  */
 CookieJar.set = function set(entry, value) {
   checkEntry(entry);
-  const c = js_cookie__WEBPACK_IMPORTED_MODULE_0___default().getJSON(name) || {};
+  const c = external_js_cookie_default().getJSON(cookiejar_name) || {};
   let key = `${entry.group}`;
   if (entry.id) key += `-${entry.id}`;
   c[key] = value;
   const stringified = JSON.stringify(c);
-  const stringifiedBytes = (0,_string__WEBPACK_IMPORTED_MODULE_4__.bytes)(stringified);
+  const stringifiedBytes = (0,string.bytes)(stringified);
   if (stringifiedBytes >= max) {
     // Cookies.set silently fails in this case :(
     // eslint-disable-next-line no-console
     console.error(`Failed to set cookie "${entry.toString()}" with value "${value}":` + ` cookie length (${stringifiedBytes} bytes) exceeds max (${max} bytes)`);
   } else {
-    js_cookie__WEBPACK_IMPORTED_MODULE_0___default().set(name, c, {
+    external_js_cookie_default().set(cookiejar_name, c, {
       expires: 365
     });
   }
 };
-CookieJar.getName = () => name;
-CookieJar.lib = (js_cookie__WEBPACK_IMPORTED_MODULE_0___default());
+CookieJar.getName = () => cookiejar_name;
+CookieJar.lib = (external_js_cookie_default());
 CookieJar.Entry = Entry;
-(0,_object__WEBPACK_IMPORTED_MODULE_5__.namespace)('sn.cookiejar', CookieJar);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CookieJar);
+(0,object.namespace)('sn.cookiejar', CookieJar);
+/* harmony default export */ const cookiejar = (CookieJar);
 })();
 
 var __webpack_export_target__ = exports;

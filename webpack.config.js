@@ -1,3 +1,4 @@
+const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 const glob = require('glob');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -108,18 +109,19 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
 
-  externals: {
-    react: {
-      root: 'React',
-      commonjs: 'react',
-      commonjs2: 'react',
-      amd: 'react',
-    },
-    'react-dom': {
-      root: 'ReactDOM',
-      commonjs: 'react-dom',
-      commonjs2: 'react-dom',
-      amd: 'react-dom',
-    },
-  },
+  // externals: {
+  //   react: {
+  //     root: 'React',
+  //     commonjs: 'react',
+  //     commonjs2: 'react',
+  //     amd: 'react',
+  //   },
+  //   'react-dom': {
+  //     root: 'ReactDOM',
+  //     commonjs: 'react-dom',
+  //     commonjs2: 'react-dom',
+  //     amd: 'react-dom',
+  //   },
+  // },
+  externals: [nodeExternals()],
 };

@@ -1,14 +1,14 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 6531:
+/***/ 531:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2829);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(829);
 
 
 /**
@@ -44,11 +44,10 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ 1292:
+/***/ 292:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-"use strict";
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7814);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * Deferred api for promises.
  * Replaces $.Deferred()
@@ -111,10 +110,9 @@ class Deferred {
 
 /***/ }),
 
-/***/ 3027:
+/***/ 27:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -187,13 +185,12 @@ class MediaSource {
 
 /***/ }),
 
-/***/ 6276:
+/***/ 276:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports arrays, reducers, sorters, entityTable, includesAll, includesAny, asArray, safeArray */
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(981);
 /* ARRAY UTILS
    --------------------------------------------------------------- */
 
@@ -570,10 +567,9 @@ function safeArray(input) {
 
 /***/ }),
 
-/***/ 9576:
+/***/ 576:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
@@ -586,26 +582,26 @@ __webpack_require__.d(__webpack_exports__, {
 
 // UNUSED EXPORTS: asJpg, asMp4, base64GifToSrc, buildSources, filterAssetsByTags, findAssetByTags, findImageByTags, findImagesByTags, findVideoByTags, findVideosByTags, getBgImages, getImageDimensions, getVideoPlaceholder, getVideoPoster, getVideoThumb, hexToRgb, importAll, isFullscreen, isJpg, isMp4, isSecure, isVideoFullscreen, placehold, retainFormat, rgbToHex, safePause, safePlay, sslUrl, toggleFullscreen, withSpecialtyTag, withoutSpecialtyTag
 
-// EXTERNAL MODULE: ./node_modules/browser-or-node/lib/index.js
-var lib = __webpack_require__(3818);
+// EXTERNAL MODULE: external "browser-or-node"
+var external_browser_or_node_ = __webpack_require__(192);
 ;// CONCATENATED MODULE: ./src/videos/placeholder-black-10s.mp4
 const placeholder_black_10s_namespaceObject = "/dist/videos/placeholder-black-10s-23b41dc17cf05e907ef2.mp4";
 // EXTERNAL MODULE: ./src/util/core/logger.js
-var core_logger = __webpack_require__(5813);
+var core_logger = __webpack_require__(813);
 // EXTERNAL MODULE: ./src/util/core/element.js
-var core_element = __webpack_require__(3302);
+var core_element = __webpack_require__(302);
 // EXTERNAL MODULE: ./src/util/core/array.js
-var array = __webpack_require__(6276);
+var array = __webpack_require__(276);
 // EXTERNAL MODULE: ./src/util/core/string.js
-var string = __webpack_require__(5203);
+var string = __webpack_require__(203);
 // EXTERNAL MODULE: ./src/util/core/device.js
-var device = __webpack_require__(7109);
+var device = __webpack_require__(109);
 // EXTERNAL MODULE: ./src/util/core/constants.js
-var constants = __webpack_require__(3168);
+var constants = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/util/core/MediaSource.js
-var core_MediaSource = __webpack_require__(3027);
+var core_MediaSource = __webpack_require__(27);
 // EXTERNAL MODULE: ./src/util/core/tags.js
-var tags = __webpack_require__(5567);
+var tags = __webpack_require__(567);
 ;// CONCATENATED MODULE: ./src/util/core/assets.js
 
 
@@ -762,7 +758,7 @@ function getCloudinaryVersion() {
  */
 function getCloudinaryUrl(url) {
   let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'image';
-  if (!lib/* isBrowser */.jU || !url || (0,constants.isDevelopment)() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
+  if (!external_browser_or_node_.isBrowser || !url || (0,constants.isDevelopment)() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
     return sslUrl(url);
   }
 
@@ -1205,10 +1201,9 @@ function getBgImages(target) {
 
 /***/ }),
 
-/***/ 3168:
+/***/ 168:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isDebug: () => (/* binding */ isDebug),
 /* harmony export */   isDevelopment: () => (/* binding */ isDevelopment),
@@ -1220,13 +1215,14 @@ function getBgImages(target) {
 /* harmony export */   win: () => (/* binding */ win)
 /* harmony export */ });
 /* unused harmony exports prodUrl, sn_globals, isStaging, isQa, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6808);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6531);
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2829);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5981);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7814);
+/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(814);
 
 
 
@@ -1239,7 +1235,7 @@ const stageUrl = 'https://staging.sleepnumber.com';
 const prodUrl = 'https://www.sleepnumber.com';
 const isJestEnv = __webpack_require__.g?.process?.env?.NODE_ENV === 'test';
 let windowObject = __webpack_require__.g || window;
-const isSSR = !browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU && !isJestEnv;
+const isSSR = !browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser && !isJestEnv;
 if (isSSR) {
   const hosts = {
     local: 'https://sleepnumber.test:8090',
@@ -1269,7 +1265,7 @@ const isDevPage = win?.location?.pathname?.startsWith('/dev/');
 const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.location?.pathname?.startsWith('/admin/');
 const isTestEnv = sn_globals.config.env !== 'production';
 function isDebug() {
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU) return false;
+  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
   const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
@@ -1645,13 +1641,13 @@ const regex = {
 
 /***/ }),
 
-/***/ 7109:
+/***/ 109:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports Breakpoint, isMobile, isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
-/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2829);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
 
 
 class Breakpoint extends _enumify__WEBPACK_IMPORTED_MODULE_1__["default"] {
@@ -1808,22 +1804,22 @@ let supportsPassive = false;
   }
 })();
 const events = {
-  wheel: browser_or_node__WEBPACK_IMPORTED_MODULE_0__/* .isBrowser */ .jU && 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
+  wheel: browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser && 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
   passive: supportsPassive
 };
 
 /***/ }),
 
-/***/ 3302:
+/***/ 302:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports isElement, getElement, gebi, qsa, qs, closest, findAncestor, addClass, removeClass, after, before, append, prepend, contains, remove, css, text, html, create, hasClass, toggleClass, index, is, next, nextAll, prev, prevAll, siblings, offset, scrollTop, scrollLeft, outerHeight, outerWidth, position, height, width, getMeasurement, getChildMeasurements, getHiddenMeasurements, isElementInViewport, isElementAboveViewport, findWithRetry, addTabindexToContent, focusSection, focusFirstElement, isNotHidden, addListeners, removeListeners, ready, trigger, animate, hide, show, isDisplayNone, toggle, fadeOut, fadeIn */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3818);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5813);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5203);
-/* harmony import */ var _Deferred__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1292);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
+/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(203);
+/* harmony import */ var _Deferred__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(292);
 
 
 
@@ -2669,10 +2665,9 @@ function fadeIn(target, ms) {
 
 /***/ }),
 
-/***/ 2829:
+/***/ 829:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -2726,10 +2721,9 @@ function enumEntryOrNull(Enum, key) {
 
 /***/ }),
 
-/***/ 5981:
+/***/ 981:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   identity: () => (/* binding */ identity),
 /* harmony export */   isFunc: () => (/* binding */ isFunc),
@@ -2737,7 +2731,7 @@ function enumEntryOrNull(Enum, key) {
 /* harmony export */   required: () => (/* binding */ required)
 /* harmony export */ });
 /* unused harmony exports lazy, compose, pipe, debounce, combineReducers, onEnter, onKey, cappedCallback, retry */
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7814);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * FUNCTION UTILS
  * @module sn.functions
@@ -2945,12 +2939,11 @@ function retry(_ref) {
 
 /***/ }),
 
-/***/ 5813:
+/***/ 813:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-"use strict";
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5981);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3168);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(981);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 /* eslint-disable no-console */
 /**
  * Module to abstract the console.
@@ -2986,10 +2979,9 @@ const logger = {};
 
 /***/ }),
 
-/***/ 7814:
+/***/ 814:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   namespace: () => (/* binding */ namespace),
 /* harmony export */   prop: () => (/* binding */ prop)
@@ -3313,12 +3305,11 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 5203:
+/***/ 203:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, bytes, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters */
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3168);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 
 function isString(input) {
   return typeof input === 'string';
@@ -3557,12 +3548,11 @@ function removeSpecialCharacters() {
 
 /***/ }),
 
-/***/ 5567:
+/***/ 567:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* unused harmony exports Tag, hasTags */
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5203);
+/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(203);
 
 
 
@@ -3634,10 +3624,9 @@ function hasTags(taggable, tags) {
 
 /***/ }),
 
-/***/ 4365:
+/***/ 365:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   getCloudinaryTransformData: () => (/* binding */ getCloudinaryTransformData),
 /* harmony export */   setCloudinaryTransforms: () => (/* binding */ setCloudinaryTransforms),
@@ -3821,212 +3810,17 @@ function updateCloudinaryTransforms() {
 
 /***/ }),
 
-/***/ 3818:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ 192:
+/***/ ((module) => {
 
-"use strict";
-var __webpack_unused_export__;
-
-
-__webpack_unused_export__ = ({
-  value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
-
-var isNode = typeof process !== "undefined" && process.versions != null && process.versions.node != null;
-
-var isWebWorker = (typeof self === "undefined" ? "undefined" : _typeof(self)) === "object" && self.constructor && self.constructor.name === "DedicatedWorkerGlobalScope";
-
-/**
- * @see https://github.com/jsdom/jsdom/releases/tag/12.0.0
- * @see https://github.com/jsdom/jsdom/issues/1537
- */
-var isJsDom = typeof window !== "undefined" && window.name === "nodejs" || typeof navigator !== "undefined" && (navigator.userAgent.includes("Node.js") || navigator.userAgent.includes("jsdom"));
-
-var isDeno = typeof Deno !== "undefined" && typeof Deno.version !== "undefined" && typeof Deno.version.deno !== "undefined";
-
-exports.jU = isBrowser;
-__webpack_unused_export__ = isWebWorker;
-__webpack_unused_export__ = isNode;
-__webpack_unused_export__ = isJsDom;
-__webpack_unused_export__ = isDeno;
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 6808:
-/***/ ((module, exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * JavaScript Cookie v2.2.1
- * https://github.com/js-cookie/js-cookie
- *
- * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
- * Released under the MIT license
- */
-;(function (factory) {
-	var registeredInModuleLoader;
-	if (true) {
-		!(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-		(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
-		__WEBPACK_AMD_DEFINE_FACTORY__),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		registeredInModuleLoader = true;
-	}
-	if (true) {
-		module.exports = factory();
-		registeredInModuleLoader = true;
-	}
-	if (!registeredInModuleLoader) {
-		var OldCookies = window.Cookies;
-		var api = window.Cookies = factory();
-		api.noConflict = function () {
-			window.Cookies = OldCookies;
-			return api;
-		};
-	}
-}(function () {
-	function extend () {
-		var i = 0;
-		var result = {};
-		for (; i < arguments.length; i++) {
-			var attributes = arguments[ i ];
-			for (var key in attributes) {
-				result[key] = attributes[key];
-			}
-		}
-		return result;
-	}
-
-	function decode (s) {
-		return s.replace(/(%[0-9A-Z]{2})+/g, decodeURIComponent);
-	}
-
-	function init (converter) {
-		function api() {}
-
-		function set (key, value, attributes) {
-			if (typeof document === 'undefined') {
-				return;
-			}
-
-			attributes = extend({
-				path: '/'
-			}, api.defaults, attributes);
-
-			if (typeof attributes.expires === 'number') {
-				attributes.expires = new Date(new Date() * 1 + attributes.expires * 864e+5);
-			}
-
-			// We're using "expires" because "max-age" is not supported by IE
-			attributes.expires = attributes.expires ? attributes.expires.toUTCString() : '';
-
-			try {
-				var result = JSON.stringify(value);
-				if (/^[\{\[]/.test(result)) {
-					value = result;
-				}
-			} catch (e) {}
-
-			value = converter.write ?
-				converter.write(value, key) :
-				encodeURIComponent(String(value))
-					.replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent);
-
-			key = encodeURIComponent(String(key))
-				.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent)
-				.replace(/[\(\)]/g, escape);
-
-			var stringifiedAttributes = '';
-			for (var attributeName in attributes) {
-				if (!attributes[attributeName]) {
-					continue;
-				}
-				stringifiedAttributes += '; ' + attributeName;
-				if (attributes[attributeName] === true) {
-					continue;
-				}
-
-				// Considers RFC 6265 section 5.2:
-				// ...
-				// 3.  If the remaining unparsed-attributes contains a %x3B (";")
-				//     character:
-				// Consume the characters of the unparsed-attributes up to,
-				// not including, the first %x3B (";") character.
-				// ...
-				stringifiedAttributes += '=' + attributes[attributeName].split(';')[0];
-			}
-
-			return (document.cookie = key + '=' + value + stringifiedAttributes);
-		}
-
-		function get (key, json) {
-			if (typeof document === 'undefined') {
-				return;
-			}
-
-			var jar = {};
-			// To prevent the for loop in the first place assign an empty array
-			// in case there are no cookies at all.
-			var cookies = document.cookie ? document.cookie.split('; ') : [];
-			var i = 0;
-
-			for (; i < cookies.length; i++) {
-				var parts = cookies[i].split('=');
-				var cookie = parts.slice(1).join('=');
-
-				if (!json && cookie.charAt(0) === '"') {
-					cookie = cookie.slice(1, -1);
-				}
-
-				try {
-					var name = decode(parts[0]);
-					cookie = (converter.read || converter)(cookie, name) ||
-						decode(cookie);
-
-					if (json) {
-						try {
-							cookie = JSON.parse(cookie);
-						} catch (e) {}
-					}
-
-					jar[name] = cookie;
-
-					if (key === name) {
-						break;
-					}
-				} catch (e) {}
-			}
-
-			return key ? jar[key] : jar;
-		}
-
-		api.set = set;
-		api.get = function (key) {
-			return get(key, false /* read as raw */);
-		};
-		api.getJSON = function (key) {
-			return get(key, true /* read as json */);
-		};
-		api.remove = function (key, attributes) {
-			set(key, '', extend(attributes, {
-				expires: -1
-			}));
-		};
-
-		api.defaults = {};
-
-		api.withConverter = init;
-
-		return api;
-	}
-
-	return init(function () {});
-}));
-
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -4111,20 +3905,19 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./src/util/core/constants.js
-var constants = __webpack_require__(3168);
+var constants = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/util/core/assets.js + 1 modules
-var assets = __webpack_require__(9576);
+var assets = __webpack_require__(576);
 ;// CONCATENATED MODULE: ./src/__tests__/data/optimized-video-urls.json
 const optimized_video_urls_namespaceObject = JSON.parse('{"desktop":[[{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/v1/workarea/content/assets/l3tu9r0otltkseoechnp.webm","type":"video/webm;codecs=vp9"},{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4","type":"video/mp4;codecs=avc1"}],[{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.webm","type":"video/webm;codecs=vp9"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4","type":"video/mp4;codecs=avc1"}],[{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_vp9,f_webm/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.webm","type":"video/webm;codecs=vp9"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h265,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_1920,vc_h264,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4","type":"video/mp4;codecs=avc1"}]],"mobile":[[{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/v1/workarea/content/assets/l3tu9r0otltkseoechnp.webm","type":"video/webm;codecs=vp9"},{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://res.cloudinary.com/snbr-qa/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/v1/workarea/content/assets/l3tu9r0otltkseoechnp.mp4","type":"video/mp4;codecs=avc1"}],[{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.webm","type":"video/webm;codecs=vp9"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/v1/workarea/content/assets/n0wznr08b72f3oa0lkon.mp4","type":"video/mp4;codecs=avc1"}],[{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_vp9,f_webm/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.webm","type":"video/webm;codecs=vp9"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h265,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4","type":"video/mp4;codecs=hvc1"},{"src":"https://cdn.sleepnumber.com/video/upload/c_limit,q_99,fl_keep_dar,w_360,vc_h264,f_mp4/ac_none/v1/workarea/content/assets/jdzkftjlc4jxdxcpor0g.mp4","type":"video/mp4;codecs=avc1"}]]}');
 // EXTERNAL MODULE: ./src/util/vendor/cloudinary.js
-var cloudinary = __webpack_require__(4365);
+var cloudinary = __webpack_require__(365);
 ;// CONCATENATED MODULE: ./src/util/core/assets.test.js
 
 
