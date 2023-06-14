@@ -8,13 +8,31 @@
  */
 
 import { noop } from './function';
-import {
-  win,
-  isDebug,
-  isProduction,
-  isJestEnv,
-} from './constants';
+import { win, isDebug, isProduction, isJestEnv } from './constants';
 
+/**
+ * @typedef {Object} ConsoleType
+ * @property {(...args: any[]) => void} log
+ * @property {(...args: any[]) => void} info
+ * @property {(...args: any[]) => void} warn
+ * @property {(...args: any[]) => void} error
+ * @property {(...args: any[]) => void=} debug
+ * @property {(condition: any, ...args: any[]) => void=} assert
+ * @property {() => void=} clear
+ * @property {(label?: string) => void=} count
+ * @property {(label?: string) => void=} countReset
+ * @property {(tabularData: any, properties?: string[]) => void=} table
+ * @property {(...label: any[]) => void=} group
+ * @property {(...label: any[]) => void=} groupCollapsed
+ * @property {() => void=} groupEnd
+ * @property {(label?: string) => void=} time
+ * @property {(label?: string) => void=} timeEnd
+ * @property {(...args: any[]) => void=} trace
+ * @property {(obj: any, options?: any) => void=} dir
+ * @property {(...args: any[]) => void=} dirxml
+ */
+
+/** @type {ConsoleType} */
 const logger = {};
 
 [
