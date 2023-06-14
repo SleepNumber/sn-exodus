@@ -461,13 +461,14 @@ const common_input_props = {
   classes: (external_prop_types_default()).any,
   wrapperClasses: (external_prop_types_default()).any
 };
-const jsx_utils_text = {
-  /**
-   * Weave <br>'s in between each string in an array of strings.
-   * Each string in the original array is wrapped in a span to apply a key.
-   * @param {String[]} textArray - The array of strings to weave <br>'s into.
-   */
-  break: textArray => textArray.reduce((prev, curr, i) => {
+const jsx_utils_text = {};
+/**
+ * Weave <br>'s in between each string in an array of strings.
+ * Each string in the original array is wrapped in a span to apply a key.
+ * @param {String[]} textArray - The array of strings to weave <br>'s into.
+ */
+function breakText(textArray) {
+  return textArray.reduce((prev, curr, i) => {
     prev.push( /*#__PURE__*/external_react_default().createElement("span", {
       key: `t-${i}`
     }, curr));
@@ -475,130 +476,135 @@ const jsx_utils_text = {
       key: `b-${i}`
     }));
     return prev;
-  }, []),
-  /**
-   * Puts special characters in a sup tag, each piece is wrapped in a React.Fragment
-   * @param {String} input - The string to turn into an array of fragments.
-   * @returns {React.Fragment[] | null} - An array of fragments or null if input falsy
-   *
-   * Example:
-   * text.supSpecial('No sleeping† in Missouri℠') ->
-   * [
-   *   <React.Fragment key={0}>No sleeping</React.Fragment>,
-   *   <React.Fragment key={1}><sup>†</sup></React.Fragment>,
-   *   <React.Fragment key={2}> in Missouri</React.Fragment>,
-   *   <React.Fragment key={3}><sup>℠</sup></React.Fragment>,
-   * ]
-   */
-  supSpecial: function supSpecial(input) {
-    if (!input) return null;
-    if (typeof input === 'string') {
-      // We need this to be an array
-      return jsx_utils_text.supSpecial([input]);
-    }
+  }, []);
+}
+jsx_utils_text.break = breakText;
 
-    // Get last item in input array
-    const [unformatted] = input.splice(-1);
-    if (typeof unformatted !== 'string') {
-      // Everything is formatted
-      return [...input, unformatted];
-    }
-
-    // Reverse the string and check if the starting <sup> tag is there
-    const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) && unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
-    if (!match) {
-      // We found the last string, then everything is formatted
-      return [...input, /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
-        key: input.length
-      }, unformatted)];
-    }
-    const {
-      0: matched,
-      index
-    } = match;
-    const semiFormatted = [];
-    if (input.length > 0) {
-      // Add what's already been formatted
-      semiFormatted.push(...input);
-    }
-    let suppedKey = input.length;
-    const preSpecial = unformatted.substring(0, index);
-    if (preSpecial.length > 0) {
-      suppedKey += 1;
-      // Add text before our special character
-      semiFormatted.push( /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
-        key: input.length
-      }, preSpecial));
-    }
-    if (matched.length > 0) {
-      semiFormatted.push(
-      /*#__PURE__*/
-      // Add supped special
-      external_react_default().createElement((external_react_default()).Fragment, {
-        key: suppedKey
-      }, /*#__PURE__*/external_react_default().createElement("sup", null, matched)));
-    }
-    const remainder = unformatted.substring(index + match.length);
-    if (remainder.length > 0) {
-      // Add remaining unformatted string
-      semiFormatted.push(remainder);
-    }
-    return jsx_utils_text.supSpecial(semiFormatted);
-  },
-  /**
-   * Puts special characters in a sup tag and returns string of html for dangerouslySetInnerHTML
-   * Input: 'No sleeping†`
-   * Output: '<span><span>No sleeping</span><sup>†</sup></span>'
-   * @param {String} input - The string to turn into an html string.
-   * @returns {string | null} - a string of html or null if input falsy
-   */
-  supSpecialDangerousHtml: input => {
-    if (!input) return null;
-    if (typeof input === 'string') {
-      // We need this to be an array
-      return jsx_utils_text.supSpecialDangerousHtml([input]);
-    }
-    const [unformatted] = input.splice(-1);
-    if (typeof unformatted !== 'string') {
-      // Everything is formatted
-      return [...input, unformatted];
-    }
-    const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) &&
-    // reverse the string and check if the starting <sup> tag is there
-    unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
-    if (!match) {
-      // We found the last string, then everything is formatted
-
-      const formatted = [`<span key='container'>`, ...input, `<span key={${input.length}}>${unformatted}</span>`, `</span>`].join('');
-      return formatted;
-    }
-    const {
-      0: matched,
-      index
-    } = match;
-    const semiFormatted = [];
-    if (input.length > 0) {
-      // Add what's already been formatted
-      semiFormatted.push(...input);
-    }
-    const preSpecial = unformatted.substring(0, index);
-    if (preSpecial.length > 0) {
-      // Add text before our special character
-      semiFormatted.push(`<span key={${input.length}}>${preSpecial}</span>`);
-    }
-    if (matched.length > 0) {
-      semiFormatted.push(
-      // Add supped special
-      `<span key={${input.length + 1}}><sup>${matched}</sup></span>`);
-    }
-    const remainder = unformatted.substring(index + match.length);
-    if (remainder.length > 0) {
-      // Add remaining unformatted string
-      semiFormatted.push(remainder);
-    }
-    return jsx_utils_text.supSpecialDangerousHtml(semiFormatted);
+/**
+ * Puts special characters in a sup tag, each piece is wrapped in a React.Fragment
+ * @param {String} input - The string to turn into an array of fragments.
+ * @returns {React.Fragment[] | null} - An array of fragments or null if input falsy
+ *
+ * Example:
+ * text.supSpecial('No sleeping† in Missouri℠') ->
+ * [
+ *   <React.Fragment key={0}>No sleeping</React.Fragment>,
+ *   <React.Fragment key={1}><sup>†</sup></React.Fragment>,
+ *   <React.Fragment key={2}> in Missouri</React.Fragment>,
+ *   <React.Fragment key={3}><sup>℠</sup></React.Fragment>,
+ * ]
+ */
+function supSpecial(input) {
+  if (!input) return null;
+  if (typeof input === 'string') {
+    // We need this to be an array
+    return supSpecial([input]);
   }
-};
+
+  // Get last item in input array
+  const [unformatted] = input.splice(-1);
+  if (typeof unformatted !== 'string') {
+    // Everything is formatted
+    return [...input, unformatted];
+  }
+
+  // Reverse the string and check if the starting <sup> tag is there
+  const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) && unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
+  if (!match) {
+    // We found the last string, then everything is formatted
+    return [...input, /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
+      key: input.length
+    }, unformatted)];
+  }
+  const {
+    0: matched,
+    index
+  } = match;
+  const semiFormatted = [];
+  if (input.length > 0) {
+    // Add what's already been formatted
+    semiFormatted.push(...input);
+  }
+  let suppedKey = input.length;
+  const preSpecial = unformatted.substring(0, index);
+  if (preSpecial.length > 0) {
+    suppedKey += 1;
+    // Add text before our special character
+    semiFormatted.push( /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
+      key: input.length
+    }, preSpecial));
+  }
+  if (matched.length > 0) {
+    semiFormatted.push(
+    /*#__PURE__*/
+    // Add supped special
+    external_react_default().createElement((external_react_default()).Fragment, {
+      key: suppedKey
+    }, /*#__PURE__*/external_react_default().createElement("sup", null, matched)));
+  }
+  const remainder = unformatted.substring(index + match.length);
+  if (remainder.length > 0) {
+    // Add remaining unformatted string
+    semiFormatted.push(remainder);
+  }
+  return supSpecial(semiFormatted);
+}
+jsx_utils_text.supSpecial = supSpecial;
+
+/**
+ * Puts special characters in a sup tag and returns string of html for dangerouslySetInnerHTML
+ * Input: 'No sleeping†`
+ * Output: '<span><span>No sleeping</span><sup>†</sup></span>'
+ * @param {String} input - The string to turn into an html string.
+ * @returns {string | null} - a string of html or null if input falsy
+ */
+function supSpecialDangerousHtml(input) {
+  if (!input) return null;
+  if (typeof input === 'string') {
+    // We need this to be an array
+    return supSpecialDangerousHtml([input]);
+  }
+  const [unformatted] = input.splice(-1);
+  if (typeof unformatted !== 'string') {
+    // Everything is formatted
+    return [...input, unformatted];
+  }
+  const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) &&
+  // reverse the string and check if the starting <sup> tag is there
+  unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
+  if (!match) {
+    // We found the last string, then everything is formatted
+
+    const formatted = [`<span key='container'>`, ...input, `<span key={${input.length}}>${unformatted}</span>`, `</span>`].join('');
+    return formatted;
+  }
+  const {
+    0: matched,
+    index
+  } = match;
+  const semiFormatted = [];
+  if (input.length > 0) {
+    // Add what's already been formatted
+    semiFormatted.push(...input);
+  }
+  const preSpecial = unformatted.substring(0, index);
+  if (preSpecial.length > 0) {
+    // Add text before our special character
+    semiFormatted.push(`<span key={${input.length}}>${preSpecial}</span>`);
+  }
+  if (matched.length > 0) {
+    semiFormatted.push(
+    // Add supped special
+    `<span key={${input.length + 1}}><sup>${matched}</sup></span>`);
+  }
+  const remainder = unformatted.substring(index + match.length || 0);
+  if (remainder.length > 0) {
+    // Add remaining unformatted string
+    semiFormatted.push(remainder);
+  }
+  return supSpecialDangerousHtml(semiFormatted);
+}
+jsx_utils_text.supSpecialDangerousHtml = supSpecialDangerousHtml;
 const validators = {
   /**
    * Returns a dom event handler (usually for `onBlur`)

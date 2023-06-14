@@ -28,8 +28,8 @@ function getFileName(file) {
   };
 }
 
-const blocks = glob.sync(`./src/blocks/**/*.js*(x)`);
-const utils = glob.sync(`./src/util/**/*.js*(x)`);
+const blocks = glob.sync(`./src/blocks/**/!(*test).@(js|jsx)`);
+const utils = glob.sync(`./src/util/**/!(*test).@(js|jsx)`);
 const entries = [...blocks, ...utils];
 entries.forEach(file => {
   const { name } = getFileName(file);
