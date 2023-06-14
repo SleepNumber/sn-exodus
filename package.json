@@ -1,6 +1,6 @@
 {
   "name": "sn-exodus",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Project to house our CMS content block components and other related CMS utilities.",
   "main": "dist/index.js",
   "scripts": {
