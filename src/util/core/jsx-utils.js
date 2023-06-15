@@ -21,7 +21,9 @@ export const text = {};
  */
 function breakText(textArray) {
   return textArray.reduce((prev, curr, i) => {
+    // eslint-disable-next-line react/no-array-index-key
     prev.push(<span key={`t-${i}`}>{curr}</span>);
+    // eslint-disable-next-line react/no-array-index-key
     if (i < textArray.length - 1) prev.push(<br key={`b-${i}`} />);
     return prev;
   }, []);
@@ -142,9 +144,9 @@ function supSpecialDangerousHtml(input) {
     // We found the last string, then everything is formatted
 
     const formatted = [
-      `<span key='container'>`,
+      `<span>`,
       ...input,
-      `<span key={${input.length}}>${unformatted}</span>`,
+      `<span>${unformatted}</span>`,
       `</span>`,
     ].join('');
     return formatted;
@@ -161,13 +163,13 @@ function supSpecialDangerousHtml(input) {
   const preSpecial = unformatted.substring(0, index);
   if (preSpecial.length > 0) {
     // Add text before our special character
-    semiFormatted.push(`<span key={${input.length}}>${preSpecial}</span>`);
+    semiFormatted.push(`<span>${preSpecial}</span>`);
   }
 
   if (matched.length > 0) {
     semiFormatted.push(
       // Add supped special
-      `<span key={${input.length + 1}}><sup>${matched}</sup></span>`
+      `<span><sup>${matched}</sup></span>`
     );
   }
 

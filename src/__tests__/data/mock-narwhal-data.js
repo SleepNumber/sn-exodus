@@ -1,6 +1,4 @@
 import { uuid } from '~/util/core/string';
-import { OptionTypes } from '~/admin/constants';
-import { PartTypeValues } from '~/admin/options/type-options';
 
 export const whiteBodyText = [
   {
@@ -8,7 +6,7 @@ export const whiteBodyText = [
     attributes: {},
     parts: [
       {
-        type: OptionTypes.TEXT,
+        type: 'text',
         id: uuid(),
         text: 'You Need This',
         typeramp: 'body',
@@ -21,7 +19,7 @@ export const whiteBodyText = [
     attributes: {},
     parts: [
       {
-        type: OptionTypes.TEXT,
+        type: 'text',
         id: uuid(),
         text: 'This text has some more detail about how awesome the product is',
         typeramp: 'body',
@@ -39,7 +37,7 @@ export const blueBodyText = [
     attributes: {},
     parts: [
       {
-        type: OptionTypes.TEXT,
+        type: 'text',
         id: uuid(),
         text: 'You Need This',
         typeramp: 'body',
@@ -52,7 +50,7 @@ export const blueBodyText = [
     attributes: {},
     parts: [
       {
-        type: OptionTypes.TEXT,
+        type: 'text',
         id: uuid(),
         text: 'This text has some more detail about how awesome the product is',
         typeramp: 'body',
@@ -70,7 +68,7 @@ export const whiteSectionHeader = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
         text: 'Section Header',
         typeramp: 'display',
@@ -83,17 +81,16 @@ export const whiteSectionHeader = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
-        text:
-          'This is a section description. Description of things below goes here.',
+        text: 'This is a section description. Description of things below goes here.',
         typeramp: 'body',
         textSize: 'md',
         textColor: 'white',
         textWeight: 'normal',
       },
       {
-        type: PartTypeValues.LINK.value,
+        type: 'link',
         id: uuid(),
         text: 'View Details',
         linkTheme: 'primary',
@@ -107,7 +104,7 @@ export const whiteSectionHeader = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.BUTTON.value,
+        type: 'button',
         id: uuid(),
         text: 'Shop Now',
         buttonTheme: 'primary',
@@ -122,7 +119,7 @@ export const blackSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
         text: 'Section Header',
         typeramp: 'display',
@@ -136,17 +133,16 @@ export const blackSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
-        text:
-          'This is a section description. Description of things below goes here.',
+        text: 'This is a section description. Description of things below goes here.',
         typeramp: 'body',
         textSize: 'md',
         textColor: 'black',
         textWeight: 'normal',
       },
       {
-        type: PartTypeValues.LINK.value,
+        type: 'link',
         id: uuid(),
         text: 'View Details',
         linkTheme: 'primary',
@@ -160,7 +156,7 @@ export const blackSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.BUTTON.value,
+        type: 'button',
         id: uuid(),
         text: 'Shop Now',
         buttonTheme: 'primary',
@@ -175,7 +171,7 @@ export const whiteSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
         text: 'Section Header',
         typeramp: 'display',
@@ -188,17 +184,16 @@ export const whiteSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.TEXT.value,
+        type: 'text',
         id: uuid(),
-        text:
-          'This is a section description. Description of things below goes here.',
+        text: 'This is a section description. Description of things below goes here.',
         typeramp: 'body',
         textSize: 'md',
         textColor: 'white',
         textWeight: 'normal',
       },
       {
-        type: PartTypeValues.LINK.value,
+        type: 'link',
         id: uuid(),
         text: 'View Details',
         linkTheme: 'primary',
@@ -212,7 +207,7 @@ export const whiteSectionHeaderWithButton = [
     attributes: {},
     parts: [
       {
-        type: PartTypeValues.BUTTON.value,
+        type: 'button',
         id: uuid(),
         text: 'Shop Now',
         buttonTheme: 'primary',
