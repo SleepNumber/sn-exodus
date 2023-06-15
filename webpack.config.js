@@ -1,7 +1,6 @@
 const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 const glob = require('glob');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { getRemoteFetchUrl } = require('./webpack-utils.js');
 
 // Path for generated artifacts to go
@@ -16,9 +15,6 @@ const environments = {
 const build_environment =
   environments[process.env.BRANCH] || environments.local;
 
-const scripts = {};
-const distNames = {};
-
 function getFileName(file) {
   const start = file.lastIndexOf('/') + 1;
   const end = file.lastIndexOf('.');
@@ -28,100 +24,93 @@ function getFileName(file) {
   };
 }
 
-const blocks = glob.sync(`./src/blocks/**/!(*test).@(js|jsx)`);
-const utils = glob.sync(`./src/util/**/!(*test).@(js|jsx)`);
-const entries = [...blocks, ...utils];
-entries.forEach(file => {
-  const { name } = getFileName(file);
-  scripts[name] = `./${file}`;
-  distNames[name] = file.replace('src/', '');
-});
+function getEntries() {
+  const scripts = {};
+  const distNames = {};
+
+  const blocks = glob.sync(`./src/blocks/**/!(*test).@(js|jsx)`);
+  const utils = glob.sync(`./src/util/**/!(*test).@(js|jsx)`);
+  const entries = [...blocks, ...utils];
+  entries.forEach(file => {
+    const { name } = getFileName(file);
+    scripts[name] = `./${file}`;
+    distNames[name] = file.replace('src/', '');
+  });
+
+  return { scripts, distNames };
+}
+
+const { scripts, distNames } = getEntries();
 
 module.exports = {
-  mode: 'production',
+  getEntries,
+  config: {
+    mode: 'production',
 
-  entry: scripts,
+    entry: scripts,
 
-  optimization: {
-    minimize: false,
-  },
-
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: pathData => distNames[pathData.chunk.name],
-    library: {
-      type: 'commonjs',
+    optimization: {
+      minimize: false,
     },
-  },
 
-  resolve: {
-    modules: [
-      path.resolve(__dirname, 'src'),
-      path.join(__dirname, 'public'),
-      'node_modules',
-    ],
-    extensions: ['.js', '.jsx', '.json'],
-    alias: {
-      '~': path.resolve(__dirname, 'src/'),
+    output: {
+      path: path.resolve(__dirname, 'dist'),
+      filename: pathData => distNames[pathData.chunk.name],
+      library: {
+        type: 'commonjs',
+      },
     },
-  },
 
-  module: {
-    rules: [
-      // Javascript Loading
-      {
-        test: /\.(?:js|jsx|mjs|cjs)$/,
-        exclude: /node_modules/,
+    resolve: {
+      modules: [
+        path.resolve(__dirname, 'src'),
+        path.join(__dirname, 'public'),
+        'node_modules',
+      ],
+      extensions: ['.js', '.jsx', '.json'],
+      alias: {
+        '~': path.resolve(__dirname, 'src/'),
+      },
+    },
 
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              presets: [['@babel/preset-env', { targets: 'defaults' }]],
+    module: {
+      rules: [
+        // Javascript Loading
+        {
+          test: /\.(?:js|jsx|mjs|cjs)$/,
+          exclude: /node_modules/,
+
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                presets: [['@babel/preset-env', { targets: 'defaults' }]],
+              },
             },
-          },
-        ],
-      },
-
-      // Videos
-      {
-        test: /\.(mp4|mov)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'videos/[name]-[contenthash][ext]',
-          publicPath:
-            build_environment === environments.local
-              ? public_path
-              : ({ filename }) =>
-                  getRemoteFetchUrl(
-                    filename,
-                    'video',
-                    build_environment,
-                    environments
-                  ),
+          ],
         },
-      },
-    ],
+
+        // Videos
+        {
+          test: /\.(mp4|mov)$/i,
+          type: 'asset/resource',
+          generator: {
+            filename: 'videos/[name]-[contenthash][ext]',
+            publicPath:
+              build_environment === environments.local
+                ? public_path
+                : ({ filename }) =>
+                    getRemoteFetchUrl(
+                      filename,
+                      'video',
+                      build_environment,
+                      environments
+                    ),
+          },
+        },
+      ],
+    },
+
+    externals: [nodeExternals()],
   },
-
-  plugins: [
-    // Clean public/dist before building
-    new CleanWebpackPlugin(),
-  ],
-
-  // externals: {
-  //   react: {
-  //     root: 'React',
-  //     commonjs: 'react',
-  //     commonjs2: 'react',
-  //     amd: 'react',
-  //   },
-  //   'react-dom': {
-  //     root: 'ReactDOM',
-  //     commonjs: 'react-dom',
-  //     commonjs2: 'react-dom',
-  //     amd: 'react-dom',
-  //   },
-  // },
-  externals: [nodeExternals()],
 };
