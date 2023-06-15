@@ -18,15 +18,13 @@ import ProductAsset from './ProductAsset';
 import { Tag } from './tags';
 
 /**
- * @typedef ImageData
- * @extends AssetData
+ * @typedef {AssetData} ImageData
  * @property {string} type - 'image'
  * @property {string} thumb - the image url
  */
 
 /**
- * @typedef VideoData
- * @extends AssetData
+ * @typedef {AssetData} VideoData
  * @property {string} type - 'video'
  * @property {string} thumb - video poster
  * @property {string} picture - also the video poster

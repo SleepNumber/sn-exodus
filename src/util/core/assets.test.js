@@ -1,4 +1,4 @@
-import { isDevelopment } from './constants';
+import * as moduleConstants from './constants';
 import {
   getAssetCoverSize,
   getCloudinaryUrl,
@@ -19,16 +19,20 @@ const CLOUD_NAMES = {
   prod: 'sleepnumber',
 };
 
-jest.mock('./constants');
-
 describe('getCloudinaryUrl generates proper URLs for each environment', () => {
   beforeEach(() => {
     delete window.location; // Let us set our own location
   });
 
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   test('Local', async () => {
     window.location = new URL('https://sleepnumber.test');
-    isDevelopment.mockImplementationOnce(() => true);
+    vi.spyOn(moduleConstants, 'isDevelopment').mockImplementationOnce(
+      () => true
+    );
 
     const url = getCloudinaryUrl('/dist/images/foobar.jpg');
     expect(url).toEqual('/dist/images/foobar.jpg');
@@ -75,37 +79,37 @@ describe('util/assets.js', () => {
 
     const div = document.createElement('div');
     document.body.appendChild(div);
-    jest.spyOn(div, 'clientWidth', 'get').mockImplementation(() => 200);
-    jest.spyOn(div, 'clientHeight', 'get').mockImplementation(() => 200);
+    vi.spyOn(div, 'clientWidth', 'get').mockImplementation(() => 200);
+    vi.spyOn(div, 'clientHeight', 'get').mockImplementation(() => 200);
 
     const asset = new Image();
     // Test 200x100
-    jest.spyOn(asset, 'width', 'get').mockImplementation(() => 200);
-    jest.spyOn(asset, 'height', 'get').mockImplementation(() => 100);
+    vi.spyOn(asset, 'width', 'get').mockImplementation(() => 200);
+    vi.spyOn(asset, 'height', 'get').mockImplementation(() => 100);
 
     let cover = await getAssetCoverSize(asset, div);
     expect(cover.width).toBe(400);
     expect(cover.height).toBe(200);
 
     // Test 100x200
-    jest.spyOn(asset, 'width', 'get').mockImplementation(() => 100);
-    jest.spyOn(asset, 'height', 'get').mockImplementation(() => 200);
+    vi.spyOn(asset, 'width', 'get').mockImplementation(() => 100);
+    vi.spyOn(asset, 'height', 'get').mockImplementation(() => 200);
 
     cover = await getAssetCoverSize(asset, div);
     expect(cover.width).toBe(200);
     expect(cover.height).toBe(400);
 
     // Test 50x50
-    jest.spyOn(asset, 'width', 'get').mockImplementation(() => 50);
-    jest.spyOn(asset, 'height', 'get').mockImplementation(() => 50);
+    vi.spyOn(asset, 'width', 'get').mockImplementation(() => 50);
+    vi.spyOn(asset, 'height', 'get').mockImplementation(() => 50);
 
     cover = await getAssetCoverSize(asset, div);
     expect(cover.width).toBe(200);
     expect(cover.height).toBe(200);
 
     // Test 1600x900
-    jest.spyOn(asset, 'width', 'get').mockImplementation(() => 1600);
-    jest.spyOn(asset, 'height', 'get').mockImplementation(() => 900);
+    vi.spyOn(asset, 'width', 'get').mockImplementation(() => 1600);
+    vi.spyOn(asset, 'height', 'get').mockImplementation(() => 900);
 
     cover = await getAssetCoverSize(asset, div);
     expect(Math.ceil(cover.width)).toBe(356);

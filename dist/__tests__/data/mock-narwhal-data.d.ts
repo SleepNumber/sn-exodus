@@ -2,7 +2,7 @@ export const whiteBodyText: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -12,7 +12,7 @@ export const whiteBodyText: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -25,7 +25,7 @@ export const blueBodyText: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -35,7 +35,7 @@ export const blueBodyText: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -48,7 +48,7 @@ export const whiteSectionHeader: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -58,7 +58,7 @@ export const whiteSectionHeader: ({
     id: any;
     attributes: {};
     parts: ({
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -69,7 +69,7 @@ export const whiteSectionHeader: ({
         color?: undefined;
         href?: undefined;
     } | {
-        type: any;
+        type: string;
         id: any;
         text: string;
         linkTheme: string;
@@ -84,7 +84,7 @@ export const whiteSectionHeader: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         buttonTheme: string;
@@ -94,7 +94,7 @@ export const blackSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -105,7 +105,7 @@ export const blackSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: ({
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -116,7 +116,7 @@ export const blackSectionHeaderWithButton: ({
         color?: undefined;
         href?: undefined;
     } | {
-        type: any;
+        type: string;
         id: any;
         text: string;
         linkTheme: string;
@@ -131,7 +131,7 @@ export const blackSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         buttonTheme: string;
@@ -141,7 +141,7 @@ export const whiteSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -151,7 +151,7 @@ export const whiteSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: ({
-        type: any;
+        type: string;
         id: any;
         text: string;
         typeramp: string;
@@ -162,7 +162,7 @@ export const whiteSectionHeaderWithButton: ({
         color?: undefined;
         href?: undefined;
     } | {
-        type: any;
+        type: string;
         id: any;
         text: string;
         linkTheme: string;
@@ -177,7 +177,7 @@ export const whiteSectionHeaderWithButton: ({
     id: any;
     attributes: {};
     parts: {
-        type: any;
+        type: string;
         id: any;
         text: string;
         buttonTheme: string;

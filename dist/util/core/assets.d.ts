@@ -1,12 +1,10 @@
 /**
- * @typedef ImageData
- * @extends AssetData
+ * @typedef {AssetData} ImageData
  * @property {string} type - 'image'
  * @property {string} thumb - the image url
  */
 /**
- * @typedef VideoData
- * @extends AssetData
+ * @typedef {AssetData} VideoData
  * @property {string} type - 'video'
  * @property {string} thumb - video poster
  * @property {string} picture - also the video poster
@@ -215,8 +213,8 @@ export namespace placehold {
     export let image: string;
     export { phVideo as video };
 }
-export type ImageData = any;
-export type VideoData = any;
+export type ImageData = AssetData;
+export type VideoData = AssetData;
 import ProductAsset from './ProductAsset';
 import MediaSource from './MediaSource';
 //# sourceMappingURL=assets.d.ts.map

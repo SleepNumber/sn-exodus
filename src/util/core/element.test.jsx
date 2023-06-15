@@ -214,15 +214,15 @@ describe('element.js', () => {
     const p1 = document.querySelector('.parent.parent-1');
     p1.style.backgroundColor = 'red';
 
-    expect(p1).toHaveStyle({backgroundColor:'red'});
-    expect(css(p1, 'background-color')).toBe('red');
-    expect(css(p1, 'backgroundColor')).toBe('red');
+    expect(p1).toHaveStyle('background-color: rgb(255, 0, 0)');
+    expect(css(p1, 'background-color')).toBe('rgb(255, 0, 0)');
+    expect(css(p1, 'backgroundColor')).toBe('rgb(255, 0, 0)');
 
     css(p1, 'background-color', '#06c');
-    expect(p1).toHaveStyle({backgroundColor:'rgb(0, 102, 204)'});
+    expect(p1).toHaveStyle({ backgroundColor: 'rgb(0, 102, 204)' });
 
     css(p1, 'backgroundColor', '#369');
-    expect(p1).toHaveStyle({backgroundColor:'rgb(51, 102, 153)'});
+    expect(p1).toHaveStyle({ backgroundColor: 'rgb(51, 102, 153)' });
   });
 
   test('util/element.text', () => {
@@ -342,7 +342,7 @@ describe('element.js', () => {
 
   test('util/element.addListeners', () => {
     document.body.innerHTML = '';
-    const onclick = jest.fn();
+    const onclick = vi.fn();
     // eslint-disable-next-line react/prop-types
     function Btn({ listeners }) {
       const ref = useRef();
@@ -361,7 +361,7 @@ describe('element.js', () => {
     expect(onclick).toHaveBeenCalledTimes(1);
 
     // Test with listener options
-    const onfocus = jest.fn();
+    const onfocus = vi.fn();
     document.body.innerHTML = '';
     render(
       <Btn listeners={{ focus: { cb: onfocus, opts: { once: true } } }} />
@@ -375,7 +375,7 @@ describe('element.js', () => {
 
   test('util/element.removeListeners', () => {
     document.body.innerHTML = '';
-    const onclick = jest.fn();
+    const onclick = vi.fn();
     // eslint-disable-next-line react/prop-types
     function Btn({ listeners }) {
       const ref = useRef();
@@ -399,7 +399,7 @@ describe('element.js', () => {
   });
 
   test('util/element.trigger', () => {
-    const handler = jest.fn();
+    const handler = vi.fn();
     const btn = document.getElementById('btn');
     btn.addEventListener('my-custom-event', handler);
     trigger({ target: '#btn', type: 'my-custom-event' });
