@@ -90,7 +90,7 @@ describe('element.js', () => {
   test('util/element.getElement', () => {
     const element = getElement('.foo');
     expect(element).toBeTruthy();
-    expect(element.classList[0]).toBe('foo');
+    expect(element).toHaveClass('foo');
   });
 
   test('util/element.gebi', () => {
@@ -104,7 +104,7 @@ describe('element.js', () => {
     expect(Array.isArray(elements)).toBe(true);
     expect(elements).toHaveLength(2);
     const last = elements[elements.length - 1];
-    expect(last.classList[0]).toBe('grandchild');
+    expect(last).toHaveClass('grandchild');
 
     const parent2 = document.querySelector('.parent-2');
     const within = qsa(parent2, '.grandchild');
@@ -118,7 +118,7 @@ describe('element.js', () => {
     const element = qs('.grandchild');
     expect(Array.isArray(element)).toBe(false);
     expect(element).toHaveClass('grandchild-1');
-    expect(element.classList.contains('grandchild-2')).toBe(false);
+    expect(element).not.toHaveClass('grandchild-2');
 
     const parent2 = document.querySelector('.parent-2');
     const within = qs(parent2, '.grandchild');
@@ -131,13 +131,13 @@ describe('element.js', () => {
     let element = closest('.frodo', '.earth');
     expect(element).toHaveClass('earth');
     expect(element).toHaveClass('inner-earth');
-    expect(element.classList.contains('middle-earth')).toBe(false);
+    expect(element).not.toHaveClass('middle-earth');
 
     const frodo = document.getElementById('frodo');
     element = closest(frodo, '.earth');
     expect(element).toHaveClass('earth');
     expect(element).toHaveClass('inner-earth');
-    expect(element.classList.contains('middle-earth')).toBe(false);
+    expect(element).not.toHaveClass('middle-earth');
 
     expect(closest('.frodo', '.non-existent-class')).toBeNull();
   });
@@ -150,7 +150,7 @@ describe('element.js', () => {
   test('util/element.removeClass', () => {
     const element = removeClass('.parent.parent-1', 'parent-1');
     expect(element).toHaveClass('parent');
-    expect(element.classList.contains('parent-1')).toBe(false);
+    expect(element).not.toHaveClass('parent-1');
   });
 
   test('util/element.after', () => {
@@ -214,22 +214,22 @@ describe('element.js', () => {
     const p1 = document.querySelector('.parent.parent-1');
     p1.style.backgroundColor = 'red';
 
-    expect(p1.style.backgroundColor).toBe('red');
+    expect(p1).toHaveStyle({backgroundColor:'red'});
     expect(css(p1, 'background-color')).toBe('red');
     expect(css(p1, 'backgroundColor')).toBe('red');
 
     css(p1, 'background-color', '#06c');
-    expect(p1.style.backgroundColor).toBe('rgb(0, 102, 204)');
+    expect(p1).toHaveStyle({backgroundColor:'rgb(0, 102, 204)'});
 
     css(p1, 'backgroundColor', '#369');
-    expect(p1.style.backgroundColor).toBe('rgb(51, 102, 153)');
+    expect(p1).toHaveStyle({backgroundColor:'rgb(51, 102, 153)'});
   });
 
   test('util/element.text', () => {
     const p1 = document.getElementById('frodo');
     expect(text(p1)).toBe('baggins');
     text(p1, 'simpson');
-    expect(p1.textContent).toBe('simpson');
+    expect(p1).toHaveTextContent('simpson');
   });
 
   test('util/element.html', () => {
@@ -246,7 +246,7 @@ describe('element.js', () => {
     );
     expect(created).toHaveClass('pops');
     expect(created.childElementCount).toBe(1);
-    expect(created.textContent).toMatch('pops');
+    expect(created).toHaveTextContent(/pops/);
     expect(created.querySelector('.junior')).toBeTruthy();
     expect(created.querySelector('.junior')).toHaveTextContent('junior');
   });
@@ -262,7 +262,7 @@ describe('element.js', () => {
     toggleClass(p, 'parent-1');
     toggleClass(p, 'parent-2');
     expect(p).toHaveClass('parent-2');
-    expect(p.classList.contains('parent-1')).toBe(false);
+    expect(p).not.toHaveClass('parent-1');
   });
 
   test('util/element.index', () => {
@@ -335,9 +335,9 @@ describe('element.js', () => {
 
   test('util/element.addTabindexToContent', () => {
     const btn = document.querySelector('.content button');
-    expect(btn.getAttribute('tabindex')).toBe(null);
+    expect(btn).not.toHaveAttribute('tabindex');
     addTabindexToContent();
-    expect(btn.getAttribute('tabindex')).toBe('0');
+    expect(btn).toHaveAttribute('tabindex', '0');
   });
 
   test('util/element.addListeners', () => {
