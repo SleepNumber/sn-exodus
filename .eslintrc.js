@@ -28,7 +28,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       webpack: {
-        config: 'webpack.config.js',
+        config: 'webpack.es.js',
       },
     },
     // we're using vitest which has a very similar API to jest
