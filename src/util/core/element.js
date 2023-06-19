@@ -1,4 +1,6 @@
 import { isBrowser } from 'browser-or-node';
+import dh_css from 'dom-helpers/css';
+import transitionEnd from 'dom-helpers/transitionEnd';
 
 import { css as ccss, styles, win } from './constants';
 import logger from './logger';
@@ -892,4 +894,44 @@ export function fadeIn(target, ms) {
   } else {
     element.style.opacity = '1';
   }
+}
+
+/**
+ * Reading a dimension prop will cause the browser to recalculate,
+ * which will let our animations work.
+ * @param {HTMLElement} element
+ */
+export function triggerBrowserReflow(element) {
+  // eslint-disable-next-line
+  element.offsetHeight;
+}
+/**
+ * Parse the animation duration/delay of an element
+ * @param {HTMLElement} element
+ * @param {'transitionDuration' | 'transitionDelay'} property
+ * @return {number}
+ */
+function parseDuration(element, property) {
+  const str = dh_css(element, property) || '';
+  const mult = str.indexOf('ms') === -1 ? 1000 : 1;
+  return parseFloat(str) * mult;
+}
+/**
+ * Add a listener callback to the transition end event for a node
+ * @param {HTMLElement} element
+ * @param {function} handler
+ */
+export function transitionEndListener(element, handler) {
+  const duration = parseDuration(element, 'transitionDuration');
+  const delay = parseDuration(element, 'transitionDelay');
+  const remove = transitionEnd(
+    element,
+    e => {
+      if (e.target === element) {
+        remove();
+        handler(e);
+      }
+    },
+    duration + delay
+  );
 }

@@ -65,6 +65,7 @@
   "dependencies": {
     "browser-or-node": "^2.1.1",
     "custom-event-polyfill": "^1.0.7",
+    "dom-helpers": "^5.2.1",
     "js-cookie": "^2.2.1",
     "url-polyfill": "^1.1.12"
   },
