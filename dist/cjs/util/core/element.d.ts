@@ -315,6 +315,18 @@ export function toggle(target: any): void;
 export function fadeOut(target: any, ms: any): void;
 /** Replaces $el.fadeIn(3000) */
 export function fadeIn(target: any, ms: any): void;
+/**
+ * Reading a dimension prop will cause the browser to recalculate,
+ * which will let our animations work.
+ * @param {HTMLElement} element
+ */
+export function triggerBrowserReflow(element: HTMLElement): void;
+/**
+ * Add a listener callback to the transition end event for a node
+ * @param {HTMLElement} element
+ * @param {function} handler
+ */
+export function transitionEndListener(element: HTMLElement, handler: Function): void;
 export type SnListener = {
     /**
      * - the event handler callback function

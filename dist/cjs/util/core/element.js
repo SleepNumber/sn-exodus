@@ -1646,73 +1646,93 @@ module.exports = require("js-cookie");
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   addClass: () => (/* binding */ addClass),
-/* harmony export */   addListeners: () => (/* binding */ addListeners),
-/* harmony export */   addTabindexToContent: () => (/* binding */ addTabindexToContent),
-/* harmony export */   after: () => (/* binding */ after),
-/* harmony export */   animate: () => (/* binding */ animate),
-/* harmony export */   append: () => (/* binding */ append),
-/* harmony export */   before: () => (/* binding */ before),
-/* harmony export */   closest: () => (/* binding */ closest),
-/* harmony export */   contains: () => (/* binding */ contains),
-/* harmony export */   create: () => (/* binding */ create),
-/* harmony export */   css: () => (/* binding */ css),
-/* harmony export */   fadeIn: () => (/* binding */ fadeIn),
-/* harmony export */   fadeOut: () => (/* binding */ fadeOut),
-/* harmony export */   findAncestor: () => (/* binding */ findAncestor),
-/* harmony export */   findWithRetry: () => (/* binding */ findWithRetry),
-/* harmony export */   focusFirstElement: () => (/* binding */ focusFirstElement),
-/* harmony export */   focusSection: () => (/* binding */ focusSection),
-/* harmony export */   gebi: () => (/* binding */ gebi),
-/* harmony export */   getChildMeasurements: () => (/* binding */ getChildMeasurements),
-/* harmony export */   getElement: () => (/* binding */ getElement),
-/* harmony export */   getHiddenMeasurements: () => (/* binding */ getHiddenMeasurements),
-/* harmony export */   getMeasurement: () => (/* binding */ getMeasurement),
-/* harmony export */   hasClass: () => (/* binding */ hasClass),
-/* harmony export */   height: () => (/* binding */ height),
-/* harmony export */   hide: () => (/* binding */ hide),
-/* harmony export */   html: () => (/* binding */ html),
-/* harmony export */   index: () => (/* binding */ index),
-/* harmony export */   is: () => (/* binding */ is),
-/* harmony export */   isDisplayNone: () => (/* binding */ isDisplayNone),
-/* harmony export */   isElement: () => (/* binding */ isElement),
-/* harmony export */   isElementAboveViewport: () => (/* binding */ isElementAboveViewport),
-/* harmony export */   isElementInViewport: () => (/* binding */ isElementInViewport),
-/* harmony export */   isNotHidden: () => (/* binding */ isNotHidden),
-/* harmony export */   next: () => (/* binding */ next),
-/* harmony export */   nextAll: () => (/* binding */ nextAll),
-/* harmony export */   offset: () => (/* binding */ offset),
-/* harmony export */   outerHeight: () => (/* binding */ outerHeight),
-/* harmony export */   outerWidth: () => (/* binding */ outerWidth),
-/* harmony export */   position: () => (/* binding */ position),
-/* harmony export */   prepend: () => (/* binding */ prepend),
-/* harmony export */   prev: () => (/* binding */ prev),
-/* harmony export */   prevAll: () => (/* binding */ prevAll),
-/* harmony export */   qs: () => (/* binding */ qs),
-/* harmony export */   qsa: () => (/* binding */ qsa),
-/* harmony export */   ready: () => (/* binding */ ready),
-/* harmony export */   remove: () => (/* binding */ remove),
-/* harmony export */   removeClass: () => (/* binding */ removeClass),
-/* harmony export */   removeListeners: () => (/* binding */ removeListeners),
-/* harmony export */   scrollLeft: () => (/* binding */ scrollLeft),
-/* harmony export */   scrollTop: () => (/* binding */ scrollTop),
-/* harmony export */   show: () => (/* binding */ show),
-/* harmony export */   siblings: () => (/* binding */ siblings),
-/* harmony export */   text: () => (/* binding */ text),
-/* harmony export */   toggle: () => (/* binding */ toggle),
-/* harmony export */   toggleClass: () => (/* binding */ toggleClass),
-/* harmony export */   trigger: () => (/* binding */ trigger),
-/* harmony export */   width: () => (/* binding */ width)
-/* harmony export */ });
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(203);
-/* harmony import */ var _Deferred__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(292);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  addClass: () => (/* binding */ addClass),
+  addListeners: () => (/* binding */ addListeners),
+  addTabindexToContent: () => (/* binding */ addTabindexToContent),
+  after: () => (/* binding */ after),
+  animate: () => (/* binding */ animate),
+  append: () => (/* binding */ append),
+  before: () => (/* binding */ before),
+  closest: () => (/* binding */ closest),
+  contains: () => (/* binding */ contains),
+  create: () => (/* binding */ create),
+  css: () => (/* binding */ css),
+  fadeIn: () => (/* binding */ fadeIn),
+  fadeOut: () => (/* binding */ fadeOut),
+  findAncestor: () => (/* binding */ findAncestor),
+  findWithRetry: () => (/* binding */ findWithRetry),
+  focusFirstElement: () => (/* binding */ focusFirstElement),
+  focusSection: () => (/* binding */ focusSection),
+  gebi: () => (/* binding */ gebi),
+  getChildMeasurements: () => (/* binding */ getChildMeasurements),
+  getElement: () => (/* binding */ getElement),
+  getHiddenMeasurements: () => (/* binding */ getHiddenMeasurements),
+  getMeasurement: () => (/* binding */ getMeasurement),
+  hasClass: () => (/* binding */ hasClass),
+  height: () => (/* binding */ height),
+  hide: () => (/* binding */ hide),
+  html: () => (/* binding */ html),
+  index: () => (/* binding */ index),
+  is: () => (/* binding */ is),
+  isDisplayNone: () => (/* binding */ isDisplayNone),
+  isElement: () => (/* binding */ isElement),
+  isElementAboveViewport: () => (/* binding */ isElementAboveViewport),
+  isElementInViewport: () => (/* binding */ isElementInViewport),
+  isNotHidden: () => (/* binding */ isNotHidden),
+  next: () => (/* binding */ next),
+  nextAll: () => (/* binding */ nextAll),
+  offset: () => (/* binding */ offset),
+  outerHeight: () => (/* binding */ element_outerHeight),
+  outerWidth: () => (/* binding */ element_outerWidth),
+  position: () => (/* binding */ position),
+  prepend: () => (/* binding */ prepend),
+  prev: () => (/* binding */ prev),
+  prevAll: () => (/* binding */ prevAll),
+  qs: () => (/* binding */ qs),
+  qsa: () => (/* binding */ qsa),
+  ready: () => (/* binding */ ready),
+  remove: () => (/* binding */ remove),
+  removeClass: () => (/* binding */ removeClass),
+  removeListeners: () => (/* binding */ removeListeners),
+  scrollLeft: () => (/* binding */ scrollLeft),
+  scrollTop: () => (/* binding */ scrollTop),
+  show: () => (/* binding */ show),
+  siblings: () => (/* binding */ siblings),
+  text: () => (/* binding */ element_text),
+  toggle: () => (/* binding */ toggle),
+  toggleClass: () => (/* binding */ toggleClass),
+  transitionEndListener: () => (/* binding */ transitionEndListener),
+  trigger: () => (/* binding */ trigger),
+  triggerBrowserReflow: () => (/* binding */ triggerBrowserReflow),
+  width: () => (/* binding */ width)
+});
+
+// EXTERNAL MODULE: external "browser-or-node"
+var external_browser_or_node_ = __webpack_require__(192);
+;// CONCATENATED MODULE: external "dom-helpers/css"
+const css_namespaceObject = require("dom-helpers/css");
+var css_default = /*#__PURE__*/__webpack_require__.n(css_namespaceObject);
+;// CONCATENATED MODULE: external "dom-helpers/transitionEnd"
+const transitionEnd_namespaceObject = require("dom-helpers/transitionEnd");
+var transitionEnd_default = /*#__PURE__*/__webpack_require__.n(transitionEnd_namespaceObject);
+// EXTERNAL MODULE: ./src/util/core/constants.js
+var constants = __webpack_require__(168);
+// EXTERNAL MODULE: ./src/util/core/logger.js
+var logger = __webpack_require__(813);
+// EXTERNAL MODULE: ./src/util/core/function.js
+var core_function = __webpack_require__(981);
+// EXTERNAL MODULE: ./src/util/core/string.js
+var string = __webpack_require__(203);
+// EXTERNAL MODULE: ./src/util/core/Deferred.js
+var Deferred = __webpack_require__(292);
+;// CONCATENATED MODULE: ./src/util/core/element.js
+
+
 
 
 
@@ -1743,7 +1763,7 @@ function getElement(target, container) {
   try {
     return within.querySelector(target) || null;
   } catch (err) {
-    _logger__WEBPACK_IMPORTED_MODULE_2__["default"].error('Error getting element', 'target', target, 'container', container, err);
+    logger["default"].error('Error getting element', 'target', target, 'container', container, err);
     return null;
   }
 }
@@ -1852,7 +1872,7 @@ function append(target, element) {
 /** Prepend an element to a parent */
 function prepend(target, element) {
   const parent = getElement(target);
-  const elem = (0,_string__WEBPACK_IMPORTED_MODULE_3__.isString)(element) ? create(element) : element;
+  const elem = (0,string.isString)(element) ? create(element) : element;
   parent.insertBefore(elem, parent.firstChild);
 }
 
@@ -1877,7 +1897,7 @@ function remove(target) {
  * @return {string|node} the node when setting a value, the value when getting a value
  */
 function css(target, ruleName, value) {
-  const rule = (0,_string__WEBPACK_IMPORTED_MODULE_3__.camelCase)(ruleName);
+  const rule = (0,string.camelCase)(ruleName);
   const element = getElement(target);
   if (typeof value !== 'undefined') {
     // Set a css value
@@ -1896,7 +1916,7 @@ function css(target, ruleName, value) {
  * @param {string} [value] - if provide, the text context is set to this value
  * @return {string|node} the node when the text content is being set, otherwise the text content
  */
-function text(target, value) {
+function element_text(target, value) {
   const element = getElement(target);
   if (typeof value === 'undefined') return element.textContent || '';
   element.textContent = value;
@@ -2042,8 +2062,8 @@ function offset(target) {
 
 /** Replaces $(window).scrollTop() */
 function scrollTop() {
-  let target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _constants__WEBPACK_IMPORTED_MODULE_1__.win;
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return 0; // Make safe for SSR
+  let target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : constants.win;
+  if (!external_browser_or_node_.isBrowser) return 0; // Make safe for SSR
   if (target === window) {
     return (window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0);
   }
@@ -2067,7 +2087,7 @@ function scrollLeft() {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerHeight(target) {
+function element_outerHeight(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -2084,7 +2104,7 @@ function outerHeight(target) {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerWidth(target) {
+function element_outerWidth(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -2192,7 +2212,7 @@ function getHiddenMeasurements(node, selector) {
   offscreen.ariaHidden = 'true';
   document.body.appendChild(offscreen);
   const clone = node.cloneNode(true);
-  offscreen.style.setProperty('width', `${outerWidth(node, true)}px`);
+  offscreen.style.setProperty('width', `${element_outerWidth(node, true)}px`);
   offscreen.appendChild(clone);
 
   // Need to do this in a promise in order to wait for images to load/render
@@ -2208,8 +2228,8 @@ function getHiddenMeasurements(node, selector) {
         };
         result.width = width(target);
         result.height = height(target);
-        result.outerWidth = outerWidth(target, true);
-        result.outerHeight = outerHeight(target, true);
+        result.outerWidth = element_outerWidth(target, true);
+        result.outerHeight = element_outerHeight(target, true);
         return result;
       });
       document.body.removeChild(offscreen);
@@ -2249,7 +2269,7 @@ function findWithRetry(_ref, dfd) {
     retries = 3,
     retryDelayMs = 100
   } = _ref;
-  const deferred = dfd || new _Deferred__WEBPACK_IMPORTED_MODULE_4__["default"]();
+  const deferred = dfd || new Deferred["default"]();
   const element = getElement(target);
   if (element) {
     deferred.resolve(element);
@@ -2374,12 +2394,12 @@ function isNotHidden(target) {
 function addListeners(target, listeners) {
   let log = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
   const element = getElement(target);
-  const grouper = _logger__WEBPACK_IMPORTED_MODULE_2__["default"].groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__["default"].info;
-  const groupend = _logger__WEBPACK_IMPORTED_MODULE_2__["default"].groupEnd || _function__WEBPACK_IMPORTED_MODULE_5__.noop;
+  const grouper = logger["default"].groupCollapsed || logger["default"].info;
+  const groupend = logger["default"].groupEnd || core_function.noop;
   const {
     label,
     orange
-  } = _constants__WEBPACK_IMPORTED_MODULE_1__.styles;
+  } = constants.styles;
   const consoleStyles = [`${label}`, `${orange}`, `${label}`];
   const removes = [];
   Object.entries(listeners).forEach(_ref2 => {
@@ -2398,8 +2418,8 @@ function addListeners(target, listeners) {
         if (log || logThis) {
           const msg = `%cFiring listener for "%c${event}%c"`;
           grouper.apply(console, [msg, ...consoleStyles]);
-          _logger__WEBPACK_IMPORTED_MODULE_2__["default"].info(`%cCallback`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.css.orange}`, cb);
-          _logger__WEBPACK_IMPORTED_MODULE_2__["default"].info(`%cEvent`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.css.orange}`, ...args);
+          logger["default"].info(`%cCallback`, `${constants.css.orange}`, cb);
+          logger["default"].info(`%cEvent`, `${constants.css.orange}`, ...args);
           groupend();
         }
         cb(...args);
@@ -2439,7 +2459,7 @@ function removeListeners(el, listeners) {
 
 /** Replaces $(document).ready(eventHandler); and the shorthand $(eventHandler); */
 function ready(callback) {
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
+  if (!external_browser_or_node_.isBrowser) return;
   if (document.readyState !== 'loading') callback();else document.addEventListener('DOMContentLoaded', callback);
 }
 
@@ -2554,6 +2574,42 @@ function fadeIn(target, ms) {
   } else {
     element.style.opacity = '1';
   }
+}
+
+/**
+ * Reading a dimension prop will cause the browser to recalculate,
+ * which will let our animations work.
+ * @param {HTMLElement} element
+ */
+function triggerBrowserReflow(element) {
+  // eslint-disable-next-line
+  element.offsetHeight;
+}
+/**
+ * Parse the animation duration/delay of an element
+ * @param {HTMLElement} element
+ * @param {'transitionDuration' | 'transitionDelay'} property
+ * @return {number}
+ */
+function parseDuration(element, property) {
+  const str = css_default()(element, property) || '';
+  const mult = str.indexOf('ms') === -1 ? 1000 : 1;
+  return parseFloat(str) * mult;
+}
+/**
+ * Add a listener callback to the transition end event for a node
+ * @param {HTMLElement} element
+ * @param {function} handler
+ */
+function transitionEndListener(element, handler) {
+  const duration = parseDuration(element, 'transitionDuration');
+  const delay = parseDuration(element, 'transitionDelay');
+  const remove = transitionEnd_default()(element, e => {
+    if (e.target === element) {
+      remove();
+      handler(e);
+    }
+  }, duration + delay);
 }
 })();
 

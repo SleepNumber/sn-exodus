@@ -1633,72 +1633,91 @@ module.exports = require("js-cookie");
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $Z: () => (/* binding */ show),
-/* harmony export */   Cb: () => (/* binding */ height),
-/* harmony export */   Cd: () => (/* binding */ ready),
-/* harmony export */   Ce: () => (/* binding */ prepend),
-/* harmony export */   Cp: () => (/* binding */ hide),
-/* harmony export */   DF: () => (/* binding */ isNotHidden),
-/* harmony export */   FK: () => (/* binding */ position),
-/* harmony export */   GN: () => (/* binding */ focusSection),
-/* harmony export */   IV: () => (/* binding */ removeClass),
-/* harmony export */   Ji: () => (/* binding */ fadeIn),
-/* harmony export */   Kz: () => (/* binding */ index),
-/* harmony export */   Od: () => (/* binding */ remove),
-/* harmony export */   PZ: () => (/* binding */ isElementInViewport),
-/* harmony export */   Pb: () => (/* binding */ outerHeight),
-/* harmony export */   Qz: () => (/* binding */ isElementAboveViewport),
-/* harmony export */   R3: () => (/* binding */ append),
-/* harmony export */   Ru: () => (/* binding */ getHiddenMeasurements),
-/* harmony export */   SM: () => (/* binding */ scrollTop),
-/* harmony export */   U6: () => (/* binding */ fadeOut),
-/* harmony export */   Ue: () => (/* binding */ create),
-/* harmony export */   Wq: () => (/* binding */ getMeasurement),
-/* harmony export */   X$: () => (/* binding */ trigger),
-/* harmony export */   Y6: () => (/* binding */ findWithRetry),
-/* harmony export */   ZN: () => (/* binding */ toggle),
-/* harmony export */   bb: () => (/* binding */ before),
-/* harmony export */   bf: () => (/* binding */ width),
-/* harmony export */   cn: () => (/* binding */ addClass),
-/* harmony export */   cv: () => (/* binding */ offset),
-/* harmony export */   dx: () => (/* binding */ siblings),
-/* harmony export */   dy: () => (/* binding */ html),
-/* harmony export */   e4: () => (/* binding */ after),
-/* harmony export */   eG: () => (/* binding */ nextAll),
-/* harmony export */   fL: () => (/* binding */ text),
-/* harmony export */   hu: () => (/* binding */ getChildMeasurements),
-/* harmony export */   iO: () => (/* binding */ outerWidth),
-/* harmony export */   is: () => (/* binding */ is),
-/* harmony export */   iv: () => (/* binding */ css),
-/* harmony export */   jt: () => (/* binding */ animate),
-/* harmony export */   kK: () => (/* binding */ isElement),
-/* harmony export */   ll: () => (/* binding */ gebi),
-/* harmony export */   lp: () => (/* binding */ next),
-/* harmony export */   mp: () => (/* binding */ prev),
-/* harmony export */   oG: () => (/* binding */ removeListeners),
-/* harmony export */   oW: () => (/* binding */ addListeners),
-/* harmony export */   og: () => (/* binding */ toggleClass),
-/* harmony export */   oq: () => (/* binding */ closest),
-/* harmony export */   pJ: () => (/* binding */ prevAll),
-/* harmony export */   pv: () => (/* binding */ hasClass),
-/* harmony export */   qs: () => (/* binding */ qs),
-/* harmony export */   r3: () => (/* binding */ contains),
-/* harmony export */   sb: () => (/* binding */ getElement),
-/* harmony export */   tF: () => (/* binding */ isDisplayNone),
-/* harmony export */   uJ: () => (/* binding */ qsa),
-/* harmony export */   um: () => (/* binding */ addTabindexToContent),
-/* harmony export */   w4: () => (/* binding */ focusFirstElement),
-/* harmony export */   wr: () => (/* binding */ findAncestor),
-/* harmony export */   zV: () => (/* binding */ scrollLeft)
-/* harmony export */ });
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(203);
-/* harmony import */ var _Deferred__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(292);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  cn: () => (/* binding */ addClass),
+  oW: () => (/* binding */ addListeners),
+  um: () => (/* binding */ addTabindexToContent),
+  e4: () => (/* binding */ after),
+  jt: () => (/* binding */ animate),
+  R3: () => (/* binding */ append),
+  bb: () => (/* binding */ before),
+  oq: () => (/* binding */ closest),
+  r3: () => (/* binding */ contains),
+  Ue: () => (/* binding */ create),
+  iv: () => (/* binding */ css),
+  Ji: () => (/* binding */ fadeIn),
+  U6: () => (/* binding */ fadeOut),
+  wr: () => (/* binding */ findAncestor),
+  Y6: () => (/* binding */ findWithRetry),
+  w4: () => (/* binding */ focusFirstElement),
+  GN: () => (/* binding */ focusSection),
+  ll: () => (/* binding */ gebi),
+  hu: () => (/* binding */ getChildMeasurements),
+  sb: () => (/* binding */ getElement),
+  Ru: () => (/* binding */ getHiddenMeasurements),
+  Wq: () => (/* binding */ getMeasurement),
+  pv: () => (/* binding */ hasClass),
+  Cb: () => (/* binding */ height),
+  Cp: () => (/* binding */ hide),
+  dy: () => (/* binding */ html),
+  Kz: () => (/* binding */ index),
+  is: () => (/* binding */ is),
+  tF: () => (/* binding */ isDisplayNone),
+  kK: () => (/* binding */ isElement),
+  Qz: () => (/* binding */ isElementAboveViewport),
+  PZ: () => (/* binding */ isElementInViewport),
+  DF: () => (/* binding */ isNotHidden),
+  lp: () => (/* binding */ next),
+  eG: () => (/* binding */ nextAll),
+  cv: () => (/* binding */ offset),
+  Pb: () => (/* binding */ element_outerHeight),
+  iO: () => (/* binding */ element_outerWidth),
+  FK: () => (/* binding */ position),
+  Ce: () => (/* binding */ prepend),
+  mp: () => (/* binding */ prev),
+  pJ: () => (/* binding */ prevAll),
+  qs: () => (/* binding */ qs),
+  uJ: () => (/* binding */ qsa),
+  Cd: () => (/* binding */ ready),
+  Od: () => (/* binding */ remove),
+  IV: () => (/* binding */ removeClass),
+  oG: () => (/* binding */ removeListeners),
+  zV: () => (/* binding */ scrollLeft),
+  SM: () => (/* binding */ scrollTop),
+  $Z: () => (/* binding */ show),
+  dx: () => (/* binding */ siblings),
+  fL: () => (/* binding */ element_text),
+  ZN: () => (/* binding */ toggle),
+  og: () => (/* binding */ toggleClass),
+  CI: () => (/* binding */ transitionEndListener),
+  X$: () => (/* binding */ trigger),
+  gM: () => (/* binding */ triggerBrowserReflow),
+  bf: () => (/* binding */ width)
+});
+
+// EXTERNAL MODULE: external "browser-or-node"
+var external_browser_or_node_ = __webpack_require__(192);
+;// CONCATENATED MODULE: external "dom-helpers/css"
+const css_namespaceObject = require("dom-helpers/css");
+var css_default = /*#__PURE__*/__webpack_require__.n(css_namespaceObject);
+;// CONCATENATED MODULE: external "dom-helpers/transitionEnd"
+const transitionEnd_namespaceObject = require("dom-helpers/transitionEnd");
+var transitionEnd_default = /*#__PURE__*/__webpack_require__.n(transitionEnd_namespaceObject);
+// EXTERNAL MODULE: ./src/util/core/constants.js
+var constants = __webpack_require__(168);
+// EXTERNAL MODULE: ./src/util/core/logger.js
+var logger = __webpack_require__(813);
+// EXTERNAL MODULE: ./src/util/core/function.js
+var core_function = __webpack_require__(981);
+// EXTERNAL MODULE: ./src/util/core/string.js
+var string = __webpack_require__(203);
+// EXTERNAL MODULE: ./src/util/core/Deferred.js
+var Deferred = __webpack_require__(292);
+;// CONCATENATED MODULE: ./src/util/core/element.js
+
+
 
 
 
@@ -1729,7 +1748,7 @@ function getElement(target, container) {
   try {
     return within.querySelector(target) || null;
   } catch (err) {
-    _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.error('Error getting element', 'target', target, 'container', container, err);
+    logger/* default */.Z.error('Error getting element', 'target', target, 'container', container, err);
     return null;
   }
 }
@@ -1838,7 +1857,7 @@ function append(target, element) {
 /** Prepend an element to a parent */
 function prepend(target, element) {
   const parent = getElement(target);
-  const elem = (0,_string__WEBPACK_IMPORTED_MODULE_3__/* .isString */ .HD)(element) ? create(element) : element;
+  const elem = (0,string/* isString */.HD)(element) ? create(element) : element;
   parent.insertBefore(elem, parent.firstChild);
 }
 
@@ -1863,7 +1882,7 @@ function remove(target) {
  * @return {string|node} the node when setting a value, the value when getting a value
  */
 function css(target, ruleName, value) {
-  const rule = (0,_string__WEBPACK_IMPORTED_MODULE_3__/* .camelCase */ .eV)(ruleName);
+  const rule = (0,string/* camelCase */.eV)(ruleName);
   const element = getElement(target);
   if (typeof value !== 'undefined') {
     // Set a css value
@@ -1882,7 +1901,7 @@ function css(target, ruleName, value) {
  * @param {string} [value] - if provide, the text context is set to this value
  * @return {string|node} the node when the text content is being set, otherwise the text content
  */
-function text(target, value) {
+function element_text(target, value) {
   const element = getElement(target);
   if (typeof value === 'undefined') return element.textContent || '';
   element.textContent = value;
@@ -2028,8 +2047,8 @@ function offset(target) {
 
 /** Replaces $(window).scrollTop() */
 function scrollTop() {
-  let target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _constants__WEBPACK_IMPORTED_MODULE_1__/* .win */ .p_;
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return 0; // Make safe for SSR
+  let target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : constants/* win */.p_;
+  if (!external_browser_or_node_.isBrowser) return 0; // Make safe for SSR
   if (target === window) {
     return (window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0);
   }
@@ -2053,7 +2072,7 @@ function scrollLeft() {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerHeight(target) {
+function element_outerHeight(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -2070,7 +2089,7 @@ function outerHeight(target) {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerWidth(target) {
+function element_outerWidth(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -2178,7 +2197,7 @@ function getHiddenMeasurements(node, selector) {
   offscreen.ariaHidden = 'true';
   document.body.appendChild(offscreen);
   const clone = node.cloneNode(true);
-  offscreen.style.setProperty('width', `${outerWidth(node, true)}px`);
+  offscreen.style.setProperty('width', `${element_outerWidth(node, true)}px`);
   offscreen.appendChild(clone);
 
   // Need to do this in a promise in order to wait for images to load/render
@@ -2194,8 +2213,8 @@ function getHiddenMeasurements(node, selector) {
         };
         result.width = width(target);
         result.height = height(target);
-        result.outerWidth = outerWidth(target, true);
-        result.outerHeight = outerHeight(target, true);
+        result.outerWidth = element_outerWidth(target, true);
+        result.outerHeight = element_outerHeight(target, true);
         return result;
       });
       document.body.removeChild(offscreen);
@@ -2235,7 +2254,7 @@ function findWithRetry(_ref, dfd) {
     retries = 3,
     retryDelayMs = 100
   } = _ref;
-  const deferred = dfd || new _Deferred__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z();
+  const deferred = dfd || new Deferred/* default */.Z();
   const element = getElement(target);
   if (element) {
     deferred.resolve(element);
@@ -2360,12 +2379,12 @@ function isNotHidden(target) {
 function addListeners(target, listeners) {
   let log = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
   const element = getElement(target);
-  const grouper = _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
-  const groupend = _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_5__/* .noop */ .ZT;
+  const grouper = logger/* default */.Z.groupCollapsed || logger/* default */.Z.info;
+  const groupend = logger/* default */.Z.groupEnd || core_function/* noop */.ZT;
   const {
     label,
     orange
-  } = _constants__WEBPACK_IMPORTED_MODULE_1__.styles;
+  } = constants.styles;
   const consoleStyles = [`${label}`, `${orange}`, `${label}`];
   const removes = [];
   Object.entries(listeners).forEach(_ref2 => {
@@ -2384,8 +2403,8 @@ function addListeners(target, listeners) {
         if (log || logThis) {
           const msg = `%cFiring listener for "%c${event}%c"`;
           grouper.apply(console, [msg, ...consoleStyles]);
-          _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(`%cCallback`, `${_constants__WEBPACK_IMPORTED_MODULE_1__/* .css */ .iv.orange}`, cb);
-          _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(`%cEvent`, `${_constants__WEBPACK_IMPORTED_MODULE_1__/* .css */ .iv.orange}`, ...args);
+          logger/* default */.Z.info(`%cCallback`, `${constants/* css */.iv.orange}`, cb);
+          logger/* default */.Z.info(`%cEvent`, `${constants/* css */.iv.orange}`, ...args);
           groupend();
         }
         cb(...args);
@@ -2425,7 +2444,7 @@ function removeListeners(el, listeners) {
 
 /** Replaces $(document).ready(eventHandler); and the shorthand $(eventHandler); */
 function ready(callback) {
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
+  if (!external_browser_or_node_.isBrowser) return;
   if (document.readyState !== 'loading') callback();else document.addEventListener('DOMContentLoaded', callback);
 }
 
@@ -2541,6 +2560,42 @@ function fadeIn(target, ms) {
     element.style.opacity = '1';
   }
 }
+
+/**
+ * Reading a dimension prop will cause the browser to recalculate,
+ * which will let our animations work.
+ * @param {HTMLElement} element
+ */
+function triggerBrowserReflow(element) {
+  // eslint-disable-next-line
+  element.offsetHeight;
+}
+/**
+ * Parse the animation duration/delay of an element
+ * @param {HTMLElement} element
+ * @param {'transitionDuration' | 'transitionDelay'} property
+ * @return {number}
+ */
+function parseDuration(element, property) {
+  const str = css_default()(element, property) || '';
+  const mult = str.indexOf('ms') === -1 ? 1000 : 1;
+  return parseFloat(str) * mult;
+}
+/**
+ * Add a listener callback to the transition end event for a node
+ * @param {HTMLElement} element
+ * @param {function} handler
+ */
+function transitionEndListener(element, handler) {
+  const duration = parseDuration(element, 'transitionDuration');
+  const delay = parseDuration(element, 'transitionDelay');
+  const remove = transitionEnd_default()(element, e => {
+    if (e.target === element) {
+      remove();
+      handler(e);
+    }
+  }, duration + delay);
+}
 })();
 
 var __webpack_exports__addClass = __webpack_exports__.cn;
@@ -2598,6 +2653,8 @@ var __webpack_exports__siblings = __webpack_exports__.dx;
 var __webpack_exports__text = __webpack_exports__.fL;
 var __webpack_exports__toggle = __webpack_exports__.ZN;
 var __webpack_exports__toggleClass = __webpack_exports__.og;
+var __webpack_exports__transitionEndListener = __webpack_exports__.CI;
 var __webpack_exports__trigger = __webpack_exports__.X$;
+var __webpack_exports__triggerBrowserReflow = __webpack_exports__.gM;
 var __webpack_exports__width = __webpack_exports__.bf;
-export { __webpack_exports__addClass as addClass, __webpack_exports__addListeners as addListeners, __webpack_exports__addTabindexToContent as addTabindexToContent, __webpack_exports__after as after, __webpack_exports__animate as animate, __webpack_exports__append as append, __webpack_exports__before as before, __webpack_exports__closest as closest, __webpack_exports__contains as contains, __webpack_exports__create as create, __webpack_exports__css as css, __webpack_exports__fadeIn as fadeIn, __webpack_exports__fadeOut as fadeOut, __webpack_exports__findAncestor as findAncestor, __webpack_exports__findWithRetry as findWithRetry, __webpack_exports__focusFirstElement as focusFirstElement, __webpack_exports__focusSection as focusSection, __webpack_exports__gebi as gebi, __webpack_exports__getChildMeasurements as getChildMeasurements, __webpack_exports__getElement as getElement, __webpack_exports__getHiddenMeasurements as getHiddenMeasurements, __webpack_exports__getMeasurement as getMeasurement, __webpack_exports__hasClass as hasClass, __webpack_exports__height as height, __webpack_exports__hide as hide, __webpack_exports__html as html, __webpack_exports__index as index, __webpack_exports__is as is, __webpack_exports__isDisplayNone as isDisplayNone, __webpack_exports__isElement as isElement, __webpack_exports__isElementAboveViewport as isElementAboveViewport, __webpack_exports__isElementInViewport as isElementInViewport, __webpack_exports__isNotHidden as isNotHidden, __webpack_exports__next as next, __webpack_exports__nextAll as nextAll, __webpack_exports__offset as offset, __webpack_exports__outerHeight as outerHeight, __webpack_exports__outerWidth as outerWidth, __webpack_exports__position as position, __webpack_exports__prepend as prepend, __webpack_exports__prev as prev, __webpack_exports__prevAll as prevAll, __webpack_exports__qs as qs, __webpack_exports__qsa as qsa, __webpack_exports__ready as ready, __webpack_exports__remove as remove, __webpack_exports__removeClass as removeClass, __webpack_exports__removeListeners as removeListeners, __webpack_exports__scrollLeft as scrollLeft, __webpack_exports__scrollTop as scrollTop, __webpack_exports__show as show, __webpack_exports__siblings as siblings, __webpack_exports__text as text, __webpack_exports__toggle as toggle, __webpack_exports__toggleClass as toggleClass, __webpack_exports__trigger as trigger, __webpack_exports__width as width };
+export { __webpack_exports__addClass as addClass, __webpack_exports__addListeners as addListeners, __webpack_exports__addTabindexToContent as addTabindexToContent, __webpack_exports__after as after, __webpack_exports__animate as animate, __webpack_exports__append as append, __webpack_exports__before as before, __webpack_exports__closest as closest, __webpack_exports__contains as contains, __webpack_exports__create as create, __webpack_exports__css as css, __webpack_exports__fadeIn as fadeIn, __webpack_exports__fadeOut as fadeOut, __webpack_exports__findAncestor as findAncestor, __webpack_exports__findWithRetry as findWithRetry, __webpack_exports__focusFirstElement as focusFirstElement, __webpack_exports__focusSection as focusSection, __webpack_exports__gebi as gebi, __webpack_exports__getChildMeasurements as getChildMeasurements, __webpack_exports__getElement as getElement, __webpack_exports__getHiddenMeasurements as getHiddenMeasurements, __webpack_exports__getMeasurement as getMeasurement, __webpack_exports__hasClass as hasClass, __webpack_exports__height as height, __webpack_exports__hide as hide, __webpack_exports__html as html, __webpack_exports__index as index, __webpack_exports__is as is, __webpack_exports__isDisplayNone as isDisplayNone, __webpack_exports__isElement as isElement, __webpack_exports__isElementAboveViewport as isElementAboveViewport, __webpack_exports__isElementInViewport as isElementInViewport, __webpack_exports__isNotHidden as isNotHidden, __webpack_exports__next as next, __webpack_exports__nextAll as nextAll, __webpack_exports__offset as offset, __webpack_exports__outerHeight as outerHeight, __webpack_exports__outerWidth as outerWidth, __webpack_exports__position as position, __webpack_exports__prepend as prepend, __webpack_exports__prev as prev, __webpack_exports__prevAll as prevAll, __webpack_exports__qs as qs, __webpack_exports__qsa as qsa, __webpack_exports__ready as ready, __webpack_exports__remove as remove, __webpack_exports__removeClass as removeClass, __webpack_exports__removeListeners as removeListeners, __webpack_exports__scrollLeft as scrollLeft, __webpack_exports__scrollTop as scrollTop, __webpack_exports__show as show, __webpack_exports__siblings as siblings, __webpack_exports__text as text, __webpack_exports__toggle as toggle, __webpack_exports__toggleClass as toggleClass, __webpack_exports__transitionEndListener as transitionEndListener, __webpack_exports__trigger as trigger, __webpack_exports__triggerBrowserReflow as triggerBrowserReflow, __webpack_exports__width as width };

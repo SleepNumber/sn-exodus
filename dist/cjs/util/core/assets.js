@@ -1302,19 +1302,34 @@ const events = {
 
 /***/ }),
 
-/***/ 302:
+/***/ 336:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   getElement: () => (/* binding */ getElement)
-/* harmony export */ });
-/* unused harmony exports isElement, gebi, qsa, qs, closest, findAncestor, addClass, removeClass, after, before, append, prepend, contains, remove, css, text, html, create, hasClass, toggleClass, index, is, next, nextAll, prev, prevAll, siblings, offset, scrollTop, scrollLeft, outerHeight, outerWidth, position, height, width, getMeasurement, getChildMeasurements, getHiddenMeasurements, isElementInViewport, isElementAboveViewport, findWithRetry, addTabindexToContent, focusSection, focusFirstElement, isNotHidden, addListeners, removeListeners, ready, trigger, animate, hide, show, isDisplayNone, toggle, fadeOut, fadeIn */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(203);
-/* harmony import */ var _Deferred__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(292);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  getElement: () => (/* binding */ getElement)
+});
+
+// UNUSED EXPORTS: addClass, addListeners, addTabindexToContent, after, animate, append, before, closest, contains, create, css, fadeIn, fadeOut, findAncestor, findWithRetry, focusFirstElement, focusSection, gebi, getChildMeasurements, getHiddenMeasurements, getMeasurement, hasClass, height, hide, html, index, is, isDisplayNone, isElement, isElementAboveViewport, isElementInViewport, isNotHidden, next, nextAll, offset, outerHeight, outerWidth, position, prepend, prev, prevAll, qs, qsa, ready, remove, removeClass, removeListeners, scrollLeft, scrollTop, show, siblings, text, toggle, toggleClass, transitionEndListener, trigger, triggerBrowserReflow, width
+
+// EXTERNAL MODULE: external "browser-or-node"
+var external_browser_or_node_ = __webpack_require__(192);
+;// CONCATENATED MODULE: external "dom-helpers/css"
+const css_namespaceObject = require("dom-helpers/css");
+;// CONCATENATED MODULE: external "dom-helpers/transitionEnd"
+const transitionEnd_namespaceObject = require("dom-helpers/transitionEnd");
+// EXTERNAL MODULE: ./src/util/core/constants.js
+var constants = __webpack_require__(168);
+// EXTERNAL MODULE: ./src/util/core/logger.js
+var core_logger = __webpack_require__(813);
+// EXTERNAL MODULE: ./src/util/core/string.js
+var string = __webpack_require__(203);
+// EXTERNAL MODULE: ./src/util/core/Deferred.js
+var core_Deferred = __webpack_require__(292);
+;// CONCATENATED MODULE: ./src/util/core/element.js
+
+
 
 
 
@@ -1345,7 +1360,7 @@ function getElement(target, container) {
   try {
     return within.querySelector(target) || null;
   } catch (err) {
-    _logger__WEBPACK_IMPORTED_MODULE_2__["default"].error('Error getting element', 'target', target, 'container', container, err);
+    core_logger["default"].error('Error getting element', 'target', target, 'container', container, err);
     return null;
   }
 }
@@ -1498,7 +1513,7 @@ function css(target, ruleName, value) {
  * @param {string} [value] - if provide, the text context is set to this value
  * @return {string|node} the node when the text content is being set, otherwise the text content
  */
-function text(target, value) {
+function element_text(target, value) {
   const element = getElement(target);
   if (typeof value === 'undefined') return element.textContent || '';
   element.textContent = value;
@@ -1669,7 +1684,7 @@ function scrollLeft() {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerHeight(target) {
+function element_outerHeight(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -1686,7 +1701,7 @@ function outerHeight(target) {
  * @param {boolean} [includeMargin=false] - if true, measurement will include margin
  * @return {number}
  */
-function outerWidth(target) {
+function element_outerWidth(target) {
   let includeMargin = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   const element = getElement(target);
   if (!element) return 0;
@@ -1794,7 +1809,7 @@ function getHiddenMeasurements(node, selector) {
   offscreen.ariaHidden = 'true';
   document.body.appendChild(offscreen);
   const clone = node.cloneNode(true);
-  offscreen.style.setProperty('width', `${outerWidth(node, true)}px`);
+  offscreen.style.setProperty('width', `${element_outerWidth(node, true)}px`);
   offscreen.appendChild(clone);
 
   // Need to do this in a promise in order to wait for images to load/render
@@ -1810,8 +1825,8 @@ function getHiddenMeasurements(node, selector) {
         };
         result.width = width(target);
         result.height = height(target);
-        result.outerWidth = outerWidth(target, true);
-        result.outerHeight = outerHeight(target, true);
+        result.outerWidth = element_outerWidth(target, true);
+        result.outerHeight = element_outerHeight(target, true);
         return result;
       });
       document.body.removeChild(offscreen);
@@ -2156,6 +2171,42 @@ function fadeIn(target, ms) {
   } else {
     element.style.opacity = '1';
   }
+}
+
+/**
+ * Reading a dimension prop will cause the browser to recalculate,
+ * which will let our animations work.
+ * @param {HTMLElement} element
+ */
+function triggerBrowserReflow(element) {
+  // eslint-disable-next-line
+  element.offsetHeight;
+}
+/**
+ * Parse the animation duration/delay of an element
+ * @param {HTMLElement} element
+ * @param {'transitionDuration' | 'transitionDelay'} property
+ * @return {number}
+ */
+function parseDuration(element, property) {
+  const str = dh_css(element, property) || '';
+  const mult = str.indexOf('ms') === -1 ? 1000 : 1;
+  return parseFloat(str) * mult;
+}
+/**
+ * Add a listener callback to the transition end event for a node
+ * @param {HTMLElement} element
+ * @param {function} handler
+ */
+function transitionEndListener(element, handler) {
+  const duration = parseDuration(element, 'transitionDuration');
+  const delay = parseDuration(element, 'transitionDelay');
+  const remove = transitionEnd(element, e => {
+    if (e.target === element) {
+      remove();
+      handler(e);
+    }
+  }, duration + delay);
 }
 
 /***/ }),
@@ -3708,8 +3759,8 @@ const placeholder_black_10s_namespaceObject = "/dist/videos/placeholder-black-10
 var cloudinary = __webpack_require__(365);
 // EXTERNAL MODULE: ./src/util/core/logger.js
 var logger = __webpack_require__(813);
-// EXTERNAL MODULE: ./src/util/core/element.js
-var core_element = __webpack_require__(302);
+// EXTERNAL MODULE: ./src/util/core/element.js + 2 modules
+var core_element = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/util/core/array.js
 var array = __webpack_require__(276);
 // EXTERNAL MODULE: ./src/util/core/string.js
