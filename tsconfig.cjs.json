@@ -2,6 +2,7 @@
 // See https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html
 {
   "include": ["src/**/*"],
+  "exclude": ["src/__tests__", "src/**/*.test.js", "src/**/*.test.jsx"],
   "compilerOptions": {
     // Tells TypeScript to read JS files, as
     // normally they are ignored as source files
