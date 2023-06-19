@@ -4,7 +4,27 @@ const ERROR = 2;
 
 /** @type {import('@types/eslint').Linter.BaseConfig} */
 module.exports = {
-  parser: '@babel/eslint-parser',
+  extends: [
+    '@remix-run/eslint-config',
+    '@remix-run/eslint-config/node',
+    '@remix-run/eslint-config/jest-testing-library',
+    'prettier',
+  ],
+
+  env: {
+    browser: true,
+    jest: true,
+    jasmine: true, // Allow jasmine globals like 'fail()'
+    'cypress/globals': true,
+  },
+
+  globals: {
+    ENV: 'writable',
+    vi: 'readable',
+  },
+
+  plugins: ['import', 'cypress'],
+
   settings: {
     'import/resolver': {
       webpack: {
@@ -18,26 +38,8 @@ module.exports = {
       version: 28,
     },
   },
-  env: {
-    browser: true,
-    jest: true,
-    jasmine: true, // Allow jasmine globals like 'fail()'
-    'cypress/globals': true,
-  },
-  extends: [
-    '@remix-run/eslint-config',
-    '@remix-run/eslint-config/node',
-    '@remix-run/eslint-config/jest-testing-library',
-    'prettier',
-  ],
 
-  globals: {
-    ENV: 'writable',
-    vi: 'readable',
-  },
-
-  plugins: ['import', 'cypress'],
-
+  parser: '@babel/eslint-parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: './tsconfig.json',
