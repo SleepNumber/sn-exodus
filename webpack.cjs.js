@@ -6,7 +6,8 @@ const { distNames } = base.getEntries();
 
 const cjs_config = {
   output: {
-    filename: pathData => `cjs/${distNames[pathData.chunk.name]}`,
+    filename: pathData =>
+      `cjs/${distNames[pathData.chunk.name]}`.replace(/\.jsx$/, '.js'),
     library: { type: 'commonjs' },
   },
 };

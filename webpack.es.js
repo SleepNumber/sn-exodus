@@ -6,7 +6,8 @@ const { distNames } = base.getEntries();
 
 const esm_config = {
   output: {
-    filename: pathData => `esm/${distNames[pathData.chunk.name]}`,
+    filename: pathData =>
+      `esm/${distNames[pathData.chunk.name]}`.replace(/\.jsx$/, '.js'),
     library: { type: 'module' },
   },
   experiments: { outputModule: true },
