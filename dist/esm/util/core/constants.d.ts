@@ -26,12 +26,14 @@ export namespace attributes {
         namespace modals {
             let insider_appreciation_shown: string;
             let insider_signin_shown: string;
+            let lead_capture_link: string;
             let lead_compare_shown: string;
             let lead_compare_submitted: string;
+            let lead_modal_email_submitted: string;
+            let lead_modal_help_shown: string;
+            let lead_modal_help_submitted: string;
             let lead_modal_shown: string;
             let lead_modal_submitted: string;
-            let lead_modal_email_submitted: string;
-            let lead_capture_link: string;
             let lead_quiz_shown: string;
             let lead_quiz_submitted: string;
         }

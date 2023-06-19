@@ -1210,12 +1210,14 @@ const attributes = {
     modals: {
       insider_appreciation_shown: 'insider_appreciation_shown',
       insider_signin_shown: 'insider_signin_shown',
+      lead_capture_link: 'lead_capture_link',
       lead_compare_shown: 'lead_compare_shown',
       lead_compare_submitted: 'lead_compare_submitted',
+      lead_modal_email_submitted: 'lead_capture_email_submitted',
+      lead_modal_help_shown: 'lead_capture_help_shown',
+      lead_modal_help_submitted: 'lead_capture_help_submitted',
       lead_modal_shown: 'lead_capture_shown',
       lead_modal_submitted: 'lead_capture_submitted',
-      lead_modal_email_submitted: 'lead_capture_email_submitted',
-      lead_capture_link: 'lead_capture_link',
       lead_quiz_shown: 'lead_quiz_shown',
       lead_quiz_submitted: 'lead_quiz_submitted'
     },
