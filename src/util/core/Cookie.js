@@ -22,6 +22,7 @@ class Cookie extends Enumify {
   static request_names = new Cookie('request_names'); // Set by rails if user is missing names
   static session = new Cookie('_sleep_number_session');
   static sessions = new Cookie('sessions');
+  static suppress_chat = new Cookie('suppress_chat');
   static sn = new Cookie('sn');
   static _ = this.closeEnum();
 
