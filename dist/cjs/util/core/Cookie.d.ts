@@ -21,6 +21,7 @@ declare class Cookie extends Enumify {
     static request_names: Cookie;
     static session: Cookie;
     static sessions: Cookie;
+    static suppress_chat: Cookie;
     static sn: Cookie;
     static _: void;
     constructor(name: any);
