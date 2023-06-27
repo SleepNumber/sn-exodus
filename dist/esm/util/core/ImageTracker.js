@@ -1052,9 +1052,9 @@ function buildSources(assets) {
   const collection = hasVideos ? assets.videos : assets.images;
   return {
     type: hasVideos ? 'video' : 'image',
-    [BP.mb]: findAssetByTags(collection, Tag.mb),
-    [BP.tb]: findAssetByTags(collection, Tag.tb),
-    [BP.dt]: findAssetByTags(collection, Tag.dt)
+    [BP.mb.name]: findAssetByTags(collection, Tag.mb),
+    [BP.tb.name]: findAssetByTags(collection, Tag.tb),
+    [BP.dt.name]: findAssetByTags(collection, Tag.dt)
   };
 }
 

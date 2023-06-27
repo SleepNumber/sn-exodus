@@ -4307,9 +4307,9 @@ function buildSources(assets) {
   const collection = hasVideos ? assets.videos : assets.images;
   return {
     type: hasVideos ? 'video' : 'image',
-    [device.Breakpoint.mb]: findAssetByTags(collection, core_tags.Tag.mb),
-    [device.Breakpoint.tb]: findAssetByTags(collection, core_tags.Tag.tb),
-    [device.Breakpoint.dt]: findAssetByTags(collection, core_tags.Tag.dt)
+    [device.Breakpoint.mb.name]: findAssetByTags(collection, core_tags.Tag.mb),
+    [device.Breakpoint.tb.name]: findAssetByTags(collection, core_tags.Tag.tb),
+    [device.Breakpoint.dt.name]: findAssetByTags(collection, core_tags.Tag.dt)
   };
 }
 

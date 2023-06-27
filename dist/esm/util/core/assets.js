@@ -4292,9 +4292,9 @@ function buildSources(assets) {
   const collection = hasVideos ? assets.videos : assets.images;
   return {
     type: hasVideos ? 'video' : 'image',
-    [device/* Breakpoint */.Uo.mb]: findAssetByTags(collection, core_tags/* Tag */.V.mb),
-    [device/* Breakpoint */.Uo.tb]: findAssetByTags(collection, core_tags/* Tag */.V.tb),
-    [device/* Breakpoint */.Uo.dt]: findAssetByTags(collection, core_tags/* Tag */.V.dt)
+    [device/* Breakpoint */.Uo.mb.name]: findAssetByTags(collection, core_tags/* Tag */.V.mb),
+    [device/* Breakpoint */.Uo.tb.name]: findAssetByTags(collection, core_tags/* Tag */.V.tb),
+    [device/* Breakpoint */.Uo.dt.name]: findAssetByTags(collection, core_tags/* Tag */.V.dt)
   };
 }
 
