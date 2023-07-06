@@ -35,4 +35,13 @@ export function burnin() {
   );
 }
 
-namespace('sn.json', { parse: json, isJson, burnin });
+export function isJsonString(str) {
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
+}
+
+namespace('sn.json', { parse: json, isJson, burnin, isJsonString });
