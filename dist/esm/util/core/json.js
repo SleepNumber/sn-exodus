@@ -387,6 +387,7 @@ var __webpack_exports__ = {};
 (() => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AV: () => (/* binding */ json),
+/* harmony export */   Pb: () => (/* binding */ isJsonString),
 /* harmony export */   sO: () => (/* binding */ isJson),
 /* harmony export */   ul: () => (/* binding */ burnin)
 /* harmony export */ });
@@ -420,14 +421,24 @@ function burnin() {
     return result;
   }, {});
 }
+function isJsonString(str) {
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
+}
 (0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.json', {
   parse: json,
   isJson,
-  burnin
+  burnin,
+  isJsonString
 });
 })();
 
 var __webpack_exports__burnin = __webpack_exports__.ul;
 var __webpack_exports__isJson = __webpack_exports__.sO;
+var __webpack_exports__isJsonString = __webpack_exports__.Pb;
 var __webpack_exports__json = __webpack_exports__.AV;
-export { __webpack_exports__burnin as burnin, __webpack_exports__isJson as isJson, __webpack_exports__json as json };
+export { __webpack_exports__burnin as burnin, __webpack_exports__isJson as isJson, __webpack_exports__isJsonString as isJsonString, __webpack_exports__json as json };

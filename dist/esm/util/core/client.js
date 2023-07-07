@@ -783,7 +783,7 @@ function createChainedFunction() {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   sO: () => (/* binding */ isJson)
 /* harmony export */ });
-/* unused harmony exports json, burnin */
+/* unused harmony exports json, burnin, isJsonString */
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * Parses the inner text contents of 'id' as JSON and returns it.
@@ -814,10 +814,19 @@ function burnin() {
     return result;
   }, {});
 }
+function isJsonString(str) {
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
+}
 (0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.json', {
   parse: json,
   isJson,
-  burnin
+  burnin,
+  isJsonString
 });
 
 /***/ }),
