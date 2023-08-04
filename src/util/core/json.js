@@ -44,4 +44,12 @@ export function isJsonString(str) {
   return true;
 }
 
+export function safeJsonStringify(obj) {
+  try {
+    return JSON.stringify(obj);
+  } catch (err) {
+    return null;
+  }
+}
+
 namespace('sn.json', { parse: json, isJson, burnin, isJsonString });
