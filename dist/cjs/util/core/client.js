@@ -785,7 +785,7 @@ function createChainedFunction() {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isJson: () => (/* binding */ isJson)
 /* harmony export */ });
-/* unused harmony exports json, burnin, isJsonString */
+/* unused harmony exports json, burnin, isJsonString, safeJsonStringify */
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * Parses the inner text contents of 'id' as JSON and returns it.
@@ -823,6 +823,13 @@ function isJsonString(str) {
     return false;
   }
   return true;
+}
+function safeJsonStringify(obj) {
+  try {
+    return JSON.stringify(obj);
+  } catch (err) {
+    return null;
+  }
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_0__.namespace)('sn.json', {
   parse: json,

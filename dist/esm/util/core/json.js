@@ -389,6 +389,7 @@ var __webpack_exports__ = {};
 /* harmony export */   AV: () => (/* binding */ json),
 /* harmony export */   Pb: () => (/* binding */ isJsonString),
 /* harmony export */   sO: () => (/* binding */ isJson),
+/* harmony export */   u4: () => (/* binding */ safeJsonStringify),
 /* harmony export */   ul: () => (/* binding */ burnin)
 /* harmony export */ });
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
@@ -429,6 +430,13 @@ function isJsonString(str) {
   }
   return true;
 }
+function safeJsonStringify(obj) {
+  try {
+    return JSON.stringify(obj);
+  } catch (err) {
+    return null;
+  }
+}
 (0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.json', {
   parse: json,
   isJson,
@@ -441,4 +449,5 @@ var __webpack_exports__burnin = __webpack_exports__.ul;
 var __webpack_exports__isJson = __webpack_exports__.sO;
 var __webpack_exports__isJsonString = __webpack_exports__.Pb;
 var __webpack_exports__json = __webpack_exports__.AV;
-export { __webpack_exports__burnin as burnin, __webpack_exports__isJson as isJson, __webpack_exports__isJsonString as isJsonString, __webpack_exports__json as json };
+var __webpack_exports__safeJsonStringify = __webpack_exports__.u4;
+export { __webpack_exports__burnin as burnin, __webpack_exports__isJson as isJson, __webpack_exports__isJsonString as isJsonString, __webpack_exports__json as json, __webpack_exports__safeJsonStringify as safeJsonStringify };

@@ -403,7 +403,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   burnin: () => (/* binding */ burnin),
 /* harmony export */   isJson: () => (/* binding */ isJson),
 /* harmony export */   isJsonString: () => (/* binding */ isJsonString),
-/* harmony export */   json: () => (/* binding */ json)
+/* harmony export */   json: () => (/* binding */ json),
+/* harmony export */   safeJsonStringify: () => (/* binding */ safeJsonStringify)
 /* harmony export */ });
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
@@ -442,6 +443,13 @@ function isJsonString(str) {
     return false;
   }
   return true;
+}
+function safeJsonStringify(obj) {
+  try {
+    return JSON.stringify(obj);
+  } catch (err) {
+    return null;
+  }
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_0__.namespace)('sn.json', {
   parse: json,
