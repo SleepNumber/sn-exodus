@@ -1661,11 +1661,13 @@ function createChainedFunction() {
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
 /* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
 /* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(997);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_4__);
 /**
  * A simple pub/sub module.
  * @see http://davidwalsh.name/pubsub-javascript
@@ -1677,7 +1679,13 @@ function createChainedFunction() {
 
 
 
-const topics = {};
+
+const win = browser_or_node__WEBPACK_IMPORTED_MODULE_4__.isBrowser ? window : __webpack_require__.g;
+let topics = win?.sn__hub;
+if (!topics) {
+  win.sn__hub = {};
+  topics = win.sn__hub;
+}
 const hop = topics.hasOwnProperty;
 
 /**
@@ -1691,7 +1699,7 @@ function log(topic, listeners, data) {
   const hasData = typeof data !== 'undefined';
   if (hasData) notif += ' with data:';
   const grouper = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
-  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_4__/* .noop */ .ZT;
+  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_5__/* .noop */ .ZT;
   const consoleStyles = [`${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.strong}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`];
   grouper.apply(console, [notif, ...consoleStyles]);
   if (hasData) _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(data);
@@ -1801,7 +1809,7 @@ const mod = {
     VIDEO_MODAL_READY: 'modal_video_ready'
   }
 };
-(0,_object__WEBPACK_IMPORTED_MODULE_5__/* .namespace */ .uD)('sn.hub', mod);
+(0,_object__WEBPACK_IMPORTED_MODULE_6__/* .namespace */ .uD)('sn.hub', mod);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
 
 /***/ }),

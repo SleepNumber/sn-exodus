@@ -10,8 +10,15 @@ import { noop } from './function';
 import { styles } from './constants';
 import logger from './logger';
 import CookieJar from './cookiejar';
+import { isBrowser } from "browser-or-node";
 
-const topics = {};
+const win = isBrowser ? window : global;
+let topics = win?.sn__hub;
+if (!topics) {
+  win.sn__hub = {};
+  topics = win.sn__hub;
+}
+
 const hop = topics.hasOwnProperty;
 
 /**
