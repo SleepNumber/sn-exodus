@@ -210,7 +210,11 @@ export function getHiddenMeasurements(node: HTMLElement, selector?: string, quer
 /**
  * Returns true if the element is in the viewport.
  * @param {node} elem - the element in question
- * @param {number} [offset] - optional offset, i.e. use to determine half in viewport
+ * @param {number} [offset=5] - optional offset, i.e. use to determine half in viewport
+ *                              Defaults to 5.
+ *                              With an offset of 0, you can't actually get to
+ *                              the 'bottom' to trigger an in-view scenario.
+ *                              i.e. if bottom is 940, you end up at 940.1
  * @return {boolean}
  */
 export function isElementInViewport(elem: node, offset?: number): boolean;
