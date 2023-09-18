@@ -34,17 +34,17 @@ if (isSSR) {
 export const win = windowObject;
 export const sn_globals = win?.sn_globals || { config: {} };
 
-export const isProduction = () => sn_globals.config.env === 'production';
-export const isStaging = () => sn_globals.config.env === 'staging';
-export const isQa = () => sn_globals.config.env === 'qa';
-export const isDevelopment = () => sn_globals.config.env === 'development';
+export const isProduction = () => sn_globals.config.wa_env === 'production';
+export const isStaging = () => sn_globals.config.wa_env === 'staging';
+export const isQa = () => sn_globals.config.wa_env === 'qa';
+export const isDevelopment = () => sn_globals.config.wa_env === 'development';
 
 export const isDevPage = win?.location?.pathname?.startsWith('/dev/');
 export const isAdminPage =
   win?.top?.location?.href?.includes('/admin/') ||
   win?.location?.pathname?.startsWith('/admin/');
 
-export const isTestEnv = sn_globals.config.env !== 'production';
+export const isTestEnv = sn_globals.config.wa_env !== 'production';
 
 export function isDebug() {
   if (!isBrowser) return false;

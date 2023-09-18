@@ -743,13 +743,13 @@ const win = windowObject;
 const sn_globals = win?.sn_globals || {
   config: {}
 };
-const isProduction = () => sn_globals.config.env === 'production';
-const isStaging = () => sn_globals.config.env === 'staging';
-const isQa = () => sn_globals.config.env === 'qa';
-const isDevelopment = () => sn_globals.config.env === 'development';
+const isProduction = () => sn_globals.config.wa_env === 'production';
+const isStaging = () => sn_globals.config.wa_env === 'staging';
+const isQa = () => sn_globals.config.wa_env === 'qa';
+const isDevelopment = () => sn_globals.config.wa_env === 'development';
 const isDevPage = win?.location?.pathname?.startsWith('/dev/');
 const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.location?.pathname?.startsWith('/admin/');
-const isTestEnv = sn_globals.config.env !== 'production';
+const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
   const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
@@ -3919,8 +3919,11 @@ function getCloudinaryVersion() {
  * @param {'image'|'video'} type - One of {'image'|'video'}
  * @returns {string | null} cloudinaryUrl
  */
-function getCloudinaryUrl(url) {
-  let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'image';
+function getCloudinaryUrl(_ref3) {
+  let {
+    url,
+    type = 'image'
+  } = _ref3;
   if (!external_browser_or_node_.isBrowser || !url || (0,constants/* isDevelopment */.yG)() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
     return sslUrl(url);
   }
@@ -4144,12 +4147,12 @@ function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
 
   // Prepare URL to add our own transforms and file ext
   const strippedUrl = stripCloudinaryUrl(videoUrl);
-  const sources = formats.map(_ref3 => {
+  const sources = formats.map(_ref4 => {
     let {
       codecTransform,
       container,
       codec
-    } = _ref3;
+    } = _ref4;
     const formatTransform = `f_${container}`;
     const transformString = [...transforms, codecTransform, formatTransform].join(',');
     const transformUrl = strippedUrl.replace('video/upload', `video/upload/${transformString}`);

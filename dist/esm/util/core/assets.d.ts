@@ -55,7 +55,7 @@ export function getCloudinaryVersion(): string;
  * @param {'image'|'video'} type - One of {'image'|'video'}
  * @returns {string | null} cloudinaryUrl
  */
-export function getCloudinaryUrl(url: string, type?: 'image' | 'video'): string | null;
+export function getCloudinaryUrl({ url, type }: string): string | null;
 /**
  * Returns a thumbnail image of a cloudinary video at a specific time.
  * @param {ProductAsset|MediaSource|string} asset - media source or product asset or a cloudinary video url

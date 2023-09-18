@@ -157,7 +157,7 @@ export function getCloudinaryVersion() {
  * @param {'image'|'video'} type - One of {'image'|'video'}
  * @returns {string | null} cloudinaryUrl
  */
-export function getCloudinaryUrl(url, type = 'image') {
+export function getCloudinaryUrl({ url, type = 'image' }) {
   if (
     !isBrowser ||
     !url ||

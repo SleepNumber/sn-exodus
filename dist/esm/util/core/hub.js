@@ -96,13 +96,13 @@ const win = windowObject;
 const sn_globals = win?.sn_globals || {
   config: {}
 };
-const isProduction = () => sn_globals.config.env === 'production';
-const isStaging = () => sn_globals.config.env === 'staging';
-const isQa = () => sn_globals.config.env === 'qa';
-const isDevelopment = () => sn_globals.config.env === 'development';
+const isProduction = () => sn_globals.config.wa_env === 'production';
+const isStaging = () => sn_globals.config.wa_env === 'staging';
+const isQa = () => sn_globals.config.wa_env === 'qa';
+const isDevelopment = () => sn_globals.config.wa_env === 'development';
 const isDevPage = win?.location?.pathname?.startsWith('/dev/');
 const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.location?.pathname?.startsWith('/admin/');
-const isTestEnv = sn_globals.config.env !== 'production';
+const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
   const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
