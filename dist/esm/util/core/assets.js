@@ -3919,11 +3919,8 @@ function getCloudinaryVersion() {
  * @param {'image'|'video'} type - One of {'image'|'video'}
  * @returns {string | null} cloudinaryUrl
  */
-function getCloudinaryUrl(_ref3) {
-  let {
-    url,
-    type = 'image'
-  } = _ref3;
+function getCloudinaryUrl(url) {
+  let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'image';
   if (!external_browser_or_node_.isBrowser || !url || (0,constants/* isDevelopment */.yG)() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
     return sslUrl(url);
   }
@@ -4147,12 +4144,12 @@ function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
 
   // Prepare URL to add our own transforms and file ext
   const strippedUrl = stripCloudinaryUrl(videoUrl);
-  const sources = formats.map(_ref4 => {
+  const sources = formats.map(_ref3 => {
     let {
       codecTransform,
       container,
       codec
-    } = _ref4;
+    } = _ref3;
     const formatTransform = `f_${container}`;
     const transformString = [...transforms, codecTransform, formatTransform].join(',');
     const transformUrl = strippedUrl.replace('video/upload', `video/upload/${transformString}`);
