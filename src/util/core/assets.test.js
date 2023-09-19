@@ -34,14 +34,14 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
       () => true
     );
 
-    const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg' });
+    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
     expect(url).toEqual('/dist/images/foobar.jpg');
   });
 
   test('QA', async () => {
     window.location = new URL('https://qa.sleepnumber.com');
 
-    const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg' });
+    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
     expect(url).toEqual(
       `https://res.cloudinary.com/${
         CLOUD_NAMES.qa
@@ -53,7 +53,7 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
     window.location = new URL('https://staging.sleepnumber.com');
     window.sn_globals.config.wa_env = 'staging';
 
-    const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg' });
+    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
     expect(url).toEqual(
       `https://res.cloudinary.com/${
         CLOUD_NAMES.staging
@@ -64,7 +64,7 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
   test('Production', async () => {
     window.location = new URL('https://www.sleepnumber.com');
 
-    const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg' });
+    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
     expect(url).toEqual(
       `https://res.cloudinary.com/${
         CLOUD_NAMES.prod
