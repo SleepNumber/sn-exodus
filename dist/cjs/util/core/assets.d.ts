@@ -44,8 +44,10 @@ export function hexToRgb(hex: string, asString?: boolean): string | {
     b: number;
 };
 /**
- *
- * @returns Cloudinary asset version string e.g. v1607021429
+ * Build a cloudinary asset version with current year, month, day.
+ * See https://support.cloudinary.com/hc/en-us/articles/202520912-What-are-image-versions
+ * See https://cloudinary.com/documentation/advanced_url_delivery_options#asset_versions
+ * @returns {string} - the cloudinary version string, e.g. 'v20231126'
  */
 export function getCloudinaryVersion(): string;
 /**
@@ -53,9 +55,10 @@ export function getCloudinaryVersion(): string;
  * the correct cloudinary instance.
  * @param {string} url - the url to transform
  * @param {'image'|'video'} type - One of {'image'|'video'}
- * @returns {string | null} cloudinaryUrl
+ * @param {'prod'|'qa'|'staging'|'local'} env - the build environment
+ * @returns {string}
  */
-export function getCloudinaryUrl(url: string, type?: 'image' | 'video'): string | null;
+export function getCloudinaryUrl({ url, type, env }: string): string;
 /**
  * Returns a thumbnail image of a cloudinary video at a specific time.
  * @param {ProductAsset|MediaSource|string} asset - media source or product asset or a cloudinary video url
@@ -208,7 +211,6 @@ export function base64GifToSrc(base64Image: string): string;
  * @param {HTMLElement|string} target
  */
 export function getBgImages(target: HTMLElement | string): any[];
-export const isSecure: boolean;
 export namespace placehold {
     export let image: string;
     export { phVideo as video };

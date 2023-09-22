@@ -691,16 +691,12 @@ function safeArray(input) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   EQ: () => (/* binding */ qaUrl),
 /* harmony export */   L1: () => (/* binding */ isDebug),
 /* harmony export */   Wj: () => (/* binding */ isJestEnv),
-/* harmony export */   dT: () => (/* binding */ stageUrl),
-/* harmony export */   hG: () => (/* binding */ localUrl),
 /* harmony export */   p_: () => (/* binding */ win),
-/* harmony export */   yG: () => (/* binding */ isDevelopment),
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
-/* unused harmony exports prodUrl, sn_globals, isStaging, isQa, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
@@ -3727,7 +3723,6 @@ __webpack_require__.d(__webpack_exports__, {
   rm: () => (/* binding */ isFullscreen),
   Ns: () => (/* binding */ isJpg),
   MW: () => (/* binding */ isMp4),
-  Bw: () => (/* binding */ isSecure),
   IZ: () => (/* binding */ isVideoFullscreen),
   CU: () => (/* binding */ placehold),
   jW: () => (/* binding */ retainFormat),
@@ -3741,8 +3736,6 @@ __webpack_require__.d(__webpack_exports__, {
   VQ: () => (/* binding */ withoutSpecialtyTag)
 });
 
-// EXTERNAL MODULE: external "browser-or-node"
-var external_browser_or_node_ = __webpack_require__(192);
 ;// CONCATENATED MODULE: ./src/videos/placeholder-black-10s.mp4
 const placeholder_black_10s_namespaceObject = "/dist/videos/placeholder-black-10s-23b41dc17cf05e907ef2.mp4";
 // EXTERNAL MODULE: ./src/util/vendor/cloudinary.js
@@ -3757,8 +3750,6 @@ var array = __webpack_require__(276);
 var string = __webpack_require__(203);
 // EXTERNAL MODULE: ./src/util/core/device.js
 var device = __webpack_require__(109);
-// EXTERNAL MODULE: ./src/util/core/constants.js
-var constants = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/util/core/function.js
 var core_function = __webpack_require__(981);
 // EXTERNAL MODULE: ./src/util/core/MediaSource.js
@@ -3768,8 +3759,6 @@ var ProductAsset = __webpack_require__(713);
 // EXTERNAL MODULE: ./src/util/core/tags.js
 var core_tags = __webpack_require__(567);
 ;// CONCATENATED MODULE: ./src/util/core/assets.js
-
-
 
 
 
@@ -3810,7 +3799,6 @@ function withoutSpecialtyTag(_ref2) {
   } = _ref2;
   return !tags.includes(core_tags/* Tag */.V.flextop) && !tags.includes(core_tags/* Tag */.V.split);
 }
-const isSecure = (constants/* win */.p_ || window).location.protocol === 'https:';
 const placehold = {
   image: 'https://via.placeholder.com/150',
   video: placeholder_black_10s_namespaceObject
@@ -3832,8 +3820,7 @@ function asJpg(url) {
 }
 function sslUrl(url) {
   if (!url) return url;
-  if (isSecure) return url.replace(/http:/gi, 'https:');
-  return url;
+  return url.replace(/http:/gi, 'https:');
 }
 
 /**
@@ -3844,12 +3831,6 @@ function sslUrl(url) {
 function retainFormat(asset) {
   return asset.replace(/\/f_auto,/, '/').replace(/,f_auto/, '');
 }
-const sn_globals = (constants/* win */.p_ || window)?.sn_globals || {
-  config: {}
-};
-const buildNumber = sn_globals?.config?.buildNumber ||
-// Today's date, "20190712"
-new Date().toJSON().slice(0, 10).replace(/-/g, '');
 
 /**
  * Converts `rgb(0, 153, 51)` to `#009933`.
@@ -3904,12 +3885,17 @@ function getTransformations() {
 }
 
 /**
- *
- * @returns Cloudinary asset version string e.g. v1607021429
+ * Build a cloudinary asset version with current year, month, day.
+ * See https://support.cloudinary.com/hc/en-us/articles/202520912-What-are-image-versions
+ * See https://cloudinary.com/documentation/advanced_url_delivery_options#asset_versions
+ * @returns {string} - the cloudinary version string, e.g. 'v20231126'
  */
 function getCloudinaryVersion() {
-  const buildDigits = buildNumber.replace(/\D/g, '');
-  return buildDigits ? `v${buildDigits}` : '';
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
+  const day = today.getDate();
+  return `v${year}${month}${day}`;
 }
 
 /**
@@ -3917,28 +3903,32 @@ function getCloudinaryVersion() {
  * the correct cloudinary instance.
  * @param {string} url - the url to transform
  * @param {'image'|'video'} type - One of {'image'|'video'}
- * @returns {string | null} cloudinaryUrl
+ * @param {'prod'|'qa'|'staging'|'local'} env - the build environment
+ * @returns {string}
  */
-function getCloudinaryUrl(url) {
-  let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'image';
-  if (!external_browser_or_node_.isBrowser || !url || (0,constants/* isDevelopment */.yG)() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
-    return sslUrl(url);
-  }
-
-  // Convert this to a cloudinary upload url.
-  const origin = (constants/* win */.p_ || window).location.origin;
-  const fullUrl = new URL(url, origin);
-  const path = fullUrl.pathname;
-  const isSvg = fullUrl.pathname.search(/\.svg$/g) > -1;
-  const transformations = getTransformations(isSvg ? 'svg' : type);
-  const domain = 'https://res.cloudinary.com/';
-  let cloudName = 'sleepnumber';
-  if (origin === constants/* qaUrl */.EQ) cloudName = 'snbr-qa';
-  if (origin === constants/* stageUrl */.dT) cloudName = 'snbr-stg';
-  if (origin === constants/* localUrl */.hG) cloudName = 'snbr-local';
-  const config = `/${type}/upload/${transformations}/${getCloudinaryVersion()}/uploads`;
-  const result = domain + cloudName + config + path;
-  return result;
+function getCloudinaryUrl(_ref3) {
+  let {
+    url = '',
+    type = 'image',
+    env = 'prod'
+  } = _ref3;
+  const local = env === 'local';
+  const done = url.includes('cloudinary') || url.includes('cdn.sleepnumber');
+  if (!url || local || done) return sslUrl(url);
+  const clouds = {
+    local: 'snbr-local',
+    qa: 'snbr-qa',
+    staging: 'snbr-stg',
+    prod: 'sleepnumber'
+  };
+  const cloud = clouds[env] || clouds.prod;
+  const uploadMapping = url.includes('_dist') ? 'uploads-remix' : 'uploads';
+  const path = new URL(url, 'https://f.com').pathname;
+  const isSvg = path.search(/\.svg$/g) > -1;
+  const trans = getTransformations(isSvg ? 'svg' : type);
+  const version = getCloudinaryVersion();
+  const config = `${type}/upload/${trans}/${version}/${uploadMapping}`;
+  return `https://res.cloudinary.com/${cloud}/${config}${path}`;
 }
 
 /**
@@ -4144,12 +4134,12 @@ function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
 
   // Prepare URL to add our own transforms and file ext
   const strippedUrl = stripCloudinaryUrl(videoUrl);
-  const sources = formats.map(_ref3 => {
+  const sources = formats.map(_ref4 => {
     let {
       codecTransform,
       container,
       codec
-    } = _ref3;
+    } = _ref4;
     const formatTransform = `f_${container}`;
     const transformString = [...transforms, codecTransform, formatTransform].join(',');
     const transformUrl = strippedUrl.replace('video/upload', `video/upload/${transformString}`);
@@ -4387,7 +4377,6 @@ var __webpack_exports__importAll = __webpack_exports__.s8;
 var __webpack_exports__isFullscreen = __webpack_exports__.rm;
 var __webpack_exports__isJpg = __webpack_exports__.Ns;
 var __webpack_exports__isMp4 = __webpack_exports__.MW;
-var __webpack_exports__isSecure = __webpack_exports__.Bw;
 var __webpack_exports__isVideoFullscreen = __webpack_exports__.IZ;
 var __webpack_exports__placehold = __webpack_exports__.CU;
 var __webpack_exports__retainFormat = __webpack_exports__.jW;
@@ -4399,4 +4388,4 @@ var __webpack_exports__stripCloudinaryUrl = __webpack_exports__.GL;
 var __webpack_exports__toggleFullscreen = __webpack_exports__.V9;
 var __webpack_exports__withSpecialtyTag = __webpack_exports__.lW;
 var __webpack_exports__withoutSpecialtyTag = __webpack_exports__.VQ;
-export { __webpack_exports__asJpg as asJpg, __webpack_exports__asMp4 as asMp4, __webpack_exports__base64GifToSrc as base64GifToSrc, __webpack_exports__buildSources as buildSources, __webpack_exports__filterAssetsByTags as filterAssetsByTags, __webpack_exports__findAssetByTags as findAssetByTags, __webpack_exports__findImageByTags as findImageByTags, __webpack_exports__findImagesByTags as findImagesByTags, __webpack_exports__findVideoByTags as findVideoByTags, __webpack_exports__findVideosByTags as findVideosByTags, __webpack_exports__getAssetCoverSize as getAssetCoverSize, __webpack_exports__getBgImages as getBgImages, __webpack_exports__getCloudinaryUrl as getCloudinaryUrl, __webpack_exports__getCloudinaryVersion as getCloudinaryVersion, __webpack_exports__getImageDimensions as getImageDimensions, __webpack_exports__getOptimizedVideo as getOptimizedVideo, __webpack_exports__getVideoPlaceholder as getVideoPlaceholder, __webpack_exports__getVideoPoster as getVideoPoster, __webpack_exports__getVideoThumb as getVideoThumb, __webpack_exports__hexToRgb as hexToRgb, __webpack_exports__importAll as importAll, __webpack_exports__isFullscreen as isFullscreen, __webpack_exports__isJpg as isJpg, __webpack_exports__isMp4 as isMp4, __webpack_exports__isSecure as isSecure, __webpack_exports__isVideoFullscreen as isVideoFullscreen, __webpack_exports__placehold as placehold, __webpack_exports__retainFormat as retainFormat, __webpack_exports__rgbToHex as rgbToHex, __webpack_exports__safePause as safePause, __webpack_exports__safePlay as safePlay, __webpack_exports__sslUrl as sslUrl, __webpack_exports__stripCloudinaryUrl as stripCloudinaryUrl, __webpack_exports__toggleFullscreen as toggleFullscreen, __webpack_exports__withSpecialtyTag as withSpecialtyTag, __webpack_exports__withoutSpecialtyTag as withoutSpecialtyTag };
+export { __webpack_exports__asJpg as asJpg, __webpack_exports__asMp4 as asMp4, __webpack_exports__base64GifToSrc as base64GifToSrc, __webpack_exports__buildSources as buildSources, __webpack_exports__filterAssetsByTags as filterAssetsByTags, __webpack_exports__findAssetByTags as findAssetByTags, __webpack_exports__findImageByTags as findImageByTags, __webpack_exports__findImagesByTags as findImagesByTags, __webpack_exports__findVideoByTags as findVideoByTags, __webpack_exports__findVideosByTags as findVideosByTags, __webpack_exports__getAssetCoverSize as getAssetCoverSize, __webpack_exports__getBgImages as getBgImages, __webpack_exports__getCloudinaryUrl as getCloudinaryUrl, __webpack_exports__getCloudinaryVersion as getCloudinaryVersion, __webpack_exports__getImageDimensions as getImageDimensions, __webpack_exports__getOptimizedVideo as getOptimizedVideo, __webpack_exports__getVideoPlaceholder as getVideoPlaceholder, __webpack_exports__getVideoPoster as getVideoPoster, __webpack_exports__getVideoThumb as getVideoThumb, __webpack_exports__hexToRgb as hexToRgb, __webpack_exports__importAll as importAll, __webpack_exports__isFullscreen as isFullscreen, __webpack_exports__isJpg as isJpg, __webpack_exports__isMp4 as isMp4, __webpack_exports__isVideoFullscreen as isVideoFullscreen, __webpack_exports__placehold as placehold, __webpack_exports__retainFormat as retainFormat, __webpack_exports__rgbToHex as rgbToHex, __webpack_exports__safePause as safePause, __webpack_exports__safePlay as safePlay, __webpack_exports__sslUrl as sslUrl, __webpack_exports__stripCloudinaryUrl as stripCloudinaryUrl, __webpack_exports__toggleFullscreen as toggleFullscreen, __webpack_exports__withSpecialtyTag as withSpecialtyTag, __webpack_exports__withoutSpecialtyTag as withoutSpecialtyTag };

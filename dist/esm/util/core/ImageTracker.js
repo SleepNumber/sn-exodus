@@ -503,10 +503,8 @@ __webpack_require__.d(__webpack_exports__, {
   eO: () => (/* binding */ getBgImages)
 });
 
-// UNUSED EXPORTS: asJpg, asMp4, base64GifToSrc, buildSources, filterAssetsByTags, findAssetByTags, findImageByTags, findImagesByTags, findVideoByTags, findVideosByTags, getAssetCoverSize, getCloudinaryUrl, getCloudinaryVersion, getImageDimensions, getOptimizedVideo, getVideoPlaceholder, getVideoPoster, getVideoThumb, hexToRgb, importAll, isFullscreen, isJpg, isMp4, isSecure, isVideoFullscreen, placehold, retainFormat, rgbToHex, safePause, safePlay, sslUrl, stripCloudinaryUrl, toggleFullscreen, withSpecialtyTag, withoutSpecialtyTag
+// UNUSED EXPORTS: asJpg, asMp4, base64GifToSrc, buildSources, filterAssetsByTags, findAssetByTags, findImageByTags, findImagesByTags, findVideoByTags, findVideosByTags, getAssetCoverSize, getCloudinaryUrl, getCloudinaryVersion, getImageDimensions, getOptimizedVideo, getVideoPlaceholder, getVideoPoster, getVideoThumb, hexToRgb, importAll, isFullscreen, isJpg, isMp4, isVideoFullscreen, placehold, retainFormat, rgbToHex, safePause, safePlay, sslUrl, stripCloudinaryUrl, toggleFullscreen, withSpecialtyTag, withoutSpecialtyTag
 
-// EXTERNAL MODULE: external "browser-or-node"
-var external_browser_or_node_ = __webpack_require__(192);
 ;// CONCATENATED MODULE: ./src/videos/placeholder-black-10s.mp4
 const placeholder_black_10s_namespaceObject = "/dist/videos/placeholder-black-10s-23b41dc17cf05e907ef2.mp4";
 // EXTERNAL MODULE: ./src/util/core/logger.js
@@ -519,13 +517,9 @@ var array = __webpack_require__(276);
 var string = __webpack_require__(203);
 // EXTERNAL MODULE: ./src/util/core/device.js
 var device = __webpack_require__(109);
-// EXTERNAL MODULE: ./src/util/core/constants.js
-var constants = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/util/core/tags.js
 var tags = __webpack_require__(567);
 ;// CONCATENATED MODULE: ./src/util/core/assets.js
-
-
 
 
 
@@ -566,7 +560,6 @@ function withoutSpecialtyTag(_ref2) {
   } = _ref2;
   return !tags.includes(Tag.flextop) && !tags.includes(Tag.split);
 }
-const isSecure = (constants/* win */.p_ || window).location.protocol === 'https:';
 const placehold = {
   image: 'https://via.placeholder.com/150',
   video: placeholder_black_10s_namespaceObject
@@ -588,8 +581,7 @@ function asJpg(url) {
 }
 function sslUrl(url) {
   if (!url) return url;
-  if (isSecure) return url.replace(/http:/gi, 'https:');
-  return url;
+  return url.replace(/http:/gi, 'https:');
 }
 
 /**
@@ -600,12 +592,6 @@ function sslUrl(url) {
 function retainFormat(asset) {
   return asset.replace(/\/f_auto,/, '/').replace(/,f_auto/, '');
 }
-const sn_globals = (constants/* win */.p_ || window)?.sn_globals || {
-  config: {}
-};
-const buildNumber = sn_globals?.config?.buildNumber ||
-// Today's date, "20190712"
-new Date().toJSON().slice(0, 10).replace(/-/g, '');
 
 /**
  * Converts `rgb(0, 153, 51)` to `#009933`.
@@ -660,12 +646,17 @@ function getTransformations() {
 }
 
 /**
- *
- * @returns Cloudinary asset version string e.g. v1607021429
+ * Build a cloudinary asset version with current year, month, day.
+ * See https://support.cloudinary.com/hc/en-us/articles/202520912-What-are-image-versions
+ * See https://cloudinary.com/documentation/advanced_url_delivery_options#asset_versions
+ * @returns {string} - the cloudinary version string, e.g. 'v20231126'
  */
 function getCloudinaryVersion() {
-  const buildDigits = buildNumber.replace(/\D/g, '');
-  return buildDigits ? `v${buildDigits}` : '';
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
+  const day = today.getDate();
+  return `v${year}${month}${day}`;
 }
 
 /**
@@ -673,28 +664,32 @@ function getCloudinaryVersion() {
  * the correct cloudinary instance.
  * @param {string} url - the url to transform
  * @param {'image'|'video'} type - One of {'image'|'video'}
- * @returns {string | null} cloudinaryUrl
+ * @param {'prod'|'qa'|'staging'|'local'} env - the build environment
+ * @returns {string}
  */
-function getCloudinaryUrl(url) {
-  let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'image';
-  if (!isBrowser || !url || isDevelopment() || url.includes('cloudinary.com') || url.includes('cdn.sleepnumber.com')) {
-    return sslUrl(url);
-  }
-
-  // Convert this to a cloudinary upload url.
-  const origin = (win || window).location.origin;
-  const fullUrl = new URL(url, origin);
-  const path = fullUrl.pathname;
-  const isSvg = fullUrl.pathname.search(/\.svg$/g) > -1;
-  const transformations = getTransformations(isSvg ? 'svg' : type);
-  const domain = 'https://res.cloudinary.com/';
-  let cloudName = 'sleepnumber';
-  if (origin === qaUrl) cloudName = 'snbr-qa';
-  if (origin === stageUrl) cloudName = 'snbr-stg';
-  if (origin === localUrl) cloudName = 'snbr-local';
-  const config = `/${type}/upload/${transformations}/${getCloudinaryVersion()}/uploads`;
-  const result = domain + cloudName + config + path;
-  return result;
+function getCloudinaryUrl(_ref3) {
+  let {
+    url = '',
+    type = 'image',
+    env = 'prod'
+  } = _ref3;
+  const local = env === 'local';
+  const done = url.includes('cloudinary') || url.includes('cdn.sleepnumber');
+  if (!url || local || done) return sslUrl(url);
+  const clouds = {
+    local: 'snbr-local',
+    qa: 'snbr-qa',
+    staging: 'snbr-stg',
+    prod: 'sleepnumber'
+  };
+  const cloud = clouds[env] || clouds.prod;
+  const uploadMapping = url.includes('_dist') ? 'uploads-remix' : 'uploads';
+  const path = new URL(url, 'https://f.com').pathname;
+  const isSvg = path.search(/\.svg$/g) > -1;
+  const trans = getTransformations(isSvg ? 'svg' : type);
+  const version = getCloudinaryVersion();
+  const config = `${type}/upload/${trans}/${version}/${uploadMapping}`;
+  return `https://res.cloudinary.com/${cloud}/${config}${path}`;
 }
 
 /**
@@ -900,12 +895,12 @@ function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
 
   // Prepare URL to add our own transforms and file ext
   const strippedUrl = stripCloudinaryUrl(videoUrl);
-  const sources = formats.map(_ref3 => {
+  const sources = formats.map(_ref4 => {
     let {
       codecTransform,
       container,
       codec
-    } = _ref3;
+    } = _ref4;
     const formatTransform = `f_${container}`;
     const transformString = [...transforms, codecTransform, formatTransform].join(',');
     const transformUrl = strippedUrl.replace('video/upload', `video/upload/${transformString}`);
