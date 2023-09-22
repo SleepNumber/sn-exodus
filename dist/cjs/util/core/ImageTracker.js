@@ -685,7 +685,7 @@ function getCloudinaryUrl(_ref3) {
     prod: 'sleepnumber'
   };
   const cloud = clouds[env] || clouds.prod;
-  const uploadMapping = url.includes('_dist') ? 'uploads-remix' : 'uploads';
+  const uploadMapping = url.includes('_assets') ? 'uploads-remix' : 'uploads';
   const path = new URL(url, 'https://f.com').pathname;
   const isSvg = path.search(/\.svg$/g) > -1;
   const trans = getTransformations(isSvg ? 'svg' : type);

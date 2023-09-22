@@ -1,4 +1,3 @@
-import * as moduleConstants from './constants';
 import {
   getAssetCoverSize,
   getCloudinaryUrl,
@@ -13,6 +12,7 @@ import {
   updateCloudinaryTransforms,
 } from '../vendor/cloudinary';
 
+const cdn = `https://res.cloudinary.com`;
 const clouds = {
   qa: 'snbr-qa',
   staging: 'snbr-stg',
@@ -33,7 +33,7 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
   test('QA', async () => {
     const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg', env: 'qa' });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${clouds.qa}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
+      `${cdn}/${clouds.qa}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
   });
 
@@ -43,7 +43,7 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
       env: 'staging',
     });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${clouds.staging}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
+      `${cdn}/${clouds.staging}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
   });
 
@@ -53,8 +53,17 @@ describe('getCloudinaryUrl generates proper URLs for each environment', () => {
       env: 'prod',
     });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${clouds.prod}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
+      `${cdn}/${clouds.prod}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
+  });
+
+  test('uses correct upload mapping for remix', async () => {
+    const config = 'image/upload/f_auto,q_auto:eco';
+    const path = `/build/_assets/full_width_DT_Lightbox_m7_45_2x-276WKUGS.jpg`;
+    const url = getCloudinaryUrl({ url: path, env: 'prod' });
+
+    const expected = `${cdn}/${clouds.prod}/${config}/${version}/uploads-remix${path}`;
+    expect(url).toEqual(expected);
   });
 });
 
