@@ -1,5 +1,3 @@
-import { isBrowser } from 'browser-or-node';
-
 import phVideo from '~/videos/placeholder-black-10s.mp4';
 import {
   setCloudinaryTransforms,
@@ -11,7 +9,6 @@ import { getElement } from './element';
 import { includesAll, includesAny } from './array';
 import { isString } from './string';
 import { Breakpoint as BP } from './device';
-import { isDevelopment, localUrl, qaUrl, stageUrl, win } from './constants';
 import { isFunc, noop } from './function';
 import MediaSource from './MediaSource';
 import ProductAsset from './ProductAsset';
@@ -40,8 +37,6 @@ export function withoutSpecialtyTag({ tags = [] }) {
   return !tags.includes(Tag.flextop) && !tags.includes(Tag.split);
 }
 
-export const isSecure = (win || window).location.protocol === 'https:';
-
 export const placehold = {
   image: 'https://via.placeholder.com/150',
   video: phVideo,
@@ -68,9 +63,7 @@ export function asJpg(url) {
 
 export function sslUrl(url) {
   if (!url) return url;
-
-  if (isSecure) return url.replace(/http:/gi, 'https:');
-  return url;
+  return url.replace(/http:/gi, 'https:');
 }
 
 /**
@@ -81,12 +74,6 @@ export function sslUrl(url) {
 export function retainFormat(asset) {
   return asset.replace(/\/f_auto,/, '/').replace(/,f_auto/, '');
 }
-
-const sn_globals = (win || window)?.sn_globals || { config: {} };
-const buildNumber =
-  sn_globals?.config?.buildNumber ||
-  // Today's date, "20190712"
-  new Date().toJSON().slice(0, 10).replace(/-/g, '');
 
 /**
  * Converts `rgb(0, 153, 51)` to `#009933`.
@@ -142,12 +129,17 @@ function getTransformations(type = 'image') {
 }
 
 /**
- *
- * @returns Cloudinary asset version string e.g. v1607021429
+ * Build a cloudinary asset version with current year, month, day.
+ * See https://support.cloudinary.com/hc/en-us/articles/202520912-What-are-image-versions
+ * See https://cloudinary.com/documentation/advanced_url_delivery_options#asset_versions
+ * @returns {string} - the cloudinary version string, e.g. 'v20231126'
  */
 export function getCloudinaryVersion() {
-  const buildDigits = buildNumber.replace(/\D/g, '');
-  return buildDigits ? `v${buildDigits}` : '';
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
+  const day = today.getDate();
+  return `v${year}${month}${day}`;
 }
 
 /**
@@ -155,37 +147,31 @@ export function getCloudinaryVersion() {
  * the correct cloudinary instance.
  * @param {string} url - the url to transform
  * @param {'image'|'video'} type - One of {'image'|'video'}
- * @returns {string | null} cloudinaryUrl
+ * @param {'prod'|'qa'|'staging'|'local'} env - the build environment
+ * @returns {string}
  */
-export function getCloudinaryUrl( url, type = 'image' ) {
-  if (
-    !isBrowser ||
-    !url ||
-    isDevelopment() ||
-    url.includes('cloudinary.com') ||
-    url.includes('cdn.sleepnumber.com')
-  ) {
-    return sslUrl(url);
-  }
+export function getCloudinaryUrl({ url = '', type = 'image', env = 'prod' }) {
+  const local = env === 'local';
+  const done = url.includes('cloudinary') || url.includes('cdn.sleepnumber');
+  if (!url || local || done) return sslUrl(url);
 
-  // Convert this to a cloudinary upload url.
-  const origin = (win || window).location.origin;
+  const clouds = {
+    local: 'snbr-local',
+    qa: 'snbr-qa',
+    staging: 'snbr-stg',
+    prod: 'sleepnumber',
+  };
+  const cloud = clouds[env] || clouds.prod;
 
-  const fullUrl = new URL(url, origin);
-  const path = fullUrl.pathname;
-  const isSvg = fullUrl.pathname.search(/\.svg$/g) > -1;
-  const transformations = getTransformations(isSvg ? 'svg' : type);
-  const domain = 'https://res.cloudinary.com/';
+  const uploadMapping = url.includes('_dist') ? 'uploads-remix' : 'uploads';
 
-  let cloudName = 'sleepnumber';
-  if (origin === qaUrl) cloudName = 'snbr-qa';
-  if (origin === stageUrl) cloudName = 'snbr-stg';
-  if (origin === localUrl) cloudName = 'snbr-local';
+  const path = new URL(url, 'https://f.com').pathname;
+  const isSvg = path.search(/\.svg$/g) > -1;
+  const trans = getTransformations(isSvg ? 'svg' : type);
+  const version = getCloudinaryVersion();
+  const config = `${type}/upload/${trans}/${version}/${uploadMapping}`;
 
-  const config = `/${type}/upload/${transformations}/${getCloudinaryVersion()}/uploads`;
-  const result = domain + cloudName + config + path;
-
-  return result;
+  return `https://res.cloudinary.com/${cloud}/${config}${path}`;
 }
 
 /**

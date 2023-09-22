@@ -13,62 +13,47 @@ import {
   updateCloudinaryTransforms,
 } from '../vendor/cloudinary';
 
-const CLOUD_NAMES = {
+const clouds = {
   qa: 'snbr-qa',
   staging: 'snbr-stg',
   prod: 'sleepnumber',
 };
 
+const version = getCloudinaryVersion();
+
 describe('getCloudinaryUrl generates proper URLs for each environment', () => {
-  beforeEach(() => {
-    delete window.location; // Let us set our own location
-  });
-
-  afterEach(() => {
-    vi.restoreAllMocks();
-  });
-
   test('Local', async () => {
-    window.location = new URL('https://sleepnumber.test');
-    vi.spyOn(moduleConstants, 'isDevelopment').mockImplementationOnce(
-      () => true
-    );
-
-    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
+    const url = getCloudinaryUrl({
+      url: '/dist/images/foobar.jpg',
+      env: 'local',
+    });
     expect(url).toEqual('/dist/images/foobar.jpg');
   });
 
   test('QA', async () => {
-    window.location = new URL('https://qa.sleepnumber.com');
-
-    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
+    const url = getCloudinaryUrl({ url: '/dist/images/foobar.jpg', env: 'qa' });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${
-        CLOUD_NAMES.qa
-      }/image/upload/f_auto,q_auto:eco/${getCloudinaryVersion()}/uploads/dist/images/foobar.jpg`
+      `https://res.cloudinary.com/${clouds.qa}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
   });
 
   test('Staging', async () => {
-    window.location = new URL('https://staging.sleepnumber.com');
-    window.sn_globals.config.wa_env = 'staging';
-
-    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
+    const url = getCloudinaryUrl({
+      url: '/dist/images/foobar.jpg',
+      env: 'staging',
+    });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${
-        CLOUD_NAMES.staging
-      }/image/upload/f_auto,q_auto:eco/${getCloudinaryVersion()}/uploads/dist/images/foobar.jpg`
+      `https://res.cloudinary.com/${clouds.staging}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
   });
 
   test('Production', async () => {
-    window.location = new URL('https://www.sleepnumber.com');
-
-    const url = getCloudinaryUrl('/dist/images/foobar.jpg');
+    const url = getCloudinaryUrl({
+      url: '/dist/images/foobar.jpg',
+      env: 'prod',
+    });
     expect(url).toEqual(
-      `https://res.cloudinary.com/${
-        CLOUD_NAMES.prod
-      }/image/upload/f_auto,q_auto:eco/${getCloudinaryVersion()}/uploads/dist/images/foobar.jpg`
+      `https://res.cloudinary.com/${clouds.prod}/image/upload/f_auto,q_auto:eco/${version}/uploads/dist/images/foobar.jpg`
     );
   });
 });
