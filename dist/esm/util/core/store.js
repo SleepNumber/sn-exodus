@@ -43,6 +43,75 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 
 /***/ }),
 
+/***/ 292:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
+/**
+ * Deferred api for promises.
+ * Replaces $.Deferred()
+ */
+
+class Deferred {
+  // # denotes private fields
+  // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+  #state;
+  constructor() {
+    this.#state = 'pending';
+    this.p = new Promise((resolve, reject) => {
+      this.resolver = resolve;
+      this.rejector = reject;
+    });
+  }
+  state() {
+    return this.#state;
+  }
+  resolve() {
+    this.resolver(...arguments);
+    this.#state = 'resolved';
+    return this;
+  }
+  reject() {
+    this.rejector(...arguments);
+    this.#state = 'rejected';
+    return this;
+  }
+  promise() {
+    return this.p;
+  }
+  done(cb) {
+    this.p.then(cb, () => {});
+    return this;
+  }
+  then() {
+    this.p.then(...arguments);
+    return this;
+  }
+  fail() {
+    this.p.catch(...arguments);
+    return this;
+  }
+  catch() {
+    this.p.catch(...arguments);
+    return this;
+  }
+  always() {
+    this.p.finally(...arguments);
+    return this;
+  }
+  finally() {
+    this.p.finally(...arguments);
+    return this;
+  }
+}
+(0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.dfd', Deferred);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Deferred);
+
+/***/ }),
+
 /***/ 276:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1661,13 +1730,14 @@ function createChainedFunction() {
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(981);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
 /* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
 /* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(997);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(192);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(292);
 /**
  * A simple pub/sub module.
  * @see http://davidwalsh.name/pubsub-javascript
@@ -1680,13 +1750,22 @@ function createChainedFunction() {
 
 
 
+
 const win = browser_or_node__WEBPACK_IMPORTED_MODULE_4__.isBrowser ? window : __webpack_require__.g;
-let topics = win?.sn__hub;
-if (!topics) {
+
+/**
+ * This is the hub state, mapping topics to their listeners.
+ * We use a window (or global) field so that no matter how many hubs instances
+ * have been created, there is only one topic-listener dictionary.
+ *
+ * @type {{ string: Function[] }}
+ */
+let TOPIC_LISTENERS = win?.sn__hub;
+if (!TOPIC_LISTENERS) {
   win.sn__hub = {};
-  topics = win.sn__hub;
+  TOPIC_LISTENERS = win.sn__hub;
 }
-const hop = topics.hasOwnProperty;
+const hop = TOPIC_LISTENERS.hasOwnProperty;
 
 /**
  * Log a notification for a topic publication.
@@ -1699,7 +1778,7 @@ function log(topic, listeners, data) {
   const hasData = typeof data !== 'undefined';
   if (hasData) notif += ' with data:';
   const grouper = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
-  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_5__/* .noop */ .ZT;
+  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_6__/* .noop */ .ZT;
   const consoleStyles = [`${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.strong}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`];
   grouper.apply(console, [notif, ...consoleStyles]);
   if (hasData) _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(data);
@@ -1718,15 +1797,15 @@ function log(topic, listeners, data) {
  */
 function sub(topic, listener) {
   // Create the topic's object if not yet created
-  if (!hop.call(topics, topic)) topics[topic] = [];
+  if (!hop.call(TOPIC_LISTENERS, topic)) TOPIC_LISTENERS[topic] = [];
 
   // Add the listener to topic's listener queue
-  const index = topics[topic].push(listener) - 1;
+  const index = TOPIC_LISTENERS[topic].push(listener) - 1;
 
   // Provide handle back for removal of a topic listener
   return {
     remove: () => {
-      delete topics[topic][index];
+      delete TOPIC_LISTENERS[topic][index];
     }
   };
 }
@@ -1739,10 +1818,10 @@ function sub(topic, listener) {
  */
 function pub(topic, data) {
   // If the topic doesn't exist or it has no listeners in queue, just leave.
-  if (!hop.call(topics, topic)) return;
+  if (!hop.call(TOPIC_LISTENERS, topic)) return;
 
   // Cycle through topics queue, fire!
-  const listeners = topics[topic];
+  const listeners = TOPIC_LISTENERS[topic];
   listeners.forEach(listener => listener(typeof data === 'undefined' ? {} : data));
   const shouldLog = getLogEnabled();
   if (shouldLog) log(topic, listeners.length, data);
@@ -1775,7 +1854,6 @@ function getLogEnabled() {
 }
 const mod = {
   pub,
-  sub,
   toggleLogging: () => {
     const shouldLog = getLogEnabled();
     _cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.set(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled, !shouldLog);
@@ -1809,7 +1887,27 @@ const mod = {
     VIDEO_MODAL_READY: 'modal_video_ready'
   }
 };
-(0,_object__WEBPACK_IMPORTED_MODULE_6__/* .namespace */ .uD)('sn.hub', mod);
+mod.topicDfds = Object.values(mod.topics).reduce((dict, v) => {
+  dict[v] = new _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z();
+  return dict;
+}, {});
+
+/**
+ * Return a promise resolved when the first subscription to a topic has happened.
+ * @param {valueof mod.topics} topic
+ * @return {Promise<function>}
+ */
+mod.onTopicListener = topic => {
+  /** @type {Deferred} */
+  const dfd = mod.topicDfds[topic];
+  return dfd.promise();
+};
+mod.sub = (topic, listener) => {
+  const result = sub(topic, listener);
+  mod.topicDfds[topic]?.resolve(listener);
+  return result;
+};
+(0,_object__WEBPACK_IMPORTED_MODULE_7__/* .namespace */ .uD)('sn.hub', mod);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
 
 /***/ }),

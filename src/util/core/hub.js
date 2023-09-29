@@ -10,16 +10,25 @@ import { noop } from './function';
 import { styles } from './constants';
 import logger from './logger';
 import CookieJar from './cookiejar';
-import { isBrowser } from "browser-or-node";
+import { isBrowser } from 'browser-or-node';
+import Deferred from '~/util/core/Deferred';
 
 const win = isBrowser ? window : global;
-let topics = win?.sn__hub;
-if (!topics) {
+
+/**
+ * This is the hub state, mapping topics to their listeners.
+ * We use a window (or global) field so that no matter how many hubs instances
+ * have been created, there is only one topic-listener dictionary.
+ *
+ * @type {{ string: Function[] }}
+ */
+let TOPIC_LISTENERS = win?.sn__hub;
+if (!TOPIC_LISTENERS) {
   win.sn__hub = {};
-  topics = win.sn__hub;
+  TOPIC_LISTENERS = win.sn__hub;
 }
 
-const hop = topics.hasOwnProperty;
+const hop = TOPIC_LISTENERS.hasOwnProperty;
 
 /**
  * Log a notification for a topic publication.
@@ -59,15 +68,15 @@ function log(topic, listeners, data) {
  */
 function sub(topic, listener) {
   // Create the topic's object if not yet created
-  if (!hop.call(topics, topic)) topics[topic] = [];
+  if (!hop.call(TOPIC_LISTENERS, topic)) TOPIC_LISTENERS[topic] = [];
 
   // Add the listener to topic's listener queue
-  const index = topics[topic].push(listener) - 1;
+  const index = TOPIC_LISTENERS[topic].push(listener) - 1;
 
   // Provide handle back for removal of a topic listener
   return {
     remove: () => {
-      delete topics[topic][index];
+      delete TOPIC_LISTENERS[topic][index];
     },
   };
 }
@@ -80,10 +89,10 @@ function sub(topic, listener) {
  */
 function pub(topic, data) {
   // If the topic doesn't exist or it has no listeners in queue, just leave.
-  if (!hop.call(topics, topic)) return;
+  if (!hop.call(TOPIC_LISTENERS, topic)) return;
 
   // Cycle through topics queue, fire!
-  const listeners = topics[topic];
+  const listeners = TOPIC_LISTENERS[topic];
   listeners.forEach(listener =>
     listener(typeof data === 'undefined' ? {} : data)
   );
@@ -122,7 +131,6 @@ function getLogEnabled() {
 
 const mod = {
   pub,
-  sub,
   toggleLogging: () => {
     const shouldLog = getLogEnabled();
     CookieJar.set(CookieJar.Entry.hub_log_enabled, !shouldLog);
@@ -157,5 +165,28 @@ const mod = {
     VIDEO_MODAL_READY: 'modal_video_ready',
   },
 };
+
+mod.topicDfds = Object.values(mod.topics).reduce((dict, v) => {
+  dict[v] = new Deferred();
+  return dict;
+}, {});
+
+/**
+ * Return a promise resolved when the first subscription to a topic has happened.
+ * @param {valueof mod.topics} topic
+ * @return {Promise<function>}
+ */
+mod.onTopicListener = topic => {
+  /** @type {Deferred} */
+  const dfd = mod.topicDfds[topic];
+  return dfd.promise();
+};
+
+mod.sub = (topic, listener) => {
+  const result = sub(topic, listener);
+  mod.topicDfds[topic]?.resolve(listener);
+  return result;
+};
+
 namespace('sn.hub', mod);
 export default mod;
