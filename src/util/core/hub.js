@@ -73,6 +73,9 @@ function sub(topic, listener) {
   // Add the listener to topic's listener queue
   const index = TOPIC_LISTENERS[topic].push(listener) - 1;
 
+  // We're subbed to and ready to be pubbed to
+  mod.topicDfds[topic]?.resolve(listener);
+
   // Provide handle back for removal of a topic listener
   return {
     remove: () => {
@@ -131,6 +134,7 @@ function getLogEnabled() {
 
 const mod = {
   pub,
+  sub,
   toggleLogging: () => {
     const shouldLog = getLogEnabled();
     CookieJar.set(CookieJar.Entry.hub_log_enabled, !shouldLog);
@@ -180,12 +184,6 @@ mod.onTopicListener = topic => {
   /** @type {Deferred} */
   const dfd = mod.topicDfds[topic];
   return dfd.promise();
-};
-
-mod.sub = (topic, listener) => {
-  const result = sub(topic, listener);
-  mod.topicDfds[topic]?.resolve(listener);
-  return result;
 };
 
 namespace('sn.hub', mod);
