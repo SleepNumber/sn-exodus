@@ -8,6 +8,5 @@ declare namespace mod {
      * @return {Promise<function>}
      */
     function onTopicListener(topic: any): Promise<Function>;
-    function sub(topic: any, listener: any): any;
 }
 //# sourceMappingURL=hub.d.ts.map
