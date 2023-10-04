@@ -1343,10 +1343,15 @@ function getErrorMessage(data) {
   let msg = '';
   if (typeof data === 'string') {
     // First line
-    msg = data.match(/^([^\n]+)\n/g)[0].replace(/\n/g, '');
+    const matches = data.match(/^([^\n]+)\n/g);
+    msg = matches?.[0]?.replace(/\n/g, '') || '';
     msg = `"${msg}"`;
   } else if (typeof data === 'object') {
-    msg = JSON.stringify(data, null, 2);
+    try {
+      msg = JSON.stringify(data, null, 2);
+    } catch (err) {
+      /* ignore */
+    }
   } else {
     msg = String(data);
   }
