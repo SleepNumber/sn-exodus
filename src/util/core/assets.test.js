@@ -11,6 +11,7 @@ import {
   setCloudinaryTransforms,
   updateCloudinaryTransforms,
 } from '../vendor/cloudinary';
+import * as device from '~/util/core/device';
 
 const cdn = `https://res.cloudinary.com`;
 const clouds = {
@@ -135,8 +136,14 @@ describe('util/assets.js', () => {
     ];
 
     const optimized = {
-      desktop: testUrls.map(url => getOptimizedVideo(url, 2000)),
-      mobile: testUrls.map(url => getOptimizedVideo(url, 300)),
+      desktop: testUrls.map(url => {
+        vi.spyOn(device, 'isMobile').mockReturnValueOnce(false);
+        return getOptimizedVideo(url);
+      }),
+      mobile: testUrls.map(url => {
+        vi.spyOn(device, 'isMobile').mockReturnValueOnce(true);
+        return getOptimizedVideo(url);
+      }),
     };
 
     const { desktop, mobile } = expectedOptimizedUrls;

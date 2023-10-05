@@ -8,7 +8,7 @@ import logger from './logger';
 import { getElement } from './element';
 import { includesAll, includesAny } from './array';
 import { isString } from './string';
-import { Breakpoint as BP } from './device';
+import { Breakpoint as BP, isMobile } from './device';
 import { isFunc, noop } from './function';
 import MediaSource from './MediaSource';
 import ProductAsset from './ProductAsset';
@@ -346,15 +346,13 @@ export function stripCloudinaryUrl(videoUrl) {
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
  * @param {String} videoUrl - Cloudinary URL to video
- * @param {Number} width - Used to determine video resolution
  * @param {Boolean} keepOriginalWidth - Don't apply width transformations
  * @return {Array<MediaSource>} Video urls and formats for delivering optimized video
  */
-export function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
+export function getOptimizedVideo(videoUrl, keepOriginalWidth) {
   if (!videoUrl) return null;
   // Use a width already eagerly transformed by the backend
-  const isMobileWidth = width < 768;
-  const transformWidth = isMobileWidth ? 360 : 1920;
+  const transformWidth = isMobile() ? 360 : 1920;
 
   // For descriptions of these transforms see: https://cloudinary.com/documentation/transformation_reference
   const maxWidth = `w_${transformWidth}`;

@@ -121,11 +121,10 @@ export function stripCloudinaryUrl(videoUrl: string): string;
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
  * @param {String} videoUrl - Cloudinary URL to video
- * @param {Number} width - Used to determine video resolution
  * @param {Boolean} keepOriginalWidth - Don't apply width transformations
  * @return {Array<MediaSource>} Video urls and formats for delivering optimized video
  */
-export function getOptimizedVideo(videoUrl: string, width: number, keepOriginalWidth: boolean): Array<MediaSource>;
+export function getOptimizedVideo(videoUrl: string, keepOriginalWidth: boolean): Array<MediaSource>;
 export function isFullscreen(node: any): boolean;
 export function isVideoFullscreen(figure: any, video: any): boolean;
 export function toggleFullscreen(container: any, video: any): boolean;

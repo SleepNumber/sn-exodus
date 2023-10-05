@@ -1129,9 +1129,10 @@ const regex = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Uo: () => (/* binding */ Breakpoint)
+/* harmony export */   Uo: () => (/* binding */ Breakpoint),
+/* harmony export */   tq: () => (/* binding */ isMobile)
 /* harmony export */ });
-/* unused harmony exports isMobile, isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
+/* unused harmony exports isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
@@ -1170,7 +1171,7 @@ class Breakpoint extends _enumify__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ 
  */
 function isMobile(bp) {
   // For now, we assume all ssr output should be for mobile
-  if (!isBrowser) return true;
+  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return true;
   const max = bp || Breakpoint.tb.start;
   const {
     clientWidth
@@ -4092,15 +4093,13 @@ function stripCloudinaryUrl(videoUrl) {
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
  * @param {String} videoUrl - Cloudinary URL to video
- * @param {Number} width - Used to determine video resolution
  * @param {Boolean} keepOriginalWidth - Don't apply width transformations
  * @return {Array<MediaSource>} Video urls and formats for delivering optimized video
  */
-function getOptimizedVideo(videoUrl, width, keepOriginalWidth) {
+function getOptimizedVideo(videoUrl, keepOriginalWidth) {
   if (!videoUrl) return null;
   // Use a width already eagerly transformed by the backend
-  const isMobileWidth = width < 768;
-  const transformWidth = isMobileWidth ? 360 : 1920;
+  const transformWidth = (0,device/* isMobile */.tq)() ? 360 : 1920;
 
   // For descriptions of these transforms see: https://cloudinary.com/documentation/transformation_reference
   const maxWidth = `w_${transformWidth}`;
