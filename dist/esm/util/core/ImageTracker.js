@@ -3681,9 +3681,10 @@ const Tag = {
   new: 'new',
   nextgen: 'nextgen',
   // used on products
-  next_gen_compare: 'next-gen-compare' // used on key features
+  next_gen_compare: 'next-gen-compare',
+  // used on key features
+  quiz: 'quiz'
 };
-
 Object.freeze(Tag);
 
 /**
