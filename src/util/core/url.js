@@ -13,7 +13,11 @@ export function getUrlParam(name, url) {
   return decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
-/** Return true if the query string has the parameter. */
+/**
+ * Return true if the query string has the parameter.
+ * @param {string} name - the parameter name
+ * @param {URL} [url] - the url to check
+ */
 export function hasUrlParam(name, url) {
   const loc = url || win?.location;
   if (!loc) return false;
