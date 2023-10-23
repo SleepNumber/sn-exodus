@@ -1210,7 +1210,11 @@ function getUrlParam(name, url) {
   return decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
-/** Return true if the query string has the parameter. */
+/**
+ * Return true if the query string has the parameter.
+ * @param {string} name - the parameter name
+ * @param {URL} [url] - the url to check
+ */
 function hasUrlParam(name, url) {
   const loc = url || _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.location;
   if (!loc) return false;
