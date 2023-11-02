@@ -46,6 +46,7 @@ declare class Entry extends Enumify {
     static insider: Entry;
     static minicart_last_shown: Entry;
     static page_loads: Entry;
+    static preferred_store: Entry;
     static retargeter_log_enabled: Entry;
     static review_helpful: Entry;
     static review_reported: Entry;

@@ -1530,6 +1530,7 @@ class Entry extends enumify/* default */.ZP {
   static insider = new Entry('insider', undefined, false);
   static minicart_last_shown = new Entry('minicart', 'last_shown', 0);
   static page_loads = new Entry('page', 'loads', [0, 0]);
+  static preferred_store = new Entry('preferred_store', undefined, '');
   static retargeter_log_enabled = new Entry('retargeter', 'log_enabled');
   static review_helpful = new Entry('review', 'helpful', {});
   static review_reported = new Entry('review', 'reported', []);
