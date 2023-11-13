@@ -1885,6 +1885,7 @@ const mod = {
     NAV_TOGGLED: 'nav_toggled',
     NAV_UNPIN_AT: 'nav_unpin_at',
     NAV_SHOW_LEAD_LINK: 'nav_show_lead_link',
+    PREFERRED_STORE: 'preferred_store',
     SESSION_DATA: 'session_data',
     STORE_FINDER: 'storefinder',
     SUBNAV_TAB: 'subnav_tab',
