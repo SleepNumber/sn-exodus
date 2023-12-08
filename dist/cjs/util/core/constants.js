@@ -880,7 +880,8 @@ const attributes = {
   session: {
     mlp: {
       compare: 'mlp_compare_order'
-    }
+    },
+    geo_prompted: 'geo_prompted'
   },
   // window.localStorage fields
   local: {

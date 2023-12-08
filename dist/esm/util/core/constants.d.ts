@@ -21,6 +21,7 @@ export namespace attributes {
         namespace mlp {
             let compare: string;
         }
+        let geo_prompted: string;
     }
     namespace local {
         namespace modals {
