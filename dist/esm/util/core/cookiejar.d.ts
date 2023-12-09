@@ -55,7 +55,6 @@ declare class Entry extends Enumify {
     static selection_size: Entry;
     static selection_color: Entry;
     static sheerid_disable: Entry;
-    static store_log_ignores: Entry;
     static user_email: Entry;
     static user_zip: Entry;
     static user_telephone: Entry;

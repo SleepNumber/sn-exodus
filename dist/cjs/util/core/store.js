@@ -27,6 +27,7 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__["default"] {
   static dynamic_yield_id = new Cookie('_dyid'); // This client cookie must match _dyid_server
   static dynamic_yield_jsession = new Cookie('_dyjsession');
   static id_token = new Cookie('id_token');
+  static log_ignores = new Cookie('sn_log_ignores');
   static price_lists = new Cookie('plid');
   static promo_drawer = new Cookie('promo_drawer');
   static refresh_token = new Cookie('refresh_token');
@@ -995,7 +996,6 @@ class Entry extends enumify["default"] {
   static selection_size = new Entry('selection', 'size', '');
   static selection_color = new Entry('selection', 'color');
   static sheerid_disable = new Entry('sheerid', 'disable');
-  static store_log_ignores = new Entry('store', 'log_ignores', []);
   static user_email = new Entry('email', undefined, '');
   static user_zip = new Entry('postal_code', undefined, '');
   static user_telephone = new Entry('telephone', undefined, '');
@@ -2725,19 +2725,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(981);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(203);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(813);
-/* harmony import */ var _hub__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(564);
-/* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(997);
-/* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(276);
-/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(666);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(168);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(981);
+/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(203);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(813);
+/* harmony import */ var _hub__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(564);
+/* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(276);
+/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(666);
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 /**
  * Module to create data stores and providers.
  */
+
 
 
 
@@ -2780,7 +2783,7 @@ function createStore(blueprint) {
     handle: rootReducer
   } = blueprint;
   const topic = `store.${name}`;
-  const logging = !(0,_constants__WEBPACK_IMPORTED_MODULE_1__.isProduction)() || (0,_constants__WEBPACK_IMPORTED_MODULE_1__.isDebug)();
+  const logging = !(0,_constants__WEBPACK_IMPORTED_MODULE_3__.isProduction)() || (0,_constants__WEBPACK_IMPORTED_MODULE_3__.isDebug)();
   let state = blueprint.getDefaultState();
   let listeners = [];
 
@@ -2809,7 +2812,7 @@ function createStore(blueprint) {
     Object.keys(selectors).forEach(propName => {
       const selector = selectors[propName];
       if (typeof selector === 'string') {
-        props[propName] = (0,_object__WEBPACK_IMPORTED_MODULE_8__.prop)(currentState, selector);
+        props[propName] = (0,_object__WEBPACK_IMPORTED_MODULE_9__.prop)(currentState, selector);
       } else if (typeof selector === 'function') {
         props[propName] = selector(currentState);
       }
@@ -2828,13 +2831,13 @@ function createStore(blueprint) {
     const filters = getLogIgnores();
     const shouldLog = logging && !filters.includes(name);
     if (shouldLog) {
-      const canGroup = _logger__WEBPACK_IMPORTED_MODULE_3__["default"].groupCollapsed !== _function__WEBPACK_IMPORTED_MODULE_9__.noop;
-      const time = _format__WEBPACK_IMPORTED_MODULE_7__.format.date(new Date(), _format__WEBPACK_IMPORTED_MODULE_7__.formats.time.PRECISE);
-      const grouper = canGroup ? _logger__WEBPACK_IMPORTED_MODULE_3__["default"].groupCollapsed : _logger__WEBPACK_IMPORTED_MODULE_3__["default"].info;
+      const canGroup = _logger__WEBPACK_IMPORTED_MODULE_5__["default"].groupCollapsed !== _function__WEBPACK_IMPORTED_MODULE_10__.noop;
+      const time = _format__WEBPACK_IMPORTED_MODULE_8__.format.date(new Date(), _format__WEBPACK_IMPORTED_MODULE_8__.formats.time.PRECISE);
+      const grouper = canGroup ? _logger__WEBPACK_IMPORTED_MODULE_5__["default"].groupCollapsed : _logger__WEBPACK_IMPORTED_MODULE_5__["default"].info;
       const type = multi ? action.map(a => a.type).join(', ') : action.type;
-      grouper.apply(_logger__WEBPACK_IMPORTED_MODULE_3__["default"], [`${time} %cstore: %c${name} %caction${multi ? 's' : ''}: %c${type}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`]);
-      _logger__WEBPACK_IMPORTED_MODULE_3__["default"].info('%cBefore', `${_constants__WEBPACK_IMPORTED_MODULE_1__.css.gray}`, state);
-      _logger__WEBPACK_IMPORTED_MODULE_3__["default"].info(`%cAction${multi ? 's' : ''}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.css.blue}`, action);
+      grouper.apply(_logger__WEBPACK_IMPORTED_MODULE_5__["default"], [`${time} %cstore: %c${name} %caction${multi ? 's' : ''}: %c${type}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.value}`]);
+      _logger__WEBPACK_IMPORTED_MODULE_5__["default"].info('%cBefore', `${_constants__WEBPACK_IMPORTED_MODULE_3__.css.gray}`, state);
+      _logger__WEBPACK_IMPORTED_MODULE_5__["default"].info(`%cAction${multi ? 's' : ''}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.css.blue}`, action);
     }
     if (multi) {
       if (!action.length) return;
@@ -2845,11 +2848,11 @@ function createStore(blueprint) {
       state = rootReducer(state, action);
     }
     if (shouldLog) {
-      _logger__WEBPACK_IMPORTED_MODULE_3__["default"].info('%cAfter', `${_constants__WEBPACK_IMPORTED_MODULE_1__.css.green}`, state);
-      _logger__WEBPACK_IMPORTED_MODULE_3__["default"].groupEnd();
+      _logger__WEBPACK_IMPORTED_MODULE_5__["default"].info('%cAfter', `${_constants__WEBPACK_IMPORTED_MODULE_3__.css.green}`, state);
+      _logger__WEBPACK_IMPORTED_MODULE_5__["default"].groupEnd();
     }
     listeners.forEach(listener => listener());
-    _hub__WEBPACK_IMPORTED_MODULE_4__["default"].pub(topic, action);
+    _hub__WEBPACK_IMPORTED_MODULE_6__["default"].pub(topic, action);
   }
 
   /**
@@ -2958,7 +2961,7 @@ function createProvider(blueprint) {
       ...rest
     } = _ref;
     const [, pulse] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
-    (0,_hub__WEBPACK_IMPORTED_MODULE_4__.useSubscription)(store.topic, () => pulse((0,_string__WEBPACK_IMPORTED_MODULE_2__.uuid)()));
+    (0,_hub__WEBPACK_IMPORTED_MODULE_6__.useSubscription)(store.topic, () => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__.uuid)()));
     const state = store.getState();
     const value = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => ({
       state,
@@ -2982,7 +2985,7 @@ function providerError(name) {
  * @return {*|*[]}
  */
 function getLogIgnores() {
-  return _cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].get(_cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].Entry.store_log_ignores);
+  return JSON.parse(js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores) || '[]');
 }
 
 /**
@@ -2993,7 +2996,7 @@ function ignore(store) {
   const filters = getLogIgnores();
   if (!filters.includes(store)) {
     filters.push(store);
-    _cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].set(_cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].Entry.store_log_ignores, filters);
+    js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores, JSON.stringify(filters));
   }
   return getLogIgnores();
 }
@@ -3004,11 +3007,11 @@ function ignore(store) {
  */
 function unignore(store) {
   const filters = getLogIgnores();
-  _array__WEBPACK_IMPORTED_MODULE_6__.arrays.remove(filters, s => s === store);
-  _cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].set(_cookiejar__WEBPACK_IMPORTED_MODULE_5__["default"].Entry.store_log_ignores, filters);
+  _array__WEBPACK_IMPORTED_MODULE_7__.arrays.remove(filters, s => s === store);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores, JSON.stringify(filters));
   return getLogIgnores();
 }
-(0,_object__WEBPACK_IMPORTED_MODULE_8__.namespace)('sn.store', {
+(0,_object__WEBPACK_IMPORTED_MODULE_9__.namespace)('sn.store', {
   getLogIgnores,
   ignore,
   unignore,

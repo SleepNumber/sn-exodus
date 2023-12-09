@@ -16,6 +16,7 @@ class Cookie extends Enumify {
   static dynamic_yield_id = new Cookie('_dyid'); // This client cookie must match _dyid_server
   static dynamic_yield_jsession = new Cookie('_dyjsession');
   static id_token = new Cookie('id_token');
+  static log_ignores = new Cookie('sn_log_ignores');
   static price_lists = new Cookie('plid');
   static promo_drawer = new Cookie('promo_drawer');
   static refresh_token = new Cookie('refresh_token');

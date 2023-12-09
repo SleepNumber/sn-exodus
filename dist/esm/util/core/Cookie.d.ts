@@ -15,6 +15,7 @@ declare class Cookie extends Enumify {
     static dynamic_yield_id: Cookie;
     static dynamic_yield_jsession: Cookie;
     static id_token: Cookie;
+    static log_ignores: Cookie;
     static price_lists: Cookie;
     static promo_drawer: Cookie;
     static refresh_token: Cookie;

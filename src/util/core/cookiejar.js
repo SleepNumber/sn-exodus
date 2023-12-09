@@ -30,7 +30,6 @@ class Entry extends Enumify {
   static selection_size = new Entry('selection', 'size', '');
   static selection_color = new Entry('selection', 'color');
   static sheerid_disable = new Entry('sheerid', 'disable');
-  static store_log_ignores = new Entry('store', 'log_ignores', []);
   static user_email = new Entry('email', undefined, '');
   static user_zip = new Entry('postal_code', undefined, '');
   static user_telephone = new Entry('telephone', undefined, '');

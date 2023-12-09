@@ -3,19 +3,15 @@
  */
 
 import React, { useMemo, useState } from 'react';
+import Cookies from 'js-cookie';
+import Cookie from './Cookie';
 
-import {
-  styles,
-  css,
-  isDebug,
-  isProduction,
-} from './constants';
+import { styles, css, isDebug, isProduction } from './constants';
 import { namespace, prop } from './object';
 import { noop } from './function';
 import { uuid } from './string';
 import logger from './logger';
 import hub, { useSubscription } from './hub';
-import CookieJar from './cookiejar';
 import { arrays } from './array';
 import { format, formats } from './format';
 
@@ -263,7 +259,7 @@ export function providerError(name) {
  * @return {*|*[]}
  */
 function getLogIgnores() {
-  return CookieJar.get(CookieJar.Entry.store_log_ignores);
+  return JSON.parse(Cookies.get(Cookie.log_ignores) || '[]');
 }
 
 /**
@@ -275,7 +271,7 @@ function ignore(store) {
 
   if (!filters.includes(store)) {
     filters.push(store);
-    CookieJar.set(CookieJar.Entry.store_log_ignores, filters);
+    Cookies.set(Cookie.log_ignores, JSON.stringify(filters));
   }
 
   return getLogIgnores();
@@ -288,7 +284,7 @@ function ignore(store) {
 function unignore(store) {
   const filters = getLogIgnores();
   arrays.remove(filters, s => s === store);
-  CookieJar.set(CookieJar.Entry.store_log_ignores, filters);
+  Cookies.set(Cookie.log_ignores, JSON.stringify(filters));
   return getLogIgnores();
 }
 

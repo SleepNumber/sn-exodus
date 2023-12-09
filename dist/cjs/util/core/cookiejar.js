@@ -27,6 +27,7 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__["default"] {
   static dynamic_yield_id = new Cookie('_dyid'); // This client cookie must match _dyid_server
   static dynamic_yield_jsession = new Cookie('_dyjsession');
   static id_token = new Cookie('id_token');
+  static log_ignores = new Cookie('sn_log_ignores');
   static price_lists = new Cookie('plid');
   static promo_drawer = new Cookie('promo_drawer');
   static refresh_token = new Cookie('refresh_token');
@@ -1555,7 +1556,6 @@ class Entry extends enumify["default"] {
   static selection_size = new Entry('selection', 'size', '');
   static selection_color = new Entry('selection', 'color');
   static sheerid_disable = new Entry('sheerid', 'disable');
-  static store_log_ignores = new Entry('store', 'log_ignores', []);
   static user_email = new Entry('email', undefined, '');
   static user_zip = new Entry('postal_code', undefined, '');
   static user_telephone = new Entry('telephone', undefined, '');
