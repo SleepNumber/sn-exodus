@@ -1,3 +1,4 @@
+import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
 /******/ var __webpack_modules__ = ({
 
 /***/ 829:
@@ -56,10 +57,12 @@ function enumEntryOrNull(Enum, key) {
 
 /***/ }),
 
-/***/ 192:
-/***/ ((module) => {
+/***/ 154:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = require("browser-or-node");
+var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
+var y = x => () => x
+module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
 
 /***/ })
 
@@ -90,18 +93,6 @@ module.exports = require("browser-or-node");
 /******/ }
 /******/ 
 /************************************************************************/
-/******/ /* webpack/runtime/compat get default export */
-/******/ (() => {
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = (module) => {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			() => (module['default']) :
-/******/ 			() => (module);
-/******/ 		__webpack_require__.d(getter, { a: getter });
-/******/ 		return getter;
-/******/ 	};
-/******/ })();
-/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -140,8 +131,7 @@ var __webpack_exports__ = {};
 /* harmony export */   vU: () => (/* binding */ isFirefox),
 /* harmony export */   w1: () => (/* binding */ isIE)
 /* harmony export */ });
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
 
 
