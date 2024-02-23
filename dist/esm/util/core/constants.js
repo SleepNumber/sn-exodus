@@ -1,5 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -671,21 +669,17 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -716,6 +710,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -790,8 +796,10 @@ var __webpack_exports__ = {};
 /* harmony export */   yY: () => (/* binding */ USER_SEGMENT),
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -839,12 +847,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });

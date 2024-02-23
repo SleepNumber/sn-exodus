@@ -1,7 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_react__ from "react";
-import * as __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__ from "prop-types";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -52,8 +48,10 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -101,12 +99,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -1406,21 +1404,17 @@ function hash(str) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1451,6 +1445,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1491,13 +1497,10 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: external "react"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const external_react_namespaceObject = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_react__["default"] });
+const external_react_namespaceObject = require("react");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_namespaceObject);
 ;// CONCATENATED MODULE: external "prop-types"
-var external_prop_types_x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var external_prop_types_y = x => () => x
-const external_prop_types_namespaceObject = external_prop_types_x({ ["any"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__.any, ["arrayOf"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__.arrayOf, ["number"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__.number, ["shape"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__.shape, ["string"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__.string });
+const external_prop_types_namespaceObject = require("prop-types");
 ;// CONCATENATED MODULE: ./src/prop-types/contentBlock.js
 
 const contentBlockType = (0,external_prop_types_namespaceObject.shape)({
@@ -1530,7 +1533,7 @@ function AnchorTarget(_ref) {
     block
   } = _ref;
   const id = (0,string/* dasherize */.H0)(block.name);
-  return /*#__PURE__*/external_react_namespaceObject["default"].createElement("div", {
+  return /*#__PURE__*/external_react_default().createElement("div", {
     id: id,
     tabIndex: "-1"
   });

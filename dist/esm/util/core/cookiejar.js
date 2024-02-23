@@ -1,6 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_cookie__ from "cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -51,8 +48,10 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -100,12 +99,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -1405,21 +1404,17 @@ function hash(str) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1450,6 +1445,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1490,11 +1497,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "js-cookie"
-var external_js_cookie_ = __webpack_require__(915);
+var external_js_cookie_ = __webpack_require__(734);
+var external_js_cookie_default = /*#__PURE__*/__webpack_require__.n(external_js_cookie_);
 ;// CONCATENATED MODULE: external "cookie"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const external_cookie_namespaceObject = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_cookie__["default"] });
+const external_cookie_namespaceObject = require("cookie");
+var external_cookie_default = /*#__PURE__*/__webpack_require__.n(external_cookie_namespaceObject);
 // EXTERNAL MODULE: ./src/util/core/Cookie.js
 var Cookie = __webpack_require__(531);
 // EXTERNAL MODULE: ./src/util/core/enumify.js
@@ -1583,7 +1590,7 @@ function checkEntry(entry, allowUndefined) {
 CookieJar.get = function get(e) {
   const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
   checkEntry(entry, true);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name);
+  const c = external_js_cookie_default().getJSON(cookiejar_name);
   if (!entry) return c || {};
   if (!c) return entry.default;
   let key = `${entry.group}`;
@@ -1607,7 +1614,7 @@ CookieJar.getFromRequest = function get(req, e) {
   checkEntry(entry, true);
   let c = {};
   try {
-    const cookies = external_cookie_namespaceObject["default"].parse(req.headers.get('Cookie') || '');
+    const cookies = external_cookie_default().parse(req.headers.get('Cookie') || '');
     const raw = cookies[cookiejar_name];
     c = JSON.parse(raw);
   } catch (err) {
@@ -1649,7 +1656,7 @@ CookieJar.getFromData = function get(data, e) {
  */
 CookieJar.set = function set(entry, value) {
   checkEntry(entry);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name) || {};
+  const c = external_js_cookie_default().getJSON(cookiejar_name) || {};
   let key = `${entry.group}`;
   if (entry.id) key += `-${entry.id}`;
   c[key] = value;
@@ -1660,13 +1667,13 @@ CookieJar.set = function set(entry, value) {
     // eslint-disable-next-line no-console
     console.error(`Failed to set cookie "${entry.toString()}" with value "${value}":` + ` cookie length (${stringifiedBytes} bytes) exceeds max (${max} bytes)`);
   } else {
-    external_js_cookie_["default"].set(cookiejar_name, c, {
+    external_js_cookie_default().set(cookiejar_name, c, {
       expires: 365
     });
   }
 };
 CookieJar.getName = () => cookiejar_name;
-CookieJar.lib = external_js_cookie_["default"];
+CookieJar.lib = (external_js_cookie_default());
 CookieJar.Entry = Entry;
 (0,object/* namespace */.uD)('sn.cookiejar', CookieJar);
 /* harmony default export */ const cookiejar = (CookieJar);
