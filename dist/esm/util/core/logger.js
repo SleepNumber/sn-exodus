@@ -1,5 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -56,8 +54,10 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
 /* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -105,12 +105,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -783,73 +783,6 @@ function createChainedFunction() {
 
 /***/ }),
 
-/***/ 813:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(981);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
-/* eslint-disable no-console */
-/**
- * Module to abstract the console.
- * Performs the log only if
- * - the environment has a console,
- * - with the desired log function,
- * - and either the server is in dev mode or the browser is in debug mode.
- */
-
-
-
-
-/**
- * @typedef {Object} ConsoleType
- * @property {(...args: any[]) => void} log
- * @property {(...args: any[]) => void} info
- * @property {(...args: any[]) => void} warn
- * @property {(...args: any[]) => void} error
- * @property {(...args: any[]) => void=} debug
- * @property {(condition: any, ...args: any[]) => void=} assert
- * @property {() => void=} clear
- * @property {(label?: string) => void=} count
- * @property {(label?: string) => void=} countReset
- * @property {(tabularData: any, properties?: string[]) => void=} table
- * @property {(...label: any[]) => void=} group
- * @property {(...label: any[]) => void=} groupCollapsed
- * @property {() => void=} groupEnd
- * @property {(label?: string) => void=} time
- * @property {(label?: string) => void=} timeEnd
- * @property {(...args: any[]) => void=} trace
- * @property {(obj: any, options?: any) => void=} dir
- * @property {(...args: any[]) => void=} dirxml
- */
-
-/** @type {ConsoleType} */
-const logger = {};
-['assert', 'dir', 'count', 'log', 'info', 'debug', 'warn', 'error', 'table', 'trace', 'group', 'groupEnd', 'groupCollapsed', 'profile', 'profileEnd', 'time', 'timeEnd', 'timeStamp'].forEach(key => {
-  const isLoggable = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console && _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console[key];
-  const shouldLog = !_constants__WEBPACK_IMPORTED_MODULE_0__/* .isJestEnv */ .Wj && !(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isProduction */ .yv)() || (0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)();
-  logger[key] = isLoggable && shouldLog ? function log() {
-    _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.console[key](...arguments);
-  } : _function__WEBPACK_IMPORTED_MODULE_1__/* .noop */ .ZT;
-
-  /**
-   * A log statement that only fires if in `debug mode`,
-   * i.e `sn-debug` cookie set to `true`.
-   */
-  logger.sndebug = function sndebug() {
-    if (!(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)()) return;
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-    console.log('DEBUG:', ...args);
-  };
-});
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logger);
-
-/***/ }),
-
 /***/ 814:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1176,21 +1109,17 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1221,6 +1150,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1257,77 +1198,64 @@ var __webpack_exports__ = {};
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(813);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(981);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
+/* eslint-disable no-console */
 /**
- * Module to store data as json in local storage.
- * Data is storage as stringified json since local storage
- * only supports string values.
- * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
- * @module sn.storage
+ * Module to abstract the console.
+ * Performs the log only if
+ * - the environment has a console,
+ * - with the desired log function,
+ * - and either the server is in dev mode or the browser is in debug mode.
  */
 
 
 
 
-const _name = 'sn';
-const mod = {
+/**
+ * @typedef {Object} ConsoleType
+ * @property {(...args: any[]) => void} log
+ * @property {(...args: any[]) => void} info
+ * @property {(...args: any[]) => void} warn
+ * @property {(...args: any[]) => void} error
+ * @property {(...args: any[]) => void=} debug
+ * @property {(condition: any, ...args: any[]) => void=} assert
+ * @property {() => void=} clear
+ * @property {(label?: string) => void=} count
+ * @property {(label?: string) => void=} countReset
+ * @property {(tabularData: any, properties?: string[]) => void=} table
+ * @property {(...label: any[]) => void=} group
+ * @property {(...label: any[]) => void=} groupCollapsed
+ * @property {() => void=} groupEnd
+ * @property {(label?: string) => void=} time
+ * @property {(label?: string) => void=} timeEnd
+ * @property {(...args: any[]) => void=} trace
+ * @property {(obj: any, options?: any) => void=} dir
+ * @property {(...args: any[]) => void=} dirxml
+ */
+
+/** @type {ConsoleType} */
+const logger = {};
+['assert', 'dir', 'count', 'log', 'info', 'debug', 'warn', 'error', 'table', 'trace', 'group', 'groupEnd', 'groupCollapsed', 'profile', 'profileEnd', 'time', 'timeEnd', 'timeStamp'].forEach(key => {
+  const isLoggable = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console && _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console[key];
+  const shouldLog = !_constants__WEBPACK_IMPORTED_MODULE_0__/* .isJestEnv */ .Wj && !(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isProduction */ .yv)() || (0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)();
+  logger[key] = isLoggable && shouldLog ? function log() {
+    _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.console[key](...arguments);
+  } : _function__WEBPACK_IMPORTED_MODULE_1__/* .noop */ .ZT;
+
   /**
-   * Retrieve value stored in local storage.
-   * @param {string} key - The key to lookup the value, will be prefixed with 'sn-'.
-   * @param {string} defaultValue - Returned if the key is not found.
+   * A log statement that only fires if in `debug mode`,
+   * i.e `sn-debug` cookie set to `true`.
    */
-  get(key, defaultValue) {
-    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {};
-    const value = JSON.parse(storage[`${_name}-${key}`] || null);
-    return value || defaultValue;
-  },
-  /**
-   * Sets a value in local storage.
-   * @param {string} key - The key to store the value at, will be prefixed with 'sn-'.
-   * @param {string} value - Value to store.
-   */
-  set(key, value) {
-    if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
-    try {
-      localStorage[`${_name}-${key}`] = JSON.stringify(value);
-    } catch (e) {
-      _logger__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z.error(`localStorage set failed`, `key: ${key}`, `value:`, value);
+  logger.sndebug = function sndebug() {
+    if (!(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)()) return;
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
     }
-  },
-  /**
-   * Removes a value from local storage.
-   * @param {string} key - The key to remove, automatically prefixed with 'sn-'.
-   */
-  remove(key) {
-    if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
-    try {
-      localStorage.removeItem(`${_name}-${key}`);
-    } catch (e) {
-      _logger__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z.error(`localStorage remove failed`, `key: ${key}`);
-    }
-  },
-  getName() {
-    return _name;
-  },
-  /**
-   * Return a local storage value directly from (not in our JSON bucket).
-   * Returns `defaultValue` or `undefined` if running on server or item not in storage
-   * @param key
-   * @param defaultValue
-   * @return {*}
-   */
-  getRaw(key, defaultValue) {
-    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
-      getItem: () => null
-    };
-    const value = storage.getItem(key) || null;
-    return value || defaultValue;
-  }
-};
-(0,_object__WEBPACK_IMPORTED_MODULE_2__/* .namespace */ .uD)('sn.storage', mod);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
+    console.log('DEBUG:', ...args);
+  };
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logger);
 })();
 
 var __webpack_exports__default = __webpack_exports__.Z;

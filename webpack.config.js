@@ -110,5 +110,7 @@ module.exports = {
         },
       ],
     },
+
+    externals: [nodeExternals()],
   },
 };

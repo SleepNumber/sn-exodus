@@ -1,6 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_react__ from "react";
-import * as __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__ from "prop-types";
 /******/ var __webpack_modules__ = ({
 
 /***/ 109:
@@ -10,7 +7,8 @@ import * as __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__ from "prop-types";
 /* harmony export */   Uo: () => (/* binding */ Breakpoint)
 /* harmony export */ });
 /* unused harmony exports isMobile, isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
 
 
@@ -345,12 +343,10 @@ const validate = {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ })
 
@@ -381,6 +377,18 @@ module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_n
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -415,13 +423,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: external "react"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const external_react_namespaceObject = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_react__["default"] });
+const external_react_namespaceObject = require("react");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_namespaceObject);
 ;// CONCATENATED MODULE: external "prop-types"
-var external_prop_types_x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var external_prop_types_y = x => () => x
-const external_prop_types_namespaceObject = external_prop_types_x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_prop_types_adfe8e31__["default"] });
+const external_prop_types_namespaceObject = require("prop-types");
+var external_prop_types_default = /*#__PURE__*/__webpack_require__.n(external_prop_types_namespaceObject);
 // EXTERNAL MODULE: ./src/util/core/validate.js
 var validate = __webpack_require__(749);
 // EXTERNAL MODULE: ./src/util/core/device.js
@@ -432,13 +438,13 @@ var device = __webpack_require__(109);
 
 
 const common_input_props = {
-  id: external_prop_types_namespaceObject["default"].string,
-  label: external_prop_types_namespaceObject["default"].any,
-  desc: external_prop_types_namespaceObject["default"].string,
-  onChange: external_prop_types_namespaceObject["default"].func,
-  error: external_prop_types_namespaceObject["default"].string,
-  classes: external_prop_types_namespaceObject["default"].any,
-  wrapperClasses: external_prop_types_namespaceObject["default"].any
+  id: (external_prop_types_default()).string,
+  label: (external_prop_types_default()).any,
+  desc: (external_prop_types_default()).string,
+  onChange: (external_prop_types_default()).func,
+  error: (external_prop_types_default()).string,
+  classes: (external_prop_types_default()).any,
+  wrapperClasses: (external_prop_types_default()).any
 };
 const jsx_utils_text = {};
 /**
@@ -449,11 +455,11 @@ const jsx_utils_text = {};
 function breakText(textArray) {
   return textArray.reduce((prev, curr, i) => {
     // eslint-disable-next-line react/no-array-index-key
-    prev.push( /*#__PURE__*/external_react_namespaceObject["default"].createElement("span", {
+    prev.push( /*#__PURE__*/external_react_default().createElement("span", {
       key: `t-${i}`
     }, curr));
     // eslint-disable-next-line react/no-array-index-key
-    if (i < textArray.length - 1) prev.push( /*#__PURE__*/external_react_namespaceObject["default"].createElement("br", {
+    if (i < textArray.length - 1) prev.push( /*#__PURE__*/external_react_default().createElement("br", {
       key: `b-${i}`
     }));
     return prev;
@@ -493,7 +499,7 @@ function supSpecial(input) {
   const match = unformatted.split('').reverse().join('').match(/[†‡§®™℠](?!<pus>)/i) && unformatted.match(/[†‡§®™℠](?!<\/sup>)/i);
   if (!match) {
     // We found the last string, then everything is formatted
-    return [...input, /*#__PURE__*/external_react_namespaceObject["default"].createElement(external_react_namespaceObject["default"].Fragment, {
+    return [...input, /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
       key: input.length
     }, unformatted)];
   }
@@ -511,7 +517,7 @@ function supSpecial(input) {
   if (preSpecial.length > 0) {
     suppedKey += 1;
     // Add text before our special character
-    semiFormatted.push( /*#__PURE__*/external_react_namespaceObject["default"].createElement(external_react_namespaceObject["default"].Fragment, {
+    semiFormatted.push( /*#__PURE__*/external_react_default().createElement((external_react_default()).Fragment, {
       key: input.length
     }, preSpecial));
   }
@@ -519,9 +525,9 @@ function supSpecial(input) {
     semiFormatted.push(
     /*#__PURE__*/
     // Add supped special
-    external_react_namespaceObject["default"].createElement(external_react_namespaceObject["default"].Fragment, {
+    external_react_default().createElement((external_react_default()).Fragment, {
       key: suppedKey
-    }, /*#__PURE__*/external_react_namespaceObject["default"].createElement("sup", null, matched)));
+    }, /*#__PURE__*/external_react_default().createElement("sup", null, matched)));
   }
   const remainder = unformatted.substring(index + match.length);
   if (remainder.length > 0) {
@@ -623,9 +629,9 @@ const validators = {
     });
   }
 };
-const entitiesOf = type => external_prop_types_namespaceObject["default"].shape({
-  byId: external_prop_types_namespaceObject["default"].objectOf(type),
-  allIds: external_prop_types_namespaceObject["default"].arrayOf(external_prop_types_namespaceObject["default"].string).isRequired
+const entitiesOf = type => external_prop_types_default().shape({
+  byId: external_prop_types_default().objectOf(type),
+  allIds: external_prop_types_default().arrayOf((external_prop_types_default()).string).isRequired
 });
 function ConditionalWrapper(_ref) {
   let {
@@ -639,7 +645,7 @@ function ConditionalWrapper(_ref) {
 /**
  * PropType where boolean means show or don't show, Breakpoint[] means show at breakpoints
  */
-const displayableType = external_prop_types_namespaceObject["default"].oneOfType([external_prop_types_namespaceObject["default"].bool, external_prop_types_namespaceObject["default"].arrayOf(device/* Breakpoint */.Uo)]);
+const displayableType = external_prop_types_default().oneOfType([(external_prop_types_default()).bool, external_prop_types_default().arrayOf(device/* Breakpoint */.Uo)]);
 
 /**
  * If boolean, show or don't show, if Breakpoint[], show at breakpoints

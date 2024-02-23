@@ -1,5 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -50,11 +48,13 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Wb: () => (/* binding */ specials)
+/* harmony export */   p_: () => (/* binding */ win)
 /* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -102,12 +102,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -1105,21 +1105,17 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1150,6 +1146,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1184,355 +1192,64 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $G: () => (/* binding */ truncate),
-/* harmony export */   A2: () => (/* binding */ removeSpecialCharacters),
-/* harmony export */   Fn: () => (/* binding */ asBool),
-/* harmony export */   GP: () => (/* binding */ mattressCase),
-/* harmony export */   H0: () => (/* binding */ dasherize),
-/* harmony export */   HD: () => (/* binding */ isString),
-/* harmony export */   KY: () => (/* binding */ camelToKabob),
-/* harmony export */   Rc: () => (/* binding */ replaceAt),
-/* harmony export */   So: () => (/* binding */ lazyId),
-/* harmony export */   Um: () => (/* binding */ pluralIf),
-/* harmony export */   Vj: () => (/* binding */ uuid),
-/* harmony export */   Vy: () => (/* binding */ pxToNum),
-/* harmony export */   Y_: () => (/* binding */ pascalToSnake),
-/* harmony export */   a1: () => (/* binding */ camelToSnake),
-/* harmony export */   a5: () => (/* binding */ titlecase),
-/* harmony export */   aI: () => (/* binding */ bytes),
-/* harmony export */   eV: () => (/* binding */ camelCase),
-/* harmony export */   fj: () => (/* binding */ snakeToPascal),
-/* harmony export */   gA: () => (/* binding */ firstWord),
-/* harmony export */   iD: () => (/* binding */ wordCount),
-/* harmony export */   kC: () => (/* binding */ capitalize),
-/* harmony export */   od: () => (/* binding */ deoptionize),
-/* harmony export */   pn: () => (/* binding */ endsWith),
-/* harmony export */   rV: () => (/* binding */ undasherize),
-/* harmony export */   rx: () => (/* binding */ repeat),
-/* harmony export */   sn: () => (/* binding */ optionize),
-/* harmony export */   vk: () => (/* binding */ pad),
-/* harmony export */   vp: () => (/* binding */ hash)
+/* harmony export */   OB: () => (/* binding */ setUrlHash),
+/* harmony export */   Q2: () => (/* binding */ buildUrl),
+/* harmony export */   eY: () => (/* binding */ getUrlParam),
+/* harmony export */   s0: () => (/* binding */ hasUrlParam)
 /* harmony export */ });
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 
-function isString(input) {
-  return typeof input === 'string';
+
+/** Retrieve a request parameter by name. */
+function getUrlParam(name, url) {
+  const href = url || _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.location?.href;
+  const sanitizedName = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
+  const regexS = `[\\?&]${sanitizedName}=([^&#]*)`;
+  const results = new RegExp(regexS, 'i').exec(href);
+  if (results === null) {
+    return null;
+  }
+  return decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
 /**
- * Capitalize the first letter of the string, keep the rest as-is.
- * Example:
- * capitalize('chat with us!') -> "Chat with us!"
+ * Return true if the query string has the parameter.
+ * @param {string} name - the parameter name
+ * @param {URL} [url] - the url to check
  */
-function capitalize(phrase) {
-  if (!phrase) return phrase;
-  return phrase[0].toUpperCase() + phrase.slice(1);
+function hasUrlParam(name, url) {
+  const loc = url || _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.location;
+  if (!loc) return false;
+  const params = loc.search.split(/[&?]/g).filter(param => Boolean(param)).map(param => param.split('=')[0].toLowerCase());
+  return params.includes(name.toLowerCase());
 }
 
-/**
- * For each word in the phrase, uppercase the first letter and lowercase the rest.
- * Example:
- * titlecase('LYOCELL uLTra Sheet SET') -> "Lyocell Ultra Sheet Set"
- */
-function titlecase(phrase) {
-  if (!phrase) return phrase;
-  return phrase.replace(/\w\S*/g, word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
-}
-
-/**
- * Convert snake_case or sentence to camelCase
- * @param {string} phrase
- * @return {string}
- *
- * Example:
- * camelCase('foo_bar') -> "fooBar"
- * camelCase('Foo Bar') -> "fooBar"
- */
-function camelCase(phrase) {
-  return phrase.replace(/^\w|[A-Z]|\b\w|_+\w/g, (word, index) => {
-    if (word.startsWith('_')) {
-      // handle underscore word
-      const next = word.replace('_', '');
-      if (index === 0) return next[0].toLowerCase() + next.substr(1);
-      return next[0].toUpperCase() + next.substr(1);
+/** Add url search params to url */
+function buildUrl(endpoint) {
+  let params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  let traditional = arguments.length > 2 ? arguments[2] : undefined;
+  const isFullUrl = !endpoint.startsWith('/');
+  const origin = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.location.origin;
+  const url = isFullUrl ? new URL(endpoint) : new URL(endpoint, origin);
+  Object.entries(params).forEach(_ref => {
+    let [k, v] = _ref;
+    if (Array.isArray(v) && traditional) {
+      v.forEach(item => url.searchParams.append(k, item));
+    } else {
+      url.searchParams.append(k, v);
     }
-    // lowercase or uppercase this letter
-    return index === 0 ? word.toLowerCase() : word.toUpperCase();
-  }).replace(/[\s-_]+/g, '');
-}
-
-/**
- * Convert camelCase into snake_case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * camelToSnake('fooBar') -> "foo_bar"
- */
-function camelToSnake(phrase) {
-  return phrase.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
-}
-
-/**
- * Convert camelCase into kabob-case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * camelToSnake('fooBar') -> "foo-bar"
- */
-function camelToKabob(phrase) {
-  return phrase.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
-}
-
-/**
- * Convert PascalCase into snake_case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * pascalToSnake('FooBar') -> "foo_bar"
- */
-function pascalToSnake(phrase) {
-  const first = phrase[0].toLowerCase();
-  const rest = phrase.substring(1);
-  return `${first}${camelToSnake(rest)}`;
-}
-
-/**
- * Convert snake_case to PascalCase
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * snakeToPascal('foo_bar') -> "FooBar"
- */
-function snakeToPascal(phrase) {
-  return capitalize(camelCase(phrase));
-}
-
-/**
- * Sleep Number's crazy naming scheme
- * @param {string} phrase
- * @returns {string} cased like 'pSE SPECIAL EDITION'
- */
-function mattressCase(phrase) {
-  let allowSpecialCase = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  if (!allowSpecialCase) return phrase.toUpperCase();
-  return `${phrase[0].toLowerCase()}${phrase.substr(1).toUpperCase()}`;
-}
-
-/**
- * Rails has the concept of 'optionizing' text which replaces spaces with
- * underscores and lower-cases text.
- *
- * Example:
- * optionize('Soft Green'); -> "soft_green"
- */
-function optionize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return phrase.toLowerCase().replace(/\s/g, '_');
-}
-
-/**
- * Replace '_' characters with spaces
- *
- * Example:
- * deoptionize('soft_green'); -> "Soft Green"
- */
-function deoptionize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return titlecase(phrase.replace(/_/g, ' '));
-}
-
-/**
- * Replaces spaces with dashes and lower-cases text.
- *
- * Example:
- * dasherize('Split California King'); -> "split-california-king"
- */
-function dasherize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return phrase.toLowerCase().replace(/\s/g, '-');
-}
-
-/**
- * Replaces dashes with spaces and uppercase the first letter of each word.
- *
- * Example:
- * dasherize('split-california-king'); -> "Split California King"
- */
-function undasherize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  const result = phrase.toLowerCase().replaceAll(/-/g, ' ');
-  return titlecase(result);
-}
-function repeat(str, times) {
-  return new Array(times + 1).join(str);
-}
-function wordCount(string) {
-  return string.trim().split(/\s+/).length;
-}
-function pad(num, maxLength) {
-  return repeat(`0`, maxLength - num.toString().length) + num;
-}
-function replaceAt(s, i, c) {
-  return s.substr(0, i) + c + s.substr(i + 1);
-}
-function endsWith(s, c) {
-  return s[s.length - 1] === c;
-}
-function firstWord(s) {
-  return s.replace(/ .*/, '');
-}
-
-/**
- * Generate a universally unique identifier.
- * @return {string}
- */
-function uuid() {
-  /* eslint-disable */
-  let uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-    const r = Math.random() * 16 | 0;
-    const v = c === 'x' ? r : r & 0x3 | 0x8;
-    return v.toString(16);
   });
-  return 'uuid-' + uuid;
-  /* eslint-enable */
+  return url.href;
 }
-
-/** Add a uuid to something if it doesn't already have one. */
-function lazyId(o) {
-  o.id = o.id || uuid();
-  return o;
-}
-
-/** Return the size of a string in bytes assuming UTF-8 encoding. */
-function bytes(str) {
-  // Matches only the 10.. bytes that are non-initial characters in a multi-byte sequence.
-  const m = encodeURIComponent(str).match(/%[89ABab]/g);
-  return str.length + (m ? m.length : 0);
-}
-
-/**
- * Returns either an empty string, a plural character of choice, or
- * an optional singular form.
- * @param {boolean} condition False will return an empty string.
- * @param {string} plural Plural suffix, 's' by default.
- * @param {string} [singular] Optional singular suffix, or version.
- */
-function pluralIf(condition) {
-  let plural = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 's';
-  let singular = arguments.length > 2 ? arguments[2] : undefined;
-  if (!condition) return singular || '';
-  return plural;
-}
-
-/**
- * Returns a number of for a string px value, ie: '23px' => 23.
- */
-function pxToNum(str) {
-  return +str.trim().replace('px', '');
-}
-
-/**
- * Returns a truncated string with ellipsis (...) appended.
- * @param {string} string to truncate
- * @param {number} number of characters to keep
- */
-function truncate(str, num) {
-  if (str.length <= num) {
-    return str;
-  }
-  return `${str.slice(0, num)}...`;
-}
-
-/** Convert a 'true' or 'false' string to a boolean */
-function asBool(str) {
-  if (typeof str === 'boolean') return str;
-  if (typeof str === 'string') return str === 'true';
-  return !!str;
-}
-
-/** Replace all the special characters from a string */
-function removeSpecialCharacters() {
-  let input = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return Object.values(_constants__WEBPACK_IMPORTED_MODULE_0__/* .specials */ .Wb).reduce((result, special) => {
-    return result.replaceAll(special.value, '');
-  }, input);
-}
-
-/**
- * Convert a string to a hash
- * Inspired by https://github.com/garycourt/murmurhash-js
- */
-function hash(str) {
-  /* eslint-disable */
-  // 'm' and 'r' are mixing constants generated offline.
-  // They're not really 'magic', they just happen to work well.
-  // const m = 0x5bd1e995;
-  // const r = 24;
-  // Initialize the hash
-  var h = 0;
-  // Mix 4 bytes at a time into the hash
-  var k,
-    i = 0,
-    len = str.length;
-  for (; len >= 4; ++i, len -= 4) {
-    k = str.charCodeAt(i) & 0xff | (str.charCodeAt(++i) & 0xff) << 8 | (str.charCodeAt(++i) & 0xff) << 16 | (str.charCodeAt(++i) & 0xff) << 24;
-    k = /* Math.imul(k, m): */
-    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16);
-    k ^= /* k >>> r: */k >>> 24;
-    h = /* Math.imul(k, m): */
-    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16) ^ /* Math.imul(h, m): */
-    (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  }
-  // Handle the last few bytes of the input array
-  switch (len) {
-    case 3:
-      h ^= (str.charCodeAt(i + 2) & 0xff) << 16;
-    case 2:
-      h ^= (str.charCodeAt(i + 1) & 0xff) << 8;
-    case 1:
-      h ^= str.charCodeAt(i) & 0xff;
-      h = /* Math.imul(h, m): */
-      (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  }
-  // Do a few final mixes of the hash to ensure the last few
-  // bytes are well-incorporated.
-  h ^= h >>> 13;
-  h = /* Math.imul(h, m): */
-  (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  return ((h ^ h >>> 15) >>> 0).toString(36);
+function setUrlHash(hash) {
+  const url = new URL(_constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.location);
+  url.hash = hash;
+  _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.history?.pushState({}, '', url);
 }
 })();
 
-var __webpack_exports__asBool = __webpack_exports__.Fn;
-var __webpack_exports__bytes = __webpack_exports__.aI;
-var __webpack_exports__camelCase = __webpack_exports__.eV;
-var __webpack_exports__camelToKabob = __webpack_exports__.KY;
-var __webpack_exports__camelToSnake = __webpack_exports__.a1;
-var __webpack_exports__capitalize = __webpack_exports__.kC;
-var __webpack_exports__dasherize = __webpack_exports__.H0;
-var __webpack_exports__deoptionize = __webpack_exports__.od;
-var __webpack_exports__endsWith = __webpack_exports__.pn;
-var __webpack_exports__firstWord = __webpack_exports__.gA;
-var __webpack_exports__hash = __webpack_exports__.vp;
-var __webpack_exports__isString = __webpack_exports__.HD;
-var __webpack_exports__lazyId = __webpack_exports__.So;
-var __webpack_exports__mattressCase = __webpack_exports__.GP;
-var __webpack_exports__optionize = __webpack_exports__.sn;
-var __webpack_exports__pad = __webpack_exports__.vk;
-var __webpack_exports__pascalToSnake = __webpack_exports__.Y_;
-var __webpack_exports__pluralIf = __webpack_exports__.Um;
-var __webpack_exports__pxToNum = __webpack_exports__.Vy;
-var __webpack_exports__removeSpecialCharacters = __webpack_exports__.A2;
-var __webpack_exports__repeat = __webpack_exports__.rx;
-var __webpack_exports__replaceAt = __webpack_exports__.Rc;
-var __webpack_exports__snakeToPascal = __webpack_exports__.fj;
-var __webpack_exports__titlecase = __webpack_exports__.a5;
-var __webpack_exports__truncate = __webpack_exports__.$G;
-var __webpack_exports__undasherize = __webpack_exports__.rV;
-var __webpack_exports__uuid = __webpack_exports__.Vj;
-var __webpack_exports__wordCount = __webpack_exports__.iD;
-export { __webpack_exports__asBool as asBool, __webpack_exports__bytes as bytes, __webpack_exports__camelCase as camelCase, __webpack_exports__camelToKabob as camelToKabob, __webpack_exports__camelToSnake as camelToSnake, __webpack_exports__capitalize as capitalize, __webpack_exports__dasherize as dasherize, __webpack_exports__deoptionize as deoptionize, __webpack_exports__endsWith as endsWith, __webpack_exports__firstWord as firstWord, __webpack_exports__hash as hash, __webpack_exports__isString as isString, __webpack_exports__lazyId as lazyId, __webpack_exports__mattressCase as mattressCase, __webpack_exports__optionize as optionize, __webpack_exports__pad as pad, __webpack_exports__pascalToSnake as pascalToSnake, __webpack_exports__pluralIf as pluralIf, __webpack_exports__pxToNum as pxToNum, __webpack_exports__removeSpecialCharacters as removeSpecialCharacters, __webpack_exports__repeat as repeat, __webpack_exports__replaceAt as replaceAt, __webpack_exports__snakeToPascal as snakeToPascal, __webpack_exports__titlecase as titlecase, __webpack_exports__truncate as truncate, __webpack_exports__undasherize as undasherize, __webpack_exports__uuid as uuid, __webpack_exports__wordCount as wordCount };
+var __webpack_exports__buildUrl = __webpack_exports__.Q2;
+var __webpack_exports__getUrlParam = __webpack_exports__.eY;
+var __webpack_exports__hasUrlParam = __webpack_exports__.s0;
+var __webpack_exports__setUrlHash = __webpack_exports__.OB;
+export { __webpack_exports__buildUrl as buildUrl, __webpack_exports__getUrlParam as getUrlParam, __webpack_exports__hasUrlParam as hasUrlParam, __webpack_exports__setUrlHash as setUrlHash };

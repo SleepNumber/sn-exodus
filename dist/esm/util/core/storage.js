@@ -1,5 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -50,11 +48,16 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Dg: () => (/* binding */ timezone)
+/* harmony export */   L1: () => (/* binding */ isDebug),
+/* harmony export */   Wj: () => (/* binding */ isJestEnv),
+/* harmony export */   p_: () => (/* binding */ win),
+/* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -102,12 +105,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -540,9 +543,10 @@ function enumEntryOrNull(Enum, key) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Wl: () => (/* binding */ isFunc)
+/* harmony export */   Wl: () => (/* binding */ isFunc),
+/* harmony export */   ZT: () => (/* binding */ noop)
 /* harmony export */ });
-/* unused harmony exports lazy, compose, required, pipe, debounce, noop, identity, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
+/* unused harmony exports lazy, compose, required, pipe, debounce, identity, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * FUNCTION UTILS
@@ -776,6 +780,73 @@ function createChainedFunction() {
     };
   }, null);
 }
+
+/***/ }),
+
+/***/ 813:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(981);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
+/* eslint-disable no-console */
+/**
+ * Module to abstract the console.
+ * Performs the log only if
+ * - the environment has a console,
+ * - with the desired log function,
+ * - and either the server is in dev mode or the browser is in debug mode.
+ */
+
+
+
+
+/**
+ * @typedef {Object} ConsoleType
+ * @property {(...args: any[]) => void} log
+ * @property {(...args: any[]) => void} info
+ * @property {(...args: any[]) => void} warn
+ * @property {(...args: any[]) => void} error
+ * @property {(...args: any[]) => void=} debug
+ * @property {(condition: any, ...args: any[]) => void=} assert
+ * @property {() => void=} clear
+ * @property {(label?: string) => void=} count
+ * @property {(label?: string) => void=} countReset
+ * @property {(tabularData: any, properties?: string[]) => void=} table
+ * @property {(...label: any[]) => void=} group
+ * @property {(...label: any[]) => void=} groupCollapsed
+ * @property {() => void=} groupEnd
+ * @property {(label?: string) => void=} time
+ * @property {(label?: string) => void=} timeEnd
+ * @property {(...args: any[]) => void=} trace
+ * @property {(obj: any, options?: any) => void=} dir
+ * @property {(...args: any[]) => void=} dirxml
+ */
+
+/** @type {ConsoleType} */
+const logger = {};
+['assert', 'dir', 'count', 'log', 'info', 'debug', 'warn', 'error', 'table', 'trace', 'group', 'groupEnd', 'groupCollapsed', 'profile', 'profileEnd', 'time', 'timeEnd', 'timeStamp'].forEach(key => {
+  const isLoggable = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console && _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console[key];
+  const shouldLog = !_constants__WEBPACK_IMPORTED_MODULE_0__/* .isJestEnv */ .Wj && !(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isProduction */ .yv)() || (0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)();
+  logger[key] = isLoggable && shouldLog ? function log() {
+    _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.console[key](...arguments);
+  } : _function__WEBPACK_IMPORTED_MODULE_1__/* .noop */ .ZT;
+
+  /**
+   * A log statement that only fires if in `debug mode`,
+   * i.e `sn-debug` cookie set to `true`.
+   */
+  logger.sndebug = function sndebug() {
+    if (!(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)()) return;
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    console.log('DEBUG:', ...args);
+  };
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logger);
 
 /***/ }),
 
@@ -1105,323 +1176,17 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 203:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   vk: () => (/* binding */ pad)
-/* harmony export */ });
-/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, replaceAt, endsWith, firstWord, uuid, lazyId, bytes, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
-
-function isString(input) {
-  return typeof input === 'string';
-}
-
-/**
- * Capitalize the first letter of the string, keep the rest as-is.
- * Example:
- * capitalize('chat with us!') -> "Chat with us!"
- */
-function capitalize(phrase) {
-  if (!phrase) return phrase;
-  return phrase[0].toUpperCase() + phrase.slice(1);
-}
-
-/**
- * For each word in the phrase, uppercase the first letter and lowercase the rest.
- * Example:
- * titlecase('LYOCELL uLTra Sheet SET') -> "Lyocell Ultra Sheet Set"
- */
-function titlecase(phrase) {
-  if (!phrase) return phrase;
-  return phrase.replace(/\w\S*/g, word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
-}
-
-/**
- * Convert snake_case or sentence to camelCase
- * @param {string} phrase
- * @return {string}
- *
- * Example:
- * camelCase('foo_bar') -> "fooBar"
- * camelCase('Foo Bar') -> "fooBar"
- */
-function camelCase(phrase) {
-  return phrase.replace(/^\w|[A-Z]|\b\w|_+\w/g, (word, index) => {
-    if (word.startsWith('_')) {
-      // handle underscore word
-      const next = word.replace('_', '');
-      if (index === 0) return next[0].toLowerCase() + next.substr(1);
-      return next[0].toUpperCase() + next.substr(1);
-    }
-    // lowercase or uppercase this letter
-    return index === 0 ? word.toLowerCase() : word.toUpperCase();
-  }).replace(/[\s-_]+/g, '');
-}
-
-/**
- * Convert camelCase into snake_case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * camelToSnake('fooBar') -> "foo_bar"
- */
-function camelToSnake(phrase) {
-  return phrase.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
-}
-
-/**
- * Convert camelCase into kabob-case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * camelToSnake('fooBar') -> "foo-bar"
- */
-function camelToKabob(phrase) {
-  return phrase.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
-}
-
-/**
- * Convert PascalCase into snake_case
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * pascalToSnake('FooBar') -> "foo_bar"
- */
-function pascalToSnake(phrase) {
-  const first = phrase[0].toLowerCase();
-  const rest = phrase.substring(1);
-  return `${first}${camelToSnake(rest)}`;
-}
-
-/**
- * Convert snake_case to PascalCase
- * @param {string} phrase
- * @returns {string}
- *
- * Example:
- * snakeToPascal('foo_bar') -> "FooBar"
- */
-function snakeToPascal(phrase) {
-  return capitalize(camelCase(phrase));
-}
-
-/**
- * Sleep Number's crazy naming scheme
- * @param {string} phrase
- * @returns {string} cased like 'pSE SPECIAL EDITION'
- */
-function mattressCase(phrase) {
-  let allowSpecialCase = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  if (!allowSpecialCase) return phrase.toUpperCase();
-  return `${phrase[0].toLowerCase()}${phrase.substr(1).toUpperCase()}`;
-}
-
-/**
- * Rails has the concept of 'optionizing' text which replaces spaces with
- * underscores and lower-cases text.
- *
- * Example:
- * optionize('Soft Green'); -> "soft_green"
- */
-function optionize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return phrase.toLowerCase().replace(/\s/g, '_');
-}
-
-/**
- * Replace '_' characters with spaces
- *
- * Example:
- * deoptionize('soft_green'); -> "Soft Green"
- */
-function deoptionize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return titlecase(phrase.replace(/_/g, ' '));
-}
-
-/**
- * Replaces spaces with dashes and lower-cases text.
- *
- * Example:
- * dasherize('Split California King'); -> "split-california-king"
- */
-function dasherize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return phrase.toLowerCase().replace(/\s/g, '-');
-}
-
-/**
- * Replaces dashes with spaces and uppercase the first letter of each word.
- *
- * Example:
- * dasherize('split-california-king'); -> "Split California King"
- */
-function undasherize() {
-  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  const result = phrase.toLowerCase().replaceAll(/-/g, ' ');
-  return titlecase(result);
-}
-function repeat(str, times) {
-  return new Array(times + 1).join(str);
-}
-function wordCount(string) {
-  return string.trim().split(/\s+/).length;
-}
-function pad(num, maxLength) {
-  return repeat(`0`, maxLength - num.toString().length) + num;
-}
-function replaceAt(s, i, c) {
-  return s.substr(0, i) + c + s.substr(i + 1);
-}
-function endsWith(s, c) {
-  return s[s.length - 1] === c;
-}
-function firstWord(s) {
-  return s.replace(/ .*/, '');
-}
-
-/**
- * Generate a universally unique identifier.
- * @return {string}
- */
-function uuid() {
-  /* eslint-disable */
-  let uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-    const r = Math.random() * 16 | 0;
-    const v = c === 'x' ? r : r & 0x3 | 0x8;
-    return v.toString(16);
-  });
-  return 'uuid-' + uuid;
-  /* eslint-enable */
-}
-
-/** Add a uuid to something if it doesn't already have one. */
-function lazyId(o) {
-  o.id = o.id || uuid();
-  return o;
-}
-
-/** Return the size of a string in bytes assuming UTF-8 encoding. */
-function bytes(str) {
-  // Matches only the 10.. bytes that are non-initial characters in a multi-byte sequence.
-  const m = encodeURIComponent(str).match(/%[89ABab]/g);
-  return str.length + (m ? m.length : 0);
-}
-
-/**
- * Returns either an empty string, a plural character of choice, or
- * an optional singular form.
- * @param {boolean} condition False will return an empty string.
- * @param {string} plural Plural suffix, 's' by default.
- * @param {string} [singular] Optional singular suffix, or version.
- */
-function pluralIf(condition) {
-  let plural = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 's';
-  let singular = arguments.length > 2 ? arguments[2] : undefined;
-  if (!condition) return singular || '';
-  return plural;
-}
-
-/**
- * Returns a number of for a string px value, ie: '23px' => 23.
- */
-function pxToNum(str) {
-  return +str.trim().replace('px', '');
-}
-
-/**
- * Returns a truncated string with ellipsis (...) appended.
- * @param {string} string to truncate
- * @param {number} number of characters to keep
- */
-function truncate(str, num) {
-  if (str.length <= num) {
-    return str;
-  }
-  return `${str.slice(0, num)}...`;
-}
-
-/** Convert a 'true' or 'false' string to a boolean */
-function asBool(str) {
-  if (typeof str === 'boolean') return str;
-  if (typeof str === 'string') return str === 'true';
-  return !!str;
-}
-
-/** Replace all the special characters from a string */
-function removeSpecialCharacters() {
-  let input = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-  return Object.values(specials).reduce((result, special) => {
-    return result.replaceAll(special.value, '');
-  }, input);
-}
-
-/**
- * Convert a string to a hash
- * Inspired by https://github.com/garycourt/murmurhash-js
- */
-function hash(str) {
-  /* eslint-disable */
-  // 'm' and 'r' are mixing constants generated offline.
-  // They're not really 'magic', they just happen to work well.
-  // const m = 0x5bd1e995;
-  // const r = 24;
-  // Initialize the hash
-  var h = 0;
-  // Mix 4 bytes at a time into the hash
-  var k,
-    i = 0,
-    len = str.length;
-  for (; len >= 4; ++i, len -= 4) {
-    k = str.charCodeAt(i) & 0xff | (str.charCodeAt(++i) & 0xff) << 8 | (str.charCodeAt(++i) & 0xff) << 16 | (str.charCodeAt(++i) & 0xff) << 24;
-    k = /* Math.imul(k, m): */
-    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16);
-    k ^= /* k >>> r: */k >>> 24;
-    h = /* Math.imul(k, m): */
-    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16) ^ /* Math.imul(h, m): */
-    (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  }
-  // Handle the last few bytes of the input array
-  switch (len) {
-    case 3:
-      h ^= (str.charCodeAt(i + 2) & 0xff) << 16;
-    case 2:
-      h ^= (str.charCodeAt(i + 1) & 0xff) << 8;
-    case 1:
-      h ^= str.charCodeAt(i) & 0xff;
-      h = /* Math.imul(h, m): */
-      (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  }
-  // Do a few final mixes of the hash to ensure the last few
-  // bytes are well-incorporated.
-  h ^= h >>> 13;
-  h = /* Math.imul(h, m): */
-  (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
-  return ((h ^ h >>> 15) >>> 0).toString(36);
-}
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
-
-/***/ }),
-
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1452,6 +1217,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1486,290 +1263,81 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   WU: () => (/* binding */ format),
-/* harmony export */   Zh: () => (/* binding */ fromNow),
-/* harmony export */   bd: () => (/* binding */ formats)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(203);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-
-
-const formats = {
-  date: {
-    /** "Thursday, November 7" */
-    DAY_MONTH_LONG: date => date.toLocaleDateString('en-US', {
-      weekday: 'long',
-      month: 'long',
-      day: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "Nov 7, 2019" */
-    MONTH_ABR_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      month: 'short',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "November 7, 2019" */
-    MONTH_LONG_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/7/2019" */
-    SIMPLE: date => date.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/07/2019" */
-    SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
-      month: '2-digit',
-      day: '2-digit',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/07/2019" */
-    UTC_SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
-      month: '2-digit',
-      day: '2-digit',
-      year: 'numeric',
-      timeZone: 'UTC'
-    }),
-    /** "11/7/2019" */
-    MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/8/2019" */
-    UTC_MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      timeZone: 'UTC'
-    }),
-    /** "2019-11-07"
-     * See https://www.iso.org/iso-8601-date-and-time-format.html
-     */
-    /* eslint-disable prefer-template */
-    ISO: date => date.getUTCFullYear() + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getUTCMonth() + 1, 2) + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getUTCDate(), 2),
-    /* eslint-enable prefer-template */
-
-    /** "20191107" */
-    COMPACT: date => date.getFullYear() + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getMonth() + 1, 2) + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getDate(), 2)
-  },
-  time: {
-    /** "2:07 PM CST" */
-    SIMPLE: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    }),
-    /** "2:07 PM" */
-    HOUR_AND_MINUTE: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric',
-      minute: '2-digit'
-    }),
-    /** "2 PM" */
-    HOUR_ONLY: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric'
-    }),
-    /** "14:07 CST" */
-    ARMY: time => time.toLocaleTimeString('en-US', {
-      hour12: false,
-      hour: '2-digit',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    }),
-    /** "14:07:59.506" */
-    PRECISE: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getSeconds(), 2)}` + `.${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMilliseconds(), 3)}`,
-    /** "14:07:59" */
-    PRECISE_NO_MILLISECONDS: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getSeconds(), 2)}`
-  },
-  datetime: {
-    /** "11/7/2019, 2:07 PM" */
-    LOCAL: datetime => datetime.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/7/2019, 2:07 PM CST" */
-    SIMPLE: datetime => datetime.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    })
-  }
-};
-/** Formatters */
-const format = {
-  /**
-   ** Format a Date object into a date, with the browser's timezone and a configurable format
-   * @param {Date|String|Number} [date=now] - Unix timestamp to format as a readable date-time
-   * @param {Function} [formatter='MMM D, YYYY'] - The format to use.
-   */
-  date() {
-    let date = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Date();
-    let formatter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : formats.date.MONTH_ABR_DAY_YEAR;
-    return formatter(new Date(date));
-  },
-  /**
-   * Convert 24h time string to 12h time string with meridiems(PM/AM).
-   * @param {String} time - ie.: "19:00"
-   * @returns {String} - ie.: "7 PM"
-   */
-  formatTimeString(time) {
-    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    const [hour, minute] = time.split(':');
-    const showMinute = minute !== '00' ? `:${minute}` : '';
-    const pm = hour > 12;
-    let result = pm ? `${hour % 12}${showMinute} PM` : `${hour}${showMinute} AM`;
-    if (trim) {
-      result = result.replace(' PM', 'pm').replace(' AM', 'am');
-    }
-    return result;
-  },
-  /**
-   * Return a formatted percent string to the decimal places specified.
-   * USAGE:
-   * sn.format.percent(13, 205, 3) // "6.341%"
-   * sn.format.percent(5, 10, 3) // "50%"
-   * @param {Number} count - The current count of items.
-   * @param {Number} total - The total number of items.
-   * @param {Number} decimals - The number of decimal places.
-   */
-  percent(count, total) {
-    let decimals = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3;
-    return `${Number((count / total * 100).toFixed(decimals)).toString()}%`;
-  },
-  /**
-   * Return a formatted currency string for the supplied number.
-   * USAGE:
-   * sn.format.currency(123456789.12345) // "$123,456,789.12"
-   * @param {string|number} num - the currency amount.
-   * @param {boolean} trim - if `true`, '.00' is omitted, default to `false`.
-   */
-  currency(num) {
-    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    let n = num;
-    if (typeof num === 'object') {
-      // convert price type
-      n = num.cents / 100;
-    }
-    const trimming = trim ? '.00' : '';
-    const c = 2;
-    const d = '.';
-    const t = ',';
-    const s = n < 0 ? '-$' : '$';
-    const i = `${parseInt(n = Math.abs(+n || 0).toFixed(c), 10)}`;
-    let j = i.length;
-    j = j > 3 ? j % 3 : 0;
-    return s + (j ? i.substr(0, j) + t : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, `$1${t}`) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : '').replace(trimming, '');
-  },
-  /**
-   * Reduce a numerator and denominator to it's smallest,
-   * integer ratio using Euclid's Algorithm. Example:
-   * <code>
-   *   ratio(1920, 1080) -> "16:9"
-   * </code>
-   */
-  ratio(numerator, denominator) {
-    let flip = false;
-    let n = numerator;
-    let d = denominator;
-    const gcd = (a, b) => {
-      if (b === 0) return a;
-      return gcd(b, a % b);
-    };
-    if (n === d) return '1 : 1';
-
-    // Make sure numerator is always the larger number
-    if (+n < +d) {
-      flip = true;
-      const temp = n;
-      n = d;
-      d = temp;
-    }
-    const divisor = gcd(+n, +d);
-    return flip ? `${d / divisor}:${n / divisor}` : `${n / divisor}:${d / divisor}`;
-  },
-  time(sec) {
-    const seconds = Number(sec);
-    const h = Math.floor(seconds / 3600);
-    const m = Math.floor(seconds % 3600 / 60);
-    const s = Math.floor(seconds % 3600 % 60);
-    let result = `${`0${m}`.slice(-2)}:${`:0${s}`.slice(-2)}`;
-    if (h > 0) result = `${`0${h}`.slice(-2)}:${result}`;
-    return result;
-  }
-};
-
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(813);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(814);
 /**
- * Returns a human readable format of the difference between an date/timestamp
- * and now.
- * @param {Date|String} dateMillis - the unix timestamp or date instance.
- * @param {boolean} useIn - when true, future times use 'in' instead of 'from now'.
- * @return {string} the formatted difference, i.e. `one month from now` or `two days ago`
+ * Module to store data as json in local storage.
+ * Data is storage as stringified json since local storage
+ * only supports string values.
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+ * @module sn.storage
  */
-function fromNow(dateMillis) {
-  let useIn = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  let millis = dateMillis;
-  if (dateMillis instanceof Date) {
-    millis = dateMillis.getTime();
-  }
-  const now = Date.now();
-  const diff = now - millis;
-  const isBefore = dateMillis < now;
-  const abs = Math.abs(diff);
-  const days = Math.floor(abs / (24 * 60 * 60 * 1000));
-  const daysMs = abs % (24 * 60 * 60 * 1000);
-  const hrs = Math.floor(daysMs / (60 * 60 * 1000));
-  const hrsMs = abs % (60 * 60 * 1000);
-  const mins = Math.floor(hrsMs / (60 * 1000));
-  const minsMs = abs % (60 * 1000);
-  const secs = Math.floor(minsMs / 1000);
-  const months = Math.floor(days / 30);
-  const years = Math.floor(days / 365);
-  if (isBefore) {
-    // In the past
-    if (years > 1) return `${years} years ago`;
-    if (years === 1) return 'a year ago';
-    if (months > 1) return `${months} months ago`;
-    if (months === 1) return '1 month ago';
-    if (days > 1) return `${days} days ago`;
-    if (days === 1) return 'yesterday';
-    if (hrs > 1) return `${hrs} hours ago`;
-    if (hrs === 1) return 'one hour ago';
-    if (mins > 1) return `${mins} minutes ago`;
-    if (mins === 1) return '1 minute ago';
-    if (secs > 1) return `${secs} seconds ago`;
-    return '1 second ago';
-  }
 
-  // In the future
-  if (years > 1) return useIn ? `in {years} years` : `${years} years from now`;
-  if (years === 1) return useIn ? 'in a year' : 'a year from now';
-  if (months > 1) return useIn ? `in ${months} months` : `${months} months from now`;
-  if (months === 1) return useIn ? 'in a month' : '1 month from now';
-  if (days > 1) return useIn ? `in ${days} days` : `${days} days from now`;
-  if (days === 1) return 'tomorrow';
-  if (hrs > 1) return useIn ? `in ${hrs} hours` : `${hrs} hours from now`;
-  if (hrs === 1) return useIn ? 'in an hour' : 'one hour from now';
-  if (mins > 1) return useIn ? `in ${mins} minutes` : `${mins} minutes from now`;
-  if (mins === 1) return useIn ? 'in 1 minute' : '1 minute from now';
-  if (secs > 1) return useIn ? `in ${secs} seconds` : `${secs} seconds from now`;
-  return '1 second from now';
-}
+
+
+
+const _name = 'sn';
+const mod = {
+  /**
+   * Retrieve value stored in local storage.
+   * @param {string} key - The key to lookup the value, will be prefixed with 'sn-'.
+   * @param {string} defaultValue - Returned if the key is not found.
+   */
+  get(key, defaultValue) {
+    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {};
+    const value = JSON.parse(storage[`${_name}-${key}`] || null);
+    return value || defaultValue;
+  },
+  /**
+   * Sets a value in local storage.
+   * @param {string} key - The key to store the value at, will be prefixed with 'sn-'.
+   * @param {string} value - Value to store.
+   */
+  set(key, value) {
+    if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
+    try {
+      localStorage[`${_name}-${key}`] = JSON.stringify(value);
+    } catch (e) {
+      _logger__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z.error(`localStorage set failed`, `key: ${key}`, `value:`, value);
+    }
+  },
+  /**
+   * Removes a value from local storage.
+   * @param {string} key - The key to remove, automatically prefixed with 'sn-'.
+   */
+  remove(key) {
+    if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
+    try {
+      localStorage.removeItem(`${_name}-${key}`);
+    } catch (e) {
+      _logger__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z.error(`localStorage remove failed`, `key: ${key}`);
+    }
+  },
+  getName() {
+    return _name;
+  },
+  /**
+   * Return a local storage value directly from (not in our JSON bucket).
+   * Returns `defaultValue` or `undefined` if running on server or item not in storage
+   * @param key
+   * @param defaultValue
+   * @return {*}
+   */
+  getRaw(key, defaultValue) {
+    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
+      getItem: () => null
+    };
+    const value = storage.getItem(key) || null;
+    return value || defaultValue;
+  }
+};
+(0,_object__WEBPACK_IMPORTED_MODULE_2__/* .namespace */ .uD)('sn.storage', mod);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
 })();
 
-var __webpack_exports__format = __webpack_exports__.WU;
-var __webpack_exports__formats = __webpack_exports__.bd;
-var __webpack_exports__fromNow = __webpack_exports__.Zh;
-export { __webpack_exports__format as format, __webpack_exports__formats as formats, __webpack_exports__fromNow as fromNow };
+var __webpack_exports__default = __webpack_exports__.Z;
+export { __webpack_exports__default as default };

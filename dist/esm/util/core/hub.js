@@ -1,7 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_cookie__ from "cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_react__ from "react";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -117,406 +113,21 @@ class Deferred {
 
 /***/ }),
 
-/***/ 276:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   NH: () => (/* binding */ arrays)
-/* harmony export */ });
-/* unused harmony exports reducers, sorters, entityTable, includesAll, includesAny, asArray, safeArray */
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(981);
-/* ARRAY UTILS
-   --------------------------------------------------------------- */
-
-
-
-
-const arrays = {
-  /**
-   * Creates a shallow clone of the array.
-   * If objects exist in the original array, the references
-   * are kept.
-   *
-   * https://davidwalsh.name/javascript-clone-array
-   */
-  clone(arr) {
-    return arr.slice(0);
-  },
-  /**
-   * Insert an item in an array at the index.
-   *
-   * USAGE:
-   * let months = ['Jan', 'March', 'April'];
-   * sn.arrays.insert(months, 1, 'Feb'); // insert at index 1
-   * console.log(months); // Array ['Jan', 'Feb', 'March', 'April']
-   */
-  insert(arr, index, item) {
-    if (index < 0) {
-      throw new Error('Index must be greater than 0.');
-    }
-    if (index > this.length - 1) {
-      throw new Error(`Index must be less than array length. Index: ${index}, Length: ${this.length}`);
-    }
-    arr.splice(index, 0, item);
-    return arr;
-  },
-  /**
-   * Add an item or array of items in between every item in the array.
-   * @param {any[]} arr - The array to weave things into.
-   * @param {*} item - The item to weave into the array.
-   *        If `item` is an Array then the items of `item` are woven into `arr` sequentially.
-   *        If `item` is a function, then the result of item(i) is woven into `arr` sequentially.
-   * @param {boolean} before - if true, the first item in the resulting array will be the weave item
-   */
-  weave(arr, item) {
-    let before = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-    const next = i => {
-      if (Array.isArray(item)) return item[i];
-      if (typeof item === 'function') return item(i);
-      return item;
-    };
-    return arr.reduce((prev, curr, i) => {
-      if (before) prev.push(next(i));
-      prev.push(curr);
-      if (!before && i !== arr.length - 1) prev.push(next(i));
-      return prev;
-    }, []);
-  },
-  /** Chunk an array into smaller arrays. */
-  chunk(arr, size) {
-    const groups = [];
-    let i;
-    for (i = 0; i < arr.length; i += size) {
-      groups.push(arr.slice(i, i + size));
-    }
-    return groups;
-  },
-  /**
-   * Returns true if two arrays have strictly equal (not equivalent) items.
-   * Does NOT account for objects or nested arrays.
-   * Order does not matter.
-   * @see http://stackoverflow.com/a/16436975
-   *
-   * USAGE:
-   * sn.arrays.equalish([1, 2], [1, 2])           // true
-   * sn.arrays.equalish([1, "2"], [1, 2])         // false
-   * sn.arrays.equalish(["2", 1], [1, "2"])       // true
-   * sn.arrays.equalish([1, [2, 3]], [1, [2, 3]]) // false (The nested arrays are different instances.)
-   * sn.arrays.equalish([1, {}], [1, {}])         // false (The nested objects are different instances.)
-   */
-  equalish(a, b) {
-    if (a && !b) return false;
-    if (!a && b) return false;
-    if (a.length !== b.length) return false;
-    const arr1 = [...a];
-    const arr2 = [...b];
-    arr1.sort();
-    arr2.sort();
-    for (let i = arr1.length; i--;) if (arr1[i] !== arr2[i]) return false;
-    return true;
-  },
-  /**
-   * Move element at index `from` to index `to` in the `array` provided.
-   * @param {any[]} arr - The array to modify.
-   * @param {Number} from - The index of the item to move.
-   * @param {Number} to - The index to move the item to.
-   */
-  move(arr, from, to) {
-    arr.splice(to, 0, arr.splice(from, 1)[0]);
-    return arr;
-  },
-  /**
-   * Move element at index `from`, `by` a certain amount (negative or positive),
-   * in the `array` provided.
-   * @param {any[]} arr - The array to modify.
-   * @param {Number} from - The index of the item to move.
-   * @param {Number} by - The number of space to move the element.
-   *
-   * USAGE:
-   * let arr = ['a', 'b', 'c'];
-   * sn.arrays.moveBy(arr, 0, 2);  // ['b', 'c', 'a']
-   * sn.arrays.moveBy(arr, 2, -2); // ['a', 'b', 'c']
-   */
-  moveBy(arr, from) {
-    let by = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
-    let newPos = +from + +by;
-    const value = arr[from];
-    if (newPos < 0) newPos = 0;
-    arr.splice(from, 1);
-    arr.splice(newPos, 0, value);
-    return arr;
-  },
-  /**
-   * Returns a new array trimmed to the first n items desired.
-   * Does not mutate the original array.
-   * @param {any[]} arr - The original array.
-   * @param {number} size - the size to trim to.
-   * @return {any[]}
-   */
-  trim(arr, size) {
-    if (arr.length > size) return arr.slice(0, size);
-    return arr;
-  },
-  /**
-   * Remove the first occurrence of the item found in the
-   * array using the predicate. Note this mutates the array.
-   * @param {any[]} arr - The array to modify.
-   * @param {function|number} predicate - function to find the element to remove or the index number itself.
-   */
-  remove(arr, predicate) {
-    if (typeof predicate === 'function') {
-      const index = arr.findIndex(predicate);
-      if (index !== -1) arr.splice(index, 1);
-    } else if (typeof predicate === 'number') {
-      arr.splice(predicate, 1);
-    }
-    return arr;
-  },
-  /**
-   * Returns a new array with the item removed.
-   * The original array is not mutated.
-   * @param {any[]} arr - The original array.
-   * @param {function|number} predicate - function to find the element to remove or the index number itself.
-   * @return {*[]|*}
-   */
-  removeSafe(arr, predicate) {
-    let index = -1;
-    if (typeof predicate === 'function') {
-      index = arr.findIndex(predicate);
-    } else if (typeof predicate === 'number') {
-      index = predicate;
-    }
-    if (index === -1) return arr;
-    return [...arr.slice(0, index), ...arr.slice(index + 1)];
-  },
-  /**
-   * Combines many filter functions into a single filter function.
-   * @param {function(*=)} filters - the filters to combine.
-   * @return {function(*=)}
-   *
-   * USAGE:
-   * let even = (x) => x % 2 === 0;
-   * let gt_5 = (x) => x > 5;
-   * let filter = arrays.combineFilters(even, gt_5);
-   * [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(filter);
-   * // [6, 8, 10]
-   */
-  combineFilters() {
-    for (var _len = arguments.length, filters = new Array(_len), _key = 0; _key < _len; _key++) {
-      filters[_key] = arguments[_key];
-    }
-    return function compositeFilter(x) {
-      return filters.reduce(function reduceFilters(result, f) {
-        return result && f(x);
-      }, true);
-    };
-  },
-  /**
-   * Add items to the end of an array if needed up to a limit.
-   * @param {any[]} arr - The array to modify.
-   * @param {Number} [to] - the resulting size of the padded array.
-   * @param {*} [filler] - the stuffing to use for padding.
-   *
-   * USAGE:
-   * let arr = ['a', 'b', 'c', 'd'];
-   * sn.arrays.pad(arr, 10);
-   * // ["a", "b", "c", "d", null, null, null, null, null, null]
-   *
-   */
-  pad() {
-    let arr = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : (0,_function__WEBPACK_IMPORTED_MODULE_0__/* .required */ .C1)('arr');
-    let to = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-    let filler = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-    for (let i = arr.length; i < to; i++) {
-      if (typeof arr[i] === 'undefined') {
-        // eslint-disable-next-line no-unused-expressions
-        typeof filler === 'function' ? arr[i] = filler(i) : arr[i] = filler;
-      }
-    }
-    return arr;
-  },
-  /**
-   * Returns a new array such that it contains a distinct set of values from the
-   * original array, i.e. all duplicates are removed.
-   * @param {any[]} arr - the the array to work on.
-   * @returns {Array} - a new array with distinct values, order is preserved.
-   *
-   * USAGE:
-   * const names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"];
-   * // ['Mike', 'Matt', 'Nancy', 'Adam', 'Jenny', 'Carl']
-   *
-   */
-  uniq(arr) {
-    if (!arr) return arr;
-    return arr.reduce((a, b) => {
-      if (a.indexOf(b) < 0) a.push(b);
-      return a;
-    }, []);
-  },
-  /** Check how many times an element occurs in an array */
-  checkOccurrences(arr, element) {
-    let counter = 0;
-    arr.forEach(item => {
-      if (JSON.stringify(item) === JSON.stringify(element)) counter += 1;
-    });
-    return counter;
-  },
-  /**
-   * Sort an array by using the items indexes in an ordered array.
-   * @param {any[]} arr - the array to sort.
-   * @param {any[]} order - the ordered array to reference for sorting.
-   * @param {function} [getValue] - an optional function to fetch the value to sort by.
-   */
-  sortByIndex(arr, order) {
-    let getValue = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _function__WEBPACK_IMPORTED_MODULE_0__/* .identity */ .yR;
-    arr.sort((a, b) => {
-      const valueA = getValue(a);
-      const valueB = getValue(b);
-      let indexA = order.indexOf(valueA);
-      let indexB = order.indexOf(valueB);
-      if (indexA === -1) indexA = 999;
-      if (indexB === -1) indexB = 999;
-      return indexA - indexB;
-    });
-    return arr;
-  },
-  /**
-   * Build an array sort function by using the items indexes in an ordered array.
-   * @param {any[]} order - the ordered array to reference for sorting.
-   * @param {function} [getValue] - an optional function to fetch the value to sort by.
-   */
-  sorterByIndex(order) {
-    let getValue = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _function__WEBPACK_IMPORTED_MODULE_0__/* .identity */ .yR;
-    return (a, b) => {
-      const valueA = getValue(a);
-      const valueB = getValue(b);
-      let indexA = order.indexOf(valueA);
-      let indexB = order.indexOf(valueB);
-      if (indexA === -1) indexA = 999;
-      if (indexB === -1) indexB = 999;
-      return indexA - indexB;
-    };
-  }
-};
-
-/** Common reducer callbacks. */
-const reducers = {
-  /** Entity table mapped by item 'id'. */
-  id(acc, item) {
-    acc[item.id] = item;
-    return acc;
-  },
-  /**
-   * Create a reducer to build an entity table mapped by item `field`.
-   * @param {string} field - the property name or property path of the id.
-   */
-  by(field) {
-    return (acc, item) => {
-      acc[(0,_object__WEBPACK_IMPORTED_MODULE_1__/* .prop */ .vg)(item, field)] = item;
-      return acc;
-    };
-  },
-  /** Reduce array to hash where the item is the key AND the value. */
-  identity(acc, item) {
-    acc[item] = item;
-    return acc;
-  }
-};
-const sorters = {
-  alphaOn(field) {
-    return (a, b) => {
-      if (a[field] === b[field]) return 0;
-      return a[field] > b[field] ? 1 : -1;
-    };
-  }
-};
-
-/**
- * Build an entity table for an array.
- * @param {any[]} arr - the array to convert to an entity table.
- * @param {string} [by] - the array item's property to map by. Default: `id`.
- */
-const entityTable = function (arr) {
-  let by = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'id';
-  const reducer = by === 'id' ? reducers.id : reducers.by(by);
-  const table = {
-    byId: arr.reduce(reducer, {})
-  };
-  table.allIds = Object.keys(table.byId);
-  table.allIds.sort((a, b) => {
-    const iA = arr.findIndex(o => o[by] === a[by]);
-    const iB = arr.findIndex(o => o[by] === b[by]);
-    return iA - iB;
-  });
-  return table;
-};
-
-/**
- * Returns true if the first array contains ALL the elements in the second array.
- * USAGE:
- * let arr1 = [1, 2, 3, 4];
- * let arr2 = [3, 4, 5, 6];
- * let arr3 = [3, 4, 6];
- * includesAll(arr1, arr2) // returns false
- * includesAll(arr2, arr3) // returns true
- */
-function includesAll(arrA, arrB) {
-  return isSuperset(new Set(arrA), new Set(arrB));
-}
-
-/**
- * Returns true if the first array contains ANY of the elements in the second array.
- * USAGE:
- * let arr1 = [1, 2, 3, 4];
- * let arr2 = [3, 4, 5, 6];
- * let arr3 = [5, 6];
- * includesAny(arr1, arr2) // returns true
- * includesAny(arr1, arr3) // returns false
- */
-function includesAny(arrA, arrB) {
-  return intersection(new Set(arrA), new Set(arrB)).size > 0;
-}
-
-/** Simply wrap input in array if it is not an array */
-function asArray(input) {
-  if (Array.isArray(input)) return input;
-  return [input];
-}
-
-/**
- * Return input as an array
- * USAGE:
- * safeArray(); -> []
- * safeArray(null); -> []
- * safeArray(0); -> [0]
- * safeArray('a'); -> ['a']
- * safeArray([1,2,3]); -> [1,2,3]
- * safeArray([`a`, 0, { foo: 'bar' }]); -> [`a`, 0, { foo: 'bar' }]
- */
-function safeArray(input) {
-  if (Array.isArray(input)) return input;
-  if (typeof input === 'undefined' || input === null) return [];
-  return asArray(input);
-}
-
-/***/ }),
-
 /***/ 168:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Dg: () => (/* binding */ timezone),
 /* harmony export */   L1: () => (/* binding */ isDebug),
 /* harmony export */   Wj: () => (/* binding */ isJestEnv),
-/* harmony export */   iv: () => (/* binding */ css),
 /* harmony export */   p_: () => (/* binding */ win),
 /* harmony export */   styles: () => (/* binding */ styles),
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, locale, attributes, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -564,12 +175,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -942,7 +553,7 @@ const regex = {
 
 /***/ }),
 
-/***/ 351:
+/***/ 997:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -952,11 +563,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "js-cookie"
-var external_js_cookie_ = __webpack_require__(915);
+var external_js_cookie_ = __webpack_require__(734);
+var external_js_cookie_default = /*#__PURE__*/__webpack_require__.n(external_js_cookie_);
 ;// CONCATENATED MODULE: external "cookie"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const external_cookie_namespaceObject = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_cookie__["default"] });
+const external_cookie_namespaceObject = require("cookie");
+var external_cookie_default = /*#__PURE__*/__webpack_require__.n(external_cookie_namespaceObject);
 // EXTERNAL MODULE: ./src/util/core/Cookie.js
 var Cookie = __webpack_require__(531);
 // EXTERNAL MODULE: ./src/util/core/enumify.js
@@ -1045,7 +656,7 @@ function checkEntry(entry, allowUndefined) {
 CookieJar.get = function get(e) {
   const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
   checkEntry(entry, true);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name);
+  const c = external_js_cookie_default().getJSON(cookiejar_name);
   if (!entry) return c || {};
   if (!c) return entry.default;
   let key = `${entry.group}`;
@@ -1069,7 +680,7 @@ CookieJar.getFromRequest = function get(req, e) {
   checkEntry(entry, true);
   let c = {};
   try {
-    const cookies = external_cookie_namespaceObject["default"].parse(req.headers.get('Cookie') || '');
+    const cookies = external_cookie_default().parse(req.headers.get('Cookie') || '');
     const raw = cookies[cookiejar_name];
     c = JSON.parse(raw);
   } catch (err) {
@@ -1111,7 +722,7 @@ CookieJar.getFromData = function get(data, e) {
  */
 CookieJar.set = function set(entry, value) {
   checkEntry(entry);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name) || {};
+  const c = external_js_cookie_default().getJSON(cookiejar_name) || {};
   let key = `${entry.group}`;
   if (entry.id) key += `-${entry.id}`;
   c[key] = value;
@@ -1122,13 +733,13 @@ CookieJar.set = function set(entry, value) {
     // eslint-disable-next-line no-console
     console.error(`Failed to set cookie "${entry.toString()}" with value "${value}":` + ` cookie length (${stringifiedBytes} bytes) exceeds max (${max} bytes)`);
   } else {
-    external_js_cookie_["default"].set(cookiejar_name, c, {
+    external_js_cookie_default().set(cookiejar_name, c, {
       expires: 365
     });
   }
 };
 CookieJar.getName = () => cookiejar_name;
-CookieJar.lib = external_js_cookie_["default"];
+CookieJar.lib = (external_js_cookie_default());
 CookieJar.Entry = Entry;
 (0,object/* namespace */.uD)('sn.cookiejar', CookieJar);
 /* harmony default export */ const cookiejar = (CookieJar);
@@ -1191,304 +802,14 @@ function enumEntryOrNull(Enum, key) {
 
 /***/ }),
 
-/***/ 666:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   WU: () => (/* binding */ format),
-/* harmony export */   bd: () => (/* binding */ formats)
-/* harmony export */ });
-/* unused harmony export fromNow */
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(203);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-
-
-const formats = {
-  date: {
-    /** "Thursday, November 7" */
-    DAY_MONTH_LONG: date => date.toLocaleDateString('en-US', {
-      weekday: 'long',
-      month: 'long',
-      day: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "Nov 7, 2019" */
-    MONTH_ABR_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      month: 'short',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "November 7, 2019" */
-    MONTH_LONG_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/7/2019" */
-    SIMPLE: date => date.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/07/2019" */
-    SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
-      month: '2-digit',
-      day: '2-digit',
-      year: 'numeric',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/07/2019" */
-    UTC_SIMPLE_2_DIGIT: date => date.toLocaleDateString('en-US', {
-      month: '2-digit',
-      day: '2-digit',
-      year: 'numeric',
-      timeZone: 'UTC'
-    }),
-    /** "11/7/2019" */
-    MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/8/2019" */
-    UTC_MONTH_DAY_YEAR: date => date.toLocaleDateString('en-US', {
-      timeZone: 'UTC'
-    }),
-    /** "2019-11-07"
-     * See https://www.iso.org/iso-8601-date-and-time-format.html
-     */
-    /* eslint-disable prefer-template */
-    ISO: date => date.getUTCFullYear() + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getUTCMonth() + 1, 2) + '-' + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getUTCDate(), 2),
-    /* eslint-enable prefer-template */
-
-    /** "20191107" */
-    COMPACT: date => date.getFullYear() + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getMonth() + 1, 2) + (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(date.getDate(), 2)
-  },
-  time: {
-    /** "2:07 PM CST" */
-    SIMPLE: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    }),
-    /** "2:07 PM" */
-    HOUR_AND_MINUTE: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric',
-      minute: '2-digit'
-    }),
-    /** "2 PM" */
-    HOUR_ONLY: time => time.toLocaleTimeString('en-US', {
-      hour: 'numeric'
-    }),
-    /** "14:07 CST" */
-    ARMY: time => time.toLocaleTimeString('en-US', {
-      hour12: false,
-      hour: '2-digit',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    }),
-    /** "14:07:59.506" */
-    PRECISE: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getSeconds(), 2)}` + `.${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMilliseconds(), 3)}`,
-    /** "14:07:59" */
-    PRECISE_NO_MILLISECONDS: time => `${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getHours(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getMinutes(), 2)}` + `:${(0,_string__WEBPACK_IMPORTED_MODULE_0__/* .pad */ .vk)(time.getSeconds(), 2)}`
-  },
-  datetime: {
-    /** "11/7/2019, 2:07 PM" */
-    LOCAL: datetime => datetime.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg
-    }),
-    /** "11/7/2019, 2:07 PM CST" */
-    SIMPLE: datetime => datetime.toLocaleDateString('en-US', {
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: _constants__WEBPACK_IMPORTED_MODULE_1__/* .timezone */ .Dg,
-      timeZoneName: 'short'
-    })
-  }
-};
-/** Formatters */
-const format = {
-  /**
-   ** Format a Date object into a date, with the browser's timezone and a configurable format
-   * @param {Date|String|Number} [date=now] - Unix timestamp to format as a readable date-time
-   * @param {Function} [formatter='MMM D, YYYY'] - The format to use.
-   */
-  date() {
-    let date = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Date();
-    let formatter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : formats.date.MONTH_ABR_DAY_YEAR;
-    return formatter(new Date(date));
-  },
-  /**
-   * Convert 24h time string to 12h time string with meridiems(PM/AM).
-   * @param {String} time - ie.: "19:00"
-   * @returns {String} - ie.: "7 PM"
-   */
-  formatTimeString(time) {
-    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    const [hour, minute] = time.split(':');
-    const showMinute = minute !== '00' ? `:${minute}` : '';
-    const pm = hour > 12;
-    let result = pm ? `${hour % 12}${showMinute} PM` : `${hour}${showMinute} AM`;
-    if (trim) {
-      result = result.replace(' PM', 'pm').replace(' AM', 'am');
-    }
-    return result;
-  },
-  /**
-   * Return a formatted percent string to the decimal places specified.
-   * USAGE:
-   * sn.format.percent(13, 205, 3) // "6.341%"
-   * sn.format.percent(5, 10, 3) // "50%"
-   * @param {Number} count - The current count of items.
-   * @param {Number} total - The total number of items.
-   * @param {Number} decimals - The number of decimal places.
-   */
-  percent(count, total) {
-    let decimals = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3;
-    return `${Number((count / total * 100).toFixed(decimals)).toString()}%`;
-  },
-  /**
-   * Return a formatted currency string for the supplied number.
-   * USAGE:
-   * sn.format.currency(123456789.12345) // "$123,456,789.12"
-   * @param {string|number} num - the currency amount.
-   * @param {boolean} trim - if `true`, '.00' is omitted, default to `false`.
-   */
-  currency(num) {
-    let trim = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    let n = num;
-    if (typeof num === 'object') {
-      // convert price type
-      n = num.cents / 100;
-    }
-    const trimming = trim ? '.00' : '';
-    const c = 2;
-    const d = '.';
-    const t = ',';
-    const s = n < 0 ? '-$' : '$';
-    const i = `${parseInt(n = Math.abs(+n || 0).toFixed(c), 10)}`;
-    let j = i.length;
-    j = j > 3 ? j % 3 : 0;
-    return s + (j ? i.substr(0, j) + t : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, `$1${t}`) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : '').replace(trimming, '');
-  },
-  /**
-   * Reduce a numerator and denominator to it's smallest,
-   * integer ratio using Euclid's Algorithm. Example:
-   * <code>
-   *   ratio(1920, 1080) -> "16:9"
-   * </code>
-   */
-  ratio(numerator, denominator) {
-    let flip = false;
-    let n = numerator;
-    let d = denominator;
-    const gcd = (a, b) => {
-      if (b === 0) return a;
-      return gcd(b, a % b);
-    };
-    if (n === d) return '1 : 1';
-
-    // Make sure numerator is always the larger number
-    if (+n < +d) {
-      flip = true;
-      const temp = n;
-      n = d;
-      d = temp;
-    }
-    const divisor = gcd(+n, +d);
-    return flip ? `${d / divisor}:${n / divisor}` : `${n / divisor}:${d / divisor}`;
-  },
-  time(sec) {
-    const seconds = Number(sec);
-    const h = Math.floor(seconds / 3600);
-    const m = Math.floor(seconds % 3600 / 60);
-    const s = Math.floor(seconds % 3600 % 60);
-    let result = `${`0${m}`.slice(-2)}:${`:0${s}`.slice(-2)}`;
-    if (h > 0) result = `${`0${h}`.slice(-2)}:${result}`;
-    return result;
-  }
-};
-
-/**
- * Returns a human readable format of the difference between an date/timestamp
- * and now.
- * @param {Date|String} dateMillis - the unix timestamp or date instance.
- * @param {boolean} useIn - when true, future times use 'in' instead of 'from now'.
- * @return {string} the formatted difference, i.e. `one month from now` or `two days ago`
- */
-function fromNow(dateMillis) {
-  let useIn = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  let millis = dateMillis;
-  if (dateMillis instanceof Date) {
-    millis = dateMillis.getTime();
-  }
-  const now = Date.now();
-  const diff = now - millis;
-  const isBefore = dateMillis < now;
-  const abs = Math.abs(diff);
-  const days = Math.floor(abs / (24 * 60 * 60 * 1000));
-  const daysMs = abs % (24 * 60 * 60 * 1000);
-  const hrs = Math.floor(daysMs / (60 * 60 * 1000));
-  const hrsMs = abs % (60 * 60 * 1000);
-  const mins = Math.floor(hrsMs / (60 * 1000));
-  const minsMs = abs % (60 * 1000);
-  const secs = Math.floor(minsMs / 1000);
-  const months = Math.floor(days / 30);
-  const years = Math.floor(days / 365);
-  if (isBefore) {
-    // In the past
-    if (years > 1) return `${years} years ago`;
-    if (years === 1) return 'a year ago';
-    if (months > 1) return `${months} months ago`;
-    if (months === 1) return '1 month ago';
-    if (days > 1) return `${days} days ago`;
-    if (days === 1) return 'yesterday';
-    if (hrs > 1) return `${hrs} hours ago`;
-    if (hrs === 1) return 'one hour ago';
-    if (mins > 1) return `${mins} minutes ago`;
-    if (mins === 1) return '1 minute ago';
-    if (secs > 1) return `${secs} seconds ago`;
-    return '1 second ago';
-  }
-
-  // In the future
-  if (years > 1) return useIn ? `in {years} years` : `${years} years from now`;
-  if (years === 1) return useIn ? 'in a year' : 'a year from now';
-  if (months > 1) return useIn ? `in ${months} months` : `${months} months from now`;
-  if (months === 1) return useIn ? 'in a month' : '1 month from now';
-  if (days > 1) return useIn ? `in ${days} days` : `${days} days from now`;
-  if (days === 1) return 'tomorrow';
-  if (hrs > 1) return useIn ? `in ${hrs} hours` : `${hrs} hours from now`;
-  if (hrs === 1) return useIn ? 'in an hour' : 'one hour from now';
-  if (mins > 1) return useIn ? `in ${mins} minutes` : `${mins} minutes from now`;
-  if (mins === 1) return useIn ? 'in 1 minute' : '1 minute from now';
-  if (secs > 1) return useIn ? `in ${secs} seconds` : `${secs} seconds from now`;
-  return '1 second from now';
-}
-
-/***/ }),
-
 /***/ 981:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   C1: () => (/* binding */ required),
 /* harmony export */   Wl: () => (/* binding */ isFunc),
-/* harmony export */   ZT: () => (/* binding */ noop),
-/* harmony export */   yR: () => (/* binding */ identity)
+/* harmony export */   ZT: () => (/* binding */ noop)
 /* harmony export */ });
-/* unused harmony exports lazy, compose, pipe, debounce, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
+/* unused harmony exports lazy, compose, required, pipe, debounce, identity, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * FUNCTION UTILS
@@ -1722,195 +1043,6 @@ function createChainedFunction() {
     };
   }, null);
 }
-
-/***/ }),
-
-/***/ 564:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   m: () => (/* binding */ useSubscription)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(810);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(981);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
-/* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(351);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(154);
-/* harmony import */ var _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(292);
-/**
- * A simple pub/sub module.
- * @see http://davidwalsh.name/pubsub-javascript
- */
-
-
-
-
-
-
-
-
-
-const win = browser_or_node__WEBPACK_IMPORTED_MODULE_4__.isBrowser ? window : __webpack_require__.g;
-
-/**
- * This is the hub state, mapping topics to their listeners.
- * We use a window (or global) field so that no matter how many hubs instances
- * have been created, there is only one topic-listener dictionary.
- *
- * @type {{ string: Function[] }}
- */
-let TOPIC_LISTENERS = win?.sn__hub;
-if (!TOPIC_LISTENERS) {
-  win.sn__hub = {};
-  TOPIC_LISTENERS = win.sn__hub;
-}
-const hop = TOPIC_LISTENERS.hasOwnProperty;
-
-/**
- * Log a notification for a topic publication.
- * @param {string} topic - the topic that was published.
- * @param {number} listeners - the number of listeners.
- * @param {*} data - the data for the publication.
- */
-function log(topic, listeners, data) {
-  let notif = `%csn.hub: %cPublished %c'${topic}' %cto ${listeners} subscriber(s)`;
-  const hasData = typeof data !== 'undefined';
-  if (hasData) notif += ' with data:';
-  const grouper = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
-  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_6__/* .noop */ .ZT;
-  const consoleStyles = [`${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.strong}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`];
-  grouper.apply(console, [notif, ...consoleStyles]);
-  if (hasData) _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(data);
-  groupend();
-}
-
-/**
- * Subscribe a listener function to be notified of an event on a topic.
- * Returns an object with a 'remove' property as a function to remove
- * the registered listener.
- *
- * @param {string} topic - The topic to subscribe to.
- * @param {Function} listener - The listener function fired for each
- *                              event on the topic.
- * @return {Object} o - Listener removal handler.
- */
-function sub(topic, listener) {
-  // Create the topic's object if not yet created
-  if (!hop.call(TOPIC_LISTENERS, topic)) TOPIC_LISTENERS[topic] = [];
-
-  // Add the listener to topic's listener queue
-  const index = TOPIC_LISTENERS[topic].push(listener) - 1;
-
-  // We're subbed to and ready to be pubbed to
-  mod.topicDfds[topic]?.resolve(listener);
-
-  // Provide handle back for removal of a topic listener
-  return {
-    remove: () => {
-      delete TOPIC_LISTENERS[topic][index];
-    }
-  };
-}
-
-/**
- * Publish an event on the topic with optional data.
- *
- * @param {string} topic - The topic to publish the event on.
- * @param {*} [data] - The optional data to pass the listeners.
- */
-function pub(topic, data) {
-  // If the topic doesn't exist or it has no listeners in queue, just leave.
-  if (!hop.call(TOPIC_LISTENERS, topic)) return;
-
-  // Cycle through topics queue, fire!
-  const listeners = TOPIC_LISTENERS[topic];
-  listeners.forEach(listener => listener(typeof data === 'undefined' ? {} : data));
-  const shouldLog = getLogEnabled();
-  if (shouldLog) log(topic, listeners.length, data);
-}
-
-/**
- * Custom hook to react to hub subscriptions as a side effect.
- * @param {string} topic - The topic to subscribe to.
- * @param {Function} listener - The listener function fired for each
- *                              event on the topic.
- * @param {Function} [onReady] - A callback fired when the subscription has been registered.
- */
-const useSubscription = (topic, listener, onReady) => {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const subscription = sub(topic, listener);
-    if (typeof onReady === 'function') onReady();
-    return subscription.remove;
-  },
-  // Unsub/Resub if they change topics but not handlers.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  [topic]);
-};
-
-/**
- * Returns true if the cookie is set to `true`, otherwise false.
- * @return {boolean}
- */
-function getLogEnabled() {
-  return !!_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.get(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled);
-}
-const mod = {
-  pub,
-  sub,
-  toggleLogging: () => {
-    const shouldLog = getLogEnabled();
-    _cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.set(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled, !shouldLog);
-    return getLogEnabled();
-  },
-  /** Some common topics. */
-  topics: {
-    AB_TEST_DATA: 'ab_test_data',
-    ALERTS: 'alerts',
-    ANALYTICS_CREATE_CONSUMER: 'analytics_create_consumer',
-    ANALYTICS_EVENT: 'analytics_event',
-    ANALYTICS_REGISTER_CONSUMER: 'analytics_register_consumer',
-    CART: 'cart',
-    CHAT_BUTTON_CLICK: 'chat_button_click',
-    LEAD_MODAL: 'show_lead_capture',
-    LIVE_PERSON_MODAL: 'live_person_modal_show',
-    MICRO_FOOTER: 'micro_footer',
-    MODAL: 'modal',
-    MODAL_CLOSE: 'modal_close',
-    MODAL_READY: 'modal_ready',
-    MODAL_NARWHAL: 'modal_narwhal_show',
-    NAV_TOGGLED: 'nav_toggled',
-    NAV_UNPIN_AT: 'nav_unpin_at',
-    NAV_SHOW_LEAD_LINK: 'nav_show_lead_link',
-    PREFERRED_STORE: 'preferred_store',
-    SESSION_DATA: 'session_data',
-    STORE_FINDER: 'storefinder',
-    SUBNAV_TAB: 'subnav_tab',
-    USER: 'user',
-    VIDEO_MODAL: 'modal_video_show',
-    VIDEO_MODAL_PLAY: 'modal_video_play',
-    VIDEO_MODAL_READY: 'modal_video_ready'
-  }
-};
-mod.topicDfds = Object.values(mod.topics).reduce((dict, v) => {
-  dict[v] = new _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z();
-  return dict;
-}, {});
-
-/**
- * Return a promise resolved when the first subscription to a topic has happened.
- * @param {valueof mod.topics} topic
- * @return {Promise<function>}
- */
-mod.onTopicListener = topic => {
-  /** @type {Deferred} */
-  const dfd = mod.topicDfds[topic];
-  return dfd.promise();
-};
-(0,_object__WEBPACK_IMPORTED_MODULE_7__/* .namespace */ .uD)('sn.hub', mod);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
 
 /***/ }),
 
@@ -2311,11 +1443,9 @@ function type(arg) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Vj: () => (/* binding */ uuid),
-/* harmony export */   aI: () => (/* binding */ bytes),
-/* harmony export */   vk: () => (/* binding */ pad)
+/* harmony export */   aI: () => (/* binding */ bytes)
 /* harmony export */ });
-/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, replaceAt, endsWith, firstWord, lazyId, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
+/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 
 function isString(input) {
@@ -2611,30 +1741,24 @@ function hash(str) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ }),
 
-/***/ 810:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 689:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_react__["default"], ["useEffect"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useEffect, ["useMemo"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useMemo, ["useState"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useState });
+module.exports = require("react");
 
 /***/ })
 
@@ -2665,6 +1789,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_react__["defau
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -2699,24 +1835,22 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Cf: () => (/* binding */ providerError),
-/* harmony export */   MT: () => (/* binding */ createStore),
-/* harmony export */   Qz: () => (/* binding */ createProvider)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   m: () => (/* binding */ useSubscription)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(810);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
-/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(168);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(981);
-/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(203);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(813);
-/* harmony import */ var _hub__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(564);
-/* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(276);
-/* harmony import */ var _format__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(666);
-function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(814);
+/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(981);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
+/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
+/* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(997);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(292);
 /**
- * Module to create data stores and providers.
+ * A simple pub/sub module.
+ * @see http://davidwalsh.name/pubsub-javascript
  */
 
 
@@ -2727,277 +1861,166 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 
 
 
-
-
-
-const stores = {};
+const win = browser_or_node__WEBPACK_IMPORTED_MODULE_4__.isBrowser ? window : __webpack_require__.g;
 
 /**
- * @typedef Store
- * @property {string} name
- * @property {string} topic
- * @property {React.Context} context
- * @property {function} dispatch
- * @property {(function(string, *=): onChange)} change
- * @property {(function(string, *=): onSelect)} select
- * @property {(function(Function))} subscribe
- * @property {function: object} getState
- * @property {function} selectState
+ * This is the hub state, mapping topics to their listeners.
+ * We use a window (or global) field so that no matter how many hubs instances
+ * have been created, there is only one topic-listener dictionary.
+ *
+ * @type {{ string: Function[] }}
  */
+let TOPIC_LISTENERS = win?.sn__hub;
+if (!TOPIC_LISTENERS) {
+  win.sn__hub = {};
+  TOPIC_LISTENERS = win.sn__hub;
+}
+const hop = TOPIC_LISTENERS.hasOwnProperty;
 
 /**
- * Create a store.
- * @param {object} blueprint
- * @param {string} blueprint.name
- * @param {object} blueprint.context
- * @param {function} blueprint.handle
- * @param {function} blueprint.getDefaultState
- * @return {Store}
+ * Log a notification for a topic publication.
+ * @param {string} topic - the topic that was published.
+ * @param {number} listeners - the number of listeners.
+ * @param {*} data - the data for the publication.
  */
-function createStore(blueprint) {
-  const {
-    name,
-    context,
-    handle: rootReducer
-  } = blueprint;
-  const topic = `store.${name}`;
-  const logging = !(0,_constants__WEBPACK_IMPORTED_MODULE_3__/* .isProduction */ .yv)() || (0,_constants__WEBPACK_IMPORTED_MODULE_3__/* .isDebug */ .L1)();
-  let state = blueprint.getDefaultState();
-  let listeners = [];
+function log(topic, listeners, data) {
+  let notif = `%csn.hub: %cPublished %c'${topic}' %cto ${listeners} subscriber(s)`;
+  const hasData = typeof data !== 'undefined';
+  if (hasData) notif += ' with data:';
+  const grouper = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
+  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_6__/* .noop */ .ZT;
+  const consoleStyles = [`${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.strong}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`];
+  grouper.apply(console, [notif, ...consoleStyles]);
+  if (hasData) _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(data);
+  groupend();
+}
 
-  /** Retrieve the current state of the store. */
-  function getState() {
-    return state;
-  }
+/**
+ * Subscribe a listener function to be notified of an event on a topic.
+ * Returns an object with a 'remove' property as a function to remove
+ * the registered listener.
+ *
+ * @param {string} topic - The topic to subscribe to.
+ * @param {Function} listener - The listener function fired for each
+ *                              event on the topic.
+ * @return {Object} o - Listener removal handler.
+ */
+function sub(topic, listener) {
+  // Create the topic's object if not yet created
+  if (!hop.call(TOPIC_LISTENERS, topic)) TOPIC_LISTENERS[topic] = [];
 
-  /**
-   * Select portions of the state tree
-   * @param {Object.<string, string|function>} selectors -
-   *   Map of prop names to either
-   *     1. string - Part of the state tree to be selected
-   *     2. function - Run on the state to return the value
-   * @param {Object} [currentState=getState()] -
-   *   State to run against. Defaults to the stores state.
-   *   Use this parameter if the state is a combination of multiple store states.
-   * @returns props based on the selectors
-   */
-  const selectState = function (selectors) {
-    let currentState = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : getState();
-    const props = {};
-    if (!selectors) {
-      return props;
+  // Add the listener to topic's listener queue
+  const index = TOPIC_LISTENERS[topic].push(listener) - 1;
+
+  // We're subbed to and ready to be pubbed to
+  mod.topicDfds[topic]?.resolve(listener);
+
+  // Provide handle back for removal of a topic listener
+  return {
+    remove: () => {
+      delete TOPIC_LISTENERS[topic][index];
     }
-    Object.keys(selectors).forEach(propName => {
-      const selector = selectors[propName];
-      if (typeof selector === 'string') {
-        props[propName] = (0,_object__WEBPACK_IMPORTED_MODULE_9__/* .prop */ .vg)(currentState, selector);
-      } else if (typeof selector === 'function') {
-        props[propName] = selector(currentState);
-      }
-    });
-    return props;
   };
-
-  /**
-   * Dispatch an action or actions to the action handler,
-   * then notify all store listeners.
-   * @param {object|object[]} action - action or array of actions to dispatch.
-   * @param {string} [action.type] - the action type
-   */
-  function dispatch(action) {
-    const multi = Array.isArray(action);
-    const filters = getLogIgnores();
-    const shouldLog = logging && !filters.includes(name);
-    if (shouldLog) {
-      const canGroup = _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.groupCollapsed !== _function__WEBPACK_IMPORTED_MODULE_10__/* .noop */ .ZT;
-      const time = _format__WEBPACK_IMPORTED_MODULE_8__/* .format */ .WU.date(new Date(), _format__WEBPACK_IMPORTED_MODULE_8__/* .formats */ .bd.time.PRECISE);
-      const grouper = canGroup ? _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.groupCollapsed : _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.info;
-      const type = multi ? action.map(a => a.type).join(', ') : action.type;
-      grouper.apply(_logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, [`${time} %cstore: %c${name} %caction${multi ? 's' : ''}: %c${type}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.label}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__.styles.value}`]);
-      _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.info('%cBefore', `${_constants__WEBPACK_IMPORTED_MODULE_3__/* .css */ .iv.gray}`, state);
-      _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.info(`%cAction${multi ? 's' : ''}`, `${_constants__WEBPACK_IMPORTED_MODULE_3__/* .css */ .iv.blue}`, action);
-    }
-    if (multi) {
-      if (!action.length) return;
-      action.forEach(a => {
-        state = rootReducer(state, a);
-      });
-    } else {
-      state = rootReducer(state, action);
-    }
-    if (shouldLog) {
-      _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.info('%cAfter', `${_constants__WEBPACK_IMPORTED_MODULE_3__/* .css */ .iv.green}`, state);
-      _logger__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z.groupEnd();
-    }
-    listeners.forEach(listener => listener());
-    _hub__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z.pub(topic, action);
-  }
-
-  /**
-   * Returns an event handler function to dispatch actions with
-   * a `type` and `value` property. If the first argument is an
-   * event, the `value` is pulled from the  event's current target,
-   * otherwise the first argument is used as the `value`.
-   *
-   * Useful for creating `onClick` or `onChange` handlers.
-   *
-   * @param {string} type - The action type.
-   * @param {*} [item] - Optional identifier of item to change.
-   * @returns {function(arg)}.
-   */
-  function change(type, item) {
-    return function onChange(arg) {
-      let value;
-      const isEvent = typeof arg === 'object' && arg.currentTarget;
-      if (isEvent) {
-        if (arg.currentTarget.type === 'checkbox') {
-          value = arg.currentTarget.checked;
-        } else {
-          // eslint-disable-next-line prefer-destructuring
-          value = arg.currentTarget.value;
-        }
-      } else {
-        value = arg;
-      }
-      dispatch({
-        type,
-        item,
-        value
-      });
-    };
-  }
-
-  /**
-   * Returns a ReactBootstrap `onSelect` handler.
-   * Necessary since the first arg is the eventKey, not the event.
-   * See https://react-bootstrap.github.io/components.html
-   * @param {string} type - The action type.
-   * @param {*} [item] - Optional identifier of item to select.
-   * @returns {function(value)}
-   */
-  function select(type, item) {
-    return function onSelect(value) {
-      dispatch({
-        type,
-        item,
-        value
-      });
-    };
-  }
-
-  /**
-   * Register a listener callback to the store.
-   * Listeners callbacks are fired after actions are dispatched in the
-   * order they were registered.
-   * @param {function} listener - The listener callback to register.
-   * @returns {function} - A function to unregister the listener.
-   */
-  function subscribe(listener) {
-    listeners.push(listener);
-    return () => {
-      listeners = listeners.filter(l => l !== listener);
-    };
-  }
-
-  // Dispatch an initial event to populate store with default state.
-  dispatch({});
-  const store = {
-    name,
-    context,
-    topic,
-    getState,
-    selectState,
-    subscribe,
-    dispatch,
-    change,
-    select
-  };
-  stores[name] = store;
-  return store;
 }
 
 /**
- * Creates a store state provider component and a dispatch function that will
- * trigger your render for you. No need to subscribe to your store.
- * @param blueprint - the store blueprint
- * @returns {[Provider, Store]} an array containing the provider component and the store
+ * Publish an event on the topic with optional data.
+ *
+ * @param {string} topic - The topic to publish the event on.
+ * @param {*} [data] - The optional data to pass the listeners.
  */
-function createProvider(blueprint) {
-  const store = createStore(blueprint);
-  const {
-    context: Context
-  } = blueprint;
+function pub(topic, data) {
+  // If the topic doesn't exist or it has no listeners in queue, just leave.
+  if (!hop.call(TOPIC_LISTENERS, topic)) return;
 
-  /**
-   * Using react context as the app state management lib.
-   * @see https://kentcdodds.com/blog/application-state-management-with-react
-   * @see https://kentcdodds.com/blog/how-to-use-react-context-effectively
-   */
-  function Provider(_ref) {
-    let {
-      children,
-      ...rest
-    } = _ref;
-    const [, pulse] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
-    (0,_hub__WEBPACK_IMPORTED_MODULE_6__/* .useSubscription */ .m)(store.topic, () => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__/* .uuid */ .Vj)()));
-    const state = store.getState();
-    const value = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => ({
-      state,
-      dispatch: store.dispatch,
-      change: store.change,
-      select: store.select,
-      store
-    }), [state]);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["default"].createElement(Context.Provider, _extends({
-      value: value
-    }, rest), children);
+  // Cycle through topics queue, fire!
+  const listeners = TOPIC_LISTENERS[topic];
+  listeners.forEach(listener => listener(typeof data === 'undefined' ? {} : data));
+  const shouldLog = getLogEnabled();
+  if (shouldLog) log(topic, listeners.length, data);
+}
+
+/**
+ * Custom hook to react to hub subscriptions as a side effect.
+ * @param {string} topic - The topic to subscribe to.
+ * @param {Function} listener - The listener function fired for each
+ *                              event on the topic.
+ * @param {Function} [onReady] - A callback fired when the subscription has been registered.
+ */
+const useSubscription = (topic, listener, onReady) => {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const subscription = sub(topic, listener);
+    if (typeof onReady === 'function') onReady();
+    return subscription.remove;
+  },
+  // Unsub/Resub if they change topics but not handlers.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  [topic]);
+};
+
+/**
+ * Returns true if the cookie is set to `true`, otherwise false.
+ * @return {boolean}
+ */
+function getLogEnabled() {
+  return !!_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.get(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled);
+}
+const mod = {
+  pub,
+  sub,
+  toggleLogging: () => {
+    const shouldLog = getLogEnabled();
+    _cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.set(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled, !shouldLog);
+    return getLogEnabled();
+  },
+  /** Some common topics. */
+  topics: {
+    AB_TEST_DATA: 'ab_test_data',
+    ALERTS: 'alerts',
+    ANALYTICS_CREATE_CONSUMER: 'analytics_create_consumer',
+    ANALYTICS_EVENT: 'analytics_event',
+    ANALYTICS_REGISTER_CONSUMER: 'analytics_register_consumer',
+    CART: 'cart',
+    CHAT_BUTTON_CLICK: 'chat_button_click',
+    LEAD_MODAL: 'show_lead_capture',
+    LIVE_PERSON_MODAL: 'live_person_modal_show',
+    MICRO_FOOTER: 'micro_footer',
+    MODAL: 'modal',
+    MODAL_CLOSE: 'modal_close',
+    MODAL_READY: 'modal_ready',
+    MODAL_NARWHAL: 'modal_narwhal_show',
+    NAV_TOGGLED: 'nav_toggled',
+    NAV_UNPIN_AT: 'nav_unpin_at',
+    NAV_SHOW_LEAD_LINK: 'nav_show_lead_link',
+    PREFERRED_STORE: 'preferred_store',
+    SESSION_DATA: 'session_data',
+    STORE_FINDER: 'storefinder',
+    SUBNAV_TAB: 'subnav_tab',
+    USER: 'user',
+    VIDEO_MODAL: 'modal_video_show',
+    VIDEO_MODAL_PLAY: 'modal_video_play',
+    VIDEO_MODAL_READY: 'modal_video_ready'
   }
-  return [Provider, store];
-}
-function providerError(name) {
-  return new Error(`useStore must be used within the "${name}" store's Provider`);
-}
+};
+mod.topicDfds = Object.values(mod.topics).reduce((dict, v) => {
+  dict[v] = new _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z();
+  return dict;
+}, {});
 
 /**
- * Gets the list of stores whose logs are being hidden.
- * @return {*|*[]}
+ * Return a promise resolved when the first subscription to a topic has happened.
+ * @param {valueof mod.topics} topic
+ * @return {Promise<function>}
  */
-function getLogIgnores() {
-  return JSON.parse(js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores) || '[]');
-}
-
-/**
- * Hides logging for a stores actions in the console.
- * @param {string} store - the store name to hide logs for.
- */
-function ignore(store) {
-  const filters = getLogIgnores();
-  if (!filters.includes(store)) {
-    filters.push(store);
-    js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores, JSON.stringify(filters));
-  }
-  return getLogIgnores();
-}
-
-/**
- * Removes store from list of stores whose actions are hidden from the console.
- * @param {string} store - the store name
- */
-function unignore(store) {
-  const filters = getLogIgnores();
-  _array__WEBPACK_IMPORTED_MODULE_7__/* .arrays */ .NH.remove(filters, s => s === store);
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].log_ignores, JSON.stringify(filters));
-  return getLogIgnores();
-}
-(0,_object__WEBPACK_IMPORTED_MODULE_9__/* .namespace */ .uD)('sn.store', {
-  getLogIgnores,
-  ignore,
-  unignore,
-  get: store => !store ? stores : stores[store]
-});
+mod.onTopicListener = topic => {
+  /** @type {Deferred} */
+  const dfd = mod.topicDfds[topic];
+  return dfd.promise();
+};
+(0,_object__WEBPACK_IMPORTED_MODULE_7__/* .namespace */ .uD)('sn.hub', mod);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
 })();
 
-var __webpack_exports__createProvider = __webpack_exports__.Qz;
-var __webpack_exports__createStore = __webpack_exports__.MT;
-var __webpack_exports__providerError = __webpack_exports__.Cf;
-export { __webpack_exports__createProvider as createProvider, __webpack_exports__createStore as createStore, __webpack_exports__providerError as providerError };
+var __webpack_exports__default = __webpack_exports__.Z;
+var __webpack_exports__useSubscription = __webpack_exports__.m;
+export { __webpack_exports__default as default, __webpack_exports__useSubscription as useSubscription };

@@ -1,7 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_dom_helpers_css_2df7c13a__ from "dom-helpers/css";
-import * as __WEBPACK_EXTERNAL_MODULE_dom_helpers_transitionEnd_1a1624f8__ from "dom-helpers/transitionEnd";
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -702,8 +698,10 @@ function safeArray(input) {
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
 /* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -751,12 +749,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -1137,7 +1135,8 @@ const regex = {
 /* harmony export */   tq: () => (/* binding */ isMobile)
 /* harmony export */ });
 /* unused harmony exports isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
 
 
@@ -1301,7 +1300,7 @@ const events = {
 
 /***/ }),
 
-/***/ 366:
+/***/ 336:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -1313,15 +1312,11 @@ __webpack_require__.d(__webpack_exports__, {
 // UNUSED EXPORTS: addClass, addListeners, addTabindexToContent, after, animate, append, before, closest, contains, create, css, fadeIn, fadeOut, findAncestor, findWithRetry, focusFirstElement, focusSection, gebi, getChildMeasurements, getHiddenMeasurements, getMeasurement, hasClass, height, hide, html, index, is, isDisplayNone, isElement, isElementAboveViewport, isElementInViewport, isNotHidden, next, nextAll, offset, outerHeight, outerWidth, position, prepend, prev, prevAll, qs, qsa, ready, remove, removeClass, removeListeners, scrollLeft, scrollTop, show, siblings, text, toggle, toggleClass, transitionEndListener, trigger, triggerBrowserReflow, width
 
 // EXTERNAL MODULE: external "browser-or-node"
-var external_browser_or_node_ = __webpack_require__(154);
+var external_browser_or_node_ = __webpack_require__(192);
 ;// CONCATENATED MODULE: external "dom-helpers/css"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const css_namespaceObject = x({  });
+const css_namespaceObject = require("dom-helpers/css");
 ;// CONCATENATED MODULE: external "dom-helpers/transitionEnd"
-var transitionEnd_x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var transitionEnd_y = x => () => x
-const transitionEnd_namespaceObject = transitionEnd_x({  });
+const transitionEnd_namespaceObject = require("dom-helpers/transitionEnd");
 // EXTERNAL MODULE: ./src/util/core/constants.js
 var constants = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/util/core/logger.js
@@ -3619,21 +3614,17 @@ function updateCloudinaryTransforms() {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -3664,6 +3655,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -3744,7 +3747,7 @@ var cloudinary = __webpack_require__(365);
 // EXTERNAL MODULE: ./src/util/core/logger.js
 var logger = __webpack_require__(813);
 // EXTERNAL MODULE: ./src/util/core/element.js + 2 modules
-var core_element = __webpack_require__(366);
+var core_element = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/util/core/array.js
 var array = __webpack_require__(276);
 // EXTERNAL MODULE: ./src/util/core/string.js

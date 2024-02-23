@@ -1,7 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_cookie__ from "cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
-import * as __WEBPACK_EXTERNAL_MODULE_react__ from "react";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -48,88 +44,14 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 
 /***/ }),
 
-/***/ 292:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
-/**
- * Deferred api for promises.
- * Replaces $.Deferred()
- */
-
-class Deferred {
-  // # denotes private fields
-  // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
-  #state;
-  constructor() {
-    this.#state = 'pending';
-    this.p = new Promise((resolve, reject) => {
-      this.resolver = resolve;
-      this.rejector = reject;
-    });
-  }
-  state() {
-    return this.#state;
-  }
-  resolve() {
-    this.resolver(...arguments);
-    this.#state = 'resolved';
-    return this;
-  }
-  reject() {
-    this.rejector(...arguments);
-    this.#state = 'rejected';
-    return this;
-  }
-  promise() {
-    return this.p;
-  }
-  done(cb) {
-    this.p.then(cb, () => {});
-    return this;
-  }
-  then() {
-    this.p.then(...arguments);
-    return this;
-  }
-  fail() {
-    this.p.catch(...arguments);
-    return this;
-  }
-  catch() {
-    this.p.catch(...arguments);
-    return this;
-  }
-  always() {
-    this.p.finally(...arguments);
-    return this;
-  }
-  finally() {
-    this.p.finally(...arguments);
-    return this;
-  }
-}
-(0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.dfd', Deferred);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Deferred);
-
-/***/ }),
-
 /***/ 168:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   L1: () => (/* binding */ isDebug),
-/* harmony export */   Wj: () => (/* binding */ isJestEnv),
-/* harmony export */   p_: () => (/* binding */ win),
-/* harmony export */   styles: () => (/* binding */ styles),
-/* harmony export */   yv: () => (/* binding */ isProduction)
-/* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -177,12 +99,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -555,199 +477,6 @@ const regex = {
 
 /***/ }),
 
-/***/ 351:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  Z: () => (/* binding */ cookiejar)
-});
-
-// EXTERNAL MODULE: external "js-cookie"
-var external_js_cookie_ = __webpack_require__(915);
-;// CONCATENATED MODULE: external "cookie"
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-const external_cookie_namespaceObject = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_cookie__["default"] });
-// EXTERNAL MODULE: ./src/util/core/Cookie.js
-var Cookie = __webpack_require__(531);
-// EXTERNAL MODULE: ./src/util/core/enumify.js
-var enumify = __webpack_require__(829);
-// EXTERNAL MODULE: ./src/util/core/object.js
-var object = __webpack_require__(814);
-// EXTERNAL MODULE: ./src/util/core/string.js
-var string = __webpack_require__(203);
-;// CONCATENATED MODULE: ./src/util/core/cookiejar.js
-/**
- * Module to store data as json in a single cookie.
- * @module sn.cookiejar
- */
-
-
-
-
-
-
-
-class Entry extends enumify/* default */.ZP {
-  static admin_hide = new Entry('admin', 'hide', false);
-  static alerts_queued = new Entry('alerts', 'queued', []);
-  static answer_helpful = new Entry('answer', 'helpful', {});
-  static answer_reported = new Entry('answer', 'reported', []);
-  static dy_editor = new Entry('dy', 'editor', undefined);
-  static hub_log_enabled = new Entry('hub', 'log_enabled');
-  static insider = new Entry('insider', undefined, false);
-  static minicart_last_shown = new Entry('minicart', 'last_shown', 0);
-  static page_loads = new Entry('page', 'loads', [0, 0]);
-  static preferred_store = new Entry('preferred_store', undefined, '');
-  static retargeter_log_enabled = new Entry('retargeter', 'log_enabled');
-  static review_helpful = new Entry('review', 'helpful', {});
-  static review_reported = new Entry('review', 'reported', []);
-  static trackjs_disable = new Entry('trackjs', 'disable');
-  static segments = new Entry('segments', undefined, []);
-  static selection_size = new Entry('selection', 'size', '');
-  static selection_color = new Entry('selection', 'color');
-  static sheerid_disable = new Entry('sheerid', 'disable');
-  static user_email = new Entry('email', undefined, '');
-  static user_zip = new Entry('postal_code', undefined, '');
-  static user_telephone = new Entry('telephone', undefined, '');
-  static _ = this.closeEnum();
-  constructor(group, id, defaultValue) {
-    super();
-    this.group = group;
-    this.id = id;
-    this.default = defaultValue;
-  }
-}
-const CookieJar = {};
-const {
-  name: cookiejar_name
-} = Cookie["default"].sn;
-const max = 4093;
-
-/**
- * Return the value with any '+' signs replaced with space characters
- * and some size name casings fixed.
- * @param {string} value
- * @return {string|*}
- */
-function cleanCookieValue(value) {
-  if (typeof value !== 'string') return value;
-  return value.replace(/\+/g, ' ').replace(/flextop/i, 'FlexTop').replace(/xl/i, 'XL');
-}
-
-/**
- * Throw error if entry is not an instance of {@link Entry}
- * @param {Entry|string} [entry]
- * @param {boolean} [allowUndefined]
- */
-function checkEntry(entry, allowUndefined) {
-  if (typeof entry === 'undefined' && allowUndefined) return;
-  const ent = typeof entry === 'string' ? Entry.enumValueOf(entry) : entry;
-  if (!(ent instanceof Entry)) {
-    throw new Error('CookieJar get/set should be called with a CookieJar.Entry instance', 'entry was', entry);
-  }
-}
-
-/**
- * Retrieve value from JSON object store in the cookie or the default value.
- * If `e` is undefined, the entire cookie object is returned.
- * @param {Entry} [e] - the cookie entry.
- */
-CookieJar.get = function get(e) {
-  const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
-  checkEntry(entry, true);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name);
-  if (!entry) return c || {};
-  if (!c) return entry.default;
-  let key = `${entry.group}`;
-  if (entry.id) key += `-${entry.id}`;
-  let value = typeof c[key] === 'undefined' ? entry.default : c[key];
-  value = cleanCookieValue(value);
-  return value;
-};
-
-/**
- * Retrieve value from JSON object store in the cookies of the request,
- * or the default value.
- *
- * If `e` is undefined, the entire cookie object is returned.
- *
- * @param {Request} req - needed on the server-side
- * @param {Entry} [e] - optional the cookie entry.
- */
-CookieJar.getFromRequest = function get(req, e) {
-  const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
-  checkEntry(entry, true);
-  let c = {};
-  try {
-    const cookies = external_cookie_namespaceObject["default"].parse(req.headers.get('Cookie') || '');
-    const raw = cookies[cookiejar_name];
-    c = JSON.parse(raw);
-  } catch (err) {
-    /* ignore */
-  }
-  if (!entry) return c || {};
-  if (!c) return entry.default;
-  let key = `${entry.group}`;
-  if (entry.id) key += `-${entry.id}`;
-  let value = typeof c[key] === 'undefined' ? entry.default : c[key];
-  value = cleanCookieValue(value);
-  return value;
-};
-
-/**
- * Retrieve value from data retrieved form JSON object store in the cookies of the request,
- * or the default value.
- *
- * If `e` is undefined, the entire cookie object is returned.
- *
- * @param {Request} data - the data stored in the `sn` cookie
- * @param {Entry} [e] - optional the cookie entry.
- */
-CookieJar.getFromData = function get(data, e) {
-  const entry = typeof e === 'string' ? Entry.enumValueOf(e) : e;
-  checkEntry(entry, true);
-  if (!entry) return data || {};
-  let key = `${entry.group}`;
-  if (entry.id) key += `-${entry.id}`;
-  let value = typeof data[key] === 'undefined' ? entry.default : data[key];
-  value = cleanCookieValue(value);
-  return value;
-};
-
-/**
- * Sets a property on the JSON object stored in the 'sn' cookie.
- * @param {Entry} [entry] - the cookie entry.
- * @param {*} value - Value to store.
- */
-CookieJar.set = function set(entry, value) {
-  checkEntry(entry);
-  const c = external_js_cookie_["default"].getJSON(cookiejar_name) || {};
-  let key = `${entry.group}`;
-  if (entry.id) key += `-${entry.id}`;
-  c[key] = value;
-  const stringified = JSON.stringify(c);
-  const stringifiedBytes = (0,string/* bytes */.aI)(stringified);
-  if (stringifiedBytes >= max) {
-    // Cookies.set silently fails in this case :(
-    // eslint-disable-next-line no-console
-    console.error(`Failed to set cookie "${entry.toString()}" with value "${value}":` + ` cookie length (${stringifiedBytes} bytes) exceeds max (${max} bytes)`);
-  } else {
-    external_js_cookie_["default"].set(cookiejar_name, c, {
-      expires: 365
-    });
-  }
-};
-CookieJar.getName = () => cookiejar_name;
-CookieJar.lib = external_js_cookie_["default"];
-CookieJar.Entry = Entry;
-(0,object/* namespace */.uD)('sn.cookiejar', CookieJar);
-/* harmony default export */ const cookiejar = (CookieJar);
-
-/***/ }),
-
 /***/ 829:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -808,10 +537,9 @@ function enumEntryOrNull(Enum, key) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Wl: () => (/* binding */ isFunc),
-/* harmony export */   ZT: () => (/* binding */ noop)
+/* harmony export */   Wl: () => (/* binding */ isFunc)
 /* harmony export */ });
-/* unused harmony exports lazy, compose, required, pipe, debounce, identity, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
+/* unused harmony exports lazy, compose, required, pipe, debounce, noop, identity, combineReducers, onEnter, onKey, cappedCallback, retry, createChainedFunction */
 /* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
 /**
  * FUNCTION UTILS
@@ -1045,73 +773,6 @@ function createChainedFunction() {
     };
   }, null);
 }
-
-/***/ }),
-
-/***/ 813:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(981);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
-/* eslint-disable no-console */
-/**
- * Module to abstract the console.
- * Performs the log only if
- * - the environment has a console,
- * - with the desired log function,
- * - and either the server is in dev mode or the browser is in debug mode.
- */
-
-
-
-
-/**
- * @typedef {Object} ConsoleType
- * @property {(...args: any[]) => void} log
- * @property {(...args: any[]) => void} info
- * @property {(...args: any[]) => void} warn
- * @property {(...args: any[]) => void} error
- * @property {(...args: any[]) => void=} debug
- * @property {(condition: any, ...args: any[]) => void=} assert
- * @property {() => void=} clear
- * @property {(label?: string) => void=} count
- * @property {(label?: string) => void=} countReset
- * @property {(tabularData: any, properties?: string[]) => void=} table
- * @property {(...label: any[]) => void=} group
- * @property {(...label: any[]) => void=} groupCollapsed
- * @property {() => void=} groupEnd
- * @property {(label?: string) => void=} time
- * @property {(label?: string) => void=} timeEnd
- * @property {(...args: any[]) => void=} trace
- * @property {(obj: any, options?: any) => void=} dir
- * @property {(...args: any[]) => void=} dirxml
- */
-
-/** @type {ConsoleType} */
-const logger = {};
-['assert', 'dir', 'count', 'log', 'info', 'debug', 'warn', 'error', 'table', 'trace', 'group', 'groupEnd', 'groupCollapsed', 'profile', 'profileEnd', 'time', 'timeEnd', 'timeStamp'].forEach(key => {
-  const isLoggable = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console && _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_?.console[key];
-  const shouldLog = !_constants__WEBPACK_IMPORTED_MODULE_0__/* .isJestEnv */ .Wj && !(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isProduction */ .yv)() || (0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)();
-  logger[key] = isLoggable && shouldLog ? function log() {
-    _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.console[key](...arguments);
-  } : _function__WEBPACK_IMPORTED_MODULE_1__/* .noop */ .ZT;
-
-  /**
-   * A log statement that only fires if in `debug mode`,
-   * i.e `sn-debug` cookie set to `true`.
-   */
-  logger.sndebug = function sndebug() {
-    if (!(0,_constants__WEBPACK_IMPORTED_MODULE_0__/* .isDebug */ .L1)()) return;
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-    console.log('DEBUG:', ...args);
-  };
-});
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (logger);
 
 /***/ }),
 
@@ -1445,9 +1106,9 @@ function type(arg) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   aI: () => (/* binding */ bytes)
+/* harmony export */   H0: () => (/* binding */ dasherize)
 /* harmony export */ });
-/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
+/* unused harmony exports isString, capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, bytes, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
 
 function isString(input) {
@@ -1743,30 +1404,17 @@ function hash(str) {
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
-
-/***/ }),
-
-/***/ 810:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["useEffect"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useEffect });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1797,6 +1445,18 @@ module.exports = x({ ["useEffect"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useE
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1830,191 +1490,57 @@ module.exports = x({ ["useEffect"]: () => __WEBPACK_EXTERNAL_MODULE_react__.useE
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   m: () => (/* binding */ useSubscription)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(810);
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(814);
-/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(981);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(168);
-/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(813);
-/* harmony import */ var _cookiejar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(351);
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(154);
-/* harmony import */ var _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(292);
-/**
- * A simple pub/sub module.
- * @see http://davidwalsh.name/pubsub-javascript
- */
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  Z: () => (/* binding */ anchor_target_AnchorTarget)
+});
+
+;// CONCATENATED MODULE: external "react"
+const external_react_namespaceObject = require("react");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_namespaceObject);
+;// CONCATENATED MODULE: external "prop-types"
+const external_prop_types_namespaceObject = require("prop-types");
+;// CONCATENATED MODULE: ./src/prop-types/contentBlock.js
+
+const contentBlockType = (0,external_prop_types_namespaceObject.shape)({
+  id: external_prop_types_namespaceObject.string.isRequired,
+  type: external_prop_types_namespaceObject.string.isRequired,
+  area: external_prop_types_namespaceObject.string.isRequired,
+  container_width: external_prop_types_namespaceObject.string,
+  data: external_prop_types_namespaceObject.any,
+  name: external_prop_types_namespaceObject.string,
+  position: external_prop_types_namespaceObject.number,
+  segments: (0,external_prop_types_namespaceObject.arrayOf)((0,external_prop_types_namespaceObject.shape)({
+    name: external_prop_types_namespaceObject.string.isRequired
+  })),
+  excluded_segments: (0,external_prop_types_namespaceObject.arrayOf)((0,external_prop_types_namespaceObject.shape)({
+    name: external_prop_types_namespaceObject.string.isRequired
+  }))
+});
+/* harmony default export */ const contentBlock = (contentBlockType);
+// EXTERNAL MODULE: ./src/util/core/string.js
+var string = __webpack_require__(203);
+;// CONCATENATED MODULE: ./src/blocks/anchor-target/AnchorTarget.js
 
 
 
-
-
-
-
-
-
-const win = browser_or_node__WEBPACK_IMPORTED_MODULE_4__.isBrowser ? window : __webpack_require__.g;
-
-/**
- * This is the hub state, mapping topics to their listeners.
- * We use a window (or global) field so that no matter how many hubs instances
- * have been created, there is only one topic-listener dictionary.
- *
- * @type {{ string: Function[] }}
- */
-let TOPIC_LISTENERS = win?.sn__hub;
-if (!TOPIC_LISTENERS) {
-  win.sn__hub = {};
-  TOPIC_LISTENERS = win.sn__hub;
-}
-const hop = TOPIC_LISTENERS.hasOwnProperty;
-
-/**
- * Log a notification for a topic publication.
- * @param {string} topic - the topic that was published.
- * @param {number} listeners - the number of listeners.
- * @param {*} data - the data for the publication.
- */
-function log(topic, listeners, data) {
-  let notif = `%csn.hub: %cPublished %c'${topic}' %cto ${listeners} subscriber(s)`;
-  const hasData = typeof data !== 'undefined';
-  if (hasData) notif += ' with data:';
-  const grouper = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupCollapsed || _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info;
-  const groupend = hasData && _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.groupEnd || _function__WEBPACK_IMPORTED_MODULE_6__/* .noop */ .ZT;
-  const consoleStyles = [`${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.strong}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.value}`, `${_constants__WEBPACK_IMPORTED_MODULE_1__.styles.normal}`];
-  grouper.apply(console, [notif, ...consoleStyles]);
-  if (hasData) _logger__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.info(data);
-  groupend();
-}
-
-/**
- * Subscribe a listener function to be notified of an event on a topic.
- * Returns an object with a 'remove' property as a function to remove
- * the registered listener.
- *
- * @param {string} topic - The topic to subscribe to.
- * @param {Function} listener - The listener function fired for each
- *                              event on the topic.
- * @return {Object} o - Listener removal handler.
- */
-function sub(topic, listener) {
-  // Create the topic's object if not yet created
-  if (!hop.call(TOPIC_LISTENERS, topic)) TOPIC_LISTENERS[topic] = [];
-
-  // Add the listener to topic's listener queue
-  const index = TOPIC_LISTENERS[topic].push(listener) - 1;
-
-  // We're subbed to and ready to be pubbed to
-  mod.topicDfds[topic]?.resolve(listener);
-
-  // Provide handle back for removal of a topic listener
-  return {
-    remove: () => {
-      delete TOPIC_LISTENERS[topic][index];
-    }
-  };
-}
-
-/**
- * Publish an event on the topic with optional data.
- *
- * @param {string} topic - The topic to publish the event on.
- * @param {*} [data] - The optional data to pass the listeners.
- */
-function pub(topic, data) {
-  // If the topic doesn't exist or it has no listeners in queue, just leave.
-  if (!hop.call(TOPIC_LISTENERS, topic)) return;
-
-  // Cycle through topics queue, fire!
-  const listeners = TOPIC_LISTENERS[topic];
-  listeners.forEach(listener => listener(typeof data === 'undefined' ? {} : data));
-  const shouldLog = getLogEnabled();
-  if (shouldLog) log(topic, listeners.length, data);
-}
-
-/**
- * Custom hook to react to hub subscriptions as a side effect.
- * @param {string} topic - The topic to subscribe to.
- * @param {Function} listener - The listener function fired for each
- *                              event on the topic.
- * @param {Function} [onReady] - A callback fired when the subscription has been registered.
- */
-const useSubscription = (topic, listener, onReady) => {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const subscription = sub(topic, listener);
-    if (typeof onReady === 'function') onReady();
-    return subscription.remove;
-  },
-  // Unsub/Resub if they change topics but not handlers.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  [topic]);
+AnchorTarget.propTypes = {
+  block: contentBlock.isRequired
 };
-
-/**
- * Returns true if the cookie is set to `true`, otherwise false.
- * @return {boolean}
- */
-function getLogEnabled() {
-  return !!_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.get(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled);
+function AnchorTarget(_ref) {
+  let {
+    block
+  } = _ref;
+  const id = (0,string/* dasherize */.H0)(block.name);
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    id: id,
+    tabIndex: "-1"
+  });
 }
-const mod = {
-  pub,
-  sub,
-  toggleLogging: () => {
-    const shouldLog = getLogEnabled();
-    _cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.set(_cookiejar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z.Entry.hub_log_enabled, !shouldLog);
-    return getLogEnabled();
-  },
-  /** Some common topics. */
-  topics: {
-    AB_TEST_DATA: 'ab_test_data',
-    ALERTS: 'alerts',
-    ANALYTICS_CREATE_CONSUMER: 'analytics_create_consumer',
-    ANALYTICS_EVENT: 'analytics_event',
-    ANALYTICS_REGISTER_CONSUMER: 'analytics_register_consumer',
-    CART: 'cart',
-    CHAT_BUTTON_CLICK: 'chat_button_click',
-    LEAD_MODAL: 'show_lead_capture',
-    LIVE_PERSON_MODAL: 'live_person_modal_show',
-    MICRO_FOOTER: 'micro_footer',
-    MODAL: 'modal',
-    MODAL_CLOSE: 'modal_close',
-    MODAL_READY: 'modal_ready',
-    MODAL_NARWHAL: 'modal_narwhal_show',
-    NAV_TOGGLED: 'nav_toggled',
-    NAV_UNPIN_AT: 'nav_unpin_at',
-    NAV_SHOW_LEAD_LINK: 'nav_show_lead_link',
-    PREFERRED_STORE: 'preferred_store',
-    SESSION_DATA: 'session_data',
-    STORE_FINDER: 'storefinder',
-    SUBNAV_TAB: 'subnav_tab',
-    USER: 'user',
-    VIDEO_MODAL: 'modal_video_show',
-    VIDEO_MODAL_PLAY: 'modal_video_play',
-    VIDEO_MODAL_READY: 'modal_video_ready'
-  }
-};
-mod.topicDfds = Object.values(mod.topics).reduce((dict, v) => {
-  dict[v] = new _util_core_Deferred__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z();
-  return dict;
-}, {});
-
-/**
- * Return a promise resolved when the first subscription to a topic has happened.
- * @param {valueof mod.topics} topic
- * @return {Promise<function>}
- */
-mod.onTopicListener = topic => {
-  /** @type {Deferred} */
-  const dfd = mod.topicDfds[topic];
-  return dfd.promise();
-};
-(0,_object__WEBPACK_IMPORTED_MODULE_7__/* .namespace */ .uD)('sn.hub', mod);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mod);
+AnchorTarget.displayName = "AnchorTarget";
+/* harmony default export */ const anchor_target_AnchorTarget = (AnchorTarget);
 })();
 
 var __webpack_exports__default = __webpack_exports__.Z;
-var __webpack_exports__useSubscription = __webpack_exports__.m;
-export { __webpack_exports__default as default, __webpack_exports__useSubscription as useSubscription };
+export { __webpack_exports__default as default };

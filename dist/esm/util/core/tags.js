@@ -1,5 +1,3 @@
-import * as __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__ from "browser-or-node";
-import * as __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__ from "js-cookie";
 /******/ var __webpack_modules__ = ({
 
 /***/ 531:
@@ -49,12 +47,11 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
 /***/ 168:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   p_: () => (/* binding */ win)
-/* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
-/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(154);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(915);
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, isJestEnv, win, sn_globals, isProduction, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, isDebug, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
+/* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(531);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(829);
 /* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(981);
@@ -102,12 +99,12 @@ const isAdminPage = win?.top?.location?.href?.includes('/admin/') || win?.locati
 const isTestEnv = sn_globals.config.wa_env !== 'production';
 function isDebug() {
   if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return false;
-  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
+  const cookieValue = js_cookie__WEBPACK_IMPORTED_MODULE_1___default().get(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name);
   return cookieValue && cookieValue !== 'false';
 }
 (0,_object__WEBPACK_IMPORTED_MODULE_4__/* .namespace */ .uD)('sn.toggleDebug', function toggleDebug() {
   const current = isDebug();
-  js_cookie__WEBPACK_IMPORTED_MODULE_1__["default"].set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
+  js_cookie__WEBPACK_IMPORTED_MODULE_1___default().set(_Cookie__WEBPACK_IMPORTED_MODULE_2__["default"].debug.name, !current);
   // eslint-disable-next-line no-console
   console.log(`sn-debug set to "${!current}"`);
 });
@@ -779,67 +776,6 @@ function createChainedFunction() {
 
 /***/ }),
 
-/***/ 891:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   sO: () => (/* binding */ isJson)
-/* harmony export */ });
-/* unused harmony exports json, burnin, isJsonString, safeJsonStringify */
-/* harmony import */ var _object__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(814);
-/**
- * Parses the inner text contents of 'id' as JSON and returns it.
- * Returns undefined if not target is found for 'id'.
- * @param {string} id - The css id of the data script container.
- */
-
-function json(id) {
-  const target = document.getElementById(`data-${id}`);
-  return target ? JSON.parse(target.innerHTML) : undefined;
-}
-
-/** Returns true if this is a json response. */
-function isJson(resp) {
-  if (!resp?.getResponseHeader && !resp?.headers) return false;
-  try {
-    const header = resp.getResponseHeader ? resp.getResponseHeader('content-type') // XMLHttpResponse
-    : resp.headers.get('content-type'); // Fetch API Response
-    return !!header.match(/application\/json/i);
-  } catch (err) {
-    return false;
-  }
-}
-function burnin() {
-  return Array.from(document.querySelectorAll('.sn-json')).reduce((result, elem) => {
-    const name = elem.id.replace('data-', '').trim();
-    result[name] = JSON.parse(elem.textContent);
-    return result;
-  }, {});
-}
-function isJsonString(str) {
-  try {
-    JSON.parse(str);
-  } catch (e) {
-    return false;
-  }
-  return true;
-}
-function safeJsonStringify(obj) {
-  try {
-    return JSON.stringify(obj);
-  } catch (err) {
-    return null;
-  }
-}
-(0,_object__WEBPACK_IMPORTED_MODULE_0__/* .namespace */ .uD)('sn.json', {
-  parse: json,
-  isJson,
-  burnin,
-  isJsonString
-});
-
-/***/ }),
-
 /***/ 814:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1166,80 +1102,456 @@ function type(arg) {
 
 /***/ }),
 
-/***/ 820:
+/***/ 144:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Q2: () => (/* binding */ buildUrl)
+/* harmony export */   Os: () => (/* binding */ isSuperset)
 /* harmony export */ });
-/* unused harmony exports getUrlParam, hasUrlParam, setUrlHash */
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
+/* unused harmony exports union, intersection, symmetricDifference, difference */
+/* eslint-disable no-restricted-syntax */
+/**
+ * Util module to house basic Set operations.
+ * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set#Implementing_basic_set_operations
+ */
 
-
-/** Retrieve a request parameter by name. */
-function getUrlParam(name, url) {
-  const href = url || win?.location?.href;
-  const sanitizedName = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
-  const regexS = `[\\?&]${sanitizedName}=([^&#]*)`;
-  const results = new RegExp(regexS, 'i').exec(href);
-  if (results === null) {
-    return null;
+/**
+ * Returns true if set is a superset of the subset.
+ * Example:
+ * <code>
+ * let setA = new Set([1, 2, 3, 4]);
+ * let setB = new Set([2, 3]);
+ *
+ * isSuperset(setA, setB); // => true
+ * </code>
+ * @param {Set|Array} set
+ * @param {Set|Array} subset
+ * @returns {boolean}
+ */
+function isSuperset(set, subset) {
+  const a = Array.isArray(set) ? new Set(set) : set;
+  const b = Array.isArray(subset) ? new Set(subset) : subset;
+  for (const elem of b) {
+    if (!a.has(elem)) {
+      return false;
+    }
   }
-  return decodeURIComponent(results[1].replace(/\+/g, ' '));
+  return true;
 }
 
 /**
- * Return true if the query string has the parameter.
- * @param {string} name - the parameter name
- * @param {URL} [url] - the url to check
+ * Returns the union of the two sets.
+ * Example:
+ * <code>
+ * let setA = new Set([1, 2, 3, 4]);
+ * let setB = new Set([3, 4, 5, 6]);
+ *
+ * union(setA, setB); // => Set [1, 2, 3, 4, 5, 6]
+ * </code>
+ * @param {Set|Array} setA
+ * @param {Set|Array} setB
+ * @returns {Set<any>}
  */
-function hasUrlParam(name, url) {
-  const loc = url || win?.location;
-  if (!loc) return false;
-  const params = loc.search.split(/[&?]/g).filter(param => Boolean(param)).map(param => param.split('=')[0].toLowerCase());
-  return params.includes(name.toLowerCase());
+function union(setA, setB) {
+  const a = Array.isArray(setA) ? new Set(setA) : setA;
+  const b = Array.isArray(setB) ? new Set(setB) : setB;
+  const setUnion = new Set(a);
+  for (const elem of b) {
+    setUnion.add(elem);
+  }
+  return setUnion;
 }
 
-/** Add url search params to url */
-function buildUrl(endpoint) {
-  let params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  let traditional = arguments.length > 2 ? arguments[2] : undefined;
-  const isFullUrl = !endpoint.startsWith('/');
-  const origin = _constants__WEBPACK_IMPORTED_MODULE_0__/* .win */ .p_.location.origin;
-  const url = isFullUrl ? new URL(endpoint) : new URL(endpoint, origin);
-  Object.entries(params).forEach(_ref => {
-    let [k, v] = _ref;
-    if (Array.isArray(v) && traditional) {
-      v.forEach(item => url.searchParams.append(k, item));
-    } else {
-      url.searchParams.append(k, v);
+/**
+ * Returns the intersection of the two sets.
+ * Example:
+ * <code>
+ * let setA = new Set([1, 2, 3, 4]);
+ * let setB = new Set([3, 4, 5, 6]);
+ *
+ * intersection(setA, setB); // => Set [3, 4]
+ * </code>
+ * @param {Set|Array} setA
+ * @param {Set|Array} setB
+ * @returns {Set<any>}
+ */
+function intersection(setA, setB) {
+  const a = Array.isArray(setA) ? new Set(setA) : setA;
+  const b = Array.isArray(setB) ? new Set(setB) : setB;
+  const setIntersection = new Set();
+  for (const elem of b) {
+    if (a.has(elem)) {
+      setIntersection.add(elem);
     }
+  }
+  return setIntersection;
+}
+
+/**
+ * Returns the symmetric difference of the two sets.
+ * Example:
+ * <code>
+ * let setA = new Set([1, 2, 3, 4]);
+ * let setB = new Set([3, 4, 5, 6]);
+ *
+ * symmetricDifference(setA, setB); // => Set [1, 2, 5, 6]
+ * </code>
+ * @param {Set|Array} setA
+ * @param {Set|Array} setB
+ * @returns {Set<any>}
+ */
+function symmetricDifference(setA, setB) {
+  const a = Array.isArray(setA) ? new Set(setA) : setA;
+  const b = Array.isArray(setB) ? new Set(setB) : setB;
+  const setDifference = new Set(a);
+  for (const elem of b) {
+    if (setDifference.has(elem)) {
+      setDifference.delete(elem);
+    } else {
+      setDifference.add(elem);
+    }
+  }
+  return setDifference;
+}
+
+/**
+ * Returns the symmetric difference of the two sets.
+ * Example:
+ * <code>
+ * let setA = new Set([1, 2, 3, 4]);
+ * let setB = new Set([3, 4, 5, 6]);
+ *
+ * difference(setA, setB); // => Set [1, 2]
+ * </code>
+ * @param {Set|Array} setA
+ * @param {Set|Array} setB
+ * @returns {Set<any>}
+ */
+function difference(setA, setB) {
+  const a = Array.isArray(setA) ? new Set(setA) : setA;
+  const b = Array.isArray(setB) ? new Set(setB) : setB;
+  const setDifference = new Set(a);
+  for (const elem of b) {
+    setDifference.delete(elem);
+  }
+  return setDifference;
+}
+
+/***/ }),
+
+/***/ 203:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HD: () => (/* binding */ isString)
+/* harmony export */ });
+/* unused harmony exports capitalize, titlecase, camelCase, camelToSnake, camelToKabob, pascalToSnake, snakeToPascal, mattressCase, optionize, deoptionize, dasherize, undasherize, repeat, wordCount, pad, replaceAt, endsWith, firstWord, uuid, lazyId, bytes, pluralIf, pxToNum, truncate, asBool, removeSpecialCharacters, hash */
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(168);
+
+function isString(input) {
+  return typeof input === 'string';
+}
+
+/**
+ * Capitalize the first letter of the string, keep the rest as-is.
+ * Example:
+ * capitalize('chat with us!') -> "Chat with us!"
+ */
+function capitalize(phrase) {
+  if (!phrase) return phrase;
+  return phrase[0].toUpperCase() + phrase.slice(1);
+}
+
+/**
+ * For each word in the phrase, uppercase the first letter and lowercase the rest.
+ * Example:
+ * titlecase('LYOCELL uLTra Sheet SET') -> "Lyocell Ultra Sheet Set"
+ */
+function titlecase(phrase) {
+  if (!phrase) return phrase;
+  return phrase.replace(/\w\S*/g, word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
+}
+
+/**
+ * Convert snake_case or sentence to camelCase
+ * @param {string} phrase
+ * @return {string}
+ *
+ * Example:
+ * camelCase('foo_bar') -> "fooBar"
+ * camelCase('Foo Bar') -> "fooBar"
+ */
+function camelCase(phrase) {
+  return phrase.replace(/^\w|[A-Z]|\b\w|_+\w/g, (word, index) => {
+    if (word.startsWith('_')) {
+      // handle underscore word
+      const next = word.replace('_', '');
+      if (index === 0) return next[0].toLowerCase() + next.substr(1);
+      return next[0].toUpperCase() + next.substr(1);
+    }
+    // lowercase or uppercase this letter
+    return index === 0 ? word.toLowerCase() : word.toUpperCase();
+  }).replace(/[\s-_]+/g, '');
+}
+
+/**
+ * Convert camelCase into snake_case
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * camelToSnake('fooBar') -> "foo_bar"
+ */
+function camelToSnake(phrase) {
+  return phrase.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+}
+
+/**
+ * Convert camelCase into kabob-case
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * camelToSnake('fooBar') -> "foo-bar"
+ */
+function camelToKabob(phrase) {
+  return phrase.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+}
+
+/**
+ * Convert PascalCase into snake_case
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * pascalToSnake('FooBar') -> "foo_bar"
+ */
+function pascalToSnake(phrase) {
+  const first = phrase[0].toLowerCase();
+  const rest = phrase.substring(1);
+  return `${first}${camelToSnake(rest)}`;
+}
+
+/**
+ * Convert snake_case to PascalCase
+ * @param {string} phrase
+ * @returns {string}
+ *
+ * Example:
+ * snakeToPascal('foo_bar') -> "FooBar"
+ */
+function snakeToPascal(phrase) {
+  return capitalize(camelCase(phrase));
+}
+
+/**
+ * Sleep Number's crazy naming scheme
+ * @param {string} phrase
+ * @returns {string} cased like 'pSE SPECIAL EDITION'
+ */
+function mattressCase(phrase) {
+  let allowSpecialCase = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  if (!allowSpecialCase) return phrase.toUpperCase();
+  return `${phrase[0].toLowerCase()}${phrase.substr(1).toUpperCase()}`;
+}
+
+/**
+ * Rails has the concept of 'optionizing' text which replaces spaces with
+ * underscores and lower-cases text.
+ *
+ * Example:
+ * optionize('Soft Green'); -> "soft_green"
+ */
+function optionize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return phrase.toLowerCase().replace(/\s/g, '_');
+}
+
+/**
+ * Replace '_' characters with spaces
+ *
+ * Example:
+ * deoptionize('soft_green'); -> "Soft Green"
+ */
+function deoptionize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return titlecase(phrase.replace(/_/g, ' '));
+}
+
+/**
+ * Replaces spaces with dashes and lower-cases text.
+ *
+ * Example:
+ * dasherize('Split California King'); -> "split-california-king"
+ */
+function dasherize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return phrase.toLowerCase().replace(/\s/g, '-');
+}
+
+/**
+ * Replaces dashes with spaces and uppercase the first letter of each word.
+ *
+ * Example:
+ * dasherize('split-california-king'); -> "Split California King"
+ */
+function undasherize() {
+  let phrase = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  const result = phrase.toLowerCase().replaceAll(/-/g, ' ');
+  return titlecase(result);
+}
+function repeat(str, times) {
+  return new Array(times + 1).join(str);
+}
+function wordCount(string) {
+  return string.trim().split(/\s+/).length;
+}
+function pad(num, maxLength) {
+  return repeat(`0`, maxLength - num.toString().length) + num;
+}
+function replaceAt(s, i, c) {
+  return s.substr(0, i) + c + s.substr(i + 1);
+}
+function endsWith(s, c) {
+  return s[s.length - 1] === c;
+}
+function firstWord(s) {
+  return s.replace(/ .*/, '');
+}
+
+/**
+ * Generate a universally unique identifier.
+ * @return {string}
+ */
+function uuid() {
+  /* eslint-disable */
+  let uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : r & 0x3 | 0x8;
+    return v.toString(16);
   });
-  return url.href;
+  return 'uuid-' + uuid;
+  /* eslint-enable */
 }
-function setUrlHash(hash) {
-  const url = new URL(win?.location);
-  url.hash = hash;
-  win?.history?.pushState({}, '', url);
+
+/** Add a uuid to something if it doesn't already have one. */
+function lazyId(o) {
+  o.id = o.id || uuid();
+  return o;
+}
+
+/** Return the size of a string in bytes assuming UTF-8 encoding. */
+function bytes(str) {
+  // Matches only the 10.. bytes that are non-initial characters in a multi-byte sequence.
+  const m = encodeURIComponent(str).match(/%[89ABab]/g);
+  return str.length + (m ? m.length : 0);
+}
+
+/**
+ * Returns either an empty string, a plural character of choice, or
+ * an optional singular form.
+ * @param {boolean} condition False will return an empty string.
+ * @param {string} plural Plural suffix, 's' by default.
+ * @param {string} [singular] Optional singular suffix, or version.
+ */
+function pluralIf(condition) {
+  let plural = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 's';
+  let singular = arguments.length > 2 ? arguments[2] : undefined;
+  if (!condition) return singular || '';
+  return plural;
+}
+
+/**
+ * Returns a number of for a string px value, ie: '23px' => 23.
+ */
+function pxToNum(str) {
+  return +str.trim().replace('px', '');
+}
+
+/**
+ * Returns a truncated string with ellipsis (...) appended.
+ * @param {string} string to truncate
+ * @param {number} number of characters to keep
+ */
+function truncate(str, num) {
+  if (str.length <= num) {
+    return str;
+  }
+  return `${str.slice(0, num)}...`;
+}
+
+/** Convert a 'true' or 'false' string to a boolean */
+function asBool(str) {
+  if (typeof str === 'boolean') return str;
+  if (typeof str === 'string') return str === 'true';
+  return !!str;
+}
+
+/** Replace all the special characters from a string */
+function removeSpecialCharacters() {
+  let input = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return Object.values(specials).reduce((result, special) => {
+    return result.replaceAll(special.value, '');
+  }, input);
+}
+
+/**
+ * Convert a string to a hash
+ * Inspired by https://github.com/garycourt/murmurhash-js
+ */
+function hash(str) {
+  /* eslint-disable */
+  // 'm' and 'r' are mixing constants generated offline.
+  // They're not really 'magic', they just happen to work well.
+  // const m = 0x5bd1e995;
+  // const r = 24;
+  // Initialize the hash
+  var h = 0;
+  // Mix 4 bytes at a time into the hash
+  var k,
+    i = 0,
+    len = str.length;
+  for (; len >= 4; ++i, len -= 4) {
+    k = str.charCodeAt(i) & 0xff | (str.charCodeAt(++i) & 0xff) << 8 | (str.charCodeAt(++i) & 0xff) << 16 | (str.charCodeAt(++i) & 0xff) << 24;
+    k = /* Math.imul(k, m): */
+    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16);
+    k ^= /* k >>> r: */k >>> 24;
+    h = /* Math.imul(k, m): */
+    (k & 0xffff) * 0x5bd1e995 + ((k >>> 16) * 0xe995 << 16) ^ /* Math.imul(h, m): */
+    (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
+  }
+  // Handle the last few bytes of the input array
+  switch (len) {
+    case 3:
+      h ^= (str.charCodeAt(i + 2) & 0xff) << 16;
+    case 2:
+      h ^= (str.charCodeAt(i + 1) & 0xff) << 8;
+    case 1:
+      h ^= str.charCodeAt(i) & 0xff;
+      h = /* Math.imul(h, m): */
+      (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
+  }
+  // Do a few final mixes of the hash to ensure the last few
+  // bytes are well-incorporated.
+  h ^= h >>> 13;
+  h = /* Math.imul(h, m): */
+  (h & 0xffff) * 0x5bd1e995 + ((h >>> 16) * 0xe995 << 16);
+  return ((h ^ h >>> 15) >>> 0).toString(36);
 }
 
 /***/ }),
 
-/***/ 154:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 192:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["isBrowser"]: () => __WEBPACK_EXTERNAL_MODULE_browser_or_node_7b50c710__.isBrowser });
+module.exports = require("browser-or-node");
 
 /***/ }),
 
-/***/ 915:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ 734:
+/***/ ((module) => {
 
-var x = y => { var x = {}; __webpack_require__.d(x, y); return x; }
-var y = x => () => x
-module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65e1dc__["default"] });
+module.exports = require("js-cookie");
 
 /***/ })
 
@@ -1270,6 +1582,18 @@ module.exports = x({ ["default"]: () => __WEBPACK_EXTERNAL_MODULE_js_cookie_be65
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -1304,139 +1628,82 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   V: () => (/* binding */ Tag),
+/* harmony export */   c: () => (/* binding */ hasTags)
 /* harmony export */ });
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(915);
-/* harmony import */ var _Cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(531);
-/* harmony import */ var _json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(891);
-/* harmony import */ var _url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(820);
-
-
+/* harmony import */ var _set__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(144);
+/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(203);
 
 
 
 /**
- * Build a message for an `Error` using the response data.
- * Text responses will be truncated to the first line of the response.
- * Object responses will be JSON stringified.
- * @param {*} data - the response data
- * @return {string}
+ * Tags used by storefront entities like products, images, and features
+ * @enum Tag
  */
-function getErrorMessage(data) {
-  let msg = '';
-  if (typeof data === 'string') {
-    // First line
-    const matches = data.match(/^([^\n]+)\n/g);
-    msg = matches?.[0]?.replace(/\n/g, '') || '';
-    msg = `"${msg}"`;
-  } else if (typeof data === 'object') {
-    try {
-      msg = JSON.stringify(data, null, 2);
-    } catch (err) {
-      /* ignore */
-    }
-  } else {
-    msg = String(data);
-  }
-  return msg;
-}
+const Tag = {
+  test: 'test',
+  gallery: 'gallery',
+  postcard: 'postcard',
+  ghosted_base: 'ghosted-base',
+  promo: 'promo',
+  thumbnail: 'thumbnail',
+  corner_thumbnail: 'corner-thumbnail',
+  mb: 'mobile',
+  tb: 'tablet',
+  dt: 'desktop',
+  split: 'split',
+  flextop: 'flextop',
+  standard: 'standard',
+  front: 'front',
+  lifestyle: '45',
+  bundle: 'bundle',
+  matt_only: 'matt-only',
+  matt_only_thumbnail: 'matt-only-thumbnail',
+  ib: 'ib',
+  ibf: 'ibf',
+  ff: 'ff',
+  ff1: 'ff1',
+  ff2: 'ff2',
+  ff3: 'ff3',
+  includes: 'includes',
+  base: 'base',
+  split_base: 'split-base',
+  temp_balancing: 'temp-balancing',
+  addon: 'addon',
+  // image for product reference display
+  single: 'single',
+  // image for product reference display, half-King/Queen
+  double: 'double',
+  // image for product reference display, full-King/Queen
+  new: 'new',
+  nextgen: 'nextgen',
+  // used on products
+  next_gen_compare: 'next-gen-compare',
+  // used on key features
+  quiz: 'quiz'
+};
+Object.freeze(Tag);
 
 /**
- * Build the request and return the fetch promise.
- * See https://kentcdodds.com/blog/replace-axios-with-a-simple-custom-fetch-wrapper
- * @param {string} endpoint - url to fetch
- * @param {any} [body] - optional post body. if present, the method will default to 'POST'
- * @param {object} [params={}] - optional url params. added as params to the endpoint url
- * @param {RequestInit} [customConfig={}] - fetch `config` overrides
- * @param {boolean} [auth=true] - include the auth header if present
- * @param {boolean} [asXhr=true] - if true, x-requested-with header is `XMLHttpRequest`
- * @param {boolean} [asJson=true] - if true, content type will be `application/json` body will be JSON stringified
- * @param {boolean} [withResp=false] - if true, promise resolution will be `[data, response]` instead of `data`
- * @return {Promise<Response>}
+ * Returns true if the taggable object has the specified tags.
+ *
+ * EXAMPLES:
+ * hasTags({ tags: ['a', 'b']}, ['a']) \\ -> true
+ * hasTags({ tags: ['a', 'b']}, ['a', 'b']) \\ -> true
+ * hasTags({ tags: ['a', 'b']}, 'a') \\ -> true
+ * hasTags({ tags: ['a', 'b']}, 'a, b') \\ -> true
+ * hasTags({ tags: ['a', 'b']}, 'a, b, c') \\ -> false
+ *
+ * @param {{ tags: string[]}} taggable - object with tags property
+ * @param {string|string[]} tags - array of tags, single tag, or string of comma separated tags
+ * @return {boolean}
  */
-function client(_ref) {
-  let {
-    endpoint,
-    body,
-    params = {},
-    customConfig = {},
-    auth = true,
-    asXhr = true,
-    asJson = true,
-    withResp = false,
-    traditional = false
-  } = _ref;
-  const headers = {
-    Accept: 'application/json'
-  };
-  const auth_token = js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_1__["default"].auth_token.name);
-  if (auth && auth_token) headers.Authorization = `Token token=${auth_token}`;
-  if (asXhr) headers['X-Requested-With'] = 'XMLHttpRequest';
-  if (asJson) headers['Content-Type'] = 'application/json';
-  const access_token = js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_1__["default"].access_token.name);
-  if (access_token) headers['Access-Token'] = `${access_token}`;
-  const id_token = js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_1__["default"].id_token.name);
-  if (id_token) headers['Id-Token'] = `${id_token}`;
-  const refresh_token = js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_1__["default"].refresh_token.name);
-  if (refresh_token) headers['Refresh-Token'] = `${refresh_token}`;
-  const config = {
-    method: body ? 'POST' : 'GET',
-    ...customConfig,
-    headers: {
-      ...headers,
-      ...customConfig.headers
-    }
-  };
-  const isGet = config.method.match(/get/i);
-  const isApi = endpoint.match(/api\/storefront/i);
-  const isCartOrCheckout = endpoint.match(/cart|checkout/);
-  const {
-    token: csrf
-  } = window?.sn_globals || {};
-  const {
-    preview_release_id
-  } = window?.sn_globals?.config || {};
-  const price_lists = (js_cookie__WEBPACK_IMPORTED_MODULE_0__["default"].get(_Cookie__WEBPACK_IMPORTED_MODULE_1__["default"].price_lists.name) || '').trim();
-
-  // Release preview
-  if (preview_release_id && isApi) params.prid = preview_release_id;
-
-  // Price List ID hash
-  if (price_lists && isApi && !isCartOrCheckout) {
-    // Something in the babel compilation is calling Object.preventExtensions on params
-    // which causes a type error when adding plid. Cloning object to get around that.
-    // At some point we should figure out how to tell babel to stop doing that.
-    params = {
-      ...params,
-      plid: price_lists
-    };
-  }
-
-  // CSRF token
-  if (!isGet && csrf) config.headers[csrf.header] = csrf.value;
-  if (body) config.body = asJson ? JSON.stringify(body) : body;
-  config.method = config.method.toUpperCase();
-  const url = (0,_url__WEBPACK_IMPORTED_MODULE_3__/* .buildUrl */ .Q2)(endpoint, params, traditional);
-  return fetch(url, config).then(async response => {
-    const text = await response.text();
-    const isJsonResponse = (0,_json__WEBPACK_IMPORTED_MODULE_2__/* .isJson */ .sO)(response);
-    const data = text && isJsonResponse ? JSON.parse(text) : text;
-    if (response.ok) {
-      // Handle empty JSON responses
-      if (isJsonResponse && text.length === 0) return {};
-      return withResp ? [data, response] : data;
-    }
-
-    // Error Response
-    const msg = getErrorMessage(data);
-    const error = new Error(msg);
-    error.data = data;
-    error.response = response;
-    return Promise.reject(error);
-  });
+function hasTags(taggable, tags) {
+  const tgs = (0,_string__WEBPACK_IMPORTED_MODULE_0__/* .isString */ .HD)(tags) ? tags.split(',').map(t => t.trim()) : tags;
+  return (0,_set__WEBPACK_IMPORTED_MODULE_1__/* .isSuperset */ .Os)(taggable?.tags || [], tgs);
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (client);
 })();
 
-var __webpack_exports__default = __webpack_exports__.Z;
-export { __webpack_exports__default as default };
+var __webpack_exports__Tag = __webpack_exports__.V;
+var __webpack_exports__hasTags = __webpack_exports__.c;
+export { __webpack_exports__Tag as Tag, __webpack_exports__hasTags as hasTags };
