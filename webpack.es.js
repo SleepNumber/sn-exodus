@@ -8,7 +8,8 @@ const { distNames } = base.getEntries();
 const esm_config = {
   target: 'es2022',
   output: {
-    filename: pathData => `esm/${distNames[pathData.chunk.name]}`.replace(/(\.jsx|\.js)$/, '.mjs'),
+    filename: pathData =>
+      `esm/${distNames[pathData.chunk.name]}`.replace(/\.jsx$/, '.js'),
     library: { type: 'module' },
   },
   experiments: { outputModule: true },
