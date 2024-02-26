@@ -169,18 +169,21 @@ export const format = {
    * @returns {String} - ie.: "7 PM"
    */
   formatTimeString(time, trim = false) {
-    const [hour, minute] = time.split(':');
-    const showMinute = minute !== '00' ? `:${minute}` : '';
-    const pm = hour > 12;
+    const parts = time.split(':');
+    const hour = Number(parts[0]);
+    const minute = Number(parts[1]);
+    const showMinute = minute !== 0 ? `:${parts[1]}` : '';
 
+    const pm = hour >= 12;
+    let formattedHour = hour;
+    if (pm) formattedHour = hour === 12 ? '12' : hour % 12;
     let result = pm
-      ? `${hour % 12}${showMinute} PM`
+      ? `${formattedHour}${showMinute} PM`
       : `${hour}${showMinute} AM`;
 
     if (trim) {
       result = result.replace(' PM', 'pm').replace(' AM', 'am');
     }
-
     return result;
   },
 
