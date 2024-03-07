@@ -233,18 +233,20 @@ export namespace USER_SEGMENT {
     let innercircle: string;
     let insider: string;
 }
-export class CheckoutSteps extends Enumify {
-    static NotStarted: CheckoutSteps;
-    static Login: CheckoutSteps;
-    static Shipping: CheckoutSteps;
-    static Delivery: CheckoutSteps;
-    static Payment: CheckoutSteps;
-    static Review: CheckoutSteps;
-    static Confirmation: CheckoutSteps;
+export class CheckoutStep extends Enumify {
+    static NotStarted: CheckoutStep;
+    static Login: CheckoutStep;
+    static Shipping: CheckoutStep;
+    static Delivery: CheckoutStep;
+    static Payment: CheckoutStep;
+    static Review: CheckoutStep;
+    static Confirmation: CheckoutStep;
     static _: void;
-    constructor(props: any);
-    next: any;
+    constructor(name: any, number: any);
+    /** @returns {CheckoutStep} the next step in the enum after this one. */
+    next(): CheckoutStep;
     name: any;
+    number: any;
 }
 /** Global z-index values */
 export class ZIndex extends Enumify {

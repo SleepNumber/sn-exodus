@@ -697,7 +697,7 @@ function safeArray(input) {
 /* harmony export */   p_: () => (/* binding */ win),
 /* harmony export */   yv: () => (/* binding */ isProduction)
 /* harmony export */ });
-/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutSteps, ZIndex, page_classes, page_selectors, timer, regex */
+/* unused harmony exports localUrl, qaUrl, stageUrl, prodUrl, sn_globals, isStaging, isQa, isDevelopment, isDevPage, isAdminPage, isTestEnv, timezone, locale, attributes, css, styles, months, specials, keyCodes, spacing, timing, mime, headers, millisPerYear, ALERT_TYPES, ALERT_FLAVORS, Status, Direction, USER_SEGMENT, CheckoutStep, ZIndex, page_classes, page_selectors, timer, regex */
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(734);
@@ -1019,38 +1019,25 @@ const USER_SEGMENT = {
   innercircle: 'InnerCircle',
   insider: 'Insider'
 };
-class CheckoutSteps extends _enumify__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP {
-  static NotStarted = new CheckoutSteps({
-    name: 'not_started'
-  });
-  static Login = new CheckoutSteps({
-    name: 'login',
-    next: () => CheckoutSteps.Shipping
-  });
-  static Shipping = new CheckoutSteps({
-    name: 'shipping',
-    next: () => CheckoutSteps.Delivery
-  });
-  static Delivery = new CheckoutSteps({
-    name: 'delivery',
-    next: () => CheckoutSteps.Payment
-  });
-  static Payment = new CheckoutSteps({
-    name: 'payment',
-    next: () => CheckoutSteps.Review
-  });
-  static Review = new CheckoutSteps({
-    name: 'review',
-    next: () => CheckoutSteps.Confirmation
-  });
-  static Confirmation = new CheckoutSteps({
-    name: 'confirmation'
-  });
+class CheckoutStep extends _enumify__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP {
+  static NotStarted = new CheckoutStep('not_started', -1);
+  static Login = new CheckoutStep('login', 0);
+  static Shipping = new CheckoutStep('shipping', 1);
+  static Delivery = new CheckoutStep('delivery', 2);
+  static Payment = new CheckoutStep('payment', 3);
+  static Review = new CheckoutStep('review', 4);
+  static Confirmation = new CheckoutStep('confirmation', 5);
   static _ = this.closeEnum();
-  constructor(props) {
+
+  /** @returns {CheckoutStep} the next step in the enum after this one. */
+  next() {
+    const ordinal = CheckoutStep[this.enumOrdinal + 1];
+    return ordinal;
+  }
+  constructor(name, number) {
     super();
-    this.next = props.next;
-    this.name = props.name;
+    this.name = name;
+    this.number = number;
   }
 }
 const zindex_dropdown = 1000;

@@ -779,7 +779,6 @@ var __webpack_exports__ = {};
 /* harmony export */   Wj: () => (/* binding */ isJestEnv),
 /* harmony export */   Xw: () => (/* binding */ mime),
 /* harmony export */   Y4: () => (/* binding */ attributes),
-/* harmony export */   bN: () => (/* binding */ CheckoutSteps),
 /* harmony export */   cm: () => (/* binding */ isStaging),
 /* harmony export */   dT: () => (/* binding */ stageUrl),
 /* harmony export */   e7: () => (/* binding */ months),
@@ -787,6 +786,7 @@ var __webpack_exports__ = {};
 /* harmony export */   hG: () => (/* binding */ localUrl),
 /* harmony export */   iv: () => (/* binding */ css),
 /* harmony export */   j1: () => (/* binding */ ALERT_FLAVORS),
+/* harmony export */   pN: () => (/* binding */ CheckoutStep),
 /* harmony export */   p_: () => (/* binding */ win),
 /* harmony export */   qb: () => (/* binding */ Status),
 /* harmony export */   styles: () => (/* binding */ styles),
@@ -1117,38 +1117,25 @@ const USER_SEGMENT = {
   innercircle: 'InnerCircle',
   insider: 'Insider'
 };
-class CheckoutSteps extends _enumify__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP {
-  static NotStarted = new CheckoutSteps({
-    name: 'not_started'
-  });
-  static Login = new CheckoutSteps({
-    name: 'login',
-    next: () => CheckoutSteps.Shipping
-  });
-  static Shipping = new CheckoutSteps({
-    name: 'shipping',
-    next: () => CheckoutSteps.Delivery
-  });
-  static Delivery = new CheckoutSteps({
-    name: 'delivery',
-    next: () => CheckoutSteps.Payment
-  });
-  static Payment = new CheckoutSteps({
-    name: 'payment',
-    next: () => CheckoutSteps.Review
-  });
-  static Review = new CheckoutSteps({
-    name: 'review',
-    next: () => CheckoutSteps.Confirmation
-  });
-  static Confirmation = new CheckoutSteps({
-    name: 'confirmation'
-  });
+class CheckoutStep extends _enumify__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP {
+  static NotStarted = new CheckoutStep('not_started', -1);
+  static Login = new CheckoutStep('login', 0);
+  static Shipping = new CheckoutStep('shipping', 1);
+  static Delivery = new CheckoutStep('delivery', 2);
+  static Payment = new CheckoutStep('payment', 3);
+  static Review = new CheckoutStep('review', 4);
+  static Confirmation = new CheckoutStep('confirmation', 5);
   static _ = this.closeEnum();
-  constructor(props) {
+
+  /** @returns {CheckoutStep} the next step in the enum after this one. */
+  next() {
+    const ordinal = CheckoutStep[this.enumOrdinal + 1];
+    return ordinal;
+  }
+  constructor(name, number) {
     super();
-    this.next = props.next;
-    this.name = props.name;
+    this.name = name;
+    this.number = number;
   }
 }
 const zindex_dropdown = 1000;
@@ -1226,7 +1213,7 @@ const regex = {
 
 var __webpack_exports__ALERT_FLAVORS = __webpack_exports__.j1;
 var __webpack_exports__ALERT_TYPES = __webpack_exports__.CH;
-var __webpack_exports__CheckoutSteps = __webpack_exports__.bN;
+var __webpack_exports__CheckoutStep = __webpack_exports__.pN;
 var __webpack_exports__Direction = __webpack_exports__.Nm;
 var __webpack_exports__Status = __webpack_exports__.qb;
 var __webpack_exports__USER_SEGMENT = __webpack_exports__.yY;
@@ -1263,4 +1250,4 @@ var __webpack_exports__timer = __webpack_exports__.HT;
 var __webpack_exports__timezone = __webpack_exports__.Dg;
 var __webpack_exports__timing = __webpack_exports__.LY;
 var __webpack_exports__win = __webpack_exports__.p_;
-export { __webpack_exports__ALERT_FLAVORS as ALERT_FLAVORS, __webpack_exports__ALERT_TYPES as ALERT_TYPES, __webpack_exports__CheckoutSteps as CheckoutSteps, __webpack_exports__Direction as Direction, __webpack_exports__Status as Status, __webpack_exports__USER_SEGMENT as USER_SEGMENT, __webpack_exports__ZIndex as ZIndex, __webpack_exports__attributes as attributes, __webpack_exports__css as css, __webpack_exports__headers as headers, __webpack_exports__isAdminPage as isAdminPage, __webpack_exports__isDebug as isDebug, __webpack_exports__isDevPage as isDevPage, __webpack_exports__isDevelopment as isDevelopment, __webpack_exports__isJestEnv as isJestEnv, __webpack_exports__isProduction as isProduction, __webpack_exports__isQa as isQa, __webpack_exports__isStaging as isStaging, __webpack_exports__isTestEnv as isTestEnv, __webpack_exports__keyCodes as keyCodes, __webpack_exports__localUrl as localUrl, __webpack_exports__locale as locale, __webpack_exports__millisPerYear as millisPerYear, __webpack_exports__mime as mime, __webpack_exports__months as months, __webpack_exports__page_classes as page_classes, __webpack_exports__page_selectors as page_selectors, __webpack_exports__prodUrl as prodUrl, __webpack_exports__qaUrl as qaUrl, __webpack_exports__regex as regex, __webpack_exports__sn_globals as sn_globals, __webpack_exports__spacing as spacing, __webpack_exports__specials as specials, __webpack_exports__stageUrl as stageUrl, __webpack_exports__styles as styles, __webpack_exports__timer as timer, __webpack_exports__timezone as timezone, __webpack_exports__timing as timing, __webpack_exports__win as win };
+export { __webpack_exports__ALERT_FLAVORS as ALERT_FLAVORS, __webpack_exports__ALERT_TYPES as ALERT_TYPES, __webpack_exports__CheckoutStep as CheckoutStep, __webpack_exports__Direction as Direction, __webpack_exports__Status as Status, __webpack_exports__USER_SEGMENT as USER_SEGMENT, __webpack_exports__ZIndex as ZIndex, __webpack_exports__attributes as attributes, __webpack_exports__css as css, __webpack_exports__headers as headers, __webpack_exports__isAdminPage as isAdminPage, __webpack_exports__isDebug as isDebug, __webpack_exports__isDevPage as isDevPage, __webpack_exports__isDevelopment as isDevelopment, __webpack_exports__isJestEnv as isJestEnv, __webpack_exports__isProduction as isProduction, __webpack_exports__isQa as isQa, __webpack_exports__isStaging as isStaging, __webpack_exports__isTestEnv as isTestEnv, __webpack_exports__keyCodes as keyCodes, __webpack_exports__localUrl as localUrl, __webpack_exports__locale as locale, __webpack_exports__millisPerYear as millisPerYear, __webpack_exports__mime as mime, __webpack_exports__months as months, __webpack_exports__page_classes as page_classes, __webpack_exports__page_selectors as page_selectors, __webpack_exports__prodUrl as prodUrl, __webpack_exports__qaUrl as qaUrl, __webpack_exports__regex as regex, __webpack_exports__sn_globals as sn_globals, __webpack_exports__spacing as spacing, __webpack_exports__specials as specials, __webpack_exports__stageUrl as stageUrl, __webpack_exports__styles as styles, __webpack_exports__timer as timer, __webpack_exports__timezone as timezone, __webpack_exports__timing as timing, __webpack_exports__win as win };

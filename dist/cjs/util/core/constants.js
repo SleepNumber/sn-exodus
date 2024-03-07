@@ -772,7 +772,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ALERT_FLAVORS: () => (/* binding */ ALERT_FLAVORS),
 /* harmony export */   ALERT_TYPES: () => (/* binding */ ALERT_TYPES),
-/* harmony export */   CheckoutSteps: () => (/* binding */ CheckoutSteps),
+/* harmony export */   CheckoutStep: () => (/* binding */ CheckoutStep),
 /* harmony export */   Direction: () => (/* binding */ Direction),
 /* harmony export */   Status: () => (/* binding */ Status),
 /* harmony export */   USER_SEGMENT: () => (/* binding */ USER_SEGMENT),
@@ -1131,38 +1131,25 @@ const USER_SEGMENT = {
   innercircle: 'InnerCircle',
   insider: 'Insider'
 };
-class CheckoutSteps extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
-  static NotStarted = new CheckoutSteps({
-    name: 'not_started'
-  });
-  static Login = new CheckoutSteps({
-    name: 'login',
-    next: () => CheckoutSteps.Shipping
-  });
-  static Shipping = new CheckoutSteps({
-    name: 'shipping',
-    next: () => CheckoutSteps.Delivery
-  });
-  static Delivery = new CheckoutSteps({
-    name: 'delivery',
-    next: () => CheckoutSteps.Payment
-  });
-  static Payment = new CheckoutSteps({
-    name: 'payment',
-    next: () => CheckoutSteps.Review
-  });
-  static Review = new CheckoutSteps({
-    name: 'review',
-    next: () => CheckoutSteps.Confirmation
-  });
-  static Confirmation = new CheckoutSteps({
-    name: 'confirmation'
-  });
+class CheckoutStep extends _enumify__WEBPACK_IMPORTED_MODULE_3__["default"] {
+  static NotStarted = new CheckoutStep('not_started', -1);
+  static Login = new CheckoutStep('login', 0);
+  static Shipping = new CheckoutStep('shipping', 1);
+  static Delivery = new CheckoutStep('delivery', 2);
+  static Payment = new CheckoutStep('payment', 3);
+  static Review = new CheckoutStep('review', 4);
+  static Confirmation = new CheckoutStep('confirmation', 5);
   static _ = this.closeEnum();
-  constructor(props) {
+
+  /** @returns {CheckoutStep} the next step in the enum after this one. */
+  next() {
+    const ordinal = CheckoutStep[this.enumOrdinal + 1];
+    return ordinal;
+  }
+  constructor(name, number) {
     super();
-    this.next = props.next;
-    this.name = props.name;
+    this.name = name;
+    this.number = number;
   }
 }
 const zindex_dropdown = 1000;
