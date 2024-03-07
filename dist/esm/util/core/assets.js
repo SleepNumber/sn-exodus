@@ -1031,7 +1031,7 @@ class CheckoutStep extends _enumify__WEBPACK_IMPORTED_MODULE_3__/* ["default"] *
 
   /** @returns {CheckoutStep} the next step in the enum after this one. */
   next() {
-    const ordinal = CheckoutStep[this.enumOrdinal + 1];
+    const ordinal = CheckoutStep.enumValues[this.enumOrdinal + 1];
     return ordinal;
   }
   constructor(name, number) {
