@@ -163,7 +163,7 @@ export function getCloudinaryUrl({ url = '', type = 'image', env = 'prod' }) {
   };
   const cloud = clouds[env] || clouds.prod;
 
-  const uploadMapping = url.includes('_assets') ? 'uploads-remix' : 'uploads';
+  const uploadMapping = url.includes('assets') ? 'uploads-remix' : 'uploads';
 
   const path = new URL(url, 'https://f.com').pathname;
   const isSvg = path.search(/\.svg$/g) > -1;
