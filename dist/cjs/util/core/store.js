@@ -973,7 +973,7 @@ class Entry extends enumify["default"] {
   static hub_log_enabled = new Entry('hub', 'log_enabled');
   static insider = new Entry('insider', undefined, false);
   static minicart_last_shown = new Entry('minicart', 'last_shown', 0);
-  static pa_priv_shown = new Cookie["default"]('pa_priv_shown', undefined, false);
+  static pa_priv_shown = new Entry('pa_priv_shown', undefined, false);
   static page_loads = new Entry('page', 'loads', [0, 0]);
   static preferred_store = new Entry('preferred_store', undefined, '');
   static retargeter_log_enabled = new Entry('retargeter', 'log_enabled');
