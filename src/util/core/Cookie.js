@@ -18,7 +18,6 @@ class Cookie extends Enumify {
   static id_token = new Cookie('id_token');
   static log_ignores = new Cookie('sn_log_ignores');
   static price_lists = new Cookie('plid');
-  static pa_priv_shown= new Cookie('pa_priv_shown');
   static promo_drawer = new Cookie('promo_drawer');
   static refresh_token = new Cookie('refresh_token');
   static request_names = new Cookie('request_names'); // Set by rails if user is missing names

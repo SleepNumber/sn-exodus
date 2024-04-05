@@ -27,7 +27,6 @@ class Cookie extends _enumify__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP 
   static id_token = new Cookie('id_token');
   static log_ignores = new Cookie('sn_log_ignores');
   static price_lists = new Cookie('plid');
-  static pa_priv_shown = new Cookie('pa_priv_shown');
   static promo_drawer = new Cookie('promo_drawer');
   static refresh_token = new Cookie('refresh_token');
   static request_names = new Cookie('request_names'); // Set by rails if user is missing names
@@ -585,6 +584,7 @@ class Entry extends enumify/* default */.ZP {
   static hub_log_enabled = new Entry('hub', 'log_enabled');
   static insider = new Entry('insider', undefined, false);
   static minicart_last_shown = new Entry('minicart', 'last_shown', 0);
+  static pa_priv_shown = new Cookie["default"]('pa_priv_shown', undefined, false);
   static page_loads = new Entry('page', 'loads', [0, 0]);
   static preferred_store = new Entry('preferred_store', undefined, '');
   static retargeter_log_enabled = new Entry('retargeter', 'log_enabled');

@@ -17,7 +17,6 @@ declare class Cookie extends Enumify {
     static id_token: Cookie;
     static log_ignores: Cookie;
     static price_lists: Cookie;
-    static pa_priv_shown: Cookie;
     static promo_drawer: Cookie;
     static refresh_token: Cookie;
     static request_names: Cookie;

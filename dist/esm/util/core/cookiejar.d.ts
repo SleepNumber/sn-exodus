@@ -45,6 +45,7 @@ declare class Entry extends Enumify {
     static hub_log_enabled: Entry;
     static insider: Entry;
     static minicart_last_shown: Entry;
+    static pa_priv_shown: Cookie;
     static page_loads: Entry;
     static preferred_store: Entry;
     static retargeter_log_enabled: Entry;
@@ -65,4 +66,5 @@ declare class Entry extends Enumify {
     default: any;
 }
 import Enumify from './enumify';
+import Cookie from './Cookie';
 //# sourceMappingURL=cookiejar.d.ts.map
