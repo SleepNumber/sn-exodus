@@ -17,7 +17,7 @@ export class Breakpoint extends Enumify {
 /**
  * Return true if the screen width is less than the tablet breakpoint start or
  * an optional, provided breakpoint.
- * @param {number} bp - an optional provided breakpoint to check
+ * @param {number} [bp] - an optional provided breakpoint to check
  * @return {boolean}
  */
 export function isMobile(bp) {
