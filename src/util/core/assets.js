@@ -8,7 +8,7 @@ import logger from './logger';
 import { getElement } from './element';
 import { includesAll, includesAny } from './array';
 import { isString } from './string';
-import { Breakpoint as BP, isMobile } from './device';
+import { Breakpoint as BP } from './device';
 import { isFunc, noop } from './function';
 import MediaSource from './MediaSource';
 import ProductAsset from './ProductAsset';
@@ -345,14 +345,16 @@ export function stripCloudinaryUrl(videoUrl) {
  * get an array of video urls and types optimized for that width.
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
- * @param {String} videoUrl - Cloudinary URL to video
- * @param {Boolean} keepOriginalWidth - Don't apply width transformations
- * @return {Array<MediaSource>} Video urls and formats for delivering optimized video
+ * @param {string} videoUrl - cloudinary URL to video
+ * @param {boolean} isMobile - if true, and 'keepOriginalWidth' is false,
+ *                             dimensions are downscaled to 360px width
+ * @param {boolean} keepOriginalWidth - don't apply width transformations
+ * @return {MediaSource[]} Video urls and formats for delivering optimized video
  */
-export function getOptimizedVideo(videoUrl, keepOriginalWidth) {
-  if (!videoUrl) return null;
+export function getOptimizedVideo({ url, isMobile, keepOriginalWidth }) {
+  if (!url) return null;
   // Use a width already eagerly transformed by the backend
-  const transformWidth = isMobile() ? 360 : 1920;
+  const transformWidth = isMobile ? 360 : 1920;
 
   // For descriptions of these transforms see: https://cloudinary.com/documentation/transformation_reference
   const maxWidth = `w_${transformWidth}`;
@@ -379,7 +381,7 @@ export function getOptimizedVideo(videoUrl, keepOriginalWidth) {
   ];
 
   // Prepare URL to add our own transforms and file ext
-  const strippedUrl = stripCloudinaryUrl(videoUrl);
+  const strippedUrl = stripCloudinaryUrl(url);
 
   const sources = formats.map(({ codecTransform, container, codec }) => {
     const formatTransform = `f_${container}`;

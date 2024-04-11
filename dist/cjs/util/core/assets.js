@@ -1120,10 +1120,9 @@ const regex = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Breakpoint: () => (/* binding */ Breakpoint),
-/* harmony export */   isMobile: () => (/* binding */ isMobile)
+/* harmony export */   Breakpoint: () => (/* binding */ Breakpoint)
 /* harmony export */ });
-/* unused harmony exports isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
+/* unused harmony exports isMobile, isTablet, isDesktop, isPreModule, getBreakpoint, isIos, isAndroid, isMobileDevice, getDeviceType, isIE, isSafari, isFirefox, isLandscape, events */
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(192);
 /* harmony import */ var browser_or_node__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(browser_or_node__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _enumify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(829);
@@ -1157,12 +1156,12 @@ class Breakpoint extends _enumify__WEBPACK_IMPORTED_MODULE_1__["default"] {
 /**
  * Return true if the screen width is less than the tablet breakpoint start or
  * an optional, provided breakpoint.
- * @param {number} bp - an optional provided breakpoint to check
+ * @param {number} [bp] - an optional provided breakpoint to check
  * @return {boolean}
  */
 function isMobile(bp) {
   // For now, we assume all ssr output should be for mobile
-  if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return true;
+  if (!isBrowser) return true;
   const max = bp || Breakpoint.tb.start;
   const {
     clientWidth
@@ -4097,14 +4096,21 @@ function stripCloudinaryUrl(videoUrl) {
  * get an array of video urls and types optimized for that width.
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
- * @param {String} videoUrl - Cloudinary URL to video
- * @param {Boolean} keepOriginalWidth - Don't apply width transformations
- * @return {Array<MediaSource>} Video urls and formats for delivering optimized video
+ * @param {string} videoUrl - cloudinary URL to video
+ * @param {boolean} isMobile - if true, and 'keepOriginalWidth' is false,
+ *                             dimensions are downscaled to 360px width
+ * @param {boolean} keepOriginalWidth - don't apply width transformations
+ * @return {MediaSource[]} Video urls and formats for delivering optimized video
  */
-function getOptimizedVideo(videoUrl, keepOriginalWidth) {
-  if (!videoUrl) return null;
+function getOptimizedVideo(_ref4) {
+  let {
+    url,
+    isMobile,
+    keepOriginalWidth
+  } = _ref4;
+  if (!url) return null;
   // Use a width already eagerly transformed by the backend
-  const transformWidth = (0,device.isMobile)() ? 360 : 1920;
+  const transformWidth = isMobile ? 360 : 1920;
 
   // For descriptions of these transforms see: https://cloudinary.com/documentation/transformation_reference
   const maxWidth = `w_${transformWidth}`;
@@ -4137,13 +4143,13 @@ function getOptimizedVideo(videoUrl, keepOriginalWidth) {
   }];
 
   // Prepare URL to add our own transforms and file ext
-  const strippedUrl = stripCloudinaryUrl(videoUrl);
-  const sources = formats.map(_ref4 => {
+  const strippedUrl = stripCloudinaryUrl(url);
+  const sources = formats.map(_ref5 => {
     let {
       codecTransform,
       container,
       codec
-    } = _ref4;
+    } = _ref5;
     const formatTransform = `f_${container}`;
     const transformString = [...transforms, codecTransform, formatTransform].join(',');
     const transformUrl = strippedUrl.replace('video/upload', `video/upload/${transformString}`);

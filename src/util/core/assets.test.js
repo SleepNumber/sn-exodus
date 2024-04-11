@@ -138,11 +138,11 @@ describe('util/assets.js', () => {
     const optimized = {
       desktop: testUrls.map(url => {
         vi.spyOn(device, 'isMobile').mockReturnValueOnce(false);
-        return getOptimizedVideo(url);
+        return getOptimizedVideo({ url });
       }),
       mobile: testUrls.map(url => {
         vi.spyOn(device, 'isMobile').mockReturnValueOnce(true);
-        return getOptimizedVideo(url);
+        return getOptimizedVideo({ url });
       }),
     };
 
