@@ -853,19 +853,20 @@ function stripCloudinaryUrl(videoUrl) {
  * get an array of video urls and types optimized for that width.
  * Assets are scaled down while preserving aspect ratio, and never upscaled.
  *
- * @param {string} videoUrl - cloudinary URL to video
- * @param {boolean} isMobile - if true, and 'keepOriginalWidth' is false,
+ * @param {object} options
+ * @param {string} options.src - cloudinary URL to video
+ * @param {boolean} options.isMobile - if true, and 'keepOriginalWidth' is false,
  *                             dimensions are downscaled to 360px width
- * @param {boolean} keepOriginalWidth - don't apply width transformations
+ * @param {boolean} options.keepOriginalWidth - don't apply width transformations
  * @return {MediaSource[]} Video urls and formats for delivering optimized video
  */
 function getOptimizedVideo(_ref4) {
   let {
-    url,
+    src,
     isMobile,
     keepOriginalWidth
   } = _ref4;
-  if (!url) return null;
+  if (!src) return null;
   // Use a width already eagerly transformed by the backend
   const transformWidth = isMobile ? 360 : 1920;
 
@@ -900,7 +901,7 @@ function getOptimizedVideo(_ref4) {
   }];
 
   // Prepare URL to add our own transforms and file ext
-  const strippedUrl = stripCloudinaryUrl(url);
+  const strippedUrl = stripCloudinaryUrl(src);
   const sources = formats.map(_ref5 => {
     let {
       codecTransform,
