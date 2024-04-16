@@ -2,6 +2,7 @@ import React from 'react';
 import PT from 'prop-types';
 import { validate } from './validate';
 import { Breakpoint } from './device';
+import { hash } from '~/util/core/string';
 
 export const common_input_props = {
   id: PT.string,
@@ -231,7 +232,22 @@ export const displayableType = PT.oneOfType([PT.bool, PT.arrayOf(Breakpoint)]);
  * If boolean, show or don't show, if Breakpoint[], show at breakpoints
  * @typedef {boolean|Breakpoint[]} DisplayAt
  */
-
 export function Blank() {
   return null;
+}
+
+/**
+ * When there is no good candidate for a React key, use this util to stringify
+ * and hash the object/input to generate a unique key.
+ *
+ * If the input can not be hashed, an empty string is returned.
+ * @param {any} input
+ * @return {string}
+ */
+export function hashKey(input) {
+  try {
+    return hash(JSON.stringify(input));
+  } catch (err) {
+    return '';
+  }
 }

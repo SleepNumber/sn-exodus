@@ -8,6 +8,15 @@ export function ConditionalWrapper({ condition, wrapper, children }: {
  * @typedef {boolean|Breakpoint[]} DisplayAt
  */
 export function Blank(): any;
+/**
+ * When there is no good candidate for a React key, use this util to stringify
+ * and hash the object/input to generate a unique key.
+ *
+ * If the input can not be hashed, an empty string is returned.
+ * @param {any} input
+ * @return {string}
+ */
+export function hashKey(input: any): string;
 export namespace common_input_props {
     let id: any;
     let label: any;
