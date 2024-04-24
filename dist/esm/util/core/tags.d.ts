@@ -27,6 +27,7 @@ export namespace Tag {
     export let promo: string;
     export let thumbnail: string;
     export let corner_thumbnail: string;
+    export let corner_thumbnail_wide: string;
     export let mb: string;
     export let tb: string;
     export let dt: string;

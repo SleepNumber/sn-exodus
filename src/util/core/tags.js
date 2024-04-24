@@ -13,6 +13,7 @@ export const Tag = {
   promo: 'promo',
   thumbnail: 'thumbnail',
   corner_thumbnail: 'corner-thumbnail',
+  corner_thumbnail_wide: 'corner-thumbnail-wide',
   mb: 'mobile',
   tb: 'tablet',
   dt: 'desktop',
