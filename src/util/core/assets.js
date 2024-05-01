@@ -580,7 +580,8 @@ export function buildSources(assets) {
 /**
  * Attempt to play an audio/video asset and ignore any
  * `The request is not allowed` errors.
- * @param {React.Ref | HTMLVideoElement} media
+ * @param {React.RefObject<HTMLMediaElement> | HTMLMediaElement} media
+ * @param {(Error) => void} [onFailure] - optional failure callback
  */
 export function safePlay(media, onFailure = noop) {
   const asset = media?.current ? media.current : media;
@@ -599,7 +600,7 @@ export function safePlay(media, onFailure = noop) {
 
 /**
  * Attempt to pause an audio/video asset.
- * @param {React.Ref | HTMLVideoElement} media
+ * @param {React.RefObject<HTMLMediaElement> | HTMLMediaElement} media
  */
 export function safePause(media) {
   // Allow React refs

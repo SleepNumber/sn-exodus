@@ -201,9 +201,13 @@ describe('util/assets.js', () => {
     const url =
       'https://cdn.sleepnumber.com/video/upload/ar_1,c_fill,h_768,so_auto,co_black,e_colorize:40/f_auto/v1/workarea/catalog/product_videos/lyocell-ultra-sheets-set/gallery_video_1.jpg';
     const expected =
-      'https://cdn.sleepnumber.com/video/upload/ar_1,c_limit,h_768,so_42,co_black,e_colorize:40,f_auto/v1/workarea/catalog/product_videos/lyocell-ultra-sheets-set/gallery_video_1.jpg';
+      'https://cdn.sleepnumber.com/video/upload/ar_1,c_limit,h_768,so_42,co_black,e_colorize:40,f_auto,w_100/v1/workarea/catalog/product_videos/lyocell-ultra-sheets-set/gallery_video_1.jpg';
 
-    const actual = updateCloudinaryTransforms(url, ['so_42', 'c_limit']);
+    const actual = updateCloudinaryTransforms(url, [
+      'so_42', // update existing
+      'c_limit', // update existing
+      'w_100', // add new
+    ]);
     expect(actual).toBe(expected);
   });
 });

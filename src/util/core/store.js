@@ -2,7 +2,7 @@
  * Module to create data stores and providers.
  */
 
-import React, { useMemo, useState } from 'react';
+import React from 'react';
 import Cookies from 'js-cookie';
 import Cookie from './Cookie';
 
@@ -223,11 +223,14 @@ export function createProvider(blueprint) {
    * @see https://kentcdodds.com/blog/how-to-use-react-context-effectively
    */
   function Provider({ children, ...rest }) {
-    const [, pulse] = useState('');
-    useSubscription(store.topic, () => pulse(uuid()));
+    const [, startTransition] = React.useTransition();
+    const [, pulse] = React.useState('');
+    useSubscription(store.topic, () => {
+      startTransition(() => pulse(uuid()));
+    });
 
     const state = store.getState();
-    const value = useMemo(
+    const value = React.useMemo(
       () => ({
         state,
         dispatch: store.dispatch,
