@@ -2215,18 +2215,26 @@ function getHiddenMeasurements(node, selector) {
 }
 
 /**
- * Returns true if the element is in the viewport.
- * @param {node} elem - the element in question
- * @param {number} [offset=5] - optional offset, i.e. use to determine half in viewport
- *                              Defaults to 5.
- *                              With an offset of 0, you can't actually get to
- *                              the 'bottom' to trigger an in-view scenario.
- *                              i.e. if bottom is 940, you end up at 940.1
- * @return {boolean}
+ * Returns true if the ENTIRE element is in the viewport.
+ *
+ * @example
+ *   // Half in...
+ *   const halfHeight = elem.clientHeight / 2;
+ *   isElementInViewport(elem, halfHeight);
+ *
+ * @param {Element | string} elem - The element or its css selector to watch.
+ * @param {number} [offset=5] - Optional offset.
+ *
+ *   Can be used to determine when element is half in viewport.
+ *
+ *   NOTE: With an offset of 0, you can't actually get to the 'bottom' to trigger
+ *   an in-view scenario, i.e. if bottom is 940, you end up at 940.1.
+ *
+ *   Default is `5`
+ * @returns {boolean}
  */
 function isElementInViewport(elem) {
   let offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 5;
-  // Handle elements that are wrapped by jQuery
   const el = getElement(elem);
   if (!el || !el.getBoundingClientRect) return false;
   const rect = el.getBoundingClientRect();

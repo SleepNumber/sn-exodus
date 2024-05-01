@@ -2952,10 +2952,13 @@ function createProvider(blueprint) {
       children,
       ...rest
     } = _ref;
-    const [, pulse] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
-    (0,_hub__WEBPACK_IMPORTED_MODULE_6__.useSubscription)(store.topic, () => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__.uuid)()));
+    const [, startTransition] = react__WEBPACK_IMPORTED_MODULE_0___default().useTransition();
+    const [, pulse] = react__WEBPACK_IMPORTED_MODULE_0___default().useState('');
+    (0,_hub__WEBPACK_IMPORTED_MODULE_6__.useSubscription)(store.topic, () => {
+      startTransition(() => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__.uuid)()));
+    });
     const state = store.getState();
-    const value = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => ({
+    const value = react__WEBPACK_IMPORTED_MODULE_0___default().useMemo(() => ({
       state,
       dispatch: store.dispatch,
       change: store.change,

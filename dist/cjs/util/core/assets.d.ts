@@ -197,14 +197,15 @@ export function buildSources(assets: {
 /**
  * Attempt to play an audio/video asset and ignore any
  * `The request is not allowed` errors.
- * @param {React.Ref | HTMLVideoElement} media
+ * @param {React.RefObject<HTMLMediaElement> | HTMLMediaElement} media
+ * @param {(Error) => void} [onFailure] - optional failure callback
  */
-export function safePlay(media: React.Ref | HTMLVideoElement, onFailure?: () => void): any;
+export function safePlay(media: React.RefObject<HTMLMediaElement> | HTMLMediaElement, onFailure?: (Error: any) => void): any;
 /**
  * Attempt to pause an audio/video asset.
- * @param {React.Ref | HTMLVideoElement} media
+ * @param {React.RefObject<HTMLMediaElement> | HTMLMediaElement} media
  */
-export function safePause(media: React.Ref | HTMLVideoElement): void;
+export function safePause(media: React.RefObject<HTMLMediaElement> | HTMLMediaElement): void;
 /**
  * Prefix a base64 GIF string to display in img src attributes
  * @param {string} base64Image - encoded image data
