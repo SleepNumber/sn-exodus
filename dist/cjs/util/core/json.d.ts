@@ -3,5 +3,5 @@ export function json(id: any): any;
 export function isJson(resp: any): boolean;
 export function burnin(): {};
 export function isJsonString(str: any): boolean;
-export function safeJsonStringify(obj: any): string;
+export function safeJsonStringify(obj: any, format?: boolean): string;
 //# sourceMappingURL=json.d.ts.map

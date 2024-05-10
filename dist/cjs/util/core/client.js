@@ -814,7 +814,9 @@ function isJsonString(str) {
   return true;
 }
 function safeJsonStringify(obj) {
+  let format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
   try {
+    if (format) return JSON.stringify(obj, null, 2);
     return JSON.stringify(obj);
   } catch (err) {
     return null;
