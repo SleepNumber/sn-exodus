@@ -44,8 +44,9 @@ export function isJsonString(str) {
   return true;
 }
 
-export function safeJsonStringify(obj) {
+export function safeJsonStringify(obj, format = true) {
   try {
+    if (format) return JSON.stringify(obj, null, 2);
     return JSON.stringify(obj);
   } catch (err) {
     return null;
