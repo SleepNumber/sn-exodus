@@ -611,10 +611,6 @@ const attributes = {
       hd_pending_cancel: 'hd_pending_cancel',
       last_tracked_order_id: 'last_tracked_order_id'
     },
-    bq: {
-      skus: 'bed-quiz-skus',
-      results: 'bed-quiz-results'
-    },
     ic: {
       points: 'inner-circle-points'
     }
@@ -969,6 +965,8 @@ class Entry extends enumify["default"] {
   static alerts_queued = new Entry('alerts', 'queued', []);
   static answer_helpful = new Entry('answer', 'helpful', {});
   static answer_reported = new Entry('answer', 'reported', []);
+  static bq_skus = new Entry('bq', 'skus', []);
+  static bq_results = new Entry('bq', 'results');
   static dy_editor = new Entry('dy', 'editor', undefined);
   static hub_log_enabled = new Entry('hub', 'log_enabled');
   static insider = new Entry('insider', undefined, false);

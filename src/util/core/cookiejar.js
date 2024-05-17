@@ -16,6 +16,8 @@ class Entry extends Enumify {
   static alerts_queued = new Entry('alerts', 'queued', []);
   static answer_helpful = new Entry('answer', 'helpful', {});
   static answer_reported = new Entry('answer', 'reported', []);
+  static bq_skus = new Entry('bq', 'skus', []);
+  static bq_results = new Entry('bq', 'results');
   static dy_editor = new Entry('dy', 'editor', undefined);
   static hub_log_enabled = new Entry('hub', 'log_enabled');
   static insider = new Entry('insider', undefined, false);

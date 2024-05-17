@@ -798,10 +798,6 @@ const attributes = {
       hd_pending_cancel: 'hd_pending_cancel',
       last_tracked_order_id: 'last_tracked_order_id'
     },
-    bq: {
-      skus: 'bed-quiz-skus',
-      results: 'bed-quiz-results'
-    },
     ic: {
       points: 'inner-circle-points'
     }

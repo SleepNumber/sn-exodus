@@ -46,10 +46,6 @@ export namespace attributes {
             let hd_pending_cancel: string;
             let last_tracked_order_id: string;
         }
-        namespace bq {
-            let skus: string;
-            let results: string;
-        }
         namespace ic {
             let points: string;
         }

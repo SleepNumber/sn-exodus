@@ -41,6 +41,8 @@ declare class Entry extends Enumify {
     static alerts_queued: Entry;
     static answer_helpful: Entry;
     static answer_reported: Entry;
+    static bq_skus: Entry;
+    static bq_results: Entry;
     static dy_editor: Entry;
     static hub_log_enabled: Entry;
     static insider: Entry;
