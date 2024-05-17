@@ -405,6 +405,12 @@ class ProductAsset {
   /** @type {string} the database id, globally unique */
   id;
 
+  /** @type {string} the live text content */
+  live_text_content;
+
+  /** @type {string} the live text position */
+  live_text_position;
+
   /** @type {Object.<string>} i.e. { Size: 'Queen', Color: 'Slate' } */
   options = {};
 
@@ -444,6 +450,8 @@ class ProductAsset {
     this.position = asset.position;
     this.tags = asset.tags;
     this.url = asset.url;
+    this.live_text_content = asset.live_text_content;
+    this.live_text_position = asset.live_text_position;
 
     // Image assets only
     this.alt_text = asset.alt_text || '';

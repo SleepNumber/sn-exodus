@@ -42,6 +42,10 @@ declare class ProductAsset {
     url: string;
     /** @type {string} the database id, globally unique */
     id: string;
+    /** @type {string} the live text content */
+    live_text_content: string;
+    /** @type {string} the live text position */
+    live_text_position: string;
     /** @type {Object.<string>} i.e. { Size: 'Queen', Color: 'Slate' } */
     options: any;
     /** @type {number} the order the asset should appear, 0 indexed */

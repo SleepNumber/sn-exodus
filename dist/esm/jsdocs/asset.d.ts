@@ -4,6 +4,14 @@ type AssetData = {
      */
     id: string;
     /**
+     * - the live text content
+     */
+    live_text_content: string;
+    /**
+     * - the live text position
+     */
+    live_text_position: string;
+    /**
      * - i.e. { Size: 'Queen', Color: 'Slate' }
      */
     options: any;

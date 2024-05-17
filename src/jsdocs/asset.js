@@ -1,6 +1,8 @@
 /**
  * @typedef AssetData
  * @property {string} id - the asset identifier, i.e. "6006d103b07a02006b870ccf"
+ * @property {string} live_text_content - the live text content
+ * @property {string} live_text_position - the live text position
  * @property {Object.<string>} options - i.e. { Size: 'Queen', Color: 'Slate' }
  * @property {number} position - the order the asset should appear, 0 indexed
  * @property {string[]} tags - the asset's tags, i.e. ['postcard', 'gallery']
