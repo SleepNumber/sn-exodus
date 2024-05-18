@@ -223,11 +223,8 @@ export function createProvider(blueprint) {
    * @see https://kentcdodds.com/blog/how-to-use-react-context-effectively
    */
   function Provider({ children, ...rest }) {
-    const [, startTransition] = React.useTransition();
     const [, pulse] = React.useState('');
-    useSubscription(store.topic, () => {
-      startTransition(() => pulse(uuid()));
-    });
+    useSubscription(store.topic, () => pulse(uuid()));
 
     const state = store.getState();
     const value = React.useMemo(
