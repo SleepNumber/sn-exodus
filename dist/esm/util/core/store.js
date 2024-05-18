@@ -2936,11 +2936,8 @@ function createProvider(blueprint) {
       children,
       ...rest
     } = _ref;
-    const [, startTransition] = react__WEBPACK_IMPORTED_MODULE_0___default().useTransition();
     const [, pulse] = react__WEBPACK_IMPORTED_MODULE_0___default().useState('');
-    (0,_hub__WEBPACK_IMPORTED_MODULE_6__/* .useSubscription */ .m)(store.topic, () => {
-      startTransition(() => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__/* .uuid */ .Vj)()));
-    });
+    (0,_hub__WEBPACK_IMPORTED_MODULE_6__/* .useSubscription */ .m)(store.topic, () => pulse((0,_string__WEBPACK_IMPORTED_MODULE_4__/* .uuid */ .Vj)()));
     const state = store.getState();
     const value = react__WEBPACK_IMPORTED_MODULE_0___default().useMemo(() => ({
       state,
