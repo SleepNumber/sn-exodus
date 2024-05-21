@@ -42,6 +42,7 @@ export const Tag = {
   nextgen: 'nextgen', // used on products
   next_gen_compare: 'next-gen-compare', // used on key features
   quiz: 'quiz',
+  standard_mattonly_recommendation: 'standard_mattonly_recommendation',
 };
 Object.freeze(Tag);
 
