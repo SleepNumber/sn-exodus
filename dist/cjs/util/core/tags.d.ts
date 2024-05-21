@@ -57,5 +57,6 @@ export namespace Tag {
     export let nextgen: string;
     export let next_gen_compare: string;
     export let quiz: string;
+    export let standard_mattonly_recommendation: string;
 }
 //# sourceMappingURL=tags.d.ts.map
