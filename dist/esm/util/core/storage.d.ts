@@ -2,7 +2,7 @@ export default mod;
 declare namespace mod {
     /**
      * Retrieve value stored in local storage.
-     * @param {string} key - The key to lookup the value, will be prefixed with 'sn-'.
+     * @param {string} key - The key to look up the value, will be prefixed with 'sn-'.
      * @param {string} defaultValue - Returned if the key is not found.
      */
     function get(key: string, defaultValue: string): any;

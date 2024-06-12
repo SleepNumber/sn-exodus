@@ -1281,12 +1281,14 @@ const _name = 'sn';
 const mod = {
   /**
    * Retrieve value stored in local storage.
-   * @param {string} key - The key to lookup the value, will be prefixed with 'sn-'.
+   * @param {string} key - The key to look up the value, will be prefixed with 'sn-'.
    * @param {string} defaultValue - Returned if the key is not found.
    */
   get(key, defaultValue) {
-    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {};
-    const value = JSON.parse(storage[`${_name}-${key}`] || null);
+    const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
+      getItem: () => null
+    };
+    const value = JSON.parse(storage?.getItem(`${_name}-${key}`) || null);
     return value || defaultValue;
   },
   /**
@@ -1297,7 +1299,10 @@ const mod = {
   set(key, value) {
     if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
     try {
-      localStorage[`${_name}-${key}`] = JSON.stringify(value);
+      const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
+        setItem: () => null
+      };
+      storage?.setItem(`${_name}-${key}`, JSON.stringify(value));
     } catch (e) {
       _logger__WEBPACK_IMPORTED_MODULE_1__["default"].error(`localStorage set failed`, `key: ${key}`, `value:`, value);
     }
@@ -1309,7 +1314,10 @@ const mod = {
   remove(key) {
     if (!browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser) return;
     try {
-      localStorage.removeItem(`${_name}-${key}`);
+      const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
+        removeItem: () => null
+      };
+      storage?.removeItem(`${_name}-${key}`);
     } catch (e) {
       _logger__WEBPACK_IMPORTED_MODULE_1__["default"].error(`localStorage remove failed`, `key: ${key}`);
     }
@@ -1328,7 +1336,7 @@ const mod = {
     const storage = browser_or_node__WEBPACK_IMPORTED_MODULE_0__.isBrowser ? localStorage : {
       getItem: () => null
     };
-    const value = storage.getItem(key) || null;
+    const value = storage?.getItem(key) || null;
     return value || defaultValue;
   }
 };
