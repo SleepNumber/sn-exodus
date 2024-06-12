@@ -15,12 +15,12 @@ const _name = 'sn';
 const mod = {
   /**
    * Retrieve value stored in local storage.
-   * @param {string} key - The key to lookup the value, will be prefixed with 'sn-'.
+   * @param {string} key - The key to look up the value, will be prefixed with 'sn-'.
    * @param {string} defaultValue - Returned if the key is not found.
    */
   get(key, defaultValue) {
-    const storage = isBrowser ? localStorage : {};
-    const value = JSON.parse(storage[`${_name}-${key}`] || null);
+    const storage = isBrowser ? localStorage : { getItem: () => null };
+    const value = JSON.parse(storage?.getItem(`${_name}-${key}`) || null);
     return value || defaultValue;
   },
 
@@ -32,7 +32,8 @@ const mod = {
   set(key, value) {
     if (!isBrowser) return;
     try {
-      localStorage[`${_name}-${key}`] = JSON.stringify(value);
+      const storage = isBrowser ? localStorage : { setItem: () => null };
+      storage?.setItem(`${_name}-${key}`, JSON.stringify(value));
     } catch (e) {
       logger.error(`localStorage set failed`, `key: ${key}`, `value:`, value);
     }
@@ -45,7 +46,8 @@ const mod = {
   remove(key) {
     if (!isBrowser) return;
     try {
-      localStorage.removeItem(`${_name}-${key}`);
+      const storage = isBrowser ? localStorage : { removeItem: () => null };
+      storage?.removeItem(`${_name}-${key}`);
     } catch (e) {
       logger.error(`localStorage remove failed`, `key: ${key}`);
     }
@@ -64,7 +66,7 @@ const mod = {
    */
   getRaw(key, defaultValue) {
     const storage = isBrowser ? localStorage : { getItem: () => null };
-    const value = storage.getItem(key) || null;
+    const value = storage?.getItem(key) || null;
     return value || defaultValue;
   },
 };
